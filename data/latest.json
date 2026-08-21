@@ -1,0 +1,110 @@
+{
+  "startedAt": "2026-08-21T16:25:57.547Z",
+  "finishedAt": "2026-08-21T16:26:49.218Z",
+  "dryRun": false,
+  "model": "google/gemma-4-31b-it:free",
+  "sourceErrors": [],
+  "candidates": [
+    {
+      "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin is closing in on $80,000 and already destroyed a record $4 billion in short bets",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/"
+    },
+    {
+      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act"
+    },
+    {
+      "title": "Strategy's $1 Billion Bitcoin Comeback vs. XRP's 'Black Friday' Ceiling: Main Crypto News This Morning",
+      "source": "U.Today",
+      "link": "https://u.today/strategys-1-billion-bitcoin-comeback-vs-xrps-black-friday-ceiling-main-crypto-news-this-morning"
+    },
+    {
+      "title": "Bitcoin surge toward $80K points to liquidity-driven momentum shift as ETF flows rebound: Bernstein",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443"
+    },
+    {
+      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin"
+    },
+    {
+      "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-rally-crypto-stocks-canaan-strive-metaplanet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin Hits $75,000, Outperforming ETH and SOL",
+      "source": "U.Today",
+      "link": "https://u.today/bitcoin-hits-75000-outperforming-eth-and-sol"
+    },
+    {
+      "title": "Behind 22% LINK Rally: What Chris Barrett Meant by 'You Can't Spell Chainlink Without AI'",
+      "source": "U.Today",
+      "link": "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai"
+    },
+    {
+      "title": "Ethereum Flips XRP Ledger in RLUSD Supply: What Changed?",
+      "source": "U.Today",
+      "link": "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
+    },
+    {
+      "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated"
+    },
+    {
+      "title": "MANTRA token plunges 18% to record low as blockchain halts after exploit",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit"
+    },
+    {
+      "title": "Crypto Biz: Treasury’s ‘Not-QE’ playbook sends Bitcoin higher",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/crypto-biz-treasurys-not-qe-playbook-sends-bitcoin-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "XRP Notches Best Week Since 2024 Election Pump on Bitcoin Short Squeeze",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376120/xrp-price-best-week-since-2024-election-pump"
+    }
+  ],
+  "selected": [
+    "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/",
+    "https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443",
+    "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai",
+    "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin",
+    "https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit"
+  ],
+  "articles": {
+    "tr": {
+      "title": "Bitcoin 80 Bin Dolar Sınırında ve Piyasalarda Likidite Fırtınası Esiyor",
+      "body": "Kripto para piyasaları, Bitcoin'in 80.000 dolar seviyesine doğru gerçekleştirdiği agresif yükselişle hareketli bir gün geçiriyor. Son üç günlük ralli, ayı yönlü bahis yapanları vuran devasa bir tasfiye dalgasına yol açtı ve yaklaşık 4 milyar dolarlık short pozisyonun yok olmasına neden oldu. $BTC fiyatı kısa sürede 78.449 dolara kadar tırmanarak üç ayın zirvesini gördü.\n\nBernstein analistleri, bu yükselişin arkasında spot ETF girişlerinin yeniden canlanması ve piyasadaki likidite artışının yattığını belirtiyor. Kurumsal ilgi yeniden artarken, Bitcoin'in domine ettiği bu yükseliş dalgası kripto madencilik şirketlerini ve hazine yönetimi yapan firmaları da beraberinde yukarı taşıdı.\n\nAltcoin cephesinde ise seçici bir yükseliş hakim. Yapay zeka entegrasyonu ve yeni AI motoru hamlesiyle $LINK yüzde 22 artarak 11,45 dolara ulaştı. Benzer şekilde Ethena'nın ENA tokenı, FalconX ile yapılan 1 milyar dolarlık anlaşmanın etkisiyle yüzde 48'lik sert bir sıçrama gerçekleştirdi. Ancak uzmanlar, genel bir altcoin sezonu için henüz erken olduğunu savunuyor.\n\nPozitif havaya rağmen güvenlik riskleri piyasayı hatırlatmaya devam ediyor. MANTRA blockchain ağı, yazılımdaki bir açığın istismar edilmesi sonucu blok üretimini durdurmak zorunda kaldı. Bu durum, $MANTRA token fiyatının yüzde 18 düşerek tarihi düşük seviyelere gerilemesine yol açtı.\n\nKaynaklar:\nCryptoSlate - https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/\nThe Block - https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443\nU.Today - https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai\nCoinDesk - https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin\nCoinDesk - https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit\n\n#Bitcoin #CryptoNews #Altcoins #BinanceSquare @Binance @Binance_Square\n\nBu icerik yatirim tavsiyesi degildir."
+    },
+    "en": {
+      "title": "Bitcoin Nears 80K as Massive Short Squeeze Ignites Market Momentum",
+      "body": "The cryptocurrency market is witnessing a powerful surge as Bitcoin pushes toward the $80,000 milestone. This aggressive three-day rally has triggered a massive short squeeze, wiping out approximately $4 billion in bearish bets. $BTC recently touched a three-month high of $78,449, signaling a strong shift in market sentiment.\n\nAccording to Bernstein, this momentum is largely driven by a rebound in spot ETF inflows and a broader shift in liquidity. This institutional recovery has not only boosted the primary asset but has also sent ripples through crypto-linked stocks, benefiting miners and treasury companies.\n\nWhile Bitcoin leads the charge, certain altcoins are finding their own catalysts. $LINK jumped 22% to $11.45 following the deployment of a new AI engine, highlighting the growing intersection of blockchain and artificial intelligence. Meanwhile, Ethena's ENA token soared 48% on the back of a $1 billion deal with FalconX, although analysts warn that a comprehensive altcoin season has yet to arrive.\n\nHowever, the rally is contrasted by a severe security breach in the MANTRA ecosystem. A software vulnerability led to an exploit that forced the blockchain to halt block production. Consequently, the $MANTRA token plummeted 18%, hitting a new record low.\n\nSources:\nCryptoSlate - https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/\nThe Block - https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443\nU.Today - https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai\nCoinDesk - https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin\nCoinDesk - https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit\n\n#Bitcoin #Crypto #ETF #BinanceSquare @Binance @Binance_Square\n\nThis content is not financial advice."
+    }
+  },
+  "published": [
+    {
+      "lang": "tr",
+      "id": 358147719699564,
+      "url": "https://www.binance.com/square/post/358147719699564",
+      "title": "Bitcoin 80 Bin Dolar Sınırında ve Piyasalarda Likidite Fırtınası Esiyor"
+    },
+    {
+      "lang": "en",
+      "id": 358147723686452,
+      "url": "https://www.binance.com/square/post/358147723686452",
+      "title": "Bitcoin Nears 80K as Massive Short Squeeze Ignites Market Momentum"
+    }
+  ]
+}
