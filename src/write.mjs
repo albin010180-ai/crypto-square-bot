@@ -39,25 +39,27 @@ ARTICLE RULES
 - Cover each selected story with its key facts (numbers, names, dates). Connect stories into one readable market update, not a bare list.
 - Do not invent facts that are not supported by the provided news items.
 
-REACH RULES (critical - maximize discovery on Binance Square)
-- Title: NEVER use cashtags ($XXX) or hashtags (#xxx) in the title. Plain words only.
-- Cashtags: use AT MOST 4 DIFFERENT cashtags in the entire body (Binance rejects more). Pick only the most important coins of the stories, e.g. $BTC $ETH $SOL. Mention each once, inline where natural. Uppercase standard symbols.
-- After the sources section, add ONE engagement line containing:
-  * EXACTLY 4 hashtags - no more, no less (Binance rejects posts with too many). Mix high-traffic evergreen tags (#Bitcoin #Crypto #CryptoNews #BinanceSquare) with story-specific ones (e.g. #ETF #Solana #XRP). Only include tags actually related to the stories.
-  * Exactly these 2 mentions: @Binance @Binance_Square
-- Example engagement line: "#Bitcoin #CryptoNews #ETF #BinanceSquare @Binance @Binance_Square"
-- Very last line must be the disclaimer: TR body -> "Bu icerik yatirim tavsiyesi degildir." / EN body -> "This content is not financial advice."
+COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square moderation)
+- ABSOLUTELY NO URLs anywhere in the body. Cite sources by OUTLET NAME ONLY in the sources section, e.g. "Kaynaklar: CoinDesk, The Block" / "Sources: CoinDesk, The Block".
+- ABSOLUTELY NO mentions (@...) of any account - not @Binance, not @Binance_Square, nothing.
+- STRICTLY NEUTRAL JOURNALISTIC TONE: report verified facts only. FORBIDDEN: price predictions or targets, buy/sell/hold suggestions, hype words (to the moon, massive pump, guaranteed, don't miss), emotional exaggeration, speculation presented as fact. Use sober verbs: rose, fell, announced, reported, according to.
+- You are a NEWS REPORTER, never an advisor. Do not instruct readers what to do with their money.
+- TRANSPARENCY LINE (very last line of body): TR -> "Bu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)." / EN -> "This news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR)."
 
-TWEET RULES (for each language's "tweet" field)
-- A punchy X/Twitter post in the same language: 1-2 short sentences teasing the most striking story, ending with exactly 3 hashtags (e.g. #Bitcoin #CryptoNews #BinanceSquare).
-- MAXIMUM 180 characters. No URLs (added automatically later), no cashtags needed, plain text.
-- TR example: "Bitcoin 80K'ya kilitlendi, MANTRA'da exploit sonrasi token cakildi! Detaylar asagida #Bitcoin #CryptoNews #BinanceSquare"
+REACH RULES (discovery without spam signals)
+- Cashtags: use AT MOST 3 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL). Uppercase standard symbols.
+- Hashtags: EXACTLY 3, placed on one line right before the sources section. Choose them FRESH from today's actual story topics (e.g. #ETF #Solana #Regulation or #Bitcoin #DeFi #Hack) - never reuse the exact same combination as previous runs, and never include #BinanceSquare or generic filler every time.
 
 STRUCTURE ORDER (both languages)
-1. Article paragraphs (with inline cashtags)
-2. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by one line per used source: outlet name - URL
-3. Engagement line (hashtags + mentions)
-4. Disclaimer line`;
+1. Article paragraphs (with up to 3 inline cashtags), varying your opening style between runs
+2. Hashtag line (exactly 3 topical hashtags)
+3. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by outlet names only, comma-separated, NO URLs
+4. Transparency + disclaimer line
+
+TWEET RULES (for each language's "tweet" field)
+- A short X/Twitter post in the same language: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
+- MAXIMUM 180 characters. No URLs (added automatically later), no mentions, plain text.
+- TR example: "Bitcoin 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
 }
 
 function extractJson(text) {

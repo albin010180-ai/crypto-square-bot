@@ -18,10 +18,9 @@ export async function tweet({ apiKey, apiSecret, accessToken, accessSecret, text
     oauth_version: "1.0",
   };
 
-  const params = { ...oauth, text };
-  const baseParams = Object.keys(params)
+  const baseParams = Object.keys(oauth)
     .sort()
-    .map((k) => `${percentEncode(k)}=${percentEncode(params[k])}`)
+    .map((k) => `${percentEncode(k)}=${percentEncode(oauth[k])}`)
     .join("&");
   const baseString = ["POST", percentEncode(url), percentEncode(baseParams)].join("&");
   const signingKey = `${percentEncode(apiSecret)}&${percentEncode(accessSecret)}`;
