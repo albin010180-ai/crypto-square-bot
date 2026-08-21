@@ -1,0 +1,43 @@
+name: Square Publish
+
+on:
+  schedule:
+    - cron: "0 */2 * * *" # Her 2 saatte bir (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: square-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Haber topla, makale yaz ve yayinla
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+        run: node run.mjs
+
+      - name: Durumu (history.json) repoya kaydet
+        run: |
+          git config user.name "crypto-square-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Degisiklik yok, commit atlanıyor."
+          else
+            git commit -m "bot: durum guncellemesi [skip ci]"
+            git push
+          fi
