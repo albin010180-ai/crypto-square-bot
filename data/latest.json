@@ -1,43 +1,112 @@
 {
-  "startedAt": "2026-08-21T17:06:07.811Z",
-  "finishedAt": "2026-08-21T17:09:33.206Z",
+  "startedAt": "2026-08-21T17:26:41.687Z",
+  "finishedAt": "2026-08-21T17:32:08.644Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "sourceErrors": [],
   "candidates": [
     {
+      "title": "XRP leads broad altcoin rally as bitcoin’s biggest weekly gain in two years lifts crypto",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
+    },
+    {
       "title": "US expands Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom plot",
       "source": "CryptoSlate",
       "link": "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/"
+    },
+    {
+      "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin is closing in on $80,000 and already destroyed a record $4 billion in short bets",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/"
+    },
+    {
+      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act"
+    },
+    {
+      "title": "Strategy's $1 Billion Bitcoin Comeback vs. XRP's 'Black Friday' Ceiling: Main Crypto News This Morning",
+      "source": "U.Today",
+      "link": "https://u.today/strategys-1-billion-bitcoin-comeback-vs-xrps-black-friday-ceiling-main-crypto-news-this-morning"
+    },
+    {
+      "title": "Bitcoin surge toward $80K points to liquidity-driven momentum shift as ETF flows rebound: Bernstein",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443"
+    },
+    {
+      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin"
+    },
+    {
+      "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-rally-crypto-stocks-canaan-strive-metaplanet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "The latest $1.61 billion crypto ETF surge risks grinding to a halt against a 30-year US Treasury yield spike",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/"
+    },
+    {
+      "title": "Bitcoin Hits $75,000, Outperforming ETH and SOL",
+      "source": "U.Today",
+      "link": "https://u.today/bitcoin-hits-75000-outperforming-eth-and-sol"
+    },
+    {
+      "title": "Behind 22% LINK Rally: What Chris Barrett Meant by 'You Can't Spell Chainlink Without AI'",
+      "source": "U.Today",
+      "link": "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai"
+    },
+    {
+      "title": "Ethereum Flips XRP Ledger in RLUSD Supply: What Changed?",
+      "source": "U.Today",
+      "link": "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
+    },
+    {
+      "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/"
+    "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/",
+    "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/",
+    "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/",
+    "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai",
+    "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
   ],
   "articles": {
     "tr": {
-      "title": "ABD, HBO’nun 6 Milyon Dolarlık Bitcoin Fidye Şüphesine 17 Defandan Daha Fazlasını İddia Ediyor",
-      "body": "ABD Adliyesi, 2017’de HBO’ya yönelmiş 6 milyon dolarlık bir Bitcoin fidye girişimini içeren Iran bağlantılı bir siber saldırı davasını, 17 suçluya kadar genişlettiklerini açıkladı. Başta olmak üzere, dosyada belirtilen tutar, ödemenin gerçekleşmediği bir extorsiyon girişimiyle ilgilidir. Savcılık, Iranian stát tarafından desteklenen bir hacker grubunun, HBO’nun veri sistemlerine sızmaya çalıştığını ve fidye olarak $BTC talep ettiğini iddiyor.\n\nMahkeme belgelerine göre, saldırganlar HBO’nun içeriği ve yapılandırma planlarını ele geçirerek yayınları manipüle edebilecek şekilde tehdit içinde bulunmuşlar. Ancak şirket, fidye ödemedi ve olayları yetkililere bildirdi. Bu durum, cryptocurrency’nin suçlu finansmanında nasıl kullanıldığını bir kez daha gösteriyor.\n\nSavcılık, मामले में 추가 피의자들의 신원을 밝혀내며, 국제적인 사이버 범죄 네트워크와의 연관성을 조사 중이라고 밝혔다. Bu genişletilmiş kapsam, 미국이 Iran-linked siber amenaza에 맞서 취하는 점점 더 agresif한 자세를 반영한다.\n\nSöz konusu dava, dijital varlıkların yasal çerçevelerde nasıl ele alınacağını tartışmaya açarken, düzenleyicilerin kripto altyapısını izlemeyi artırırken önemli bir örnek oluşturuyor. $BTC gibi varlıkların anonimlik sağladığı iddiası, suçlular tarafından hâlâ tercih edilmektedir.\n\nGelişmeler, ABD’deki cripto düzenlemesinin nasıl şekilleneceği konusunda piyasa účastníkůnaipucu veriyor. Yatırımcılar, benzer olayların varlık fiyatlarına kısa vadeli etkilerini izlemeye devam edecek.\n\nKaynaklar:\nCryptoSlate - https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/\n#Bitcoin #Crypto #CryptoNews #BinanceSquare @Binance @Binance_Square\nBu icerik yatirim tavsiyesi degildir.",
-      "tweet": "ABD, HBO’nun 6 milyon dolarlık Bitcoin fidye şüphesine 17 sanıkla ilgili yeni açıklamada bulundu #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin 80Bin Doları Yaklaşıyor, ETF Akımı Treasury Getirisiyle Çatışıyor",
+      "body": "Bitcoin fiyatı 80 bin doların eşiğine yaklaştırken, kısa pozisyonlar üzerinde rekord bir likidasyon yaşanıyor. CryptoSlate verilerine göre, son 24 saat içinde yaklaşık 4 milyar dolar değerindeki short pozisyonlar temizlendi ve BTC 78.449 doların zirvesine çıktı. Bu hareket, üç günlük bir yükselişin parçası olarak değerlendiriliyor.\n\nAynı zamanda, CryptoSlate’nin başka bir raporu göre, son dört gün içinde 1,61 milyar dolar değerindeki kripto ETF girişi, 30 yıllık Amerikan Devlet Bonosu getirisinin ani artışıyla karşılaştı. Bu getiri spiku, fon girişlerinin devam edip etmeyeceğini sınayabilecek bir engel oluşturuyor.\n\nRegülasyon ve güvenlik fronte에서는 ABD Justis Departmanı, HBO’ya yönelik 6 milyon dolar lik Bitcoin fidye girişimiyle ilişkili İran destekli hacker मामलेyi 17 savcıya genişletti. CryptoSlate’nin açıklamasıによると, bu case 2017’deki bir extorsiyon girişimine dayanıyor ve HBO’nun ödeme yapmadığı vurgulanıyor.\n\nAltcoin piyasasında, Chainlink’in LINK tokeni %22 artış gösterdi. U.Today haberine göre, bu 상승 yeni bir yapay zeka motorunun devreye alınması ve CFTC piyasa savunma döngüsüne odaklanmasıyla ilişkilendiriliyor. LINK’in fiyatı 11,45 dolar seviyesine çıktı.\n\nSon olarak, Ethereum’un XRP Ledger üzerindeki RLUSD stablecoin arzını geçtiği bildirildi. U.Today’nin verileriyle, Ripple USD stablecoin toplam değeri şu anda yaklaşık 2 milyar doların civarında ve Ethereum artık bu stablecoin arzında dominer geworden.\n\nKaynaklar: CryptoSlate, U.Today\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "ABD, HBO’nin 6 milyon dolar lik Bitcoin fidye plotu ile ilişkili İran hacker case’ini 17 savcıya genişletti #Bitcoin #Regulation #CryptoNews"
     },
     "en": {
-      "title": "US Widens Iran-Linked Hacking Case to 17 Defendants in HBO Bitcoin Ransom",
-      "body": "The US Justice Department has broadened its Iran-linked cyberattack case to include 17 defendants, stemming from an alleged 2017 extortion attempt targeting HBO over a $6 million Bitcoin ransom demand. Prosecutors say the plot involved a hacking group believed to be backed by Iranian state actors, which tried to breach HBO’s systems and demanded payment in $BTC.\n\nCourt documents reveal that the attackers sought to leak internal programming and scheduling data unless the ransom was paid. HBO reportedly refused to comply and instead reported the incident to authorities, highlighting how cryptocurrencies continue to be exploited for illicit financing despite their traceable nature.\n\nAuthorities say they have identified additional suspects and are probing ties to wider international cybercrime networks. The expanded indictment underscores a more aggressive US stance against Iran-sponsored digital threats.\n\nThe case also fuels ongoing debate over how digital assets should be treated within legal frameworks, as regulators increase scrutiny of crypto infrastructure. While proponents tout blockchain’s transparency, the anonymity features of assets like $BTC remain attractive to malicious actors.\n\nThese developments offer a signal to market participants about the evolving regulatory landscape for cryptocurrencies in the United States, with investors watching for any short-term price impacts from similar enforcement actions.\n\nSources:\nCryptoSlate - https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/\n#Bitcoin #Crypto #CryptoNews #BinanceSquare @Binance @Binance_Square\nThis content is not financial advice.",
-      "tweet": "US widens Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom allegation #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin Nears $80K Amid Massive Short Liquidations, ETFs Face Treasury Yield Pressure",
+      "body": "Bitcoin is approaching the $80,000 level as short sellers face unprecedented liquidations. According to CryptoSlate, around $4 billion in bearish bets were wiped out in the past 24 hours, pushing BTC to an intraday high of $78,449. This move extends a three‑day rally that has lifted the cryptocurrency to a three‑month peak.\n\nAt the same time, CryptoSlate reports that a $1.61 billion surge in crypto ETF inflows over the last four days is being tested by a sudden spike in the 30‑year U.S. Treasury yield. The yield increase could halt the momentum of recent fund flows.\n\nOn the regulatory front, the U.S. Department of Justice has expanded an Iran‑linked hacking case related to a 2017 attempted $6 million Bitcoin ransom plot against HBO, now involving 17 defendants. CryptoSlate notes that the case does not allege HBO paid any ransom.\n\nIn the altcoin sector, Chainlink’s LINK token rose 22% to $11.45 after the project unveiled a new AI engine aimed at the CFTC market defense loop, as reported by U.Today.\n\nFinally, Ethereum has overtaken the XRP Ledger in RLUSD stablecoin supply. U.Today states that the total value of Ripple USD stablecoins is nearing $2 billion, with Ethereum now leading in this metric.\n\nSources: CryptoSlate, U.Today\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "US expands Iran-linked Bitcoin ransom case to 17 defendants as Bitcoin nears $80K and ETF inflows face Treasury yield pressure #Bitcoin #ETF #Regulation"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358158222915683,
-      "url": "https://www.binance.com/square/post/358158222915683",
-      "title": "ABD, HBO’nun 6 Milyon Dolarlık Bitcoin Fidye Şüphesine 17 Defandan Daha Fazlasını İddia Ediyor"
+      "id": 358163775051369,
+      "url": "https://www.binance.com/square/post/358163775051369",
+      "title": "Bitcoin 80Bin Doları Yaklaşıyor, ETF Akımı Treasury Getirisiyle Çatışıyor"
     },
     {
       "lang": "en",
-      "id": 358158225905186,
-      "url": "https://www.binance.com/square/post/358158225905186",
-      "title": "US Widens Iran-Linked Hacking Case to 17 Defendants in HBO Bitcoin Ransom"
+      "id": 358163777756785,
+      "url": "https://www.binance.com/square/post/358163777756785",
+      "title": "Bitcoin Nears $80K Amid Massive Short Liquidations, ETFs Face Treasury Yield Pressure"
     }
   ]
 }
