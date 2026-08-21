@@ -3,6 +3,7 @@ import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, save
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle } from "./src/publish.mjs";
+import { tweet } from "./src/x.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
 
@@ -25,6 +26,15 @@ function buildCfg() {
     maxCandidates: num("MAX_CANDIDATES", 14),
     minWords: num("ARTICLE_MIN_WORDS", 350),
     maxWords: num("ARTICLE_MAX_WORDS", 600),
+    referralLink:
+      process.env.X_REFERRAL_LINK?.trim() ||
+      "https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001D41FKZ1",
+    x: {
+      apiKey: process.env.X_API_KEY?.trim() || "",
+      apiSecret: process.env.X_API_SECRET?.trim() || "",
+      accessToken: process.env.X_ACCESS_TOKEN?.trim() || "",
+      accessSecret: process.env.X_ACCESS_SECRET?.trim() || "",
+    },
   };
 }
 
@@ -126,17 +136,20 @@ async function main() {
     return;
   }
 
+  const xEnabled = Object.values(cfg.x).every(Boolean);
+  if (!xEnabled) console.log("X entegrasyonu kapali (API anahtarlari tanimli degil).");
+
   for (const [lang, art] of [["tr", article.tr], ["en", article.en]]) {
     let body = art.body;
+    let okResult = null;
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
         console.log(`${lang.toUpperCase()} makalesi yayinlaniyor...`);
-        const result = await publishArticle(cfg.binanceKey, {
+        okResult = await publishArticle(cfg.binanceKey, {
           title: art.title,
           body,
         });
-        console.log(`  OK: ${result.url ?? result.note ?? "(id alinamadi)"}`);
-        record.published.push({ lang, ...result, title: art.title });
+        console.log(`  OK: ${okResult.url ?? okResult.note ?? "(id alinamadi)"}`);
         break;
       } catch (err) {
         if (/220094|Hashtag count|220095|Coin pair/i.test(err.message) && attempt === 1) {
@@ -147,9 +160,24 @@ async function main() {
           continue;
         }
         console.error(`  HATA (${lang}): ${err.message}`);
-        record.published.push({ lang, error: err.message });
         break;
       }
+    }
+
+    if (okResult) {
+      if (okResult.url && xEnabled) {
+        try {
+          const joinLabel = lang === "tr" ? "Binance'e katilin:" : "Join Binance:";
+          const xText = `${art.tweet}\n\n${okResult.url}\n${joinLabel} ${cfg.referralLink}`;
+          const x = await tweet({ ...cfg.x, text: xText });
+          console.log(`  X: ${x.url}`);
+          okResult.xUrl = x.url;
+        } catch (err) {
+          console.warn(`  X hatasi: ${err.message}`);
+          okResult.xError = err.message;
+        }
+      }
+      record.published.push({ lang, ...okResult, title: art.title });
     }
   }
 

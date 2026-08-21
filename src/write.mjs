@@ -29,8 +29,8 @@ OUTPUT FORMAT
 Respond with ONLY valid JSON (no markdown fences, no commentary), exactly this shape:
 {
   "selected": ["<url1>", "<url2>", ...],
-  "tr": { "title": "...", "body": "..." },
-  "en": { "title": "...", "body": "..." }
+  "tr": { "title": "...", "body": "...", "tweet": "..." },
+  "en": { "title": "...", "body": "...", "tweet": "..." }
 }
 
 ARTICLE RULES
@@ -47,6 +47,11 @@ REACH RULES (critical - maximize discovery on Binance Square)
   * Exactly these 2 mentions: @Binance @Binance_Square
 - Example engagement line: "#Bitcoin #CryptoNews #ETF #BinanceSquare @Binance @Binance_Square"
 - Very last line must be the disclaimer: TR body -> "Bu icerik yatirim tavsiyesi degildir." / EN body -> "This content is not financial advice."
+
+TWEET RULES (for each language's "tweet" field)
+- A punchy X/Twitter post in the same language: 1-2 short sentences teasing the most striking story, ending with exactly 3 hashtags (e.g. #Bitcoin #CryptoNews #BinanceSquare).
+- MAXIMUM 180 characters. No URLs (added automatically later), no cashtags needed, plain text.
+- TR example: "Bitcoin 80K'ya kilitlendi, MANTRA'da exploit sonrasi token cakildi! Detaylar asagida #Bitcoin #CryptoNews #BinanceSquare"
 
 STRUCTURE ORDER (both languages)
 1. Article paragraphs (with inline cashtags)
@@ -75,6 +80,16 @@ function validate(result) {
     if (part.title.trim().length < 10 || part.body.trim().length < 200) {
       throw new Error(`${label} makalesi cok kisa`);
     }
+  }
+  for (const [label, part] of [["tr", tr], ["en", en]]) {
+    let tweet = typeof part.tweet === "string" ? part.tweet.trim() : "";
+    if (tweet.length < 20) {
+      tweet = `${part.title} #Bitcoin #CryptoNews #BinanceSquare`;
+    }
+    if (tweet.length > 190) {
+      tweet = tweet.slice(0, 187).trimEnd() + "...";
+    }
+    part.tweet = tweet;
   }
   if (!Array.isArray(result.selected)) result.selected = [];
   result.tr.title = tr.title.trim();
