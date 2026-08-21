@@ -1,111 +1,66 @@
 {
-  "startedAt": "2026-08-21T17:33:48.937Z",
-  "finishedAt": "2026-08-21T17:39:14.691Z",
+  "startedAt": "2026-08-21T20:53:34.254Z",
+  "finishedAt": "2026-08-21T20:57:13.484Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "XRP leads broad altcoin rally as bitcoin’s biggest weekly gain in two years lifts crypto",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
-    },
-    {
-      "title": "US expands Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom plot",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/"
-    },
-    {
-      "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485"
-    },
-    {
-      "title": "Bitcoin is closing in on $80,000 and already destroyed a record $4 billion in short bets",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/"
-    },
-    {
-      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
+      "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
       "source": "Decrypt",
-      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act"
+      "link": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally"
     },
     {
-      "title": "Strategy's $1 Billion Bitcoin Comeback vs. XRP's 'Black Friday' Ceiling: Main Crypto News This Morning",
+      "title": "Ripple's RLUSD Zeros In on PayPal USD as Its Market Cap Tops $2 Billion",
       "source": "U.Today",
-      "link": "https://u.today/strategys-1-billion-bitcoin-comeback-vs-xrps-black-friday-ceiling-main-crypto-news-this-morning"
+      "link": "https://u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion"
     },
     {
-      "title": "Bitcoin surge toward $80K points to liquidity-driven momentum shift as ETF flows rebound: Bernstein",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-21-bitcoin-surge-80k-liquidity-driven-momentum-shift-etf-flows-rebound-bernstein-412443"
-    },
-    {
-      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin"
-    },
-    {
-      "title": "Bitcoin rally sends crypto stocks soaring as miners, treasury companies jump",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-rally-crypto-stocks-canaan-strive-metaplanet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "The latest $1.61 billion crypto ETF surge risks grinding to a halt against a 30-year US Treasury yield spike",
+      "title": "Unresolved $11 million liquidity crash leaves pools exposed as attacker still holds 20.83 BTC on Maya Protocol",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/"
+      "link": "https://cryptoslate.com/maya-protocol-exploit-wallet-still-holds-20-83-btc-as-11-million-pool-impact-remains-unresolved/"
     },
     {
-      "title": "Bitcoin Hits $75,000, Outperforming ETH and SOL",
-      "source": "U.Today",
-      "link": "https://u.today/bitcoin-hits-75000-outperforming-eth-and-sol"
+      "title": "Hashdex Liquidates DEFI As First US Spot Bitcoin ETF Closure Arrives",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/hashdex-liquidates-defi-first-us-spot-bitcoin-etf-closure/"
     },
     {
-      "title": "Behind 22% LINK Rally: What Chris Barrett Meant by 'You Can't Spell Chainlink Without AI'",
-      "source": "U.Today",
-      "link": "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai"
-    },
-    {
-      "title": "Ethereum Flips XRP Ledger in RLUSD Supply: What Changed?",
-      "source": "U.Today",
-      "link": "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
+      "title": "A $22.9 million capital deficit threatens to derail an energy firm’s pivot to off-grid Bitcoin mining",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/a-22-9-million-capital-deficit-threatens-to-derail-an-energy-firms-pivot-to-off-grid-bitcoin-mining/"
     }
   ],
   "selected": [
-    "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
-    "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/",
-    "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/",
-    "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
+    "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
+    "https://u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion",
+    "https://cryptoslate.com/maya-protocol-exploit-wallet-still-holds-20-83-btc-as-11-million-pool-impact-remains-unresolved/",
+    "https://www.newsbtc.com/news/hashdex-liquidates-defi-first-us-spot-bitcoin-etf-closure/"
   ],
   "articles": {
     "tr": {
-      "title": "BounceBit'in $3 Mlik Exploiti Sonrası BNB Chain'e Geçiş, ABD'de Iran liittli Dava Genişliyor",
-      "body": "Son 24 saatte kripto piyasasında güvenlik, regülasyon ve yatırım akışları konularında önemli gelişmeler yaşandı. BounceBit platformuna yönelmiş bir saldırıda yaklaşık 286,5 milyon BB jetonu nine cüzdandan transferred edildi ve bu sonucunda blok üretimi durduruldu. Şirket, zincirini kapatmayı ve BNB Chain'e geçiş yapmayı 21 Ağustos 2026 tarihli duyurusunda açıkladı; saldırının etkisi yaklaşık 3 milyon dolar olarak değerlendirildi.\n\nAynı gün, ABD Justis Departmanı, HBO'ya yönelik 2017 denenen 6 milyon dolar değerindeki Bitcoin extorsiyonu ile ilgili Iran bağlı hacking davasını 17 mütevvehit üzerinden genişlettiyi açıkladı. Dosyada ödeme yapıldığına dair bir iddia bulunmuyor; dava sadece tentativa üzerine kuruludur.\n\nCryptoSlate verilerine göre, son dört günde 1,61 milyar dolarlık kripto ETF girişi gözlemlenirken, 30 yıllık ABD Tahvil getirisindeki ani artış bu akışın durdurulması riskini yaratıyor. $183 milyar lik Tahvil ihracı penceresi, fon alımlarının geçici olarak durdurulabileceğini gösteriyor; analistler getiri spike'inin fon talebini baskılayabileceğini belirtiyor.\n\nThe Block'ın raporuna göre, bu hafta Bitcoin'in iki yılda en büyük haftalık ganı altcoinlere yansıyor; $XRP nearly %30 artış gösterirken HYPE gibi bazı jetonlar %40'ye yakın yükseldi. ZEC ve LINK de %30 civarında ganı kaydediyor. Bitcoin fiyatı ise kısa bir süre $78,449'a çıktıktan sonra $77,873'e geri çekildi, gösterdiği momentumun likiditeye dayalı olduğunu destekliyor.\n\nBu olaylar, piyasada likidite değişimi, düzenleyici gözlem ve yatırımcının risk algısı arasında karmaşık bir etkileşim oluşturuyor. Kısa vadeli akışlar treasury getirisiyle çelişirken, hukumî tedbirler ve güvenlik incidentleri yatırımcının karar sürecini doğrudan etkiliyor; piyasa uczestników hem kısa vadeli fiyat hareketlerini hem de uzun vadeli düzenleyici ortamı yeniden değerlendirmek zorunda kalıyor.\n\n#BounceBit #IranHack #ETF\nKaynaklar: The Block, CryptoSlate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "BounceBit'in $3M exploiti sonrası BNB Chain'e geçiş; ABD'de Iran liittli hack davası 17 mütevvehit üzerinden genişledi #BounceBit #IranHack #ETF"
+      "title": "Bitcoin Rally İtibarini Kazanırken Stablecoin ve ETF Gelişmeleri Gündemde",
+      "body": "Son 24 saatte kripto piyasaları, istituyonel alımın artması ve makro ekonomik koşulların iyileşmesiyle desteklenen Bitcoin rally’si ile birlikte, stablecoin sektöründe önemli bir milestone, bir DeFi protokolünde likbit krizi ve ABD’nin ilk spot Bitcoin ETF’inin kapanışı gibi gelişmelerle gündemde oldu.\n\nDecrypt’in raporuna göre, Wall Street ve Washington’dan gelen olumlu sinyaller, istituyonel yatırımcıların Bitcoin’e olan ilgisini artırırken, makro ortamın daha dostça görünmesi ve düzenleyici ortamın dostça hale gelmesi rally’yi destekliyor. Ayrıca, milyarlar dolar değerinde kısa pozisyonların likiditesi, fiyat hareketini daha da hızlandırdı. Bitcoin ($BTC) bu ortamda güçlü bir yönde hareket gösteriyor.\n\nU.Today’ye göre, Ripple’nin RLUSD stablecoini piyasa değeri 2 milyar doları aşarak, PayPal USD (PYUSD) ile olan farkı hızla kapatmaya başladı. Bu yükseliş, stablecoin piyasasında rekabetin artmasını ve istituyonel oyuncuların dijital dolar varlıklarına olan ilgisini gösteriyor.\n\nCryptoSlate’in bildirdiği üzere, Maya Protocol’de çözülmemiş 11 milyon dolar likidite çöküşü yaşanmış ve saldırganın adresi hâlâ 20,83 BTC tutuyor. Adres tarafından henüz hiçbir harcama yapılmamış, protokol ise daha geniş fiyat yeniden düzenlemesi ve arbitraj zararının kimin tarafından üstlenileceğini henüz açıklamadı.\n\nNewsBTC’ye göre, Hashdex DEFI fonunu likidite etmeye karar verdi ve bu da ABD’nin ilk spot Bitcoin ETF’in kapanışıyla eşzamanlı oldu. Gelişme, spot Bitcoin ETF sektöründe ilk kapanış örneği olarak kaydedildi, fonun performans ve likidite sorunlarının bu karara yol açtığı belirtiliyor.\n\nBu gelişmeler, piyasadaki iki yönlü dönemi gösteriyor: istituyonel intereses ve makro iyileşmeyle desteklenen Bitcoin’in yükseliş trendini, aynı zamanda stablecoinlerin piyasa payı artışı, DeFi güvenliğiyle ilgili riskler ve ilk spot Bitcoin ETF’in kapanışı gibi yapısal değişiklikler birlikte shaping ediyor.\n\n#Bitcoin #Stablecoin #ETFClosure\nKaynaklar: Decrypt, U.Today, CryptoSlate, NewsBTC\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Bitcoin rally’si istituyonel alım ve makro iyileşmeyle devam ediyor; RLUSD stablecoinin piyasa değeri 2 milyar doları geçti #Bitcoin #Stablecoin #ETFClosure"
     },
     "en": {
-      "title": "After BounceBit's $3M Exploit and BNB Chain Shift, US Widens Iran-Linked Hack Case",
-      "body": "Over the past 24 hours, the crypto market has seen notable developments in security, regulation and investment flows. An attack on the BounceBit platform saw roughly 286.5 million BB tokens moved from nine wallets before block production halted; the project announced it would sunset its chain and migrate to BNB Chain, estimating the exploit’s impact at around $3 million.\n\nMeanwhile, the U.S. Department of Justice expanded its Iran-linked hacking case tied to a 2017 extortion attempt targeting HBO over an alleged $6 million Bitcoin ransom, increasing the defendant count to 17. No allegations that HBO actually paid the sum have been made.\n\nCryptoSlate reports that four days of $1.61 billion in crypto ETF inflows are now confronting a spike in the 30‑year U.S. Treasury yield, with a $183 billion Treasury auction window posing a risk to the rally’s continuation. Analysts warn the yield increase could counteract fund inflows.\n\nThe Block notes that Bitcoin’s biggest weekly gain in two years is lifting altcoins; XRP is up nearly 30%, while HYPE tests a ~40% rise and ZEC and LINK also show gains above 30%. Bitcoin briefly touched $78,449 before easing to $77,873, underscoring a liquidity‑driven move.\n\nThese events intertwine shifting liquidity, regulatory scrutiny and investor sentiment. Short‑term flows are pulling against rising Treasury yields, while legal actions and security incidents directly shape market psychology, compelling participants to reassess both near‑term price action and the broader regulatory backdrop.\n\n#BounceBit #IranHack #ETF\nSources: The Block, CryptoSlate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "BounceBit’s $3M exploit triggers BNB Chain shift; US widens Iran‑linked hack case to 17 defendants #BounceBit #IranHack #ETF"
+      "title": "Bitcoin Rally Gains Steam Amid Stablecoin Milestone, DeFi Hack and First Spot ETF Closure",
+      "body": "Over the past 24 hours, crypto markets have seen Bitcoin’s rally bolstered by institutional buying and improving macro conditions, while a stablecoin milestone, a DeFi exploit and the closure of the first US spot Bitcoin ETF have also captured attention.\n\nAccording to Decrypt, positive signals from Wall Street and Washington are boosting institutional interest in Bitcoin, a friendlier macro backdrop and a more accommodating regulatory environment are supporting the rally, and billions of dollars in short liquidations have further accelerated the price move. Bitcoin ($BTC) is showing strong upward momentum in this setting.\n\nU.Today reports that Ripple’s RLUSD stablecoin has surpassed a $2 billion market capitalization, rapidly narrowing the gap with PayPal USD (PYUSD). This growth reflects intensifying competition in the stablecoin sector and rising institutional curiosity about digital dollar assets.\n\nCryptoSlate notes that an unresolved $11 million liquidity crash on Maya Protocol has left pools exposed, with the suspected address still holding 20.83 BTC and having spent none of those funds. Maya has not disclosed who will bear the broader repricing and arbitrage damage stemming from the incident.\n\nNewsBTC states that Hashdex has decided to liquidate its DEFI fund, a move coinciding with the shutdown of the United States’ first spot Bitcoin ETF. The development is recorded as the first closure in the spot Bitcoin ETF space, with fund performance and liquidity concerns cited as the reasons behind the decision.\n\nTaken together, these events illustrate a dual‑track market scene: Bitcoin’s advance, fueled by institutional appetite and macro improvement, runs parallel to expanding stablecoin market share, lingering DeFi security risks, and structural shifts in the ETF landscape as the first spot product exits.\n\n#Bitcoin #Stablecoin #ETFClosure\nSources: Decrypt, U.Today, CryptoSlate, NewsBTC\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin’s rally continues on institutional buying and macro improvement as RLUSD stablecoin tops $2 billion market cap #Bitcoin #Stablecoin #ETFClosure"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358165519720688,
-      "url": "https://www.binance.com/square/post/358165519720688",
-      "title": "BounceBit'in $3 Mlik Exploiti Sonrası BNB Chain'e Geçiş, ABD'de Iran liittli Dava Genişliyor"
+      "id": 358214174935352,
+      "url": "https://www.binance.com/square/post/358214174935352",
+      "title": "Bitcoin Rally İtibarini Kazanırken Stablecoin ve ETF Gelişmeleri Gündemde"
     },
     {
       "lang": "en",
-      "id": 358165522737466,
-      "url": "https://www.binance.com/square/post/358165522737466",
-      "title": "After BounceBit's $3M Exploit and BNB Chain Shift, US Widens Iran-Linked Hack Case"
+      "id": 358214178285621,
+      "url": "https://www.binance.com/square/post/358214178285621",
+      "title": "Bitcoin Rally Gains Steam Amid Stablecoin Milestone, DeFi Hack and First Spot ETF Closure"
     }
   ]
 }
