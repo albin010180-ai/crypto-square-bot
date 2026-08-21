@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-21T17:26:41.687Z",
-  "finishedAt": "2026-08-21T17:32:08.644Z",
+  "startedAt": "2026-08-21T17:33:48.937Z",
+  "finishedAt": "2026-08-21T17:39:14.691Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "sourceErrors": [],
@@ -19,6 +19,11 @@
       "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
       "source": "Cointelegraph",
       "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485"
     },
     {
       "title": "Bitcoin is closing in on $80,000 and already destroyed a record $4 billion in short bets",
@@ -69,44 +74,38 @@
       "title": "Ethereum Flips XRP Ledger in RLUSD Supply: What Changed?",
       "source": "U.Today",
       "link": "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
-    },
-    {
-      "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated"
     }
   ],
   "selected": [
+    "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
     "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/",
-    "https://cryptoslate.com/bitcoins-road-to-80000-has-already-destroyed-4-billion-in-short-bets/",
     "https://cryptoslate.com/the-latest-1-61-billion-crypto-etf-surge-risks-grinding-to-a-halt-against-a-30-year-us-treasury-yield-spike/",
-    "https://u.today/behind-22-link-rally-what-chris-barrett-meant-by-you-cant-spell-chainlink-without-ai",
-    "https://u.today/ethereum-flips-xrp-ledger-in-rlusd-supply-what-changed"
+    "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin 80Bin Doları Yaklaşıyor, ETF Akımı Treasury Getirisiyle Çatışıyor",
-      "body": "Bitcoin fiyatı 80 bin doların eşiğine yaklaştırken, kısa pozisyonlar üzerinde rekord bir likidasyon yaşanıyor. CryptoSlate verilerine göre, son 24 saat içinde yaklaşık 4 milyar dolar değerindeki short pozisyonlar temizlendi ve BTC 78.449 doların zirvesine çıktı. Bu hareket, üç günlük bir yükselişin parçası olarak değerlendiriliyor.\n\nAynı zamanda, CryptoSlate’nin başka bir raporu göre, son dört gün içinde 1,61 milyar dolar değerindeki kripto ETF girişi, 30 yıllık Amerikan Devlet Bonosu getirisinin ani artışıyla karşılaştı. Bu getiri spiku, fon girişlerinin devam edip etmeyeceğini sınayabilecek bir engel oluşturuyor.\n\nRegülasyon ve güvenlik fronte에서는 ABD Justis Departmanı, HBO’ya yönelik 6 milyon dolar lik Bitcoin fidye girişimiyle ilişkili İran destekli hacker मामलेyi 17 savcıya genişletti. CryptoSlate’nin açıklamasıによると, bu case 2017’deki bir extorsiyon girişimine dayanıyor ve HBO’nun ödeme yapmadığı vurgulanıyor.\n\nAltcoin piyasasında, Chainlink’in LINK tokeni %22 artış gösterdi. U.Today haberine göre, bu 상승 yeni bir yapay zeka motorunun devreye alınması ve CFTC piyasa savunma döngüsüne odaklanmasıyla ilişkilendiriliyor. LINK’in fiyatı 11,45 dolar seviyesine çıktı.\n\nSon olarak, Ethereum’un XRP Ledger üzerindeki RLUSD stablecoin arzını geçtiği bildirildi. U.Today’nin verileriyle, Ripple USD stablecoin toplam değeri şu anda yaklaşık 2 milyar doların civarında ve Ethereum artık bu stablecoin arzında dominer geworden.\n\nKaynaklar: CryptoSlate, U.Today\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "ABD, HBO’nin 6 milyon dolar lik Bitcoin fidye plotu ile ilişkili İran hacker case’ini 17 savcıya genişletti #Bitcoin #Regulation #CryptoNews"
+      "title": "BounceBit'in $3 Mlik Exploiti Sonrası BNB Chain'e Geçiş, ABD'de Iran liittli Dava Genişliyor",
+      "body": "Son 24 saatte kripto piyasasında güvenlik, regülasyon ve yatırım akışları konularında önemli gelişmeler yaşandı. BounceBit platformuna yönelmiş bir saldırıda yaklaşık 286,5 milyon BB jetonu nine cüzdandan transferred edildi ve bu sonucunda blok üretimi durduruldu. Şirket, zincirini kapatmayı ve BNB Chain'e geçiş yapmayı 21 Ağustos 2026 tarihli duyurusunda açıkladı; saldırının etkisi yaklaşık 3 milyon dolar olarak değerlendirildi.\n\nAynı gün, ABD Justis Departmanı, HBO'ya yönelik 2017 denenen 6 milyon dolar değerindeki Bitcoin extorsiyonu ile ilgili Iran bağlı hacking davasını 17 mütevvehit üzerinden genişlettiyi açıkladı. Dosyada ödeme yapıldığına dair bir iddia bulunmuyor; dava sadece tentativa üzerine kuruludur.\n\nCryptoSlate verilerine göre, son dört günde 1,61 milyar dolarlık kripto ETF girişi gözlemlenirken, 30 yıllık ABD Tahvil getirisindeki ani artış bu akışın durdurulması riskini yaratıyor. $183 milyar lik Tahvil ihracı penceresi, fon alımlarının geçici olarak durdurulabileceğini gösteriyor; analistler getiri spike'inin fon talebini baskılayabileceğini belirtiyor.\n\nThe Block'ın raporuna göre, bu hafta Bitcoin'in iki yılda en büyük haftalık ganı altcoinlere yansıyor; $XRP nearly %30 artış gösterirken HYPE gibi bazı jetonlar %40'ye yakın yükseldi. ZEC ve LINK de %30 civarında ganı kaydediyor. Bitcoin fiyatı ise kısa bir süre $78,449'a çıktıktan sonra $77,873'e geri çekildi, gösterdiği momentumun likiditeye dayalı olduğunu destekliyor.\n\nBu olaylar, piyasada likidite değişimi, düzenleyici gözlem ve yatırımcının risk algısı arasında karmaşık bir etkileşim oluşturuyor. Kısa vadeli akışlar treasury getirisiyle çelişirken, hukumî tedbirler ve güvenlik incidentleri yatırımcının karar sürecini doğrudan etkiliyor; piyasa uczestników hem kısa vadeli fiyat hareketlerini hem de uzun vadeli düzenleyici ortamı yeniden değerlendirmek zorunda kalıyor.\n\n#BounceBit #IranHack #ETF\nKaynaklar: The Block, CryptoSlate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "BounceBit'in $3M exploiti sonrası BNB Chain'e geçiş; ABD'de Iran liittli hack davası 17 mütevvehit üzerinden genişledi #BounceBit #IranHack #ETF"
     },
     "en": {
-      "title": "Bitcoin Nears $80K Amid Massive Short Liquidations, ETFs Face Treasury Yield Pressure",
-      "body": "Bitcoin is approaching the $80,000 level as short sellers face unprecedented liquidations. According to CryptoSlate, around $4 billion in bearish bets were wiped out in the past 24 hours, pushing BTC to an intraday high of $78,449. This move extends a three‑day rally that has lifted the cryptocurrency to a three‑month peak.\n\nAt the same time, CryptoSlate reports that a $1.61 billion surge in crypto ETF inflows over the last four days is being tested by a sudden spike in the 30‑year U.S. Treasury yield. The yield increase could halt the momentum of recent fund flows.\n\nOn the regulatory front, the U.S. Department of Justice has expanded an Iran‑linked hacking case related to a 2017 attempted $6 million Bitcoin ransom plot against HBO, now involving 17 defendants. CryptoSlate notes that the case does not allege HBO paid any ransom.\n\nIn the altcoin sector, Chainlink’s LINK token rose 22% to $11.45 after the project unveiled a new AI engine aimed at the CFTC market defense loop, as reported by U.Today.\n\nFinally, Ethereum has overtaken the XRP Ledger in RLUSD stablecoin supply. U.Today states that the total value of Ripple USD stablecoins is nearing $2 billion, with Ethereum now leading in this metric.\n\nSources: CryptoSlate, U.Today\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "US expands Iran-linked Bitcoin ransom case to 17 defendants as Bitcoin nears $80K and ETF inflows face Treasury yield pressure #Bitcoin #ETF #Regulation"
+      "title": "After BounceBit's $3M Exploit and BNB Chain Shift, US Widens Iran-Linked Hack Case",
+      "body": "Over the past 24 hours, the crypto market has seen notable developments in security, regulation and investment flows. An attack on the BounceBit platform saw roughly 286.5 million BB tokens moved from nine wallets before block production halted; the project announced it would sunset its chain and migrate to BNB Chain, estimating the exploit’s impact at around $3 million.\n\nMeanwhile, the U.S. Department of Justice expanded its Iran-linked hacking case tied to a 2017 extortion attempt targeting HBO over an alleged $6 million Bitcoin ransom, increasing the defendant count to 17. No allegations that HBO actually paid the sum have been made.\n\nCryptoSlate reports that four days of $1.61 billion in crypto ETF inflows are now confronting a spike in the 30‑year U.S. Treasury yield, with a $183 billion Treasury auction window posing a risk to the rally’s continuation. Analysts warn the yield increase could counteract fund inflows.\n\nThe Block notes that Bitcoin’s biggest weekly gain in two years is lifting altcoins; XRP is up nearly 30%, while HYPE tests a ~40% rise and ZEC and LINK also show gains above 30%. Bitcoin briefly touched $78,449 before easing to $77,873, underscoring a liquidity‑driven move.\n\nThese events intertwine shifting liquidity, regulatory scrutiny and investor sentiment. Short‑term flows are pulling against rising Treasury yields, while legal actions and security incidents directly shape market psychology, compelling participants to reassess both near‑term price action and the broader regulatory backdrop.\n\n#BounceBit #IranHack #ETF\nSources: The Block, CryptoSlate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "BounceBit’s $3M exploit triggers BNB Chain shift; US widens Iran‑linked hack case to 17 defendants #BounceBit #IranHack #ETF"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358163775051369,
-      "url": "https://www.binance.com/square/post/358163775051369",
-      "title": "Bitcoin 80Bin Doları Yaklaşıyor, ETF Akımı Treasury Getirisiyle Çatışıyor"
+      "id": 358165519720688,
+      "url": "https://www.binance.com/square/post/358165519720688",
+      "title": "BounceBit'in $3 Mlik Exploiti Sonrası BNB Chain'e Geçiş, ABD'de Iran liittli Dava Genişliyor"
     },
     {
       "lang": "en",
-      "id": 358163777756785,
-      "url": "https://www.binance.com/square/post/358163777756785",
-      "title": "Bitcoin Nears $80K Amid Massive Short Liquidations, ETFs Face Treasury Yield Pressure"
+      "id": 358165522737466,
+      "url": "https://www.binance.com/square/post/358165522737466",
+      "title": "After BounceBit's $3M Exploit and BNB Chain Shift, US Widens Iran-Linked Hack Case"
     }
   ]
 }
