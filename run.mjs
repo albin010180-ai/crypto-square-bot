@@ -9,6 +9,7 @@ const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
 function parseArgs() {
   return {
     dryRun: process.argv.includes("--dry-run"),
+    force: process.argv.includes("--force") || process.env.FORCE_PUBLISH === "true",
   };
 }
 
@@ -29,7 +30,7 @@ function buildCfg() {
 
 async function main() {
   const startedAt = new Date().toISOString();
-  const { dryRun } = parseArgs();
+  const { dryRun, force } = parseArgs();
   loadEnv();
   const cfg = buildCfg();
   ensureDirs();
@@ -59,10 +60,12 @@ async function main() {
   for (const e of errors) console.warn(`  kaynak hatasi: ${e}`);
   console.log(`${totalFetched} haber okundu, ${candidates.length} aday secildi.`);
 
-  const fresh = candidates.filter(
-    (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
-  );
-  console.log(`Daha once kullanilmamis: ${fresh.length} aday.`);
+  const fresh = force
+    ? candidates
+    : candidates.filter(
+        (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
+      );
+  console.log(`Daha once kullanilmamis: ${fresh.length} aday.${force ? " (FORCE: gecmis yoksayildi)" : ""}`);
   if (fresh.length === 0) {
     console.log("Yeni kullanilabilir haber yok, bu tur atlandi.");
     return;

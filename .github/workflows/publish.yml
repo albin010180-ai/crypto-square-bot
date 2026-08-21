@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 */2 * * *" # Her 2 saatte bir (UTC)
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Gecmisi yoksay, daha once kullanilan haberlerle de yayin yap"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,6 +33,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          FORCE_PUBLISH: ${{ inputs.force }}
         run: node run.mjs
 
       - name: Durumu (history.json) repoya kaydet
