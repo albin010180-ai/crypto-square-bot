@@ -36,11 +36,22 @@ Respond with ONLY valid JSON (no markdown fences, no commentary), exactly this s
 ARTICLE RULES
 - Title: max 90 characters, catchy but accurate.
 - Body: ${minWords}-${maxWords} words, plain text only (no markdown headings or asterisks). Short paragraphs separated by blank lines. Start with a strong hook summarizing the key development.
-- Naturally include cashtags like $BTC $ETH $SOL for coins discussed, and 2-4 hashtags such as #Bitcoin #CryptoNews near the end of the body.
 - Cover each selected story with its key facts (numbers, names, dates). Connect stories into one readable market update, not a bare list.
-- End the body with a sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by one line per used source: outlet name - URL.
+- Do not invent facts that are not supported by the provided news items.
+
+REACH RULES (critical - maximize discovery on Binance Square)
+- Cashtags: inside the body, every coin you discuss MUST appear with its cashtag at least once, e.g. $BTC $ETH $SOL $LINK $XRP. Use the standard symbol, uppercase.
+- After the sources section, add ONE engagement line containing:
+  * 6-8 hashtags: mix high-traffic evergreen tags (#Bitcoin #Crypto #CryptoNews #BinanceSquare #Web3 #Altcoins) with story-specific ones (e.g. #ETF #Solana #XRP #AI #Halving). Only include tags actually related to the stories.
+  * 1-3 mentions with @ : always include @Binance and @Binance_Square; additionally mention an official project account ONLY if a major project is central to a story and its handle is the obvious lowercase/standard form (e.g. @solana @ethereum @ripple @chainlink). Never invent obscure handles.
+- Example engagement line: "#Bitcoin #Crypto #CryptoNews #ETF #BinanceSquare #Web3 @Binance @Binance_Square"
 - Very last line must be the disclaimer: TR body -> "Bu icerik yatirim tavsiyesi degildir." / EN body -> "This content is not financial advice."
-- Do not invent facts that are not supported by the provided news items.`;
+
+STRUCTURE ORDER (both languages)
+1. Article paragraphs (with inline cashtags)
+2. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by one line per used source: outlet name - URL
+3. Engagement line (hashtags + mentions)
+4. Disclaimer line`;
 }
 
 function extractJson(text) {
