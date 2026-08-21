@@ -6,6 +6,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const LOGS_DIR = path.join(ROOT, "logs");
 const HISTORY_FILE = path.join(DATA_DIR, "history.json");
 const PUBLISHED_FILE = path.join(DATA_DIR, "published.json");
+const LATEST_FILE = path.join(DATA_DIR, "latest.json");
 
 export function ensureDirs() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -37,6 +38,11 @@ export function appendPublished(entries) {
   current.push(...entries);
   fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(PUBLISHED_FILE, JSON.stringify(current.slice(-2000), null, 2), "utf8");
+}
+
+export function saveLatest(record) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(LATEST_FILE, JSON.stringify(record, null, 2), "utf8");
 }
 
 export function saveRunLog(record) {

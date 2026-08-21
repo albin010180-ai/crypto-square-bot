@@ -1,5 +1,5 @@
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog } from "./src/store.mjs";
+import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle } from "./src/publish.mjs";
@@ -121,6 +121,7 @@ async function main() {
     console.log(`\n[TURKCE]\nBaslik: ${article.tr.title}\n\n${article.tr.body}`);
     console.log(`\n[ENGLISH]\nTitle: ${article.en.title}\n\n${article.en.body}`);
     record.finishedAt = new Date().toISOString();
+    saveLatest(record);
     console.log(`\nLog: ${saveRunLog(record)}`);
     return;
   }
@@ -170,6 +171,7 @@ async function main() {
   );
 
   record.finishedAt = new Date().toISOString();
+  saveLatest(record);
   console.log(`\nLog: ${saveRunLog(record)}`);
   console.log(`Ozet: ${successCount}/${record.published.length} makale yayinlandi.`);
   if (successCount === 0) process.exit(1);
