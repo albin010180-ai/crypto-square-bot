@@ -38,6 +38,7 @@ ARTICLE RULES
 - Body: ${minWords}-${maxWords} words, plain text only (no markdown headings or asterisks). Short paragraphs separated by blank lines. Start with a strong hook summarizing the key development.
 - Cover each selected story with its key facts (numbers, names, dates). Connect stories into one readable market update, not a bare list.
 - Do not invent facts that are not supported by the provided news items.
+- Write flawless, natural language in BOTH languages; proofread grammar carefully.
 
 COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square moderation)
 - ABSOLUTELY NO URLs anywhere in the body. Cite sources by OUTLET NAME ONLY in the sources section, e.g. "Kaynaklar: CoinDesk, The Block" / "Sources: CoinDesk, The Block".
@@ -52,7 +53,7 @@ REACH RULES (discovery without spam signals)
 
 STRUCTURE ORDER (both languages)
 1. Article paragraphs (with up to 3 inline cashtags), varying your opening style between runs
-2. Hashtag line (exactly 3 topical hashtags)
+2. MANDATORY hashtag line: EXACTLY 3 hashtags alone on one line, immediately before the sources section. Never skip this line.
 3. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by outlet names only, comma-separated, NO URLs
 4. Transparency + disclaimer line
 
@@ -92,6 +93,12 @@ function validate(result) {
       tweet = tweet.slice(0, 187).trimEnd() + "...";
     }
     part.tweet = tweet;
+  }
+  for (const [label, part] of [["tr", tr], ["en", en]]) {
+    const tagCount = (part.body.match(/#[A-Za-z0-9_]+/g) || []).length;
+    if (tagCount < 3 || tagCount > 4) {
+      throw new Error(`${label} govdesinde hashtag sayisi hatali (${tagCount}), 3-4 olmali`);
+    }
   }
   if (!Array.isArray(result.selected)) result.selected = [];
   result.tr.title = tr.title.trim();
