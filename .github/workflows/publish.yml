@@ -2,7 +2,7 @@ name: Square Publish
 
 on:
   schedule:
-    - cron: "0 */2 * * *" # Her 2 saatte bir (UTC)
+    - cron: "0 */4 * * *" # Her 4 saatte bir (UTC)
   workflow_dispatch:
     inputs:
       force:

@@ -1,6 +1,6 @@
 # Crypto Square Bot
 
-Her 2 saatte bir kripto haber kaynaklarini tarar, en ilgi cekici haberleri secip
+Her 4 saatte bir kripto haber kaynaklarini tarar, en ilgi cekici haberleri secip
 OpenRouter (ucretsiz model) ile **Turkce + Ingilizce** makaleye cevirir ve
 **Binance Square** hesabinizda otomatik yayinlar. Tamamen GitHub Actions uzerinde
 calisir; genel repo oldugu surece **0 TL maliyet**.
@@ -57,16 +57,16 @@ Varsayilan: `google/gemma-4-31b-it:free`.
 ### 4. Calistirin
 
 - Ilk test: Repo > **Actions > Square Publish > Run workflow** (elle tetikleme).
-- Sonrasinda otomatik: her 2 saatte bir (UTC 00:00, 02:00, ...).
+- Sonrasinda otomatik: Her 4 saatte bir (UTC 00:00, 02:00, ...).
 - Not: GitHub zamanlanmis isler bazen 5-15 dk gecikebilir; normaldir.
 
 ## Ucretsiz limitler ve yeterlilik
 
 | Kaynak | Limit | Kullanimimiz |
 |---|---|---|
-| GitHub Actions (public repo) | Sinirsiz dk | ~720 dk/ay |
-| OpenRouter ucretsiz model | 50 istek/gun (kredisiz hesap) | ~12 istek/gun |
-| Binance Square OpenAPI | 100 gonderi/gun | 24 gonderi/gun (12 tur x TR+EN) |
+| GitHub Actions (public repo) | Sinirsiz dk | ~360 dk/ay |
+| OpenRouter ucretsiz model | 50 istek/gun (kredisiz hesap) | ~6 istek/gun |
+| Binance Square OpenAPI | 100 gonderi/gun | 12 gonderi/gun (6 tur x TR+EN) |
 
 ## Dosyalar
 
@@ -93,7 +93,7 @@ node run.mjs           # gercek yayin
 ## Sik sorulanlar
 
 - **Zamanlanmis is durdu?** GitHub, 60 gun commit olmayan reponun schedule'ini kapatir.
-  Bot her 2 saatte commit attigi icin bu genellikle olusmaz; olursa Actions sekmesinden
+  Bot Her 4 saatte commit attigi icin bu genellikle olusmaz; olursa Actions sekmesinden
   workflow'u yeniden etkinlestirin.
 - **Model degistirmek istiyorum?** https://openrouter.ai/models adresinde `:free`
   filtresiyle guncel listeyi gorun, `OPENROUTER_MODEL` variable'ini guncelleyin.
