@@ -1,0 +1,43 @@
+{
+  "startedAt": "2026-08-21T19:46:30.293Z",
+  "finishedAt": "2026-08-21T19:47:27.442Z",
+  "dryRun": false,
+  "model": "google/gemma-4-31b-it:free",
+  "story": {
+    "title": "SEC Opens Comment Period On Cboe 3x Bitcoin And Ethereum ETF Proposal",
+    "source": "NewsBTC",
+    "link": "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/"
+  },
+  "script": {
+    "tr": {
+      "title": "SEC, Cboe'nın 3x Bitcoin ve Ethereum ETF'ye Yorum Açtı",
+      "slides": [
+        "SEC, Cboe'nin 3x Bitcoin ve Ethereum ETF'yi onaylaması için yorum süresini açtı.",
+        "Yazar: Cboe, Tarih: 21 Ağustos 2026.",
+        "Yorum süresi, 2026 yılındaki kritik ETF onay süreçini başlattı.",
+        "Bu ETF, kriptoaltyoların geleneksel piyasalarda daha erişilebilir hale getirmeye yönelik bir adım."
+      ],
+      "caption": "SEC, Cboe'nın 3x Bitcoin ve Ethereum ETF'yi onaylaması için yorum süresini açtı. Bu, kriptoaltyoların geleneksel piyasalarda daha erişilebilir hale getirmeye yönelik bir adım. Yorum süresi, 2026 yılındaki kritik ETF onay süreçini başlattı. Cboe, bu ETF'yi 2026 yılında piyasa sunar diye beyan etti. #Bitcoin #ETF #Regulation\nKaynaklar: NewsBTC\nBu video yapay zeka destekli olarak hazırlandı; yatırım tavsiyesi değildir. Kendi araştırmanızı yapın (DYOR)."
+    },
+    "en": {
+      "title": "SEC Opens Comment Period on Cboe 3x Bitcoin and Ethereum ETF",
+      "slides": [
+        "SEC opens comment period for Cboe's 3x Bitcoin and Ethereum ETF proposal.",
+        "Cboe, August 21, 2026, proposed the ETF.",
+        "Comment period marks a key step in ETF approval process.",
+        "This ETF aims to make cryptocurrencies more accessible in traditional markets."
+      ],
+      "caption": "SEC opens comment period for Cboe's 3x Bitcoin and Ethereum ETF proposal. This marks a key step in the ETF approval process. The ETF aims to make cryptocurrencies more accessible in traditional markets. Cboe proposed the ETF on August 21, 2026. #Bitcoin #ETF #Regulation\nSources: NewsBTC\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+    }
+  },
+  "videos": [
+    {
+      "lang": "tr",
+      "error": "spawn ffmpeg ENOENT"
+    },
+    {
+      "lang": "en",
+      "error": "spawn ffmpeg ENOENT"
+    }
+  ]
+}
