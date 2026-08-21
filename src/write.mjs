@@ -1,5 +1,9 @@
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const FALLBACK_MODEL = "openrouter/free";
+const FALLBACK_MODELS = [
+  "openrouter/free",
+  "z-ai/glm-5.2:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+];
 
 function buildPrompt(candidates, { minWords, maxWords }) {
   const list = candidates.map((c, i) => ({
@@ -109,13 +113,13 @@ export async function generateArticles(candidates, cfg) {
     maxWords: cfg.maxWords,
   });
 
-  const models = [...new Set([cfg.model, FALLBACK_MODEL])];
+  const models = [...new Set([cfg.model, ...FALLBACK_MODELS])];
   const errors = [];
 
   for (const model of models) {
-    for (let attempt = 1; attempt <= 3; attempt++) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
       try {
-        console.log(`Makale uretiliyor (model: ${model}, deneme ${attempt}/3)...`);
+        console.log(`Makale uretiliyor (model: ${model}, deneme ${attempt}/2)...`);
         const content = await callModel(model, cfg.openrouterKey, prompt);
         return validate(extractJson(content));
       } catch (err) {
