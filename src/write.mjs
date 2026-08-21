@@ -40,7 +40,8 @@ ARTICLE RULES
 - Do not invent facts that are not supported by the provided news items.
 
 REACH RULES (critical - maximize discovery on Binance Square)
-- Cashtags: inside the body, every coin you discuss MUST appear with its cashtag at least once, e.g. $BTC $ETH $SOL $LINK $XRP. Use the standard symbol, uppercase.
+- Title: NEVER use cashtags ($XXX) or hashtags (#xxx) in the title. Plain words only.
+- Cashtags: use AT MOST 4 DIFFERENT cashtags in the entire body (Binance rejects more). Pick only the most important coins of the stories, e.g. $BTC $ETH $SOL. Mention each once, inline where natural. Uppercase standard symbols.
 - After the sources section, add ONE engagement line containing:
   * EXACTLY 4 hashtags - no more, no less (Binance rejects posts with too many). Mix high-traffic evergreen tags (#Bitcoin #Crypto #CryptoNews #BinanceSquare) with story-specific ones (e.g. #ETF #Solana #XRP). Only include tags actually related to the stories.
   * Exactly these 2 mentions: @Binance @Binance_Square

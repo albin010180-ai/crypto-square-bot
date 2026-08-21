@@ -28,12 +28,33 @@ function buildCfg() {
   };
 }
 
-function limitHashtags(body, max = 4) {
+function limitHashtags(text, max = 4) {
   let count = 0;
-  return body.replace(/#[A-Za-z0-9_]+/g, (tag) => {
+  return text.replace(/#[A-Za-z0-9_]+/g, (tag) => {
     count += 1;
     return count <= max ? tag : "";
-  }).replace(/[ \t]+(\r?\n)/g, "$1").replace(/\n{3,}/g, "\n\n").trim();
+  });
+}
+
+function limitCashtags(text, max = 4) {
+  const seen = new Set();
+  return text.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, (match, sym) => {
+    if (seen.size < max || seen.has(sym)) {
+      seen.add(sym);
+      return match;
+    }
+    return sym;
+  });
+}
+
+function sanitizeAll(title, body) {
+  return {
+    title: limitHashtags(limitCashtags(title)).trim(),
+    body: limitHashtags(limitCashtags(body))
+      .replace(/[ \t]+(\r?\n)/g, "$1")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim(),
+  };
 }
 
 async function main() {
@@ -117,9 +138,11 @@ async function main() {
         record.published.push({ lang, ...result, title: art.title });
         break;
       } catch (err) {
-        if (/220094|Hashtag count/i.test(err.message) && attempt === 1) {
-          console.warn(`  hashtag limiti asildi, govde temizlenip tekrar denenecek`);
-          body = limitHashtags(body);
+        if (/220094|Hashtag count|220095|Coin pair/i.test(err.message) && attempt === 1) {
+          console.warn(`  etiket limiti asildi, govde temizlenip tekrar denenecek`);
+          const clean = sanitizeAll(art.title, body);
+          art.title = clean.title;
+          body = clean.body;
           continue;
         }
         console.error(`  HATA (${lang}): ${err.message}`);
