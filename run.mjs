@@ -28,6 +28,14 @@ function buildCfg() {
   };
 }
 
+function limitHashtags(body, max = 4) {
+  let count = 0;
+  return body.replace(/#[A-Za-z0-9_]+/g, (tag) => {
+    count += 1;
+    return count <= max ? tag : "";
+  }).replace(/[ \t]+(\r?\n)/g, "$1").replace(/\n{3,}/g, "\n\n").trim();
+}
+
 async function main() {
   const startedAt = new Date().toISOString();
   const { dryRun, force } = parseArgs();
@@ -97,17 +105,27 @@ async function main() {
   }
 
   for (const [lang, art] of [["tr", article.tr], ["en", article.en]]) {
-    try {
-      console.log(`${lang.toUpperCase()} makalesi yayinlaniyor...`);
-      const result = await publishArticle(cfg.binanceKey, {
-        title: art.title,
-        body: art.body,
-      });
-      console.log(`  OK: ${result.url ?? result.note ?? "(id alinamadi)"}`);
-      record.published.push({ lang, ...result, title: art.title });
-    } catch (err) {
-      console.error(`  HATA (${lang}): ${err.message}`);
-      record.published.push({ lang, error: err.message });
+    let body = art.body;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        console.log(`${lang.toUpperCase()} makalesi yayinlaniyor...`);
+        const result = await publishArticle(cfg.binanceKey, {
+          title: art.title,
+          body,
+        });
+        console.log(`  OK: ${result.url ?? result.note ?? "(id alinamadi)"}`);
+        record.published.push({ lang, ...result, title: art.title });
+        break;
+      } catch (err) {
+        if (/220094|Hashtag count/i.test(err.message) && attempt === 1) {
+          console.warn(`  hashtag limiti asildi, govde temizlenip tekrar denenecek`);
+          body = limitHashtags(body);
+          continue;
+        }
+        console.error(`  HATA (${lang}): ${err.message}`);
+        record.published.push({ lang, error: err.message });
+        break;
+      }
     }
   }
 
