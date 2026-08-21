@@ -45,6 +45,13 @@ export function saveLatest(record) {
   fs.writeFileSync(LATEST_FILE, JSON.stringify(record, null, 2), "utf8");
 }
 
+const LATEST_VIDEO_FILE = path.join(DATA_DIR, "latest-video.json");
+
+export function saveLatestVideo(record) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(LATEST_VIDEO_FILE, JSON.stringify(record, null, 2), "utf8");
+}
+
 export function saveRunLog(record) {
   fs.mkdirSync(LOGS_DIR, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");

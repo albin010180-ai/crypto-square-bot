@@ -1,0 +1,65 @@
+name: Square Video
+
+on:
+  schedule:
+    # Makale islerinden 1 saat once: UTC 03:00, 07:00, 11:00, 15:00, 19:00, 23:00
+    # (Makaleler UTC 00,04,08,12,16,20'de yayinlaniyor)
+    - cron: "0 3-23/4 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Tekrar korumasini yoksay (zorla yayinla)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: square-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Repoyu cek
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Node kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Python ve medya kutuphaneleri
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: TTS ve gorsel bagimliliklarini kur
+        run: |
+          pip install --quiet edge-tts gTTS pillow
+          ffmpeg -version | head -n1
+          python3 --version
+
+      - name: Video uret ve yayinla
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          VIDEO_LANGS: ${{ vars.VIDEO_LANGS }}
+          FORCE_PUBLISH: ${{ github.event.inputs.force == 'true' && 'true' || 'false' }}
+        run: node video.mjs
+
+      - name: Durum dosyalarini kaydet
+        if: always()
+        run: |
+          git config user.name "crypto-square-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "Degisiklik yok" || git commit -m "video state [skip ci]"
+          git pull --rebase origin main || true
+          git push || true
