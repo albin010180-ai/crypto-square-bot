@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-22T05:52:42.438Z",
-  "finishedAt": "2026-08-22T05:54:06.043Z",
+  "startedAt": "2026-08-22T06:20:16.634Z",
+  "finishedAt": "2026-08-22T06:22:03.938Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -79,45 +79,43 @@
     }
   ],
   "selected": [
-    "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/",
-    "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
-    "https://bitcoinist.com/solana-etf-inflows-15m-biggest-session-three-weeks/",
     "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-    "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
-    "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
+    "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/",
+    "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
+    "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
   ],
   "articles": {
     "tr": {
-      "title": "Kripto Piyasasında Büyük Hareketler: ETF, Hack ve Fiyat Yükselişi",
-      "body": "Bitcoin, ABD hazine alımlarında yapılan bir düzenlemenin etkisiyle 25 oranında yukarıya sıçrayarak neredeyse 80.000 dolar seviyesine ulaştı. CoinDesk'in raporuna göre, bu gelişmenin neden olduğu getiri düşüşü, piyasada短仓 pozisyonlarının kapatılmasına yol açtı. $BTC, $ETH ve $SOL gibi major coinlerdeki bu hareket, yatırımcıların ilgisini çekiyor.\n\nABD Menkul Kıymetler ve Borsa Komisyonu (SEC), Cboe'nin 3x Bitcoin ve Ethereum ETF teklifi için yorum dönemi açtı. NewsBTC'nin haberine göre, bu adım, bu tür ürünleri piyasaya sunma sürecinde önemli bir evre olarak değerlendiriliyor.\n\nGrayscale ise Zcash ETF'sini başlatmak için SEC'ye yeni bir dosya sunarak ilerlemeler kaydetti. The Block, Grayscale'in 21 Ağustos'ta SEC'ye amended filing olduğunu ve bu hamleyle ilk Zcash ETF'nin Amerika Birleşik Devletleri'nde başlatılmasına yaklaşıldığını bildirdi.\n\nSolana ETF'lerinde ise 22 Ağustos'ta 15 milyon dolarlık giriş yapıldı ve bu, son üç haftanın en yüksek seviyesi olarak kayıtlara geçti. Bitcoinist, bu hareketin Solana'ya olan ilgiyi artırdığını belirtti.\n\nGüvenlik açısından da önemli gelişmeler yaşandı. Coinkite'in Coldcard cihazında yapılan bir hack sonucu 130 milyon dolarlık Bitcoin çalındı. Decrypt'in haberine göre, yeni firmware, kullanıcının kendi rastgeleğini eklemesini gerektiriyor ve üç haftalık bir inceleme sürecinde bulunan ek security sorunları da giderildi.\n\nBounceBit ise 3 milyon dolarlık bir hack'in ardından blok zincirini kapatarak BNB Chain'e geçiş yapacak. The Block, saldırganın 286.5 milyon BB'yi dokuz ciltten transfer ettiğini ve block production'in durdurulduğunu bildirdi.\n\nBu gelişmeler, kripto piyasasının hem regülasyon hem de güvenlik açısından önemli bir dönüm noktasında olduğunu gösteriyor. yatırımcılar hem ETF onaylarını hem de security önlemlerini takip etmeye devam edecek.\n\n#ETF #Security #Bitcoin\n\nKaynaklar: CoinDesk, The Block, Decrypt, NewsBTC, Bitcoinist\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Bitcoin 80.000 dolar seviyesine yaklaşıyor; SEC, Cboe'nin 3x ETF teklifi için yorum dönemi açtı #Bitcoin #ETF #Regulation"
+      "title": "Bitcoin ve Zcash, ETF ve Güvenlik Gelişmelerle Maket Dönüşümü",
+      "body": "Bitcoin, Treasury'in satışlarıyla 25% artış kaydetti. Zcash, Grayscale'in ETF talebiyle 48% artış kaydetti. Coldcard, $130M weekender sonrası güvenlik çalışmaları yapıyor. SEC, Bitcoin ve Ethereum ETF talebini incelemeye başladı. Bu gelişmeler, kripto sektörünün düzenliye ve teknolojik yönlerini vurguluyor.\n\nBitcoin'in en yüksek seviyesine yaklaşıldığında, Treasury'nın satış politikaları, uzun vadeli fırsatlar düşürerek piyasayı destekliyor. Bu, 19 yıllık yüksek seviyelerden vazgeçilmediğini gösteren önemli bir gelişme. Zcash ise Grayscale'in ETF talebiyle, 2016 yılından beri en yüksek seviyeye geri döndü. Bu, 'next bitcoin' fikrini destekleyen altcoinlar arasında yer buluyor.\n\nColdcard'in güvenlik güncellemeleri, kullanıcıların sembol oluştururken own randomness eklemesini gerektiriyor. Bu, son_uçak_attack_farkindan sonraki bir güvenlik çözümü. SEC'nin ETF talebi incelemesi, 3x Bitcoin ve Ethereum ETF'leri konusunda yorum alma süresini açmıştır. Bu, regulatorlere karşı kripto ticari ürünlerin kabul alışkanlığına dair kritik bir adım.\n\nBu gelişmeler, kripto piyasasını düzenliye ve teknolojik yönlerini vurgulamaktadır. Bitcoin'in 상승, ekonomik politikaların etkilerini gösteriyorken, Zcash'in ETF talebi, altcoinler arasında daha fazla dikkat çekiyor. Coldcard'in güvenlik çalışmaları, kullanıcı güvenini artırmaya yönelik önemli bir adım.\n#Bitcoin #ETF #Markets",
+      "tweet": "Bitcoin 80K, Zcash ETF ve Coldcard güvenlik güncellemeleri! #Bitcoin #Zcash #Regulation"
     },
     "en": {
-      "title": "Crypto Market Roundup: ETF Progress, Exploits and Price Surge",
-      "body": "Bitcoin surged 25% to nearly $80,000 after a US Treasury buyback adjustment pulled long‑term yields off 19‑year highs and triggered a record short squeeze, CoinDesk reported. $BTC, $ETH and $SOL were among the major coins that moved higher.\n\nThe SEC opened a comment period on Cboe's proposed 3x Bitcoin and Ethereum ETF, according to NewsBTC. The move is seen as a step toward launching leveraged crypto products.\n\nGrayscale advanced its plans for a Zcash ETF, filing an amended SEC submission on August 21, The Block reported. The filing brings the first US‑listed Zcash ETF closer to approval.\n\nSolana ETF inflows hit $15 million on August 22, the largest single‑day intake in three weeks, Bitcoinist noted, reflecting growing interest in the network.\n\nOn the security front, Coinkite's Coldcard hardware wallet introduced new safeguards after a $130 million Bitcoin exploit, Decrypt wrote. The updated firmware requires users to add their own randomness and addresses additional vulnerabilities uncovered in a three‑week review.\n\nBounceBit announced it will sunset its blockchain and migrate to BNB Chain following a $3 million exploit, The Block reported. The attacker moved approximately 286.5 million BB from nine wallets before block production was halted.\n\nThese stories illustrate the market's dual focus on regulatory progress and security as price momentum continues.\n\n#ETF #Security #Bitcoin\n\nSources: CoinDesk, The Block, Decrypt, NewsBTC, Bitcoinist\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin nears $80K as SEC opens comment period on Cboe's 3x ETF proposal #Bitcoin #ETF #Regulation"
+      "title": "Bitcoin & Zcash Rally: ETFs, Security Upgrades Drive Market Shift",
+      "body": "Bitcoin surged 25% to near $80,000 amid Treasury buyback adjustments. Zcash jumped 48% to $800+ following Grayscale's Zcash ETF progress. Coldcard implemented new security measures after a $130M exploit. The SEC opened a comment period on its 3x Bitcoin and Ethereum ETF proposal, signaling regulatory momentum.\n\nThe Treasury's buyback tweak, while not traditional QE, reduced long-term yields and triggered a short squeeze, amplifying Bitcoin's rally. Zcash's rise coincides with Grayscale's amended SEC filing, showing progress toward a spot ETF. This has reignited 'next bitcoin' narratives in altcoins.\n\nColdcard's firmware update requires users to add randomness to seed generation, addressing vulnerabilities exposed in a recent $130M exploit. The SEC's ETF proposal comment period could shape Bitcoin and Ethereum's institutional adoption. These developments highlight both regulatory and technical shifts in crypto.\n\nThe market is witnessing a blend of macroeconomic and technological factors. Bitcoin's surge reflects institutional buying and improved macro conditions, while Zcash's ETF push underscores altcoin innovation. Coldcard's security enhancements aim to restore trust after a major breach.\n#Bitcoin #ETF #Markets",
+      "tweet": "Bitcoin near $80K, Zcash ETF progress, Coldcard security fix! #Bitcoin #Zcash #ETF"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358346114029927,
-      "url": "https://www.binance.com/square/post/358346114029927",
+      "id": 358352986524937,
+      "url": "https://www.binance.com/square/post/358352986524937",
       "shortPost": {
-        "id": 358346116212184,
-        "url": "https://www.binance.com/square/post/358346116212184"
+        "id": 358352989796179,
+        "url": "https://www.binance.com/square/post/358352989796179"
       },
-      "title": "Kripto Piyasasında Büyük Hareketler: ETF, Hack ve Fiyat Yükselişi"
+      "title": "Bitcoin ve Zcash, ETF ve Güvenlik Gelişmelerle Maket Dönüşümü"
     },
     {
       "lang": "en",
-      "id": 358346118953343,
-      "url": "https://www.binance.com/square/post/358346118953343",
+      "id": 358352992091676,
+      "url": "https://www.binance.com/square/post/358352992091676",
       "shortPost": {
-        "id": 358346120871040,
-        "url": "https://www.binance.com/square/post/358346120871040"
+        "id": 358352993553910,
+        "url": "https://www.binance.com/square/post/358352993553910"
       },
-      "title": "Crypto Market Roundup: ETF Progress, Exploits and Price Surge"
+      "title": "Bitcoin & Zcash Rally: ETFs, Security Upgrades Drive Market Shift"
     }
   ]
 }
