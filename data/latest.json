@@ -1,14 +1,46 @@
 {
-  "startedAt": "2026-08-21T20:53:34.254Z",
-  "finishedAt": "2026-08-21T20:57:13.484Z",
+  "startedAt": "2026-08-22T05:52:42.438Z",
+  "finishedAt": "2026-08-22T05:54:06.043Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
+  "contentType": "news",
+  "contentTopic": null,
   "sourceErrors": [],
   "candidates": [
+    {
+      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit"
+    },
+    {
+      "title": "SEC Opens Comment Period On Cboe 3x Bitcoin And Ethereum ETF Proposal",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/"
+    },
+    {
+      "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
+    },
+    {
+      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016"
+    },
+    {
+      "title": "Chasing XRP: Stellar (XLM) Targets Next Breakout Milestone After 22% Weekly Jump",
+      "source": "U.Today",
+      "link": "https://u.today/chasing-xrp-stellar-xlm-targets-next-breakout-milestone-after-22-weekly-jump"
+    },
     {
       "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
       "source": "Decrypt",
       "link": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally"
+    },
+    {
+      "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
     },
     {
       "title": "Ripple's RLUSD Zeros In on PayPal USD as Its Market Cap Tops $2 Billion",
@@ -16,51 +48,76 @@
       "link": "https://u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion"
     },
     {
-      "title": "Unresolved $11 million liquidity crash leaves pools exposed as attacker still holds 20.83 BTC on Maya Protocol",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/maya-protocol-exploit-wallet-still-holds-20-83-btc-as-11-million-pool-impact-remains-unresolved/"
+      "title": "XRP leads broad altcoin rally as bitcoin’s biggest weekly gain in two years lifts crypto",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
     },
     {
-      "title": "Hashdex Liquidates DEFI As First US Spot Bitcoin ETF Closure Arrives",
-      "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/hashdex-liquidates-defi-first-us-spot-bitcoin-etf-closure/"
+      "title": "US expands Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom plot",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/"
     },
     {
-      "title": "A $22.9 million capital deficit threatens to derail an energy firm’s pivot to off-grid Bitcoin mining",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/a-22-9-million-capital-deficit-threatens-to-derail-an-energy-firms-pivot-to-off-grid-bitcoin-mining/"
+      "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485"
+    },
+    {
+      "title": "Solana ETF Inflows Hit $15M In Biggest Session In Three Weeks",
+      "source": "Bitcoinist",
+      "link": "https://bitcoinist.com/solana-etf-inflows-15m-biggest-session-three-weeks/"
+    },
+    {
+      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act"
     }
   ],
   "selected": [
-    "https://decrypt.co/376244/wall-street-washington-bitcoin-rally",
-    "https://u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion",
-    "https://cryptoslate.com/maya-protocol-exploit-wallet-still-holds-20-83-btc-as-11-million-pool-impact-remains-unresolved/",
-    "https://www.newsbtc.com/news/hashdex-liquidates-defi-first-us-spot-bitcoin-etf-closure/"
+    "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/",
+    "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517",
+    "https://bitcoinist.com/solana-etf-inflows-15m-biggest-session-three-weeks/",
+    "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
+    "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
+    "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin Rally İtibarini Kazanırken Stablecoin ve ETF Gelişmeleri Gündemde",
-      "body": "Son 24 saatte kripto piyasaları, istituyonel alımın artması ve makro ekonomik koşulların iyileşmesiyle desteklenen Bitcoin rally’si ile birlikte, stablecoin sektöründe önemli bir milestone, bir DeFi protokolünde likbit krizi ve ABD’nin ilk spot Bitcoin ETF’inin kapanışı gibi gelişmelerle gündemde oldu.\n\nDecrypt’in raporuna göre, Wall Street ve Washington’dan gelen olumlu sinyaller, istituyonel yatırımcıların Bitcoin’e olan ilgisini artırırken, makro ortamın daha dostça görünmesi ve düzenleyici ortamın dostça hale gelmesi rally’yi destekliyor. Ayrıca, milyarlar dolar değerinde kısa pozisyonların likiditesi, fiyat hareketini daha da hızlandırdı. Bitcoin ($BTC) bu ortamda güçlü bir yönde hareket gösteriyor.\n\nU.Today’ye göre, Ripple’nin RLUSD stablecoini piyasa değeri 2 milyar doları aşarak, PayPal USD (PYUSD) ile olan farkı hızla kapatmaya başladı. Bu yükseliş, stablecoin piyasasında rekabetin artmasını ve istituyonel oyuncuların dijital dolar varlıklarına olan ilgisini gösteriyor.\n\nCryptoSlate’in bildirdiği üzere, Maya Protocol’de çözülmemiş 11 milyon dolar likidite çöküşü yaşanmış ve saldırganın adresi hâlâ 20,83 BTC tutuyor. Adres tarafından henüz hiçbir harcama yapılmamış, protokol ise daha geniş fiyat yeniden düzenlemesi ve arbitraj zararının kimin tarafından üstlenileceğini henüz açıklamadı.\n\nNewsBTC’ye göre, Hashdex DEFI fonunu likidite etmeye karar verdi ve bu da ABD’nin ilk spot Bitcoin ETF’in kapanışıyla eşzamanlı oldu. Gelişme, spot Bitcoin ETF sektöründe ilk kapanış örneği olarak kaydedildi, fonun performans ve likidite sorunlarının bu karara yol açtığı belirtiliyor.\n\nBu gelişmeler, piyasadaki iki yönlü dönemi gösteriyor: istituyonel intereses ve makro iyileşmeyle desteklenen Bitcoin’in yükseliş trendini, aynı zamanda stablecoinlerin piyasa payı artışı, DeFi güvenliğiyle ilgili riskler ve ilk spot Bitcoin ETF’in kapanışı gibi yapısal değişiklikler birlikte shaping ediyor.\n\n#Bitcoin #Stablecoin #ETFClosure\nKaynaklar: Decrypt, U.Today, CryptoSlate, NewsBTC\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Bitcoin rally’si istituyonel alım ve makro iyileşmeyle devam ediyor; RLUSD stablecoinin piyasa değeri 2 milyar doları geçti #Bitcoin #Stablecoin #ETFClosure"
+      "title": "Kripto Piyasasında Büyük Hareketler: ETF, Hack ve Fiyat Yükselişi",
+      "body": "Bitcoin, ABD hazine alımlarında yapılan bir düzenlemenin etkisiyle 25 oranında yukarıya sıçrayarak neredeyse 80.000 dolar seviyesine ulaştı. CoinDesk'in raporuna göre, bu gelişmenin neden olduğu getiri düşüşü, piyasada短仓 pozisyonlarının kapatılmasına yol açtı. $BTC, $ETH ve $SOL gibi major coinlerdeki bu hareket, yatırımcıların ilgisini çekiyor.\n\nABD Menkul Kıymetler ve Borsa Komisyonu (SEC), Cboe'nin 3x Bitcoin ve Ethereum ETF teklifi için yorum dönemi açtı. NewsBTC'nin haberine göre, bu adım, bu tür ürünleri piyasaya sunma sürecinde önemli bir evre olarak değerlendiriliyor.\n\nGrayscale ise Zcash ETF'sini başlatmak için SEC'ye yeni bir dosya sunarak ilerlemeler kaydetti. The Block, Grayscale'in 21 Ağustos'ta SEC'ye amended filing olduğunu ve bu hamleyle ilk Zcash ETF'nin Amerika Birleşik Devletleri'nde başlatılmasına yaklaşıldığını bildirdi.\n\nSolana ETF'lerinde ise 22 Ağustos'ta 15 milyon dolarlık giriş yapıldı ve bu, son üç haftanın en yüksek seviyesi olarak kayıtlara geçti. Bitcoinist, bu hareketin Solana'ya olan ilgiyi artırdığını belirtti.\n\nGüvenlik açısından da önemli gelişmeler yaşandı. Coinkite'in Coldcard cihazında yapılan bir hack sonucu 130 milyon dolarlık Bitcoin çalındı. Decrypt'in haberine göre, yeni firmware, kullanıcının kendi rastgeleğini eklemesini gerektiriyor ve üç haftalık bir inceleme sürecinde bulunan ek security sorunları da giderildi.\n\nBounceBit ise 3 milyon dolarlık bir hack'in ardından blok zincirini kapatarak BNB Chain'e geçiş yapacak. The Block, saldırganın 286.5 milyon BB'yi dokuz ciltten transfer ettiğini ve block production'in durdurulduğunu bildirdi.\n\nBu gelişmeler, kripto piyasasının hem regülasyon hem de güvenlik açısından önemli bir dönüm noktasında olduğunu gösteriyor. yatırımcılar hem ETF onaylarını hem de security önlemlerini takip etmeye devam edecek.\n\n#ETF #Security #Bitcoin\n\nKaynaklar: CoinDesk, The Block, Decrypt, NewsBTC, Bitcoinist\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Bitcoin 80.000 dolar seviyesine yaklaşıyor; SEC, Cboe'nin 3x ETF teklifi için yorum dönemi açtı #Bitcoin #ETF #Regulation"
     },
     "en": {
-      "title": "Bitcoin Rally Gains Steam Amid Stablecoin Milestone, DeFi Hack and First Spot ETF Closure",
-      "body": "Over the past 24 hours, crypto markets have seen Bitcoin’s rally bolstered by institutional buying and improving macro conditions, while a stablecoin milestone, a DeFi exploit and the closure of the first US spot Bitcoin ETF have also captured attention.\n\nAccording to Decrypt, positive signals from Wall Street and Washington are boosting institutional interest in Bitcoin, a friendlier macro backdrop and a more accommodating regulatory environment are supporting the rally, and billions of dollars in short liquidations have further accelerated the price move. Bitcoin ($BTC) is showing strong upward momentum in this setting.\n\nU.Today reports that Ripple’s RLUSD stablecoin has surpassed a $2 billion market capitalization, rapidly narrowing the gap with PayPal USD (PYUSD). This growth reflects intensifying competition in the stablecoin sector and rising institutional curiosity about digital dollar assets.\n\nCryptoSlate notes that an unresolved $11 million liquidity crash on Maya Protocol has left pools exposed, with the suspected address still holding 20.83 BTC and having spent none of those funds. Maya has not disclosed who will bear the broader repricing and arbitrage damage stemming from the incident.\n\nNewsBTC states that Hashdex has decided to liquidate its DEFI fund, a move coinciding with the shutdown of the United States’ first spot Bitcoin ETF. The development is recorded as the first closure in the spot Bitcoin ETF space, with fund performance and liquidity concerns cited as the reasons behind the decision.\n\nTaken together, these events illustrate a dual‑track market scene: Bitcoin’s advance, fueled by institutional appetite and macro improvement, runs parallel to expanding stablecoin market share, lingering DeFi security risks, and structural shifts in the ETF landscape as the first spot product exits.\n\n#Bitcoin #Stablecoin #ETFClosure\nSources: Decrypt, U.Today, CryptoSlate, NewsBTC\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin’s rally continues on institutional buying and macro improvement as RLUSD stablecoin tops $2 billion market cap #Bitcoin #Stablecoin #ETFClosure"
+      "title": "Crypto Market Roundup: ETF Progress, Exploits and Price Surge",
+      "body": "Bitcoin surged 25% to nearly $80,000 after a US Treasury buyback adjustment pulled long‑term yields off 19‑year highs and triggered a record short squeeze, CoinDesk reported. $BTC, $ETH and $SOL were among the major coins that moved higher.\n\nThe SEC opened a comment period on Cboe's proposed 3x Bitcoin and Ethereum ETF, according to NewsBTC. The move is seen as a step toward launching leveraged crypto products.\n\nGrayscale advanced its plans for a Zcash ETF, filing an amended SEC submission on August 21, The Block reported. The filing brings the first US‑listed Zcash ETF closer to approval.\n\nSolana ETF inflows hit $15 million on August 22, the largest single‑day intake in three weeks, Bitcoinist noted, reflecting growing interest in the network.\n\nOn the security front, Coinkite's Coldcard hardware wallet introduced new safeguards after a $130 million Bitcoin exploit, Decrypt wrote. The updated firmware requires users to add their own randomness and addresses additional vulnerabilities uncovered in a three‑week review.\n\nBounceBit announced it will sunset its blockchain and migrate to BNB Chain following a $3 million exploit, The Block reported. The attacker moved approximately 286.5 million BB from nine wallets before block production was halted.\n\nThese stories illustrate the market's dual focus on regulatory progress and security as price momentum continues.\n\n#ETF #Security #Bitcoin\n\nSources: CoinDesk, The Block, Decrypt, NewsBTC, Bitcoinist\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin nears $80K as SEC opens comment period on Cboe's 3x ETF proposal #Bitcoin #ETF #Regulation"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358214174935352,
-      "url": "https://www.binance.com/square/post/358214174935352",
-      "title": "Bitcoin Rally İtibarini Kazanırken Stablecoin ve ETF Gelişmeleri Gündemde"
+      "id": 358346114029927,
+      "url": "https://www.binance.com/square/post/358346114029927",
+      "shortPost": {
+        "id": 358346116212184,
+        "url": "https://www.binance.com/square/post/358346116212184"
+      },
+      "title": "Kripto Piyasasında Büyük Hareketler: ETF, Hack ve Fiyat Yükselişi"
     },
     {
       "lang": "en",
-      "id": 358214178285621,
-      "url": "https://www.binance.com/square/post/358214178285621",
-      "title": "Bitcoin Rally Gains Steam Amid Stablecoin Milestone, DeFi Hack and First Spot ETF Closure"
+      "id": 358346118953343,
+      "url": "https://www.binance.com/square/post/358346118953343",
+      "shortPost": {
+        "id": 358346120871040,
+        "url": "https://www.binance.com/square/post/358346120871040"
+      },
+      "title": "Crypto Market Roundup: ETF Progress, Exploits and Price Surge"
     }
   ]
 }
