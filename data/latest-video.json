@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-22T14:01:26.982Z",
-  "finishedAt": "2026-08-22T14:11:50.456Z",
+  "startedAt": "2026-08-22T17:59:48.928Z",
+  "finishedAt": "2026-08-22T18:03:18.387Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
-    "source": "CoinDesk",
-    "link": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-    "usedLink": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
-    "usedTitleNorm": "bitcoin and ether bears get decimated amid squeeze led rally and musk s x wants to pay creators in stablecoins crypto s week in 5 stories"
+    "title": "Zcash hits eight-year high near $850 with futures volume near $10 billion amid Grayscale ETF push",
+    "source": "The Block",
+    "link": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
+    "usedLink": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
+    "usedTitleNorm": "zcash hits eight year high near 850 with futures volume near 10 billion amid grayscale etf push"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin ve Ether Kısa Pozisyonlu Sıkışma ile Yükseldi",
+      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars",
       "slides": [
-        "Bitcoin ve Ether kısa pozisyonlu investörleri sıkıştırarak güçlü bir toparlama gösterdi",
-        "Hazine müdahalesi ve düzenleyici açıklamalar piyasa güvenini artırdı",
-        "Bankalar ve teknoloji şirketleri stablecoin kullanımını artırdı",
-        "Elon Musk'in X platformu creatörlere stablecoin ile ödeme yapmayı planlıyor"
+        "Zcash reaches historic level near eight year high today",
+        "Futures trading generates over nine billion dollars in 24 hours",
+        "Open interest stands at almost two point seven billion dollars",
+        "Grayscale ETF announcement drives increased derivative activity"
       ],
-      "caption": "Bitcoin ve Ether kısa pozisyonlu sıkışma sonucu güçlü bir şekilde yükseldi.\nDüzenleyici açıklamalar ve Hazine müdahalesi piyasayı destekledi.\nBankalar ve teknoloji şirketleri stablecoin kullanımını artırdı X platformu creatörlere ödeme planlıyor.\n#Bitcoin #Ether #Stablecoins\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)"
+      "caption": "Zcash approaches its highest price in eight years while futures volume surges. Derivatives account for most of recent trading activity.\n#Zcash #CryptoMarkets #Futures\nBu video yapay zeka destekli olarak hazirlanmstir; yatırim tavsiyesi degildir. Kendi arastimanızı yapınız (DYOR)."
     },
     "en": {
-      "title": "Bitcoin and Ether Rally as Short Squeeze Hits Bears",
+      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars",
       "slides": [
-        "Bitcoin and Ether rally sharply as short sellers are squeezed out",
-        "Treasury intervention and regulatory clarity boosted market confidence",
-        "Banks and tech firms increased stablecoin adoption for payments",
-        "Elon Musk's X platform plans to pay creators using stablecoins"
+        "Zcash reaches historic level near eight year high today",
+        "Futures trading generates over nine billion dollars in 24 hours",
+        "Open interest stands at almost two point seven billion dollars",
+        "Grayscale ETF announcement drives increased derivative activity"
       ],
-      "caption": "Bitcoin and Ether rose sharply after a short squeeze pushed bears out of the market.\nRegulatory clarity and Treasury intervention supported the upward move.\nBanks and tech firms expanded stablecoin use while X platform plans creator payments in stablecoins.\n#Bitcoin #Ether #Stablecoins\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)"
+      "caption": "Zcash climbs toward its eight year high with rising futures volume. Derivative markets dominate total trading activity.\n#Zcash #CryptoMarkets #Derivatives\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358467981468279,
-      "url": "https://www.binance.com/square/post/358467981468279",
+      "id": 358524859914596,
+      "url": "https://www.binance.com/square/post/358524859914596",
       "note": null,
       "shortPost": {
-        "id": 358467982870653,
-        "url": "https://www.binance.com/square/post/358467982870653"
+        "id": 358524861572062,
+        "url": "https://www.binance.com/square/post/358524861572062"
       },
-      "title": "Bitcoin ve Ether Kısa Pozisyonlu Sıkışma ile Yükseldi"
+      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars"
     },
     {
       "lang": "en",
-      "id": 358468443334630,
-      "url": "https://www.binance.com/square/post/358468443334630",
+      "id": 358525326581404,
+      "url": "https://www.binance.com/square/post/358525326581404",
       "note": null,
       "shortPost": {
-        "id": 358468445607591,
-        "url": "https://www.binance.com/square/post/358468445607591"
+        "id": 358525330419957,
+        "url": "https://www.binance.com/square/post/358525330419957"
       },
-      "title": "Bitcoin and Ether Rally as Short Squeeze Hits Bears"
+      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars"
     }
   ]
 }
