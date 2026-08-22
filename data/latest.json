@@ -1,121 +1,45 @@
 {
-  "startedAt": "2026-08-22T06:20:16.634Z",
-  "finishedAt": "2026-08-22T06:22:03.938Z",
+  "startedAt": "2026-08-22T09:02:31.243Z",
+  "finishedAt": "2026-08-22T09:06:23.601Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
-  "contentTopic": null,
+  "contentType": "info",
+  "contentTopic": "memecoin-riskleri",
   "sourceErrors": [],
-  "candidates": [
-    {
-      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit"
-    },
-    {
-      "title": "SEC Opens Comment Period On Cboe 3x Bitcoin And Ethereum ETF Proposal",
-      "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/"
-    },
-    {
-      "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
-    },
-    {
-      "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016"
-    },
-    {
-      "title": "Chasing XRP: Stellar (XLM) Targets Next Breakout Milestone After 22% Weekly Jump",
-      "source": "U.Today",
-      "link": "https://u.today/chasing-xrp-stellar-xlm-targets-next-breakout-milestone-after-22-weekly-jump"
-    },
-    {
-      "title": "Wall Street and Washington Fuel Bitcoin Rally: Here's What's Going On",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376244/wall-street-washington-bitcoin-rally"
-    },
-    {
-      "title": "Grayscale moves closer to launching first Zcash ETF in US with fresh amended SEC filing",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
-    },
-    {
-      "title": "Ripple's RLUSD Zeros In on PayPal USD as Its Market Cap Tops $2 Billion",
-      "source": "U.Today",
-      "link": "https://u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion"
-    },
-    {
-      "title": "XRP leads broad altcoin rally as bitcoin’s biggest weekly gain in two years lifts crypto",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-21-xrp-leads-altcoin-rally-bitcoin-biggest-weekly-gain-in-two-years-lifts-crypto-412483"
-    },
-    {
-      "title": "US expands Iran-linked hacking case to 17 defendants over HBO’s $6 million Bitcoin ransom plot",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/us-expands-iran-linked-hacking-case-to-17-defendants-over-hbos-6-million-bitcoin-ransom-plot/"
-    },
-    {
-      "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be ‘too low’",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485"
-    },
-    {
-      "title": "Solana ETF Inflows Hit $15M In Biggest Session In Three Weeks",
-      "source": "Bitcoinist",
-      "link": "https://bitcoinist.com/solana-etf-inflows-15m-biggest-session-three-weeks/"
-    },
-    {
-      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act"
-    }
-  ],
-  "selected": [
-    "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit",
-    "https://www.newsbtc.com/news/sec-comment-cboe-3x-bitcoin-ethereum-etf-proposal/",
-    "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
-    "https://www.theblock.co/news/regulation/2026-08-21-grayscale-moves-closer-launching-first-zcash-etf-in-us-sec-amended-filing-412517"
-  ],
+  "candidates": [],
+  "selected": [],
   "articles": {
     "tr": {
-      "title": "Bitcoin ve Zcash, ETF ve Güvenlik Gelişmelerle Maket Dönüşümü",
-      "body": "Bitcoin, Treasury'in satışlarıyla 25% artış kaydetti. Zcash, Grayscale'in ETF talebiyle 48% artış kaydetti. Coldcard, $130M weekender sonrası güvenlik çalışmaları yapıyor. SEC, Bitcoin ve Ethereum ETF talebini incelemeye başladı. Bu gelişmeler, kripto sektörünün düzenliye ve teknolojik yönlerini vurguluyor.\n\nBitcoin'in en yüksek seviyesine yaklaşıldığında, Treasury'nın satış politikaları, uzun vadeli fırsatlar düşürerek piyasayı destekliyor. Bu, 19 yıllık yüksek seviyelerden vazgeçilmediğini gösteren önemli bir gelişme. Zcash ise Grayscale'in ETF talebiyle, 2016 yılından beri en yüksek seviyeye geri döndü. Bu, 'next bitcoin' fikrini destekleyen altcoinlar arasında yer buluyor.\n\nColdcard'in güvenlik güncellemeleri, kullanıcıların sembol oluştururken own randomness eklemesini gerektiriyor. Bu, son_uçak_attack_farkindan sonraki bir güvenlik çözümü. SEC'nin ETF talebi incelemesi, 3x Bitcoin ve Ethereum ETF'leri konusunda yorum alma süresini açmıştır. Bu, regulatorlere karşı kripto ticari ürünlerin kabul alışkanlığına dair kritik bir adım.\n\nBu gelişmeler, kripto piyasasını düzenliye ve teknolojik yönlerini vurgulamaktadır. Bitcoin'in 상승, ekonomik politikaların etkilerini gösteriyorken, Zcash'in ETF talebi, altcoinler arasında daha fazla dikkat çekiyor. Coldcard'in güvenlik çalışmaları, kullanıcı güvenini artırmaya yönelik önemli bir adım.\n#Bitcoin #ETF #Markets",
-      "tweet": "Bitcoin 80K, Zcash ETF ve Coldcard güvenlik güncellemeleri! #Bitcoin #Zcash #Regulation"
+      "title": "Meme Coin Spekulasyonu Nedir ve Risikleri",
+      "body": "Meme coin, internet kültürüyle ilişkili kripto varlıklardır. Bu tür varlıklar genellikle virüsleşebilir, hem pozitif hem negatif olabilecek meme'lerden oluşturulur. Örneğin, bir meme coşuyle ilgili bir meme viral ederse, bu varlığın fiyatı kısa sürede artabilir. Bu süreç, 'spekulasyon' olarak adlandırılır çünkü varlığın gerçek değerle ilişkili değil, toplumda ilgi çekme gücüyle artar. Spekulasyonun nasıl çalıştığını anlamak için, bir virüsleşebilir TikTok desafı ile ilişkilendirebiliriz. Bu défanın popüler olması, ilgili ürünün veya varlığın değerini artırır. Bu durumda meme coin de benzer bir mekanizma kullanır.\n\nMeme coin'lerin spekulasyonunun temel prensibi, sosyal medya üzerindeki ilginin fiyatın etkisini dirgistirmektir. Kullanıcılar, bir meme coşu veya bir virüsleşmezawa ile ilgi çekilirse, varlığın fiyatını hızlıca artıran alışveriş yapabilir. Ancak bu ilgin, zaman içinde gidişat alır. Örneğin, bir meme varlığı virüsleşirse, geçen gün popülerlik kaybolsa, fiyatın sonrasında düşmesi beklenebilir. Bu duruma 'fomobuyu' denir. Spekulasyonun etkili olması için, varlık çok az veya herkesin alabileceği miktarda oluşturulmalıdır. Bu, 'yapay casek' gibi bir yapı oluşturur. Eğer bir meme coin 100 milyon tane varlıkla oluşturuluyorsa, bazı kullanıcılar daha yüksek fiyatlarda almak için işgal edebilir.\n\nSpekulasyonun riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bir meme coin, bir virüsleşme ile fiyatı 1000% artırabilir. Ancak bu artış, bir virüsleşme sonrası 90% düşebilir. Bu, yatırımcılara büyük kayıplara neden olabilir. Ayrıca, meme coin'lerin çoğu, gerçek projelerle karşılaştırıldığında basit amaçlara sahiptir. Örneğin, bir meme varlığı, sadece bir meme coşuyla veya bir internet kültürüyle desteklenebiliyor. Bu, varlığın uzun vadeli değerini azaltır. Spekulasyonun diğer riskleri, 'herkesi katar' gibi bir ilgi veya varsayılan doğru bir karar almakla ilgili. Kullanıcılar, bir meme coin'un fiyatı artıyorsa, diğerleri de alıyorsa, kendisi de almalı diye düşünebilir. Bu,]['eksik bilgi' riski anlamına gelir.\n\nSpekulasyonun önlenebilirlikleri, dikkatli bir bakışla mümkün olabilir. Öncelikle, bir meme coin'un proje detaylarını incelemek gerekir. Eğer bir varlık, gerçek bir kullanım alanı veya teknolojik avantajla desteklenmiyorsa, riskli olabilir. Örneğin, bir meme coin, sadece bir meme coşuyla destekleniyorsa, bu, varlığın gerçek değerini göstermiyor. Ayrıca, proje yarı anonym veya bir:e işlemcisi veya geliştirici bilgisi eksikse, dikkat edilmelidir. Bu, 'yapay casek' yaniCYC (Yapay casek) riski anlamına gelir. Spekulasyonun diğer riskleri, sosyal medya üzerindeki ilginin bir kez kalmadığını ve fiyatın sonrasında düşmesi olabilir. Bu, 'fomobuyu' olarak bilinen bir risktir. Spekulasyonun en önemli riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bu, yatırımcılara büyük kayıplara neden olabilir.\n\nSpekulasyonun risklerini azaltmak için, bir meme coin'un proje detaylarını incelemek ve sosyal medya üzerindeki ilginin kime ait olduğunu kontrol etmek gerekir. Örneğin, bir meme coin, bir virüsleşmezawa ile destekleniyorsa, bu, varlığın uzun vadeli değerini azaltabilir. Ayrıca, bir meme coin, gerçek bir kullanım alanı veya teknolojik avantajla desteklenmiyorsa, riskli olabilir. Spekulasyonun en önemli riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bu, yatırımcılara büyük kayıplara neden olabilir.\n#Bitcoin #CryptoNews #MarketUpdate",
+      "tweet": "Meme coin'lerin spekulasyonu ve riskleri hakkında bilgi almak istiyorsanız, bu makale için dikkat edin. #MemeCoins #RiskManagement #CryptoEducation"
     },
     "en": {
-      "title": "Bitcoin & Zcash Rally: ETFs, Security Upgrades Drive Market Shift",
-      "body": "Bitcoin surged 25% to near $80,000 amid Treasury buyback adjustments. Zcash jumped 48% to $800+ following Grayscale's Zcash ETF progress. Coldcard implemented new security measures after a $130M exploit. The SEC opened a comment period on its 3x Bitcoin and Ethereum ETF proposal, signaling regulatory momentum.\n\nThe Treasury's buyback tweak, while not traditional QE, reduced long-term yields and triggered a short squeeze, amplifying Bitcoin's rally. Zcash's rise coincides with Grayscale's amended SEC filing, showing progress toward a spot ETF. This has reignited 'next bitcoin' narratives in altcoins.\n\nColdcard's firmware update requires users to add randomness to seed generation, addressing vulnerabilities exposed in a recent $130M exploit. The SEC's ETF proposal comment period could shape Bitcoin and Ethereum's institutional adoption. These developments highlight both regulatory and technical shifts in crypto.\n\nThe market is witnessing a blend of macroeconomic and technological factors. Bitcoin's surge reflects institutional buying and improved macro conditions, while Zcash's ETF push underscores altcoin innovation. Coldcard's security enhancements aim to restore trust after a major breach.\n#Bitcoin #ETF #Markets",
-      "tweet": "Bitcoin near $80K, Zcash ETF progress, Coldcard security fix! #Bitcoin #Zcash #ETF"
+      "title": "The Anatomy of Meme Coin Speculation and Its Risks",
+      "body": "Meme coins are cryptocurrencies tied to internet culture. These tokens often originate from viral memes, which can be either positive or negative. For example, if a meme related to a specific topic goes viral, the price of the associated cryptocurrency might spike quickly. This process is called 'speculation' because the value is driven by social media attention rather than intrinsic value. To understand how this works, imagine a TikTok challenge that goes viral. The popularity of the challenge can increase the value of related products or tokens. Similarly, meme coins operate on the same principle.\n\nThe core mechanism of meme coin speculation is the correlation between social media attention and price. When a meme or viral event captures public interest, traders might buy the cryptocurrency, driving its price up. However, this attention is temporary. For instance, if a meme coin becomes popular due to a viral meme, its price might drop after the meme's popularity fades. This is known as 'fomobuy'—a rush to buy due to fear of missing out. Effective speculation requires a cryptocurrency with a limited or highly divisible supply. For example, if a meme coin is created with 100 million tokens, some traders might buy at higher prices, creating artificial scarcity.\n\nThe risks of speculation include extreme volatility and lack of information. A meme coin's price can surge by 1000% due to a viral event, but it might drop by 90% afterward. This can lead to significant losses for investors. Additionally, most meme coins lack real-world utility compared to traditional projects. For example, a meme coin might be supported solely by a meme or an internet trend, which diminishes its long-term value. Other risks include herd mentality and assuming others' actions are correct. Investors might think, 'If others are buying, I should too,' leading to decisions based on incomplete information.\n\nMitigating these risks requires careful analysis. First, review the project's details. If a cryptocurrency lacks a real use case or technological advantage, it may be risky. For instance, a meme coin backed only by a meme or internet trend doesn't reflect its true value. Also, if the project is semi-anonymous or lacks developer transparency, caution is needed. These are signs of 'artificial scarcity' or 'pump-and-dump' risks. The most significant risks are high volatility and lack of information, which can lead to substantial losses.\n\nTo reduce these risks, examine the project's details and verify the source of social media attention. For example, if a meme coin is supported by a viral meme, its long-term value might be low. Also, if a meme coin lacks real-world utility or technological innovation, it may be risky. The key risks of speculation are high volatility and incomplete information, which can result in significant losses.\n#Bitcoin #CryptoNews #MarketUpdate",
+      "tweet": "Learn about meme coin speculation and its risks in this article. #MemeCoins #RiskManagement #CryptoEducation"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358352986524937,
-      "url": "https://www.binance.com/square/post/358352986524937",
+      "id": 358393002748440,
+      "url": "https://www.binance.com/square/post/358393002748440",
       "shortPost": {
-        "id": 358352989796179,
-        "url": "https://www.binance.com/square/post/358352989796179"
+        "id": 358393004461647,
+        "url": "https://www.binance.com/square/post/358393004461647"
       },
-      "title": "Bitcoin ve Zcash, ETF ve Güvenlik Gelişmelerle Maket Dönüşümü"
+      "title": "Meme Coin Spekulasyonu Nedir ve Risikleri"
     },
     {
       "lang": "en",
-      "id": 358352992091676,
-      "url": "https://www.binance.com/square/post/358352992091676",
+      "id": 358393376431065,
+      "url": "https://www.binance.com/square/post/358393376431065",
       "shortPost": {
-        "id": 358352993553910,
-        "url": "https://www.binance.com/square/post/358352993553910"
+        "id": 358393378735219,
+        "url": "https://www.binance.com/square/post/358393378735219"
       },
-      "title": "Bitcoin & Zcash Rally: ETFs, Security Upgrades Drive Market Shift"
+      "title": "The Anatomy of Meme Coin Speculation and Its Risks"
     }
   ]
 }
