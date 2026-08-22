@@ -79,7 +79,8 @@ export async function generateWithRetry({
       } catch (err) {
         errors.push(`[${m} #${attempt}] ${err.message}`);
         console.warn(`  basarisiz: ${err.message}`);
-        await sleep(attempt * 3000);
+        // 429 rate-limit cok yaygin; kisa bekleme yeterli olmuyor
+        await sleep(attempt === 1 ? 15000 : 30000);
       }
     }
   }

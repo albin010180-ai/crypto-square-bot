@@ -69,44 +69,66 @@ The caption's hashtag line should use exactly these 3 hashtags: ${topic.tags.sli
 ${baseRules()}`;
 }
 
-function validateLang(lang, part) {
-  if (!part || typeof part.title !== "string" || typeof part.caption !== "string") {
-    throw new Error(`${lang} video icerigi eksik`);
-  }
-  if (!Array.isArray(part.slides) || part.slides.length < 3 || part.slides.length > 5) {
-    throw new Error(`${lang} slayt sayisi hatali`);
-  }
-  part.slides = part.slides.map((s) => String(s).trim()).filter(Boolean);
-  if (part.slides.length < 3) throw new Error(`${lang} gecerli slayt kalmadi`);
-  const joined = `${part.title}\n${part.slides.join("\n")}\n${part.caption}`;
-  assertSafe(joined, `${lang} videosu`);
-  for (const s of part.slides) {
-    if (s.length > 160) throw new Error(`${lang} slayt cok uzun`);
-    if (/https?:\/\/|@[A-Za-z0-9_]/.test(s)) throw new Error(`${lang} slaytta URL/mention var`);
-  }
-  const tags = part.caption.match(/#[A-Za-z0-9_]+/g) || [];
-  if (tags.length < 3 || tags.length > 4) {
-    throw new Error(`${lang} caption hashtag sayisi hatali (${tags.length})`);
-  }
-  if (/https?:\/\//.test(part.caption)) throw new Error(`${lang} caption icinde URL var`);
-  if (/@[A-Za-z0-9_]/.test(part.caption)) throw new Error(`${lang} caption icinde mention var`);
-  part.title = part.title.trim().slice(0, 90);
-  part.caption = part.caption.trim();
-  return part;
+function repairHashtags(caption, fallbackTags = []) {
+  const tags = caption.match(/#[A-Za-z0-9_]+/g) || [];
+  if (tags.length >= 3) return caption;
+  const pool = [
+    ...fallbackTags,
+    "#Crypto",
+    "#CryptoNews",
+    "#Binance",
+    "#Blockchain",
+    "#CryptoTips",
+  ].filter((t) => !tags.includes(t));
+  const add = pool.slice(0, 3 - tags.length);
+  if (add.length === 0) return caption;
+  console.log(`  caption hashtag tamiri: ${add.join(" ")} eklendi`);
+  const lines = caption.split("\n");
+  lines.splice(Math.max(1, lines.length - 2), 0, add.join(" "));
+  return lines.join("\n");
 }
 
-function validate(result) {
-  validateLang("tr", result?.tr);
-  validateLang("en", result?.en);
-  return result;
+function makeValidate(fallbackTags = []) {
+  return function validate(result) {
+    for (const lang of ["tr", "en"]) {
+      const part = result?.[lang];
+      if (!part || typeof part.title !== "string" || typeof part.caption !== "string") {
+        throw new Error(`${lang} video icerigi eksik`);
+      }
+      if (!Array.isArray(part.slides) || part.slides.length < 3 || part.slides.length > 5) {
+        throw new Error(`${lang} slayt sayisi hatali`);
+      }
+      part.slides = part.slides.map((s) => String(s).trim()).filter(Boolean);
+      if (part.slides.length < 3) throw new Error(`${lang} gecerli slayt kalmadi`);
+      const joined = `${part.title}\n${part.slides.join("\n")}\n${part.caption}`;
+      assertSafe(joined, `${lang} videosu`);
+      for (const s of part.slides) {
+        if (s.length > 160) throw new Error(`${lang} slayt cok uzun`);
+        if (/https?:\/\/|@[A-Za-z0-9_]/.test(s)) throw new Error(`${lang} slaytta URL/mention var`);
+      }
+      part.caption = repairHashtags(part.caption.trim(), fallbackTags);
+      const tags = part.caption.match(/#[A-Za-z0-9_]+/g) || [];
+      if (tags.length < 3 || tags.length > 4) {
+        throw new Error(`${lang} caption hashtag sayisi hatali (${tags.length})`);
+      }
+      if (/https?:\/\//.test(part.caption)) throw new Error(`${lang} caption icinde URL var`);
+      if (/@[A-Za-z0-9_]/.test(part.caption)) throw new Error(`${lang} caption icinde mention var`);
+      part.title = part.title.trim().slice(0, 90);
+      part.caption = part.caption.trim();
+    }
+    return result;
+  };
 }
+
+const validateNews = makeValidate();
+const validateInfo = makeValidate(["#CryptoEducation", "#LearnCrypto"]);
 
 export async function generateVideoScript(candidate, cfg) {
   return generateWithRetry({
     apiKey: cfg.openrouterKey,
     model: cfg.model,
     prompt: buildNewsPrompt(candidate),
-    validate,
+    validate: validateNews,
     label: "video senaryosu",
     systemPrompt: "You are an expert crypto video producer. Always respond with valid JSON only.",
   });
@@ -117,7 +139,7 @@ export async function generateInfoVideoScript(topic, cfg) {
     apiKey: cfg.openrouterKey,
     model: cfg.model,
     prompt: buildInfoPrompt(topic),
-    validate,
+    validate: validateInfo,
     label: "bilgilendirme video senaryosu",
     systemPrompt: "You are an expert crypto educator. Always respond with valid JSON only.",
   });

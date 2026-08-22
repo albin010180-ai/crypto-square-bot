@@ -50,24 +50,59 @@ function aggressiveStrip(s) {
     .trim();
 }
 
+// [20030] "topic cannot contain punctuation" icin kademeli temizlik merdiveni
+function isolateHashtags(c) {
+  const tags = [...String(c).matchAll(/#[A-Za-z0-9_]+/g)].map((m) => m[0]).slice(0, 3);
+  const body = String(c)
+    .replace(/#[A-Za-z0-9_]+/g, " ")
+    .replace(/(\d)\s*%/g, "$1")
+    .replace(/\$/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  return tags.length >= 3 ? `${body}\n${tags.join(" ")}` : body;
+}
+
+function hardCore(c) {
+  const tags = [...String(c).matchAll(/#[A-Za-z0-9_]+/g)].map((m) => m[0]).slice(0, 3);
+  const body = String(c)
+    .replace(/#[A-Za-z0-9_]+/g, " ")
+    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return tags.length >= 3 ? `${body}\n${tags.join(" ")}` : body;
+}
+
+const CAPTION_VARIANTS = [
+  { name: "hafif", fn: (c) => stripRiskyPunct(c) },
+  { name: "agresif", fn: (c) => aggressiveStrip(c) },
+  { name: "hashtag-izole", fn: (c) => aggressiveStrip(isolateHashtags(c)) },
+  { name: "cekirdek", fn: hardCore },
+];
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function publishWithRetry(cfg, params) {
   let lastErr;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  let variantIdx = 0;
+
+  for (let attempt = 1; attempt <= 5 && variantIdx < CAPTION_VARIANTS.length; attempt++) {
     try {
-      params.caption = stripRiskyPunct(params.caption);
+      params.caption = CAPTION_VARIANTS[variantIdx].fn(params.caption);
       params.title = stripRiskyPunct(params.title);
-      return await publishVideoPost(cfg.binanceKey, {
+      console.log(`  yayin denemesi ${attempt} (caption varyant: ${CAPTION_VARIANTS[variantIdx].name})`);
+      console.log(`  CAPTION >>>\n${params.caption}\n<<<`);
+      const res = await publishVideoPost(cfg.binanceKey, {
         fileTicket: params.fileTicket,
         cover: params.cover,
         durationSec: params.durationSec,
         caption: params.caption,
       });
+      if (attempt > 1 || variantIdx > 0) console.log(`  basarili varyant: ${CAPTION_VARIANTS[variantIdx].name}`);
+      return res;
     } catch (err) {
       lastErr = err;
       if (/220094|Hashtag count/i.test(err.message)) {
-        console.warn("  hashtag limiti asildi, caption temizleniyor...");
+        console.warn("  hashtag limiti asildi, caption kisaltiliyor...");
         const tags = [...params.caption.matchAll(/#[A-Za-z0-9_]+/g)];
         if (tags.length > 4) {
           const cut = tags[4].index ?? -1;
@@ -76,13 +111,13 @@ async function publishWithRetry(cfg, params) {
         }
       }
       if (/220095|Coin pair/i.test(err.message)) {
-        console.warn("  cashtag limiti asildi, caption temizleniyor...");
+        console.warn("  cashtag limiti asildi, temizleniyor...");
         params.caption = params.caption.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, "$1");
         continue;
       }
       if (/20030|punctuation/i.test(err.message)) {
-        console.warn("  noktalama reddi, agresif temizlik yapiliyor...");
-        params.caption = aggressiveStrip(params.caption);
+        console.warn("  noktalama reddi -> siradaki caption varyanti deneniyor");
+        variantIdx += 1;
         await sleep(1500);
         continue;
       }

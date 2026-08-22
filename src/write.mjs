@@ -62,6 +62,38 @@ TWEET RULES (for each language's "tweet" field)
 - TR example: "Bitcoin 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
 }
 
+const FALLBACK_TAG_SETS = [
+  ["#Bitcoin", "#CryptoNews", "#MarketUpdate"],
+  ["#Ethereum", "#Altcoins", "#Blockchain"],
+  ["#Crypto", "#DeFi", "#Web3"],
+  ["#Bitcoin", "#ETF", "#Markets"],
+];
+
+function ensureHashtags(body) {
+  const tags = body.match(/#[A-Za-z0-9_]+/g) || [];
+  if (tags.length >= 3) return body;
+
+  const cycle = Math.floor(Date.now() / (4 * 60 * 60 * 1000));
+  const pool = FALLBACK_TAG_SETS[cycle % FALLBACK_TAG_SETS.length].filter(
+    (t) => !tags.includes(t)
+  );
+  const add = pool.slice(0, 3 - tags.length);
+  if (add.length === 0) return body;
+  console.log(`  hashtag tamiri: ${add.join(" ")} eklendi`);
+
+  const lines = body.split("\n");
+  const disclaimerIdx = lines.findLastIndex((l) =>
+    /^(Bu (haber|yazi|video)|This (news|article|video))/i.test(l.trim())
+  );
+  const tagLine = add.join(" ");
+  if (disclaimerIdx > 0) {
+    lines.splice(disclaimerIdx, 0, tagLine);
+  } else {
+    lines.push(tagLine);
+  }
+  return lines.join("\n");
+}
+
 function validate(result) {
   const tr = result?.tr;
   const en = result?.en;
@@ -87,6 +119,7 @@ function validate(result) {
     part.tweet = tweet;
   }
   for (const [label, part] of [["tr", tr], ["en", en]]) {
+    part.body = ensureHashtags(part.body.trim());
     const tagCount = (part.body.match(/#[A-Za-z0-9_]+/g) || []).length;
     if (tagCount < 3 || tagCount > 4) {
       throw new Error(`${label} govdesinde hashtag sayisi hatali (${tagCount}), 3-4 olmali`);
