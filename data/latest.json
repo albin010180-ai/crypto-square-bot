@@ -1,45 +1,92 @@
 {
-  "startedAt": "2026-08-22T09:02:31.243Z",
-  "finishedAt": "2026-08-22T09:06:23.601Z",
+  "startedAt": "2026-08-22T21:37:24.103Z",
+  "finishedAt": "2026-08-22T21:39:46.515Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
-  "contentTopic": "memecoin-riskleri",
+  "contentType": "news",
+  "contentTopic": null,
   "sourceErrors": [],
-  "candidates": [],
-  "selected": [],
+  "candidates": [
+    {
+      "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531"
+    },
+    {
+      "title": "SEC proposes a path for crypto projects to raise $75 million and later end the token’s securities contract",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/sec-proposes-a-path-for-crypto-projects-to-raise-75-million-and-later-end-the-tokens-securities-contract/"
+    },
+    {
+      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit"
+    },
+    {
+      "title": "Ripple Stablecoin Lead: This XRP Ledger Feature Could Matter Big for RLUSD",
+      "source": "U.Today",
+      "link": "https://u.today/ripple-stablecoin-lead-this-xrp-ledger-feature-could-matter-big-for-rlusd"
+    },
+    {
+      "title": "How a former crypto user’s archived Binance data ended up in a foreign terrorism prosecution",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/binance-left-russia-years-ago-but-moscow-still-got-customer-records-used-in-a-terrorism-case/"
+    },
+    {
+      "title": "Bitcoin crash forced Riot to pledge 1,825 BTC, but this huge rally may now free up 1,500 BTC",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-crash-forced-riot-to-pledge-1825-btc-but-this-huge-rally-may-now-free-1500-btc/"
+    },
+    {
+      "title": "XRP Completes Double Golden Cross Against BTC, $2 Next?",
+      "source": "U.Today",
+      "link": "https://u.today/xrp-completes-double-golden-cross-against-btc-2-next"
+    },
+    {
+      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back"
+    },
+    {
+      "title": "Reaching instant 27ms validation on Bitcoin will take 17 GPU years of compute power",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/reaching-instant-27ms-validation-on-bitcoin-will-take-17-gpu-years-of-compute-power/"
+    },
+    {
+      "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code"
+    }
+  ],
+  "selected": [
+    "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
+    "https://cryptoslate.com/sec-proposes-a-path-for-crypto-projects-to-raise-75-million-and-later-end-the-tokens-securities-contract/",
+    "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
+    "https://cryptoslate.com/bitcoin-crash-forced-riot-to-pledge-1825-btc-but-this-huge-rally-may-now-free-1500-btc/",
+    "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back"
+  ],
   "articles": {
     "tr": {
-      "title": "Meme Coin Spekulasyonu Nedir ve Risikleri",
-      "body": "Meme coin, internet kültürüyle ilişkili kripto varlıklardır. Bu tür varlıklar genellikle virüsleşebilir, hem pozitif hem negatif olabilecek meme'lerden oluşturulur. Örneğin, bir meme coşuyle ilgili bir meme viral ederse, bu varlığın fiyatı kısa sürede artabilir. Bu süreç, 'spekulasyon' olarak adlandırılır çünkü varlığın gerçek değerle ilişkili değil, toplumda ilgi çekme gücüyle artar. Spekulasyonun nasıl çalıştığını anlamak için, bir virüsleşebilir TikTok desafı ile ilişkilendirebiliriz. Bu défanın popüler olması, ilgili ürünün veya varlığın değerini artırır. Bu durumda meme coin de benzer bir mekanizma kullanır.\n\nMeme coin'lerin spekulasyonunun temel prensibi, sosyal medya üzerindeki ilginin fiyatın etkisini dirgistirmektir. Kullanıcılar, bir meme coşu veya bir virüsleşmezawa ile ilgi çekilirse, varlığın fiyatını hızlıca artıran alışveriş yapabilir. Ancak bu ilgin, zaman içinde gidişat alır. Örneğin, bir meme varlığı virüsleşirse, geçen gün popülerlik kaybolsa, fiyatın sonrasında düşmesi beklenebilir. Bu duruma 'fomobuyu' denir. Spekulasyonun etkili olması için, varlık çok az veya herkesin alabileceği miktarda oluşturulmalıdır. Bu, 'yapay casek' gibi bir yapı oluşturur. Eğer bir meme coin 100 milyon tane varlıkla oluşturuluyorsa, bazı kullanıcılar daha yüksek fiyatlarda almak için işgal edebilir.\n\nSpekulasyonun riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bir meme coin, bir virüsleşme ile fiyatı 1000% artırabilir. Ancak bu artış, bir virüsleşme sonrası 90% düşebilir. Bu, yatırımcılara büyük kayıplara neden olabilir. Ayrıca, meme coin'lerin çoğu, gerçek projelerle karşılaştırıldığında basit amaçlara sahiptir. Örneğin, bir meme varlığı, sadece bir meme coşuyla veya bir internet kültürüyle desteklenebiliyor. Bu, varlığın uzun vadeli değerini azaltır. Spekulasyonun diğer riskleri, 'herkesi katar' gibi bir ilgi veya varsayılan doğru bir karar almakla ilgili. Kullanıcılar, bir meme coin'un fiyatı artıyorsa, diğerleri de alıyorsa, kendisi de almalı diye düşünebilir. Bu,]['eksik bilgi' riski anlamına gelir.\n\nSpekulasyonun önlenebilirlikleri, dikkatli bir bakışla mümkün olabilir. Öncelikle, bir meme coin'un proje detaylarını incelemek gerekir. Eğer bir varlık, gerçek bir kullanım alanı veya teknolojik avantajla desteklenmiyorsa, riskli olabilir. Örneğin, bir meme coin, sadece bir meme coşuyla destekleniyorsa, bu, varlığın gerçek değerini göstermiyor. Ayrıca, proje yarı anonym veya bir:e işlemcisi veya geliştirici bilgisi eksikse, dikkat edilmelidir. Bu, 'yapay casek' yaniCYC (Yapay casek) riski anlamına gelir. Spekulasyonun diğer riskleri, sosyal medya üzerindeki ilginin bir kez kalmadığını ve fiyatın sonrasında düşmesi olabilir. Bu, 'fomobuyu' olarak bilinen bir risktir. Spekulasyonun en önemli riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bu, yatırımcılara büyük kayıplara neden olabilir.\n\nSpekulasyonun risklerini azaltmak için, bir meme coin'un proje detaylarını incelemek ve sosyal medya üzerindeki ilginin kime ait olduğunu kontrol etmek gerekir. Örneğin, bir meme coin, bir virüsleşmezawa ile destekleniyorsa, bu, varlığın uzun vadeli değerini azaltabilir. Ayrıca, bir meme coin, gerçek bir kullanım alanı veya teknolojik avantajla desteklenmiyorsa, riskli olabilir. Spekulasyonun en önemli riskleri, yüksek volatilite ve eksik bilgi ile ilişkilendirilebilir. Bu, yatırımcılara büyük kayıplara neden olabilir.\n#Bitcoin #CryptoNews #MarketUpdate",
-      "tweet": "Meme coin'lerin spekulasyonu ve riskleri hakkında bilgi almak istiyorsanız, bu makale için dikkat edin. #MemeCoins #RiskManagement #CryptoEducation"
+      "title": "ETF'lere 2.6 Milyar Dolar, SEC'ten 75 Milyon Dolarlık Yol Haritası",
+      "body": "Kripto piyasası Ekim ayından bu yana en güçlü ETF giriş haftasını geride bıraktı. The Block'un haberine göre, $BTC ve $ETH ETF'lerine toplam 2.6 milyar dolar giriş gerçekleşti ve haftalık işlem hacmi üç katına çıkarak 29 milyar dolara ulaştı. Her iki varlık da değer kazansa da, her iki ETF kategorisi de yıl bazında negatif seyrini sürdürüyor.\n\nRegülasyon tarafında SEC, kripto projelerinin 75 milyon dolara kadar fon bulabilmesi ve daha sonra tokenın menkul kıymet sözleşmesini sonlandırabilmesi için bir çerçeve önerdi. CryptoSlate'ın bildirdiğine göre öneri, bir token anlamlı kullanım kazanmadan önce ağ geliştirmesinin nasıl finanse edileceğini ele alıyor. Bu adım, regülatörlerin token ihracı ve uyum için daha net yollar oluşturma çabasının bir parçası olarak görülüyor.\n\nGüvenlik cephesinde Web3 oyun platformu The Sandbox, bir exploit sonrası Base ve BNB Chain üzerindeki köprüleme işlemlerini durdurdu. CoinDesk'in haberine göre proje, etkilenen ağlarda tokenları izole etti ve kullanıcıları $SAND'ı bu ağlarda işlem yapmamaları konusunda uyardı. Etkilenen miktarın toplam arzın yüzde 0.01'inden az olduğu belirtildi.\n\nMadencilik tarafında Riot Platforms'ın teminat durumu hafifliyor olabilir. Şirket, 2026 başında 200 milyon dolarlık Coinbase kredisinde bir fiyat düşüşü sonrası 1.825 BTC daha teminat vermiş ve toplam teminat 5.802 BTC'ye ulaşmıştı. CryptoSlate'ın haberine göre Bitcoin'in son rallisi ile yaklaşık 1.500 BTC'nin bu düzenlemeden serbest kalabileceği belirtiliyor.\n\nBu arada yaklaşık 20 geliştiriciden oluşan bir grup, Bitcoin ekosistemini yapay zeka araçlarının istismar edebileceği açıklara karşı tarıyor. Decrypt'in haberine göre grup, ucuz ve güçlü yapay zeka modellerinin saldırganlara Bitcoin yazılımındaki kusurları keşfetmek için benzeri görülmemiş bir ulaşılabilirlik sağladığını öne sürüyor.\n\n#ETF #KriptoRegülasyon #BitcoinGüvenliği\n\nKaynaklar: The Block, CryptoSlate, CoinDesk, Decrypt\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "ETF'lere 2.6 milyar dolar giriş; SEC kripto projeleri için 75 milyon dolarlık yol önerdi #ETF #Regülasyon #KriptoHaber"
     },
     "en": {
-      "title": "The Anatomy of Meme Coin Speculation and Its Risks",
-      "body": "Meme coins are cryptocurrencies tied to internet culture. These tokens often originate from viral memes, which can be either positive or negative. For example, if a meme related to a specific topic goes viral, the price of the associated cryptocurrency might spike quickly. This process is called 'speculation' because the value is driven by social media attention rather than intrinsic value. To understand how this works, imagine a TikTok challenge that goes viral. The popularity of the challenge can increase the value of related products or tokens. Similarly, meme coins operate on the same principle.\n\nThe core mechanism of meme coin speculation is the correlation between social media attention and price. When a meme or viral event captures public interest, traders might buy the cryptocurrency, driving its price up. However, this attention is temporary. For instance, if a meme coin becomes popular due to a viral meme, its price might drop after the meme's popularity fades. This is known as 'fomobuy'—a rush to buy due to fear of missing out. Effective speculation requires a cryptocurrency with a limited or highly divisible supply. For example, if a meme coin is created with 100 million tokens, some traders might buy at higher prices, creating artificial scarcity.\n\nThe risks of speculation include extreme volatility and lack of information. A meme coin's price can surge by 1000% due to a viral event, but it might drop by 90% afterward. This can lead to significant losses for investors. Additionally, most meme coins lack real-world utility compared to traditional projects. For example, a meme coin might be supported solely by a meme or an internet trend, which diminishes its long-term value. Other risks include herd mentality and assuming others' actions are correct. Investors might think, 'If others are buying, I should too,' leading to decisions based on incomplete information.\n\nMitigating these risks requires careful analysis. First, review the project's details. If a cryptocurrency lacks a real use case or technological advantage, it may be risky. For instance, a meme coin backed only by a meme or internet trend doesn't reflect its true value. Also, if the project is semi-anonymous or lacks developer transparency, caution is needed. These are signs of 'artificial scarcity' or 'pump-and-dump' risks. The most significant risks are high volatility and lack of information, which can lead to substantial losses.\n\nTo reduce these risks, examine the project's details and verify the source of social media attention. For example, if a meme coin is supported by a viral meme, its long-term value might be low. Also, if a meme coin lacks real-world utility or technological innovation, it may be risky. The key risks of speculation are high volatility and incomplete information, which can result in significant losses.\n#Bitcoin #CryptoNews #MarketUpdate",
-      "tweet": "Learn about meme coin speculation and its risks in this article. #MemeCoins #RiskManagement #CryptoEducation"
+      "title": "ETFs See $2.6B Inflows, SEC Proposes $75M Raise Path, Sandbox Halts Bridging",
+      "body": "The crypto market just recorded its strongest ETF inflow week since October. According to The Block, combined $BTC and $ETH ETFs drew $2.6 billion in inflows while weekly trading volume more than tripled to $29 billion as both assets rallied. Despite the momentum, both ETF categories remain negative on the year.\n\nOn the regulatory front, the SEC has proposed a framework allowing crypto projects to raise up to $75 million before eventually terminating a token's securities contract. CryptoSlate reported that the proposal addresses how teams can fund network development before a token achieves meaningful utility, signaling continued regulatory efforts to define clearer pathways for token issuance.\n\nSecurity concerns resurfaced as Web3 gaming platform The Sandbox disabled bridging on Base and BNB Chain following an exploit. CoinDesk reported that the project isolated affected tokens and warned users not to trade $SAND on those networks, though the impact was limited to under 0.01% of total supply.\n\nIn the mining sector, Riot Platforms' collateral situation may be easing. The miner had pledged an additional 1,825 BTC earlier in 2026 after a price decline triggered collateral requirements on a $200 million Coinbase loan, bringing total pledged collateral to 5,802 BTC. With Bitcoin's recent rally, approximately 1,500 BTC could potentially be freed from the arrangement, according to CryptoSlate.\n\nMeanwhile, a group of roughly 20 developers is actively scanning the Bitcoin ecosystem for vulnerabilities that AI tools could exploit. Decrypt reported that the red-team group warns cheap and powerful AI models have given attackers unprecedented ability to discover flaws in Bitcoin software, prompting proactive defense efforts across the ecosystem.\n\n#ETF #CryptoRegulation #BitcoinSecurity\n\nSources: The Block, CryptoSlate, CoinDesk, Decrypt\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "ETFs drew $2.6B in best inflow week since October; SEC proposes $75M raise path for crypto projects #ETF #Regulation #CryptoNews"
     }
   },
   "published": [
     {
-      "lang": "tr",
-      "id": 358393002748440,
-      "url": "https://www.binance.com/square/post/358393002748440",
-      "shortPost": {
-        "id": 358393004461647,
-        "url": "https://www.binance.com/square/post/358393004461647"
-      },
-      "title": "Meme Coin Spekulasyonu Nedir ve Risikleri"
-    },
-    {
       "lang": "en",
-      "id": 358393376431065,
-      "url": "https://www.binance.com/square/post/358393376431065",
+      "id": 358578527897694,
+      "url": "https://www.binance.com/square/post/358578527897694",
       "shortPost": {
-        "id": 358393378735219,
-        "url": "https://www.binance.com/square/post/358393378735219"
+        "id": 358578529840454,
+        "url": "https://www.binance.com/square/post/358578529840454"
       },
-      "title": "The Anatomy of Meme Coin Speculation and Its Risks"
+      "title": "ETFs See $2.6B Inflows, SEC Proposes $75M Raise Path, Sandbox Halts Bridging"
     }
   ]
 }
