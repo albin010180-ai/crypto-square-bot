@@ -1,51 +1,61 @@
 {
-  "startedAt": "2026-08-22T06:41:44.312Z",
-  "finishedAt": "2026-08-22T06:46:38.849Z",
+  "startedAt": "2026-08-22T10:02:30.867Z",
+  "finishedAt": "2026-08-22T10:07:10.467Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "halving-mantigi"
+    "type": "news",
+    "title": "Bitcoin hits $80,000’s doorstep just as the ETF bid disappears for the weekend",
+    "source": "CryptoSlate",
+    "link": "https://cryptoslate.com/bitcoin-hits-80000s-doorstep-just-as-the-etf-bid-disappears-for-the-weekend/",
+    "usedLink": "https://cryptoslate.com/bitcoin-hits-80000s-doorstep-just-as-the-etf-bid-disappears-for-the-weekend/",
+    "usedTitleNorm": "bitcoin hits 80 000 s doorstep just as the etf bid disappears for the weekend"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin Halving Nedir ve Nasıl İşler?",
+      "title": "Bitcoin $80.000ye Yaklassiginda Hafta Sonu Rallysi",
       "slides": [
-        "Bitcoin'ın arzı her dört yılda bir yarıya inen programlanmış bir olaydır.",
-        "Halving, bitcoin ödüllerini yarıya indirerek minerlerin kazançlarını azaltır.",
-        "Minerlerin geliri değişir, bu da ağ güvenliği ve ücretleri etkileyebilir.",
-        "Halving döneminde piyasa oynaklığının artabileceğini bilmelisiniz."
+        "Bitcoin $80.000e yaklaşirken hafta sonu yükselişi kaydediyor",
+        "21 Agustustu gunluk Yuksek $79.500 oldu",
+        "Hafta sonu rallysi iki yılda en guclu artis oldu",
+        "Büyük ETF akımları ve kısa satırların sıvırılması hareketi tetikledi"
       ],
-      "caption": "Bitcoin halving, her dört yılda bir, yeni Bitcoin ödüllerini yarıya indirir.\nBu, Bitcoin arzını sınırlayarak fiyatı etkileyebilecek bir programlanmış olaydır.\nKullanıcılar, halving dönemi sırasında piyasa oynaklığının artabileceğini bilmelidir.\n#Bitcoin #Halving #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin $80.000e yaklaşirken hafta sonu yükselişi kaydediyor. Haftalık rally iki yılda en güçlü artışı sağladı.\n#Bitcoin #Crypto #ETF\nKaynaklar: CryptoSlate\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanızı yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     },
     "en": {
-      "title": "What Bitcoin Halving Is and How It Works",
+      "title": "Bitcoin Nears $80,000 as Weekend Rally Peaks",
       "slides": [
-        "Bitcoin's supply halves every four years in a built-in monetary event.",
-        "The halving cuts new bitcoin rewards for miners by half.",
-        "Miners' income changes, potentially affecting network security and fees.",
-        "Watch for market speculation and adjust expectations accordingly."
+        "Bitcoin heads toward $80,000 as the weekend approaches",
+        "Intraday high reached $79,500 on August 21",
+        "Weekly rally marks the strongest gain in two years",
+        "Large ETF inflows and short liquidations drove the move"
       ],
-      "caption": "Bitcoin halving reduces new bitcoin rewards for miners by half every four years.\nIt is a pre‑programmed event that caps total supply and may influence price dynamics.\nUsers should be aware of increased market volatility around halving periods.\n#Bitcoin #Halving #Binance\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin is nearing $80,000 as the weekend approaches. The weekly rally marks the strongest gain in two years.\n#Bitcoin #Crypto #ETF\nSources: CryptoSlate\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanızı yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358358574114899,
-      "url": "https://www.binance.com/square/post/358358574114899",
+      "id": 358407852623686,
+      "url": "https://www.binance.com/square/post/358407852623686",
       "note": null,
-      "shortPostError": "publishShortPost is not defined",
-      "title": "Bitcoin Halving Nedir ve Nasıl İşler?"
+      "shortPost": {
+        "id": 358407854202235,
+        "url": "https://www.binance.com/square/post/358407854202235"
+      },
+      "title": "Bitcoin $80.000ye Yaklassiginda Hafta Sonu Rallysi"
     },
     {
       "lang": "en",
-      "id": 358359034879309,
-      "url": "https://www.binance.com/square/post/358359034879309",
+      "id": 358408313229565,
+      "url": "https://www.binance.com/square/post/358408313229565",
       "note": null,
-      "shortPostError": "publishShortPost is not defined",
-      "title": "What Bitcoin Halving Is and How It Works"
+      "shortPost": {
+        "id": 358408316335595,
+        "url": "https://www.binance.com/square/post/358408316335595"
+      },
+      "title": "Bitcoin Nears $80,000 as Weekend Rally Peaks"
     }
   ]
 }
