@@ -1,61 +1,57 @@
 {
-  "startedAt": "2026-08-22T17:59:48.928Z",
-  "finishedAt": "2026-08-22T18:03:18.387Z",
+  "startedAt": "2026-08-22T21:59:52.169Z",
+  "finishedAt": "2026-08-22T22:04:46.072Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Zcash hits eight-year high near $850 with futures volume near $10 billion amid Grayscale ETF push",
-    "source": "The Block",
-    "link": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
-    "usedLink": "https://www.theblock.co/news/ecosystems/2026-08-22-zcash-hits-eight-year-high-near-850-with-futures-volume-near-10-billion-amid-grayscale-etf-push-412528",
-    "usedTitleNorm": "zcash hits eight year high near 850 with futures volume near 10 billion amid grayscale etf push"
+    "type": "info",
+    "topicId": "rug-pull-isaretleri"
   },
   "script": {
     "tr": {
-      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars",
+      "title": "Rug Pull Olaylarını Erken Fark Etmek – Dikkat Edilmesi Gerekenler",
       "slides": [
-        "Zcash reaches historic level near eight year high today",
-        "Futures trading generates over nine billion dollars in 24 hours",
-        "Open interest stands at almost two point seven billion dollars",
-        "Grayscale ETF announcement drives increased derivative activity"
+        "Bir rug pull scamsı, yatırım yaptığınız anda likiditeyi kaybeder.",
+        "Anonim ekipleri ve doğrulanamayan token sözleşmelerini izleyin.",
+        "Gerçek kullanım olmadan hızlı fiyat artışları genellikle çıkış planını gösterir.",
+        "Satın almadan önce proje yol haritasını ve topluluk etkileşimini doğrulayın."
       ],
-      "caption": "Zcash approaches its highest price in eight years while futures volume surges. Derivatives account for most of recent trading activity.\n#Zcash #CryptoMarkets #Futures\nBu video yapay zeka destekli olarak hazirlanmstir; yatırim tavsiyesi degildir. Kendi arastimanızı yapınız (DYOR)."
+      "caption": "Rug pull dolandırıcılıkları dikkatli bakmazsanız gözden kaçabilir; erken işaretleri öğrenin. Yatırım yapmadan önce token sözleşmelerini ve ekibin şeffaflığını kontrol edin. Dikkatli olun ve topluluk etkinliğini doğrulayın.\n#ScamAlert #Security #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars",
+      "title": "Spotting Rug Pulls Early – Key Red Flags to Watch",
       "slides": [
-        "Zcash reaches historic level near eight year high today",
-        "Futures trading generates over nine billion dollars in 24 hours",
-        "Open interest stands at almost two point seven billion dollars",
-        "Grayscale ETF announcement drives increased derivative activity"
+        "A rug pull scam disappears liquidity the moment you invest.",
+        "Watch for anonymous teams and unverifiable token contracts.",
+        "Rapid price spikes without real use often signal a planned exit.",
+        "Always verify the project roadmap and community engagement before buying."
       ],
-      "caption": "Zcash climbs toward its eight year high with rising futures volume. Derivative markets dominate total trading activity.\n#Zcash #CryptoMarkets #Derivatives\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Rug pull scams hide in plain sight; learn to spot early warning signs. Check token contracts and team transparency before investing. Use caution and verify community activity.\n#ScamAlert #Security #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358524859914596,
-      "url": "https://www.binance.com/square/post/358524859914596",
+      "id": 358584206895957,
+      "url": "https://www.binance.com/square/post/358584206895957",
       "note": null,
       "shortPost": {
-        "id": 358524861572062,
-        "url": "https://www.binance.com/square/post/358524861572062"
+        "id": 358584208480384,
+        "url": "https://www.binance.com/square/post/358584208480384"
       },
-      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars"
+      "title": "Rug Pull Olaylarını Erken Fark Etmek – Dikkat Edilmesi Gerekenler"
     },
     {
       "lang": "en",
-      "id": 358525326581404,
-      "url": "https://www.binance.com/square/post/358525326581404",
+      "id": 358584670000957,
+      "url": "https://www.binance.com/square/post/358584670000957",
       "note": null,
       "shortPost": {
-        "id": 358525330419957,
-        "url": "https://www.binance.com/square/post/358525330419957"
+        "id": 358584672048119,
+        "url": "https://www.binance.com/square/post/358584672048119"
       },
-      "title": "Zcash Hits Eight Year High Near $850 Futures Volume Soars"
+      "title": "Spotting Rug Pulls Early – Key Red Flags to Watch"
     }
   ]
 }
