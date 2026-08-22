@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { loadEnv } from "./src/env.mjs";
@@ -7,10 +7,17 @@ import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateVideoScript, generateInfoVideoScript } from "./src/video-script.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
 import { uploadVideoAsset, uploadImageAsset, publishVideoPost } from "./src/video-publish.mjs";
-import { publishShortPost } from "./src/publish.mjs";
+import {
+  publishShortPostSafe,
+  stripRiskyPunct,
+  aggressiveStrip,
+  isolateHashtags,
+  hardCore,
+} from "./src/publish.mjs";
 import { speak, makeSlides, renderVideo } from "./src/media.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
+const STAGGER_MS = Number.parseInt(process.env.POST_STAGGER_MS ?? "90000", 10) || 90000;
 
 function parseArgs() {
   return {
@@ -32,44 +39,6 @@ function buildCfg() {
       .filter(Boolean),
     footer: process.env.VIDEO_FOOTER?.trim() || "@Mr_Emanetson | Binance Square",
   };
-}
-
-// [20030] "topic cannot contain punctuation" hatasina karsi temizlik
-function stripRiskyPunct(s) {
-  return String(s)
-    .replace(/["""''`:;()\[\]{}<>|\\\/~^*_+=@]/g, " ")
-    .replace(/\$(?=\d)/g, "")
-    .replace(/\s{2,}/g, " ")
-    .trim();
-}
-
-function aggressiveStrip(s) {
-  return String(s)
-    .replace(/[^\p{L}\p{N}\s#$.!?,%-]/gu, "")
-    .replace(/\s{2,}/g, " ")
-    .trim();
-}
-
-// [20030] "topic cannot contain punctuation" icin kademeli temizlik merdiveni
-function isolateHashtags(c) {
-  const tags = [...String(c).matchAll(/#[A-Za-z0-9_]+/g)].map((m) => m[0]).slice(0, 3);
-  const body = String(c)
-    .replace(/#[A-Za-z0-9_]+/g, " ")
-    .replace(/(\d)\s*%/g, "$1")
-    .replace(/\$/g, "")
-    .replace(/\s{2,}/g, " ")
-    .trim();
-  return tags.length >= 3 ? `${body}\n${tags.join(" ")}` : body;
-}
-
-function hardCore(c) {
-  const tags = [...String(c).matchAll(/#[A-Za-z0-9_]+/g)].map((m) => m[0]).slice(0, 3);
-  const body = String(c)
-    .replace(/#[A-Za-z0-9_]+/g, " ")
-    .replace(/[^\p{L}\p{N}\s]/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  return tags.length >= 3 ? `${body}\n${tags.join(" ")}` : body;
 }
 
 const CAPTION_VARIANTS = [
@@ -204,7 +173,13 @@ async function main() {
     videos: [],
   };
 
+  let firstLang = true;
   for (const lang of cfg.langs) {
+    if (!firstLang && !dryRun) {
+      console.log(`spam-onleme: sonraki dil icin ${STAGGER_MS / 1000}sn bekleniyor...`);
+      await sleep(STAGGER_MS);
+    }
+    firstLang = false;
     const part = script[lang];
     if (!part) {
       console.warn(`${lang}: senaryo yok, atlandi`);
@@ -252,8 +227,9 @@ async function main() {
       console.log(`[${lang.toUpperCase()}] kisa post yayinlaniyor...`);
       try {
         const shortText = `${part.title}\n\n${part.caption.split("\n").slice(-2).join("\n")}`;
-        res.shortPost = await publishShortPost(cfg.binanceKey, { text: shortText.slice(0, 500) });
-        console.log(`  Kisa post OK: ${res.shortPost.url ?? res.shortPost.note ?? "(id alinamadi)"}`);
+        const sp = await publishShortPostSafe(cfg.binanceKey, { text: shortText });
+        res.shortPost = sp.result;
+        console.log(`  Kisa post OK: ${sp.result.url ?? sp.result.note ?? "(id alinamadi)"}`);
       } catch (err) {
         console.warn(`  Kisa post atlandi: ${err.message}`);
         res.shortPostError = err.message;

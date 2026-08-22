@@ -3,7 +3,7 @@ import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, save
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles, generateInfoArticles } from "./src/write.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
-import { publishArticle, publishShortPost } from "./src/publish.mjs";
+import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
 import { tweet } from "./src/x.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
@@ -165,7 +165,15 @@ async function main() {
   const xEnabled = Object.values(cfg.x).every(Boolean);
   if (!xEnabled) console.log("X entegrasyonu kapali (API anahtarlari tanimli degil).");
 
+  const staggerMs = Number.parseInt(process.env.POST_STAGGER_MS ?? "90000", 10) || 90000;
+  let firstLang = true;
+
   for (const [lang, art] of [["tr", article.tr], ["en", article.en]]) {
+    if (!firstLang && !dryRun) {
+      console.log(`spam-onleme: sonraki dil icin ${staggerMs / 1000}sn bekleniyor...`);
+      await new Promise((r) => setTimeout(r, staggerMs));
+    }
+    firstLang = false;
     let body = art.body;
     let okResult = null;
     for (let attempt = 1; attempt <= 2; attempt++) {
@@ -206,8 +214,9 @@ async function main() {
 
       console.log(`${lang.toUpperCase()} kisa post yayinlaniyor...`);
       try {
-        okResult.shortPost = await publishShortPost(cfg.binanceKey, { text: art.tweet });
-        console.log(`  Kisa post OK: ${okResult.shortPost.url ?? okResult.shortPost.note ?? "(id alinamadi)"}`);
+        const sp = await publishShortPostSafe(cfg.binanceKey, { text: art.tweet });
+        okResult.shortPost = sp.result;
+        console.log(`  Kisa post OK: ${sp.result.url ?? sp.result.note ?? "(id alinamadi)"}`);
       } catch (err) {
         console.warn(`  Kisa post atlandi: ${err.message}`);
         okResult.shortPostError = err.message;
