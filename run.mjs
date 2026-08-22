@@ -3,7 +3,7 @@ import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, save
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles, generateInfoArticles } from "./src/write.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
-import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
+import { publishArticle, publishShortPostSafe, stripRiskyPunct, aggressiveStrip } from "./src/publish.mjs";
 import { tweet } from "./src/x.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
@@ -62,11 +62,12 @@ function limitCashtags(text, max = 4) {
 function sanitizeAll(title, body) {
   return {
     title: limitHashtags(limitCashtags(title)).trim(),
-    body: limitHashtags(limitCashtags(body))
-      .replace(/[ \t]+(\r?\n)/g, "$1")
-      .replace(/\n{3,}/g, "\n\n")
-      .trim(),
+    body,
   };
+}
+
+function hardTitle(s) {
+  return s.replace(/[^\p{L}\p{N}\s#@]/gu, " ").replace(/\s+/g, " ").trim();
 }
 
 async function main() {
@@ -181,7 +182,7 @@ async function main() {
     firstLang = false;
     let body = art.body;
     let okResult = null;
-    for (let attempt = 1; attempt <= 2; attempt++) {
+    for (let attempt = 1; attempt <= 4; attempt++) {
       try {
         console.log(`${lang.toUpperCase()} makalesi yayinlaniyor...`);
         okResult = await publishArticle(cfg.binanceKey, {
@@ -191,6 +192,12 @@ async function main() {
         console.log(`  OK: ${okResult.url ?? okResult.note ?? "(id alinamadi)"}`);
         break;
       } catch (err) {
+        if (/20030|punctuation/i.test(err.message) && attempt <= 3) {
+          const before = art.title;
+          art.title = attempt === 1 ? stripRiskyPunct(before) : attempt === 2 ? aggressiveStrip(before) : hardTitle(art.title);
+          console.warn(`  [20030] baslik temizlendi (${attempt}/3), tekrar denenecek`);
+          continue;
+        }
         if (/220094|Hashtag count|220095|Coin pair/i.test(err.message) && attempt === 1) {
           console.warn(`  etiket limiti asildi, govde temizlenip tekrar denenecek`);
           const clean = sanitizeAll(art.title, body);
