@@ -1,8 +1,9 @@
 import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
-import { generateArticles } from "./src/write.mjs";
-import { publishArticle } from "./src/publish.mjs";
+import { generateArticles, generateInfoArticles } from "./src/write.mjs";
+import { pickInfoTopic } from "./src/info-topics.mjs";
+import { publishArticle, publishShortPost } from "./src/publish.mjs";
 import { tweet } from "./src/x.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
@@ -11,6 +12,7 @@ function parseArgs() {
   return {
     dryRun: process.argv.includes("--dry-run"),
     force: process.argv.includes("--force") || process.env.FORCE_PUBLISH === "true",
+    info: process.argv.includes("--info") || process.env.CONTENT_MODE === "info",
   };
 }
 
@@ -69,7 +71,7 @@ function sanitizeAll(title, body) {
 
 async function main() {
   const startedAt = new Date().toISOString();
-  const { dryRun, force } = parseArgs();
+  const { dryRun, force, info } = parseArgs();
   loadEnv();
   const cfg = buildCfg();
   ensureDirs();
@@ -85,32 +87,54 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`[${startedAt}] Calistirma basladi${dryRun ? " (DRY-RUN)" : ""}`);
+  console.log(`[${startedAt}] Calistirma basladi${dryRun ? " (DRY-RUN)" : ""}${info ? " (BILGILENDIRME MODU)" : ""}`);
   console.log(`Model: ${cfg.model}`);
 
+  let article;
+  let contentType = info ? "info" : "news";
+  let usedCandidates = [];
+  let useInfo = info;
+  let sourceErrors = [];
+  let record_topic = null;
   const history = loadHistory();
-  const seenLinks = new Set(history.links);
-  const seenTitles = new Set(history.titles);
 
-  console.log("Haber kaynaklari taraniyor...");
-  const { candidates, totalFetched, errors } = await collectNews({
-    maxCandidates: cfg.maxCandidates,
-  });
-  for (const e of errors) console.warn(`  kaynak hatasi: ${e}`);
-  console.log(`${totalFetched} haber okundu, ${candidates.length} aday secildi.`);
+  if (!useInfo) {
+    const seenLinks = new Set(history.links);
+    const seenTitles = new Set(history.titles);
 
-  const fresh = force
-    ? candidates
-    : candidates.filter(
-        (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
-      );
-  console.log(`Daha once kullanilmamis: ${fresh.length} aday.${force ? " (FORCE: gecmis yoksayildi)" : ""}`);
-  if (fresh.length === 0) {
-    console.log("Yeni kullanilabilir haber yok, bu tur atlandi.");
-    return;
+    console.log("Haber kaynaklari taraniyor...");
+    const { candidates, totalFetched, errors } = await collectNews({
+      maxCandidates: cfg.maxCandidates,
+    });
+    sourceErrors = errors;
+    for (const e of errors) console.warn(`  kaynak hatasi: ${e}`);
+    console.log(`${totalFetched} haber okundu, ${candidates.length} aday secildi.`);
+
+    const fresh = force
+      ? candidates
+      : candidates.filter(
+          (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
+        );
+    console.log(`Daha once kullanilmamis: ${fresh.length} aday.${force ? " (FORCE: gecmis yoksayildi)" : ""}`);
+
+    if (fresh.length === 0) {
+      console.log("Yeni haber yok -> bilgilendirme makalesi uretilecek.");
+      useInfo = true;
+      contentType = "info";
+    } else {
+      usedCandidates = fresh;
+      article = await generateArticles(fresh, cfg);
+    }
   }
 
-  const article = await generateArticles(fresh, cfg);
+  if (useInfo && !article) {
+    contentType = "info";
+    const topic = pickInfoTopic(new Date(), 1);
+    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.tr}`);
+    article = await generateInfoArticles(topic, cfg);
+    record_topic = topic.id;
+  }
+
   console.log(`\n=== TR: ${article.tr.title}`);
   console.log(`=== EN: ${article.en.title}\n`);
 
@@ -119,8 +143,10 @@ async function main() {
     finishedAt: null,
     dryRun,
     model: cfg.model,
-    sourceErrors: errors,
-    candidates: fresh.map((c) => ({ title: c.title, source: c.source, link: c.link })),
+    contentType,
+    contentTopic: record_topic ?? null,
+    sourceErrors,
+    candidates: usedCandidates.map((c) => ({ title: c.title, source: c.source, link: c.link })),
     selected: article.selected,
     articles: { tr: article.tr, en: article.en },
     published: [],
@@ -177,13 +203,25 @@ async function main() {
           okResult.xError = err.message;
         }
       }
+
+      console.log(`${lang.toUpperCase()} kisa post yayinlaniyor...`);
+      try {
+        okResult.shortPost = await publishShortPost(cfg.binanceKey, { text: art.tweet });
+        console.log(`  Kisa post OK: ${okResult.shortPost.url ?? okResult.shortPost.note ?? "(id alinamadi)"}`);
+      } catch (err) {
+        console.warn(`  Kisa post atlandi: ${err.message}`);
+        okResult.shortPostError = err.message;
+      }
+
       record.published.push({ lang, ...okResult, title: art.title });
     }
   }
 
-  history.links.push(...fresh.map((c) => c.link));
-  history.titles.push(...fresh.map((c) => normalizeTitle(c.title)));
-  saveHistory(history);
+  if (usedCandidates.length > 0) {
+    history.links.push(...usedCandidates.map((c) => c.link));
+    history.titles.push(...usedCandidates.map((c) => normalizeTitle(c.title)));
+    saveHistory(history);
+  }
 
   const successCount = record.published.filter((p) => !p.error).length;
   appendPublished(

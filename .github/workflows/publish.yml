@@ -9,6 +9,13 @@ on:
         description: "Gecmisi yoksay, daha once kullanilan haberlerle de yayin yap"
         type: boolean
         default: false
+      mode:
+        description: "Icerik modu"
+        type: choice
+        default: auto
+        options:
+          - auto
+          - info
 
 permissions:
   contents: write
@@ -34,6 +41,7 @@ jobs:
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           FORCE_PUBLISH: ${{ inputs.force }}
+          CONTENT_MODE: ${{ github.event.inputs.mode }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}

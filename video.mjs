@@ -4,8 +4,10 @@ import path from "node:path";
 import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
-import { generateVideoScript } from "./src/video-script.mjs";
+import { generateVideoScript, generateInfoVideoScript } from "./src/video-script.mjs";
+import { pickInfoTopic } from "./src/info-topics.mjs";
 import { uploadVideoAsset, uploadImageAsset, publishVideoPost } from "./src/video-publish.mjs";
+import { publishShortPost } from "./src/publish.mjs";
 import { speak, makeSlides, renderVideo } from "./src/media.mjs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
@@ -14,6 +16,7 @@ function parseArgs() {
   return {
     dryRun: process.argv.includes("--dry-run"),
     force: process.argv.includes("--force") || process.env.FORCE_PUBLISH === "true",
+    info: process.argv.includes("--info") || process.env.VIDEO_MODE === "info",
   };
 }
 
@@ -31,13 +34,36 @@ function buildCfg() {
   };
 }
 
+// [20030] "topic cannot contain punctuation" hatasina karsi temizlik
+function stripRiskyPunct(s) {
+  return String(s)
+    .replace(/["""''`:;()\[\]{}<>|\\\/~^*_+=@]/g, " ")
+    .replace(/\$(?=\d)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+function aggressiveStrip(s) {
+  return String(s)
+    .replace(/[^\p{L}\p{N}\s#$.!?,%-]/gu, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function publishWithRetry(cfg, params) {
   let lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      return await publishVideoPost(cfg.binanceKey, params);
+      params.caption = stripRiskyPunct(params.caption);
+      params.title = stripRiskyPunct(params.title);
+      return await publishVideoPost(cfg.binanceKey, {
+        fileTicket: params.fileTicket,
+        cover: params.cover,
+        durationSec: params.durationSec,
+        caption: params.caption,
+      });
     } catch (err) {
       lastErr = err;
       if (/220094|Hashtag count/i.test(err.message)) {
@@ -54,6 +80,12 @@ async function publishWithRetry(cfg, params) {
         params.caption = params.caption.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, "$1");
         continue;
       }
+      if (/20030|punctuation/i.test(err.message)) {
+        console.warn("  noktalama reddi, agresif temizlik yapiliyor...");
+        params.caption = aggressiveStrip(params.caption);
+        await sleep(1500);
+        continue;
+      }
       throw err;
     }
   }
@@ -62,7 +94,7 @@ async function publishWithRetry(cfg, params) {
 
 async function main() {
   const startedAt = new Date().toISOString();
-  const { dryRun, force } = parseArgs();
+  const { dryRun, force, info } = parseArgs();
   loadEnv();
   const cfg = buildCfg();
   ensureDirs();
@@ -76,35 +108,52 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`[${startedAt}] Video uretimi basladi${dryRun ? " (DRY-RUN)" : ""}`);
+  console.log(`[${startedAt}] Video uretimi basladi${dryRun ? " (DRY-RUN)" : ""}${info ? " (BILGILENDIRME MODU)" : ""}`);
   console.log(`Model: ${cfg.model} | Diller: ${cfg.langs.join(", ")}`);
 
-  const history = loadHistory();
-  const seenLinks = new Set(history.links);
-  const seenTitles = new Set(history.titles);
+  let script;
+  let storyMeta;
+  let useInfo = info;
 
-  console.log("Haber kaynaklari taraniyor...");
-  const { candidates, totalFetched, errors } = await collectNews({
-    maxCandidates: cfg.maxCandidates,
-  });
-  for (const e of errors) console.warn(`  kaynak hatasi: ${e}`);
-  console.log(`${totalFetched} haber okundu, ${candidates.length} aday secildi.`);
+  if (!useInfo) {
+    const history = loadHistory();
+    const seenLinks = new Set(history.links);
+    const seenTitles = new Set(history.titles);
 
-  const fresh = force
-    ? candidates
-    : candidates.filter(
-        (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
-      );
-  console.log(`Daha once kullanilmamis: ${fresh.length} aday.${force ? " (FORCE)" : ""}`);
-  if (fresh.length === 0) {
-    console.log("Yeni kullanilabilir haber yok, bu tur atlandi.");
-    return;
+    console.log("Haber kaynaklari taraniyor...");
+    const { candidates, totalFetched, errors } = await collectNews({
+      maxCandidates: cfg.maxCandidates,
+    });
+    for (const e of errors) console.warn(`  kaynak hatasi: ${e}`);
+    console.log(`${totalFetched} haber okundu, ${candidates.length} aday secildi.`);
+
+    const fresh = force
+      ? candidates
+      : candidates.filter(
+          (c) => !seenLinks.has(c.link) && !seenTitles.has(normalizeTitle(c.title))
+        );
+    console.log(`Daha once kullanilmamis: ${fresh.length} aday.${force ? " (FORCE)" : ""}`);
+
+    if (fresh.length === 0) {
+      console.log("Yeni haber yok -> bilgilendirme videosu uretilecek.");
+      useInfo = true;
+    } else {
+      const candidate = fresh[0];
+      console.log(`Secilen haber: ${candidate.title} (${candidate.source})`);
+      storyMeta = { type: "news", title: candidate.title, source: candidate.source, link: candidate.link };
+      script = await generateVideoScript(candidate, cfg);
+      storyMeta.usedLink = candidate.link;
+      storyMeta.usedTitleNorm = normalizeTitle(candidate.title);
+    }
   }
 
-  const candidate = fresh[0];
-  console.log(`Secilen haber: ${candidate.title} (${candidate.source})`);
+  if (useInfo && !script) {
+    const topic = pickInfoTopic(new Date(), 0);
+    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.tr}`);
+    storyMeta = { type: "info", topicId: topic.id };
+    script = await generateInfoVideoScript(topic, cfg);
+  }
 
-  const script = await generateVideoScript(candidate, cfg);
   console.log(`TR: ${script.tr.title}`);
   console.log(`EN: ${script.en.title}\n`);
 
@@ -114,7 +163,8 @@ async function main() {
     finishedAt: null,
     dryRun,
     model: cfg.model,
-    story: { title: candidate.title, source: candidate.source, link: candidate.link },
+    contentType: storyMeta.type,
+    story: storyMeta,
     script,
     videos: [],
   };
@@ -131,11 +181,11 @@ async function main() {
 
       console.log(`[${lang.toUpperCase()}] ses dosyasi uretiliyor...`);
       const mp3 = path.join(dir, "voice.mp3");
-      const ttsEngine = await speak(part.script, lang, mp3);
-      if (!ttsEngine) console.warn(`  TTS basarisiz, sessiz video uretilecek`);
+      const ttsEngine = await speak(part.script ?? part.slides.join(". "), lang, mp3);
+      if (!ttsEngine) console.warn("  TTS basarisiz, sessiz video uretilecek");
 
       console.log(`[${lang.toUpperCase()}] slaytlar ciziliyor...`);
-      const pngs = await makeSlides([part.title, ...part.slides], dir, cfg.footer);
+      const pngs = await makeSlides([stripRiskyPunct(part.title), ...part.slides.map(stripRiskyPunct)], dir, cfg.footer);
 
       console.log(`[${lang.toUpperCase()}] video birlestiriliyor...`);
       const mp4 = path.join(dir, "out.mp4");
@@ -160,8 +210,20 @@ async function main() {
         cover,
         durationSec: Math.round(meta.total),
         caption: part.caption,
+        title: part.title,
       });
       console.log(`  OK: ${res.url ?? res.note ?? "(id alinamadi)"}`);
+
+      console.log(`[${lang.toUpperCase()}] kisa post yayinlaniyor...`);
+      try {
+        const shortText = `${part.title}\n\n${part.caption.split("\n").slice(-2).join("\n")}`;
+        res.shortPost = await publishShortPost(cfg.binanceKey, { text: shortText.slice(0, 500) });
+        console.log(`  Kisa post OK: ${res.shortPost.url ?? res.shortPost.note ?? "(id alinamadi)"}`);
+      } catch (err) {
+        console.warn(`  Kisa post atlandi: ${err.message}`);
+        res.shortPostError = err.message;
+      }
+
       record.videos.push({ lang, ...res, title: part.title });
     } catch (err) {
       console.error(`  HATA (${lang}): ${err.message}`);
@@ -169,9 +231,12 @@ async function main() {
     }
   }
 
-  history.links.push(candidate.link);
-  history.titles.push(normalizeTitle(candidate.title));
-  saveHistory(history);
+  if (storyMeta.type === "news") {
+    const history = loadHistory();
+    history.links.push(storyMeta.usedLink);
+    history.titles.push(storyMeta.usedTitleNorm);
+    saveHistory(history);
+  }
 
   const success = record.videos.filter((v) => !v.error).length;
   appendPublished(
@@ -179,6 +244,7 @@ async function main() {
       .filter((v) => !v.error && v.url)
       .map((v) => ({
         type: "video",
+        contentType: storyMeta.type,
         lang: v.lang,
         id: v.id,
         url: v.url,

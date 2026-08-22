@@ -2,15 +2,24 @@ name: Square Video
 
 on:
   schedule:
-    # Makale islerinden 1 saat once: UTC 03:00, 07:00, 11:00, 15:00, 19:00, 23:00
-    # (Makaleler UTC 00,04,08,12,16,20'de yayinlaniyor)
-    - cron: "0 3-23/4 * * *"
+    # Makalelerden ONCE garantili calismasi icin makale saatinden 2.5 saat once hedeflenir:
+    # planli: UTC 01:30, 05:30, 09:30, 13:30, 17:30, 21:30
+    # GitHub zamanlanmis isleri 10-80 dk geciktirebilir; bu tampon sayesinde
+    # video her kosulda ayni saatteki (UTC 04:00 vb.) makaleden once yayinlanir.
+    - cron: "30 1-21/4 * * *"
   workflow_dispatch:
     inputs:
       force:
         description: "Tekrar korumasini yoksay (zorla yayinla)"
         type: boolean
         default: false
+      mode:
+        description: "Icerik modu"
+        type: choice
+        default: auto
+        options:
+          - auto
+          - info
 
 permissions:
   contents: write
@@ -34,7 +43,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Python ve medya kutuphaneleri
+      - name: Python kurulumu
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -57,6 +66,7 @@ jobs:
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           VIDEO_LANGS: ${{ vars.VIDEO_LANGS }}
           FORCE_PUBLISH: ${{ github.event.inputs.force == 'true' && 'true' || 'false' }}
+          VIDEO_MODE: ${{ github.event.inputs.mode }}
         run: node video.mjs
 
       - name: Durum dosyalarini kaydet
