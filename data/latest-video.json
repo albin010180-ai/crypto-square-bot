@@ -1,49 +1,51 @@
 {
-  "startedAt": "2026-08-22T04:19:26.722Z",
-  "finishedAt": "2026-08-22T04:20:50.278Z",
+  "startedAt": "2026-08-22T06:41:44.312Z",
+  "finishedAt": "2026-08-22T06:46:38.849Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
+  "contentType": "info",
   "story": {
-    "title": "Chasing XRP: Stellar (XLM) Targets Next Breakout Milestone After 22% Weekly Jump",
-    "source": "U.Today",
-    "link": "https://u.today/chasing-xrp-stellar-xlm-targets-next-breakout-milestone-after-22-weekly-jump"
+    "type": "info",
+    "topicId": "halving-mantigi"
   },
   "script": {
     "tr": {
-      "title": "Stellar (XLM) 22% Aralığında XRP’nin 41% Artışını Takip Ediyor",
+      "title": "Bitcoin Halving Nedir ve Nasıl İşler?",
       "slides": [
-        "Stellar (XLM) 22% aralık içinde bir artış kaydediyor, XRP'nin yükselişini yansıttı.",
-        "Stellar fiyatı bu hafta $0.191'a yükseldi.",
-        "Bu hareket, aynı dönemde XRP'de %41'lik bir rally'yi tetikledi.",
-        "Yatırımcılar bir sonraki kırılma hedefini izlemeye devam ediyor."
+        "Bitcoin'ın arzı her dört yılda bir yarıya inen programlanmış bir olaydır.",
+        "Halving, bitcoin ödüllerini yarıya indirerek minerlerin kazançlarını azaltır.",
+        "Minerlerin geliri değişir, bu da ağ güvenliği ve ücretleri etkileyebilir.",
+        "Halving döneminde piyasa oynaklığının artabileceğini bilmelisiniz."
       ],
-      "caption": "Stellar (XLM) 22% aralık içinde bir artış kaydediyor, XRP'nin yükselişini yansıttı.\nStellar fiyatı bu hafta $0.191'a yükseldi.\nBu hareket, aynı dönemde XRP'de %41'lik bir rally'yi tetikledi.\nYatırımcılar bir sonraki kırılma hedefini izlemeye devam ediyor.\n#Crypto #Stellar #XRP\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazırlanır; yatırım tavsiyesi değildir. Kendi araştırmanızı yapın (DYOR)."
+      "caption": "Bitcoin halving, her dört yılda bir, yeni Bitcoin ödüllerini yarıya indirir.\nBu, Bitcoin arzını sınırlayarak fiyatı etkileyebilecek bir programlanmış olaydır.\nKullanıcılar, halving dönemi sırasında piyasa oynaklığının artabileceğini bilmelidir.\n#Bitcoin #Halving #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Stellar (XLM) Posts 22% Weekly Gain, Tracking XRP’s 41% Surge",
+      "title": "What Bitcoin Halving Is and How It Works",
       "slides": [
-        "Stellar (XLM) posts a 22% weekly jump, mirroring XRP's recent surge.",
-        "Stellar price reached $0.191 this week.",
-        "The move follows a 41% rally in XRP over the same period.",
-        "Investors watch both assets for the next breakout milestone."
+        "Bitcoin's supply halves every four years in a built-in monetary event.",
+        "The halving cuts new bitcoin rewards for miners by half.",
+        "Miners' income changes, potentially affecting network security and fees.",
+        "Watch for market speculation and adjust expectations accordingly."
       ],
-      "caption": "Stellar (XLM) posts a 22% weekly jump, mirroring XRP's recent surge.\nStellar price reached $0.191 this week.\nThe move follows a 41% rally in XRP over the same period.\nInvestors watch both assets for the next breakout milestone.\n#Crypto #Stellar #XRP\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin halving reduces new bitcoin rewards for miners by half every four years.\nIt is a pre‑programmed event that caps total supply and may influence price dynamics.\nUsers should be aware of increased market volatility around halving periods.\n#Bitcoin #Halving #Binance\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358323122192663,
-      "url": "https://www.binance.com/square/post/358323122192663",
+      "id": 358358574114899,
+      "url": "https://www.binance.com/square/post/358358574114899",
       "note": null,
-      "title": "Stellar (XLM) 22% Aralığında XRP’nin 41% Artışını Takip Ediyor"
+      "shortPostError": "publishShortPost is not defined",
+      "title": "Bitcoin Halving Nedir ve Nasıl İşler?"
     },
     {
       "lang": "en",
-      "id": 358323200811996,
-      "url": "https://www.binance.com/square/post/358323200811996",
+      "id": 358359034879309,
+      "url": "https://www.binance.com/square/post/358359034879309",
       "note": null,
-      "title": "Stellar (XLM) Posts 22% Weekly Gain, Tracking XRP’s 41% Surge"
+      "shortPostError": "publishShortPost is not defined",
+      "title": "What Bitcoin Halving Is and How It Works"
     }
   ]
 }
