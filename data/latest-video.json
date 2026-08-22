@@ -1,46 +1,49 @@
 {
-  "startedAt": "2026-08-21T23:52:23.566Z",
-  "finishedAt": "2026-08-21T23:55:45.920Z",
+  "startedAt": "2026-08-22T04:19:26.722Z",
+  "finishedAt": "2026-08-22T04:20:50.278Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "story": {
-    "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
-    "source": "Decrypt",
-    "link": "https://decrypt.co/376270/coldcard-new-security-after-bitcoin-exploit"
+    "title": "Chasing XRP: Stellar (XLM) Targets Next Breakout Milestone After 22% Weekly Jump",
+    "source": "U.Today",
+    "link": "https://u.today/chasing-xrp-stellar-xlm-targets-next-breakout-milestone-after-22-weekly-jump"
   },
   "script": {
     "tr": {
-      "title": "Coldcard, 130 Milyon Dolar Bitcoin Kaçakından Sonra Yeni Güvenlik Önlemleri Ekledi",
+      "title": "Stellar (XLM) 22% Aralığında XRP’nin 41% Artışını Takip Ediyor",
       "slides": [
-        "Coldcard, 130 milyon dolar tutarında bir Bitcoin kaçakının ardından yeni güvenlik önlemleri ekledi.",
-        "Coinkite, cüzdan tohumları oluştururken kullanıcıların kendi rastlaneliklerini eklemelerini zorunlu kıldı.",
-        "Yeni firmware, üç haplık bir güvenlik gözden geçirme sırasında ortaya çıkarılan ek güvenlik sorunlarını da düzeltti.",
-        "Güncelleme, kullanıcıların özel anahtarlarının daha güvenli bir şekilde yönetilmesini sağlamayı amaçlıyor."
+        "Stellar (XLM) 22% aralık içinde bir artış kaydediyor, XRP'nin yükselişini yansıttı.",
+        "Stellar fiyatı bu hafta $0.191'a yükseldi.",
+        "Bu hareket, aynı dönemde XRP'de %41'lik bir rally'yi tetikledi.",
+        "Yatırımcılar bir sonraki kırılma hedefini izlemeye devam ediyor."
       ],
-      "caption": "Coldcard, 130 milyon dolarlık bir Bitcoin kaçakının ardından yeni güvenlik önlemleri aldı. Coinkite, yeni firmware güncellemesiyle kullanıcıların cüzdan tohumlarını oluştururken kendi rastlaneliklerini eklemelerini zorunlu hale getirdi. Bu güncelleme, üç haplık bir güvenlik incelemesi sırasında keşfedilen ek sorunları da çözeriyor. Coldcard, donanım cüzdan güvenliğinde yeni bir standart belirleme hedefiyle bu adımları attı.\n#Bitcoin #Coldcard #Güvenlik\nKaynaklar: Decrypt\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Stellar (XLM) 22% aralık içinde bir artış kaydediyor, XRP'nin yükselişini yansıttı.\nStellar fiyatı bu hafta $0.191'a yükseldi.\nBu hareket, aynı dönemde XRP'de %41'lik bir rally'yi tetikledi.\nYatırımcılar bir sonraki kırılma hedefini izlemeye devam ediyor.\n#Crypto #Stellar #XRP\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazırlanır; yatırım tavsiyesi değildir. Kendi araştırmanızı yapın (DYOR)."
     },
     "en": {
-      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit",
+      "title": "Stellar (XLM) Posts 22% Weekly Gain, Tracking XRP’s 41% Surge",
       "slides": [
-        "Coldcard has added new security measures following a $130 million Bitcoin exploit.",
-        "Coinkite now requires users to add their own randomness when generating wallet seeds.",
-        "The new firmware also fixes additional security issues found during a three-week review.",
-        "The update aims to ensure private keys are managed more securely."
+        "Stellar (XLM) posts a 22% weekly jump, mirroring XRP's recent surge.",
+        "Stellar price reached $0.191 this week.",
+        "The move follows a 41% rally in XRP over the same period.",
+        "Investors watch both assets for the next breakout milestone."
       ],
-      "caption": "Coldcard has introduced new security measures after a $130 million Bitcoin exploit. Coinkite's latest firmware now requires users to add their own randomness when generating wallet seeds. The update also addresses additional security issues uncovered during a three-week review. Coldcard is aiming to set a new standard in hardware wallet security with these changes.\n#Bitcoin #Coldcard #Security\nSources: Decrypt\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Stellar (XLM) posts a 22% weekly jump, mirroring XRP's recent surge.\nStellar price reached $0.191 this week.\nThe move follows a 41% rally in XRP over the same period.\nInvestors watch both assets for the next breakout milestone.\n#Crypto #Stellar #XRP\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "error": "Binance API hatasi [20030]: The topic you used cannot contain punctuation marks."
+      "id": 358323122192663,
+      "url": "https://www.binance.com/square/post/358323122192663",
+      "note": null,
+      "title": "Stellar (XLM) 22% Aralığında XRP’nin 41% Artışını Takip Ediyor"
     },
     {
       "lang": "en",
-      "id": 358258056500336,
-      "url": "https://www.binance.com/square/post/358258056500336",
+      "id": 358323200811996,
+      "url": "https://www.binance.com/square/post/358323200811996",
       "note": null,
-      "title": "Coldcard Adds New Security Measures After $130 Million Bitcoin Exploit"
+      "title": "Stellar (XLM) Posts 22% Weekly Gain, Tracking XRP’s 41% Surge"
     }
   ]
 }
