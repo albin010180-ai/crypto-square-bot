@@ -67,6 +67,7 @@ jobs:
           VIDEO_LANGS: ${{ vars.VIDEO_LANGS }}
           FORCE_PUBLISH: ${{ github.event.inputs.force == 'true' && 'true' || 'false' }}
           VIDEO_MODE: ${{ github.event.inputs.mode }}
+          PUBLISH_ENABLED: ${{ vars.PUBLISH_ENABLED || 'true' }}
         run: node video.mjs
 
       - name: Durum dosyalarini kaydet

@@ -90,6 +90,11 @@ async function main() {
   console.log(`[${startedAt}] Calistirma basladi${dryRun ? " (DRY-RUN)" : ""}${info ? " (BILGILENDIRME MODU)" : ""}`);
   console.log(`Model: ${cfg.model}`);
 
+  if (!dryRun && (process.env.PUBLISH_ENABLED ?? "true") === "false") {
+    console.log("Yayinler duraklatilmis (PUBLISH_ENABLED=false). Bu tur atlandi.");
+    return;
+  }
+
   let article;
   let contentType = info ? "info" : "news";
   let usedCandidates = [];

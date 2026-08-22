@@ -115,6 +115,11 @@ async function main() {
   console.log(`[${startedAt}] Video uretimi basladi${dryRun ? " (DRY-RUN)" : ""}${info ? " (BILGILENDIRME MODU)" : ""}`);
   console.log(`Model: ${cfg.model} | Diller: ${cfg.langs.join(", ")}`);
 
+  if (!dryRun && (process.env.PUBLISH_ENABLED ?? "true") === "false") {
+    console.log("Yayinler duraklatilmis (PUBLISH_ENABLED=false). Bu tur atlandi.");
+    return;
+  }
+
   let script;
   let storyMeta;
   let useInfo = info;
