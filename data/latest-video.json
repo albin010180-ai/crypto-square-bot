@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-22T06:41:44.312Z",
-  "finishedAt": "2026-08-22T06:46:38.849Z",
+  "startedAt": "2026-08-22T06:48:33.241Z",
+  "finishedAt": "2026-08-22T06:51:59.625Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "info",
@@ -10,42 +10,48 @@
   },
   "script": {
     "tr": {
-      "title": "Bitcoin Halving Nedir ve Nasıl İşler?",
+      "title": "Bitcoin Nemi ve Programlanması",
       "slides": [
-        "Bitcoin'ın arzı her dört yılda bir yarıya inen programlanmış bir olaydır.",
-        "Halving, bitcoin ödüllerini yarıya indirerek minerlerin kazançlarını azaltır.",
-        "Minerlerin geliri değişir, bu da ağ güvenliği ve ücretleri etkileyebilir.",
-        "Halving döneminde piyasa oynaklığının artabileceğini bilmelisiniz."
+        "Bitcoin nemi nedir ve neden önemlidir?",
+        "Nemi, blok belønünü azaltarak tedbirle gerçekleşir.",
+        "Halving, 2140'e kadar yaklaşık 4 yılda bir gerçekleşir.",
+        "Halving, tedbir ve satın alma stratejilerine etkisi olabilir."
       ],
-      "caption": "Bitcoin halving, her dört yılda bir, yeni Bitcoin ödüllerini yarıya indirir.\nBu, Bitcoin arzını sınırlayarak fiyatı etkileyebilecek bir programlanmış olaydır.\nKullanıcılar, halving dönemi sırasında piyasa oynaklığının artabileceğini bilmelidir.\n#Bitcoin #Halving #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin nemi nasıl çalışır? Bitcoin nemi ve tedbir etkileri hakkında bilgi edinin.\n#Bitcoin #Halving #CryptoTips\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "What Bitcoin Halving Is and How It Works",
+      "title": "Bitcoin Halving Explained",
       "slides": [
-        "Bitcoin's supply halves every four years in a built-in monetary event.",
-        "The halving cuts new bitcoin rewards for miners by half.",
-        "Miners' income changes, potentially affecting network security and fees.",
-        "Watch for market speculation and adjust expectations accordingly."
+        "What is Bitcoin halving and why matters",
+        "Halving cuts block rewards by half with precision",
+        "Occurs every 4 years until 2140 approximately",
+        "Impacts miner rewards and market dynamics"
       ],
-      "caption": "Bitcoin halving reduces new bitcoin rewards for miners by half every four years.\nIt is a pre‑programmed event that caps total supply and may influence price dynamics.\nUsers should be aware of increased market volatility around halving periods.\n#Bitcoin #Halving #Binance\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Learn about Bitcoin halving mechanism and consequences.\n#Bitcoin #Halving #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358358574114899,
-      "url": "https://www.binance.com/square/post/358358574114899",
+      "id": 358359890340107,
+      "url": "https://www.binance.com/square/post/358359890340107",
       "note": null,
-      "shortPostError": "publishShortPost is not defined",
-      "title": "Bitcoin Halving Nedir ve Nasıl İşler?"
+      "shortPost": {
+        "id": 358359891815454,
+        "url": "https://www.binance.com/square/post/358359891815454"
+      },
+      "title": "Bitcoin Nemi ve Programlanması"
     },
     {
       "lang": "en",
-      "id": 358359034879309,
-      "url": "https://www.binance.com/square/post/358359034879309",
+      "id": 358360345974864,
+      "url": "https://www.binance.com/square/post/358360345974864",
       "note": null,
-      "shortPostError": "publishShortPost is not defined",
-      "title": "What Bitcoin Halving Is and How It Works"
+      "shortPost": {
+        "id": 358360348717051,
+        "url": "https://www.binance.com/square/post/358360348717051"
+      },
+      "title": "Bitcoin Halving Explained"
     }
   ]
 }
