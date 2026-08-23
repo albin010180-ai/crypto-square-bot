@@ -1,57 +1,61 @@
 {
-  "startedAt": "2026-08-23T04:06:42.147Z",
-  "finishedAt": "2026-08-23T04:10:23.508Z",
+  "startedAt": "2026-08-23T07:22:11.082Z",
+  "finishedAt": "2026-08-23T07:26:36.548Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "delist-isaretleri"
+    "type": "news",
+    "title": "Local’s access to global crypto platforms could end under Nigeria’s proposed capital floor",
+    "source": "CryptoSlate",
+    "link": "https://cryptoslate.com/seamless-access-to-global-crypto-platforms-could-evaporate-for-locals-under-nigerias-proposed-%e2%82%a62-billion-capital-floor/",
+    "usedLink": "https://cryptoslate.com/seamless-access-to-global-crypto-platforms-could-evaporate-for-locals-under-nigerias-proposed-%e2%82%a62-billion-capital-floor/",
+    "usedTitleNorm": "local s access to global crypto platforms could end under nigeria s proposed capital floor"
   },
   "script": {
     "tr": {
-      "title": "Borsa Delisting Duyurularini Okuma Rehberi",
+      "title": "Nijerya, kripto platformlarına erişimi sınırlayacak sermaye zorunluluğu getiriyor",
       "slides": [
-        "Delisting duyurulari kripto varlilarinizi etkileyen onemli uyarilardir",
-        "Delisting, bir kripto parasinin borsadan onaiz edilmesidir",
-        "Dikkat isaretleri arasinda likaret azalmasi ve olumsuz haberler bulunur",
-        "Resmi kaynaklardan takip edin ve portfoyunuzu çeşitlendirin"
+        "Nijerya yerel kullanıcıları küresel platformlardan bloklayabilir.",
+        "Regülatörler, değişikliklerde iki milyar naira sermaye zorunluluğu getiriyor.",
+        "Dış para birimli stabilcoinlerin destek degeri bir yüz yirmi katına çıkmalı.",
+        "Kural kabul edildiğinde yerel kullanıcılar önemli cripto hizmetlerine erişim kaybetti."
       ],
-      "caption": "Delisting duyurulari, kripto varlilarinizin degerini etkileyen kritik uyarilardir. Bilgi toplamak ve riskleri anlamak onemlidir. Kendi arastirmanizi yapiniz (DYOR). #Delisting #Exchange #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Nijerya, kripto platformlarına erişimi sınırlayacak bir sermaye zorunluluğu getiriyor.\nDeğişen kural, yerel kullanıcıları dışarıda bırakabilir.\nKaynaklar: CryptoSlate\n#Kripto #Nigeria #Regülasyon\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     },
     "en": {
-      "title": "How to Read Exchange Delisting Announcements",
+      "title": "Nigeria's new capital rule could shut local crypto users out of global platforms",
       "slides": [
-        "Delisting announcements are critical warnings that can impact your crypto holdings",
-        "Delisting means a cryptocurrency is being removed from an exchange platform",
-        "Warning signs include declining liquidity and regulatory concerns",
-        "Monitor official sources and diversify your portfolio proactively"
+        "Nigeria may block local crypto users from global platforms.",
+        "Regulators propose a two billion naira capital requirement for exchanges.",
+        "Backing for foreign stablecoins must reach one hundred twenty times the token value.",
+        "If the rule passes local users could lose access to major crypto services."
       ],
-      "caption": "Delisting announcements are critical warnings that can impact your crypto holdings. Understanding these signals is essential for risk management. Always do your own research (DYOR). #Delisting #Exchange #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Nigeria's new capital rule may restrict local users from global crypto platforms.\nThe proposal requires a two billion naira capital floor for exchanges.\nSources: CryptoSlate\n#Crypto #Nigeria #Regulation\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358674060139193,
-      "url": "https://www.binance.com/square/post/358674060139193",
+      "id": 358722270099411,
+      "url": "https://www.binance.com/square/post/358722270099411",
       "note": null,
       "shortPost": {
-        "id": 358674061459351,
-        "url": "https://www.binance.com/square/post/358674061459351"
+        "id": 358722283884818,
+        "url": "https://www.binance.com/square/post/358722283884818"
       },
-      "title": "Borsa Delisting Duyurularini Okuma Rehberi"
+      "title": "Nijerya, kripto platformlarına erişimi sınırlayacak sermaye zorunluluğu getiriyor"
     },
     {
       "lang": "en",
-      "id": 358674526228399,
-      "url": "https://www.binance.com/square/post/358674526228399",
+      "id": 358722748941339,
+      "url": "https://www.binance.com/square/post/358722748941339",
       "note": null,
       "shortPost": {
-        "id": 358674527924733,
-        "url": "https://www.binance.com/square/post/358674527924733"
+        "id": 358722750289596,
+        "url": "https://www.binance.com/square/post/358722750289596"
       },
-      "title": "How to Read Exchange Delisting Announcements"
+      "title": "Nigeria's new capital rule could shut local crypto users out of global platforms"
     }
   ]
 }
