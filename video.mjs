@@ -43,6 +43,7 @@ function buildCfg() {
       .filter(Boolean),
     footer: process.env.VIDEO_FOOTER?.trim() || "@Mr_Emanetson | Binance Square",
     referralLink: process.env.X_REFERRAL_LINK?.trim() || "https://me-l.co/b6iygwwa",
+    referralCode: process.env.X_REFERRAL_CODE?.trim() || "CPA_001D41FKZ1",
     x: {
       apiKey: process.env.X_API_KEY?.trim() || "",
       apiSecret: process.env.X_API_SECRET?.trim() || "",
@@ -274,7 +275,7 @@ async function main() {
 
       if (res.url) {
         const xEnabled = Object.values(cfg.x).every(Boolean);
-        const xText = part.title;
+        const xText = `${part.title}\n\nReferral kod: ${cfg.referralCode}`;
         
         if (xEnabled) {
           try {

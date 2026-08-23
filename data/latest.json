@@ -1,128 +1,27 @@
 {
-  "startedAt": "2026-08-23T22:13:42.004Z",
-  "finishedAt": "2026-08-23T22:16:58.497Z",
-  "dryRun": false,
+  "startedAt": "2026-08-23T22:40:31.332Z",
+  "finishedAt": "2026-08-23T22:42:18.307Z",
+  "dryRun": true,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
-  "contentTopic": null,
+  "contentType": "info",
+  "contentTopic": "tokenomics-okuma",
   "sourceErrors": [
     "NewsBTC: fetch failed",
     "Bitcoinist: fetch failed"
   ],
-  "candidates": [
-    {
-      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/"
-    },
-    {
-      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/"
-    },
-    {
-      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
-    },
-    {
-      "title": "Can Zcash Flip XRP? NYSE ETF Launch Boosts Privacy Coin to 8-Year Price Record",
-      "source": "U.Today",
-      "link": "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record"
-    },
-    {
-      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543"
-    },
-    {
-      "title": "Schiff: AI Is Not Bullish for Bitcoin",
-      "source": "U.Today",
-      "link": "https://u.today/schiff-ai-is-not-bullish-for-bitcoin"
-    },
-    {
-      "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/"
-    },
-    {
-      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/"
-    },
-    {
-      "title": "New ATH for Solana: RWA Value Crosses $4 Billion",
-      "source": "U.Today",
-      "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
-    },
-    {
-      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
-    },
-    {
-      "title": "As foreign investors dump $29 billion in Treasury bills, Washington pivots to stablecoin issuers to back US debt",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
-    },
-    {
-      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
-    },
-    {
-      "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
-      "source": "U.Today",
-      "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
-    }
-  ],
-  "selected": [
-    "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
-    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
-    "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
-    "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
-    "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion",
-    "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
-  ],
+  "candidates": [],
+  "selected": [],
   "articles": {
     "tr": {
-      "title": "Crypto Market Update: ETF Yükselişleri, DeFi Güvenlik Olayları ve Regülasyonlar",
-      "body": "Son 24 saat içinde crypto piyasa, Bitcoin ve Ethereum ETF'leriyle dikkat çekici bir gelişme yaşamıştır. Bu fırsatlar, insansızdan içeri girerek $2.615 milyarınca流入asuklar. Aynı zamanda, Term Finance gibi DeFi protokoller, $8.5 milyon kaybına neden olan güvenlik açıklarıyla dikkat çekmeye devam etmektedir. Bu olaylar, piyasa güvenilirliğinin ve düzenlemelerin önemiyle ilişkiliriskleri vurgulamaktadır.\n\nBitcoin ve Ethereum ETF'leri, 2026 yılın en güçlü hafta geçti. Bu fonlar, piyasa sıcaktığına karşılık olarak, Bitcoin ETF'leri $1.918 milyar, Ethereum ETF'leri $697.2 milyon çekmişlerdir. Bu akışlar, büyük paraçlıklar ve kurumlar, özellikle altcoinlar gibi alt katmanlar için fırsat olarak görmektedir. XRP ve Solana gibi altcoinlar, bu alışverişlerle 8-10% artışlar yaşadıkları için dikkat çekici bir performans sergilemiştir.\n\nDeFi alanında ise, Term Finance, bir yönetim açıklığıyla $8.5 milyon kaybına neden olmuştur. Bu olay, protokoller, kullanıcı koruma ve güvenlik testlerinin önemiyle ilgili kritik bir örnektir. Açıklığın, liquidity sağlayıcıların ve kullanıcıların güvenini etkisi muhtemeldir. Ancak, projenin güvenilirliği, 팀 arka planda, auditelikler veya yatırımcılarla ilgili bilinen bilgiler eksik. Bu, potansiyel risklerin var olduğunu gösterir.\n#Ethereum #Altcoins #Blockchain",
-      "tweet": "$BTC ve $ETH ETF'leri 2026'un en güçlü hafta geçti; Term Finance'de $8.5M kaybı. #ETF #Hack #Regulation"
+      "title": "Tokenomics Okuma Rehberi: Arz, Dağıtım ve Kilitlenme Mekanizmaları",
+      "body": "Tokenomics, bir kripto para biriminin değerini etkileyen tüm mekaniksel unsurları ifade eder. Bunlar arasında toplam arz, tokenlerin dağıtım şekli ve kilitlenme (lock-up) süreleri yer alır. Örneğin, $BTC gibi bir madencilik modelinde arz kademeli olarak artar, bu da enflasyonu kontrol altında tutar. Diğer yandan, bazı projeler belirli bir sayıda tokenle başlar; bu da kapalı arz anlamına gelir ve talep arttıkça değerin desteklenmesine yardımcı olabilir.\n\nDağıtım, tokenlerin nerelere ve ne zaman yayıldığını gösterir. Emeklilik fonları, ekipler ve danışmanlar genellikle uzun vadeli kilitlenme sözleşmeleri altındadır. Bu, piyasada ani satış baskısının önüne geçer. Kısa kilit sürelerinden korkun; ekiplerin tokenleri hemen serbest bırakabilmesi, fiyat üzerinde istenmeyen düşüş riski taşır. Ayrıca, büyük tokenlerin çoğu tek bir cüzdan veya kuruluşta toplandıysa, bu merkezi risk oluşturur.\n\nLock-up mekanizmaları, tokenlerin belirli bir süre boyunca satılamayacağını garanti eder. Böceklerin yumurtalarına benzetirsek, bu mekanizma taze çıkan tokenlerin piyasaya sızarak değeri eritmesini engeller. Uzun kilitli tokenler, projenin uzun vadeli başarısına işaret edebilir. Ancak, kilit süresi sonunda büyük bir satış dalgası hâlâ risk taşır.\n\nPratik kontrol listesi: Toplam arz net mi? Kilitlenen yüzde ne kadar? Kilit süresi ne kadar uzun? Ekiplerin tokenleri ne kadar? Tek bir cüzdan mı kontrol ediyor? Bu sorulara yanıt bulmak, projenin dayanıklılığını değerlendirmek için kritiktir.\n\nRiskler her zaman vardır. Yüksek enflasyon, dağıtım eşitsizliği veya kısa kilit süreleri, değer kaybına yol açabilir. $ETH gibi esperli ekosistemler, daha yaygın katılım ve daha dengeli dağıtım sunar. Unutmayın, tokenomics sadece bir parçasıdır; ekosistem, geliştirici topluluğu ve gerçek kullanım da önemlidir.\n\n#Ethereum #Altcoins #Blockchain\nBu yazi yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Tokenomics okumak, kripto projelerini değerlendirmede kritik. Arz, dağıtım ve kilit mekanizmaları nasıl işler? $BTC $ETH #Tokenomics #Research #CryptoEducation"
     },
     "en": {
-      "title": "Market Roundup: ETF Inflows, DeFi Hacks, and Regulatory Shifts",
-      "body": "The crypto market witnessed significant developments in the last 24 hours, with Bitcoin and Ethereum ETFs attracting $2.615 billion in inflows. This surge reflects institutional confidence as investors re-enter the market amid a broader rally. Altcoins like XRP and Solana also saw sharp gains, driven by increased trading activity.\n\nSimultaneously, DeFi protocols faced security challenges. Term Finance, a lending platform, suffered an $8.5 million loss due to a governance exploit. Despite existing safeguards, the attack highlights vulnerabilities in decentralized systems. While the protocol's team and audit status remain unverified, the incident underscores the need for robust risk management in DeFi.\n\nRegulatory actions also dominated the news. The U.S. approved high-leverage Bitcoin trading, signaling a shift toward institutional-grade products. Meanwhile, foreign investors offloaded $29 billion in Treasury bills, prompting the government to explore stablecoin issuers as a debt-backing mechanism. This pivot reflects broader macroeconomic pressures and the evolving role of crypto in financial systems.\n\nSolana's Real-World Asset (RWA) value crossed $4 billion, marking a new all-time high. This growth aligns with the increasing adoption of tokenized assets, further cementing Solana's position in the market.\n\nMarket analysis shows Bitcoin maintaining strong support above $60,000, while Ethereum's ETF inflows suggest potential resistance at $3,500. These technical levels may influence short-term price action.\n#Ethereum #Altcoins #Blockchain",
-      "tweet": "$BTC $ETH ETF'leri $2.6B çekti; Term Finance'de $8.5M kaybı. #ETF #Hack #Regulation"
+      "title": "Reading Tokenomics: Supply, Distribution and Lock-up Mechanics",
+      "body": "Tokenomics refers to all the mechanical factors that can influence the value of a cryptocurrency. These include total supply, how tokens are distributed, and lock-up periods. For example, $BTC follows a mining model where supply increases gradually, helping keep inflation in check. In contrast, some projects begin with a fixed number of tokens, creating a capped supply that may support value as demand grows.\n\nDistribution reveals where tokens go and when. Team members, advisors, and reserve funds are typically subject to lock-up agreements that prevent immediate selling. Short lock-up periods are a red flag; if teams can dump tokens too quickly, it can create unwanted downward pressure on price. Also, if a large portion of tokens is held in a single wallet or entity, it introduces centralization risk.\n\nLock-up mechanisms ensure tokens cannot be sold for a set period. Think of it like a bird guarding its eggs; this mechanism prevents newly released tokens from flooding the market and diluting value. Long lock-up periods can signal a team’s confidence in long-term success. Still, the moment locks expire, a potential sell-off remains a risk.\n\nPractical checklist: Is the total supply clearly defined? What percentage is locked? How long is the lock-up? How much do teams and advisors hold? Are tokens concentrated in one wallet? Answering these questions is essential when evaluating a project’s sustainability.\n\nRisks always exist. High inflation, uneven distribution, or short lock-ups can lead to value erosion. $ETH, with its mature ecosystem, tends to offer broader participation and more balanced distribution. Remember, tokenomics is only one piece of the puzzle; ecosystem strength, developer community, and real-world utility also matter.\n\n#Ethereum #Altcoins #Blockchain\nThis article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Understanding tokenomics is key to evaluating crypto projects. How do supply, distribution, and lock-ups work? $BTC $ETH #Tokenomics #Research #CryptoEducation"
     }
   },
-  "published": [
-    {
-      "lang": "tr",
-      "id": 358941190634203,
-      "url": "https://www.binance.com/square/post/358941190634203",
-      "xError": "X API HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
-      "shortPost": {
-        "id": 358941193701750,
-        "url": "https://www.binance.com/square/post/358941193701750"
-      },
-      "title": "Crypto Market Update: ETF Yükselişleri, DeFi Güvenlik Olayları ve Regülasyonlar"
-    },
-    {
-      "lang": "en",
-      "id": 358941565509395,
-      "url": "https://www.binance.com/square/post/358941565509395",
-      "xError": "X API HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
-      "shortPost": {
-        "id": 358941569165832,
-        "url": "https://www.binance.com/square/post/358941569165832"
-      },
-      "title": "Market Roundup: ETF Inflows, DeFi Hacks, and Regulatory Shifts"
-    }
-  ]
+  "published": []
 }

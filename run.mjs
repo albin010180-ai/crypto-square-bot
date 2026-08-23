@@ -36,6 +36,7 @@ function buildCfg() {
     referralLink:
       process.env.X_REFERRAL_LINK?.trim() ||
       "https://me-l.co/b6iygwwa",
+    referralCode: process.env.X_REFERRAL_CODE?.trim() || "CPA_001D41FKZ1",
     x: {
       apiKey: process.env.X_API_KEY?.trim() || "",
       apiSecret: process.env.X_API_SECRET?.trim() || "",
@@ -250,7 +251,7 @@ async function main() {
 
     if (okResult) {
       if (okResult.url) {
-        const xText = art.tweet;
+        const xText = `${art.tweet}\n\nReferral kod: ${cfg.referralCode}`;
         
         if (xEnabled) {
           try {
