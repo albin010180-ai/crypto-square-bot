@@ -83,6 +83,16 @@ function ensureCashtagsInShortPost(shortText, body) {
   return `${textWithoutTags} ${needed.join(" ")} ${tagLine}`.trim();
 }
 
+function enforceCashtagLimit(text, max = 3) {
+  const seen = new Set();
+  return text.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, (match, sym) => {
+    if (seen.has(sym)) return match;
+    if (seen.size >= max) return sym;
+    seen.add(sym);
+    return match;
+  });
+}
+
 function savePendingTweet(text, lang, postUrl) {
   const dir = "data";
   const file = `${dir}/pending-tweets.json`;
@@ -203,6 +213,8 @@ async function main() {
       await new Promise((r) => setTimeout(r, staggerMs));
     }
     firstLang = false;
+    art.body = enforceCashtagLimit(art.body);
+    art.title = enforceCashtagLimit(art.title);
     let body = art.body;
     let okResult = null;
     for (let attempt = 1; attempt <= 4; attempt++) {

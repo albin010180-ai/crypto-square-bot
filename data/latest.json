@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T21:52:41.627Z",
-  "finishedAt": "2026-08-23T21:55:17.809Z",
+  "startedAt": "2026-08-23T21:56:42.283Z",
+  "finishedAt": "2026-08-23T22:00:36.823Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -61,11 +61,6 @@
       "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
     },
     {
-      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
-    },
-    {
       "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
       "source": "CryptoSlate",
       "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
@@ -76,28 +71,34 @@
       "link": "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
     },
     {
+      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
+    },
+    {
       "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
       "source": "U.Today",
       "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
     "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
+    "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record",
     "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
-    "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/",
-    "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
+    "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
+    "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion",
+    "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
   ],
   "articles": {
     "tr": {
-      "title": "ETF Girişleri Rekor Kırdı, DeFi Sömürüsü ve Stablecoin Politikası Piyasayı Şekillendiriyor",
-      "body": "ABD spot Bitcoin ve Ethereum ETF'leri 2026'nın en güçlü haftasını yaşadı. CryptoSlate verilerine göre Bitcoin fonları 1,918 milyar dolar, Ethereum fonları ise 697,2 milyon dolar net giriş çekti. Aynı hafta altcoin ETF'lerine de yaklaşık 90 milyon dolar girdi; XRP ürünleri 39,78 milyon dolarla öne çıktı, SOL ve HYPE da takip etti. $BTC ve $ETH fiyatlarındaki keskin yükseliş kurumsal talepi tekrar ateşledi.\n\nDeFi tarafında Term Finance protokolü yönetim açığı sonucu tahmini 8,5 milyon dolar kaybetti. The Block'a göre kasada yedi günlük gecikme ve likidite sağlayıcılarının veto yetkisi olmasına rağmen saldırı engellenemedi. Olay, yönetim güvenlik kontrollerinin yeterliliği tartışmalarını yeniden gündeme getirdi.\n\nMakro düzeyde yabancı yatırımcılar Haziran'da 29 milyar dolar Hazine tahvili sattı. CryptoSlate raporuna göre Washington bu boşluğu doldurmak için stablecoin yayıncılarıyla görüşüyor. Bu durum $USDC ve $USDT gibi varlıkların kamusal borç finansmanındaki rolünü artırabilir.\n\nSolana ekosisteminde Gerçek Dünya Varlıkları (RWA) toplam değeri 4 milyar doları aşıp tarihî zirveye ulaştı. U.Today verisi, ağ üzerindeki tokenize edilmiş tahvil ve kredi portföylerinin hızla büyüdüğünü gösteriyor. $SOL fiyatı bu gelişimle birlikte teknik olarak 200 günlük hareketli ortalama üzerinde tutundu.\n\nPiyasa hacmi verileri ETF girişleriyle paralellik gösterdi; Bitcoin futures açık faizleri haftalık %12 arttı, Ethereum opsiyon piyasasında call/put oranı 1,4 seviyesine çıktı.\n\n#ETF #DeFi #Stablecoins\nKaynaklar: CryptoSlate, The Block, U.Today\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$BTC $ETH ETF'leri haftalık 2,6 Mrd $ girişle rekor kırdı; Term Finance 8,5 Mrd $ kaybetti #ETF #DeFi #Stablecoins"
+      "title": "Altcoin Rallisı, DeFi Hack'i ve ABD'de Kripto Düzenlemesi Değişimi",
+      "body": "Wall Street, son bir haftada Bitcoin ve Ethereum dışındaki altcoin fonlarına yaklaşık 90 milyon dolar akış sağlayarak XRP, $SOL ve $HYPE'nin yükselişine öncülük etti. Bu hamle, BTC ve ETH ETF'lerinin de 2026 yılının en güçlü haftasını geçirmesine yardımcı oldu; BTC ETF'leri 1.918 milyar dolar, ETH fonları ise 697 milyon dolar net giriş kaydetti. Analistler, yüksek hacimlerin $BTC ve $ETH için önemli direnç seviyelerini test ettiğini belirtiyor.\n\nGrayscale'in 25 Ağustos tarihli NYSE Arca ETF lansmanı öncesinde Zcash, 814 dolar seviyesine yükselerek 8 yıllık rekor kırdı. Yeniden değerlendirme, ZEC topluluğunda XRP'yi geçme tartışmasını yeniden alevlendirdi. $ZEC'nin fiyat artışı, ETF beklentileriyle birlikte gelen likidite dalgasının özel coin pazarında nasıl etkili olduğunu gösteriyor.\n\nTerm Finance, 8,5 milyon dolarlık bir governance exploit'üne maruz kaldı. Protokol, önerilerin yedi günlük bir gecikmeyle devre dışı bırakılmasını ve likidite sağlayıcıların veto yetkisine sahip olmasını sağlayarak savunma mekanizmaları kurmuş olsa da, saldırganlar bu kontrolleri aşmayı başardı. Olay, DeFi lending platformlarının on-chain yönetişim güvenliği konusunda ne kadar hassas olduklarını bir kez daha ortaya koydu.\n\nABD'de düzenleyici çatışmalar devam ediyor. CFTC, 29 Mayıs'ta düzenlenmiş bir Bitcoin sürekli kontratını onaylarken, SEC 18 Ağustos'ta kripto projelerinin halka açık fon toplaması için token ağlarına özel kurallar içeren bir yol haritası sundu. Bu çelişkili adımlar, kurumsal katılımı teşvik etme ve yatırımcıları koruma arasındaki dengeyi göstermekte.\n\nSolana'nın reel dünya varlıkları (RWA) segmenti, 4 milyar dolarlık yeni bir zirveye ulaştı. RWA büyümesindeki ivme, $SOL için yeni destek seviyeleri oluştururken, aynı zamanda platformun merkezi olmayan finansal hizmetler pazarındaki önemini artırıyor.\n\nSon olarak, yabancı yatırımcılar Haziran ayında 29 milyar dolar değerinde ABD Hazine bonolarını sattı. Bu büyük çıkışın ardından Washington, ABD borcunu desteklemek için stablecoin ihraççılarını yeni bir kanal olarak değerlendirmeye başladı. Bu makro ekonomik gelişme, geleneksel finans dünyasının kripto varlıklara olan bakışını değiştirebilir.\n\nKaynaklar: CryptoSlate, The Block, U.Today\n\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$90 milyonluk altcoin akışı, $SOL ve $XRP yükselişe geçti; Wall Street ilgi gösteriyor #Altcoin #ETF #CryptoNews"
     },
     "en": {
-      "title": "ETF Inflows Hit Record as DeFi Exploit and Stablecoin Policy Shift Reshape Market",
-      "body": "US spot Bitcoin and Ethereum ETFs recorded their strongest week of 2026. According to CryptoSlate, Bitcoin funds attracted $1.918 billion while Ethereum funds drew $697.2 million in net inflows. The same week saw nearly $90 million flow into altcoin ETFs, led by XRP products with $39.78 million, followed by SOL and HYPE. The sharp rally in $BTC and $ETH reignited institutional appetite.\n\nOn the DeFi side, Term Finance lost an estimated $8.5 million to a governance exploit. The Block reported that despite a seven-day proposal delay and veto power for liquidity providers, the attack was not prevented. The incident renews questions about the adequacy of on-chain governance safeguards.\n\nAt the macro level, foreign investors sold $29 billion of Treasury bills in June. CryptoSlate notes Washington is now turning to stablecoin issuers to help back US debt. This shift could expand the role of $USDC and $USDT in sovereign financing.\n\nSolana's Real World Asset (RWA) value surpassed $4 billion for a new all-time high. U.Today data shows tokenized treasuries and credit portfolios on the network are growing rapidly. $SOL price held above its 200-day moving average amid the expansion.\n\nMarket volume data aligned with ETF flows; Bitcoin futures open interest rose 12% week-over-week, while Ethereum options call/put ratio climbed to 1.4.\n\n#ETF #DeFi #Stablecoins\nSources: CryptoSlate, The Block, U.Today\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "$BTC $ETH ETFs post record $2.6B weekly inflows as Term Finance loses $8.5M in exploit #ETF #DeFi #Stablecoins"
+      "title": "Altcoin Surge, DeFi Hack, and U.S. Crypto Regulation Shift",
+      "body": "Wall Street poured nearly $90 million into altcoin ETFs last week, driving XRP, $SOL and $HYPE higher. The influx came as Bitcoin and Ethereum ETFs recorded their strongest week of 2026, with BTC funds attracting $1.918 billion and ETH funds pulling in $697 million. Traders note that the elevated volumes have pushed $BTC and $ETH toward key resistance levels, reinforcing the rally’s momentum.\n\nZcash surged to $814, an eight‑year high, ahead of Grayscale’s upcoming NYSE Arca ETF launch on August 25. The price jump has sparked fresh debate in the community about whether ZEC can overtake XRP in market dominance. The rally illustrates how ETF anticipation can quickly translate into price appreciation for niche assets.\n\nDeFi lending protocol Term Finance lost an estimated $8.5 million to a governance exploit. The protocol had introduced a seven‑day delay for vault proposals and granted liquidity providers veto power, yet attackers bypassed these controls. The incident underscores ongoing concerns about on‑chain governance security in decentralized finance.\n\nRegulatory activity in the U.S. remains mixed. On May 29, the CFTC approved a Bitcoin perpetual contract for a regulated exchange, while on August 18 the SEC proposed a legal pathway for crypto projects to raise funds from the public under token‑network rules. The contrasting moves highlight the tension between fostering innovation and protecting investors.\n\nSolana’s real‑world asset (RWA) ecosystem hit a new milestone, with total RWA value crossing $4 billion. The growth reinforces $SOL’s position as a leading platform for tokenized traditional assets and suggests expanding use cases beyond pure speculation.\n\nMeanwhile, foreign investors sold $29 billion of U.S. Treasury bills in June, prompting Washington to consider stablecoin issuers as a new source of backing for U.S. debt. The shift could open doors for stablecoins to play a larger role in government financing.\n\nSources: CryptoSlate, The Block, U.Today\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$90M poured into altcoins as $SOL and $XRP rally; Wall Street shifts focus #Altcoin #ETF #CryptoNews"
     }
   },
   "published": []
