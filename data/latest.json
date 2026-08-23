@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-22T21:37:24.103Z",
-  "finishedAt": "2026-08-22T21:39:46.515Z",
+  "startedAt": "2026-08-23T03:29:52.425Z",
+  "finishedAt": "2026-08-23T03:33:44.329Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,85 +8,58 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531"
-    },
-    {
-      "title": "SEC proposes a path for crypto projects to raise $75 million and later end the token’s securities contract",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/sec-proposes-a-path-for-crypto-projects-to-raise-75-million-and-later-end-the-tokens-securities-contract/"
-    },
-    {
-      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit"
-    },
-    {
-      "title": "Ripple Stablecoin Lead: This XRP Ledger Feature Could Matter Big for RLUSD",
+      "title": "XRP Posts Best ETF Week Since May",
       "source": "U.Today",
-      "link": "https://u.today/ripple-stablecoin-lead-this-xrp-ledger-feature-could-matter-big-for-rlusd"
+      "link": "https://u.today/xrp-posts-best-etf-week-since-may"
     },
     {
-      "title": "How a former crypto user’s archived Binance data ended up in a foreign terrorism prosecution",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/binance-left-russia-years-ago-but-moscow-still-got-customer-records-used-in-a-terrorism-case/"
-    },
-    {
-      "title": "Bitcoin crash forced Riot to pledge 1,825 BTC, but this huge rally may now free up 1,500 BTC",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-crash-forced-riot-to-pledge-1825-btc-but-this-huge-rally-may-now-free-1500-btc/"
-    },
-    {
-      "title": "XRP Completes Double Golden Cross Against BTC, $2 Next?",
+      "title": "2 Days Left: BNB Chain Set for Heavy Network Upgrades",
       "source": "U.Today",
-      "link": "https://u.today/xrp-completes-double-golden-cross-against-btc-2-next"
+      "link": "https://u.today/2-days-left-bnb-chain-set-for-heavy-network-upgrades"
     },
     {
-      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back"
-    },
-    {
-      "title": "Reaching instant 27ms validation on Bitcoin will take 17 GPU years of compute power",
+      "title": "Grayscale’s Zcash ETF filing proposes a 2.5% fee and a potential 34% DCG stake",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/reaching-instant-27ms-validation-on-bitcoin-will-take-17-gpu-years-of-compute-power/"
-    },
-    {
-      "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code"
+      "link": "https://cryptoslate.com/grayscales-zcash-etf-filing-proposes-a-2-5-fee-and-a-potential-34-dcg-stake/"
     }
   ],
   "selected": [
-    "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531",
-    "https://cryptoslate.com/sec-proposes-a-path-for-crypto-projects-to-raise-75-million-and-later-end-the-tokens-securities-contract/",
-    "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
-    "https://cryptoslate.com/bitcoin-crash-forced-riot-to-pledge-1825-btc-but-this-huge-rally-may-now-free-1500-btc/",
-    "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back"
+    "https://u.today/xrp-posts-best-etf-week-since-may",
+    "https://u.today/2-days-left-bnb-chain-set-for-heavy-network-upgrades",
+    "https://cryptoslate.com/grayscales-zcash-etf-filing-proposes-a-2-5-fee-and-a-potential-34-dcg-stake/"
   ],
   "articles": {
     "tr": {
-      "title": "ETF'lere 2.6 Milyar Dolar, SEC'ten 75 Milyon Dolarlık Yol Haritası",
-      "body": "Kripto piyasası Ekim ayından bu yana en güçlü ETF giriş haftasını geride bıraktı. The Block'un haberine göre, $BTC ve $ETH ETF'lerine toplam 2.6 milyar dolar giriş gerçekleşti ve haftalık işlem hacmi üç katına çıkarak 29 milyar dolara ulaştı. Her iki varlık da değer kazansa da, her iki ETF kategorisi de yıl bazında negatif seyrini sürdürüyor.\n\nRegülasyon tarafında SEC, kripto projelerinin 75 milyon dolara kadar fon bulabilmesi ve daha sonra tokenın menkul kıymet sözleşmesini sonlandırabilmesi için bir çerçeve önerdi. CryptoSlate'ın bildirdiğine göre öneri, bir token anlamlı kullanım kazanmadan önce ağ geliştirmesinin nasıl finanse edileceğini ele alıyor. Bu adım, regülatörlerin token ihracı ve uyum için daha net yollar oluşturma çabasının bir parçası olarak görülüyor.\n\nGüvenlik cephesinde Web3 oyun platformu The Sandbox, bir exploit sonrası Base ve BNB Chain üzerindeki köprüleme işlemlerini durdurdu. CoinDesk'in haberine göre proje, etkilenen ağlarda tokenları izole etti ve kullanıcıları $SAND'ı bu ağlarda işlem yapmamaları konusunda uyardı. Etkilenen miktarın toplam arzın yüzde 0.01'inden az olduğu belirtildi.\n\nMadencilik tarafında Riot Platforms'ın teminat durumu hafifliyor olabilir. Şirket, 2026 başında 200 milyon dolarlık Coinbase kredisinde bir fiyat düşüşü sonrası 1.825 BTC daha teminat vermiş ve toplam teminat 5.802 BTC'ye ulaşmıştı. CryptoSlate'ın haberine göre Bitcoin'in son rallisi ile yaklaşık 1.500 BTC'nin bu düzenlemeden serbest kalabileceği belirtiliyor.\n\nBu arada yaklaşık 20 geliştiriciden oluşan bir grup, Bitcoin ekosistemini yapay zeka araçlarının istismar edebileceği açıklara karşı tarıyor. Decrypt'in haberine göre grup, ucuz ve güçlü yapay zeka modellerinin saldırganlara Bitcoin yazılımındaki kusurları keşfetmek için benzeri görülmemiş bir ulaşılabilirlik sağladığını öne sürüyor.\n\n#ETF #KriptoRegülasyon #BitcoinGüvenliği\n\nKaynaklar: The Block, CryptoSlate, CoinDesk, Decrypt\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "ETF'lere 2.6 milyar dolar giriş; SEC kripto projeleri için 75 milyon dolarlık yol önerdi #ETF #Regülasyon #KriptoHaber"
+      "title": "XRP'in ETF haftası Mayıs'tan bu yana en iyi seviyesinde, BNB Chain hız için hazır, Grayscale Zcash ETF'si 2,5% ücretle yolda",
+      "body": "Kripto piyasasında son 24 saat içinde XRP, BNB Chain ve Grayscale gibi üç önemli gelişme kaydedildi. XRP, ETF piyasasında Mayıs ayından bu yana en iyi haftasını geçirdi; fiyatı yaklaşık %60 yükselirken, ETF'ye yönelik haftalık giriş de en büyük seviyeye ulaştı. Analistler, bu hareketin $XRP tokenını güçlendirdiğini ve yatırımcı ilgisini artırdığını belirtiyor.\n\nBNB Chain, ağ performansını artırmak için hazır. Platform, yaklaşık iki gün sonra ağın hızını iki katına çıkarmayı hedefleyen bir hard fork ile ağ yükseltmelerine hazırlanıyor. Yeni güncelleme, işlemlerin daha hızlı gerçekleşmesini sağlayarak $BNB tokenının kullanımını artırmayı amaçlıyor.\n\nGrayscale, Zcash ETF'si için başvuru yaparak sektöre yeni bir dinamik kazandırdı. Dosyada, 2,5% yönetim ücreti öngörülürken, 30 Haziran tarihli bir anlık veriye göre DCG International'ın fonun %34'üne kadar pay sahibi olabileceği belirtiliyor. Bu, $ZEC tokenı için önemli bir adım olarak görülüyor.\n\nBu gelişmeler, kripto piyasasındaki çeşitlilik ve ETF tabanlı ürünlere olan ilginin devam ettiğini gösteriyor. Yatırımcılar, ağ geliştirmeleri ve yeni ETF seçenekleri arasındaki dengeleri yakından takip ediyor.\n\n#Bitcoin #CryptoNews #MarketUpdate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "XRP, ETF piyasasında Mayıs'ten bu yana en iyi haftasını kaydetti, fiyatı %60'a yükseldi #XRP #ETF #CryptoNews"
     },
     "en": {
-      "title": "ETFs See $2.6B Inflows, SEC Proposes $75M Raise Path, Sandbox Halts Bridging",
-      "body": "The crypto market just recorded its strongest ETF inflow week since October. According to The Block, combined $BTC and $ETH ETFs drew $2.6 billion in inflows while weekly trading volume more than tripled to $29 billion as both assets rallied. Despite the momentum, both ETF categories remain negative on the year.\n\nOn the regulatory front, the SEC has proposed a framework allowing crypto projects to raise up to $75 million before eventually terminating a token's securities contract. CryptoSlate reported that the proposal addresses how teams can fund network development before a token achieves meaningful utility, signaling continued regulatory efforts to define clearer pathways for token issuance.\n\nSecurity concerns resurfaced as Web3 gaming platform The Sandbox disabled bridging on Base and BNB Chain following an exploit. CoinDesk reported that the project isolated affected tokens and warned users not to trade $SAND on those networks, though the impact was limited to under 0.01% of total supply.\n\nIn the mining sector, Riot Platforms' collateral situation may be easing. The miner had pledged an additional 1,825 BTC earlier in 2026 after a price decline triggered collateral requirements on a $200 million Coinbase loan, bringing total pledged collateral to 5,802 BTC. With Bitcoin's recent rally, approximately 1,500 BTC could potentially be freed from the arrangement, according to CryptoSlate.\n\nMeanwhile, a group of roughly 20 developers is actively scanning the Bitcoin ecosystem for vulnerabilities that AI tools could exploit. Decrypt reported that the red-team group warns cheap and powerful AI models have given attackers unprecedented ability to discover flaws in Bitcoin software, prompting proactive defense efforts across the ecosystem.\n\n#ETF #CryptoRegulation #BitcoinSecurity\n\nSources: The Block, CryptoSlate, CoinDesk, Decrypt\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "ETFs drew $2.6B in best inflow week since October; SEC proposes $75M raise path for crypto projects #ETF #Regulation #CryptoNews"
+      "title": "XRP's ETF week hits best level since May, BNB Chain readies speed boost, Grayscale Zcash ETF filed with 2.5% fee",
+      "body": "In the past 24 hours, three key developments unfolded across XRP, BNB Chain and Grayscale, shaping market dynamics. XRP recorded its best ETF week since May, with a 60% price surge driving the largest weekly inflow in the ETF market. Market observers note that the rally strengthened $XRP token sentiment and attracted fresh capital.\n\nBNB Chain is preparing a major network upgrade aimed at doubling speed. A forthcoming hard fork, scheduled for the next few days, is set to boost throughput and improve transaction efficiency, potentially enhancing $BNB token utility. The upgrade reflects the platform's commitment to scalability.\n\nGrayscale filed a Zcash ETF proposal that introduces a 2.5% management fee and a potential 34% stake for DCG International based on a June 30 snapshot. The filing signals growing institutional interest in $ZEC token exposure. Analysts view the move as a milestone for Zcash's integration into mainstream investment products.\n\nThese stories highlight the ongoing diversification of crypto assets and the expanding role of ETFs in the ecosystem. Investors continue to monitor network improvements and new fund offerings for strategic insights.\n\n#Bitcoin #CryptoNews #MarketUpdate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "XRP recorded its best ETF week since May, with a 60% price surge driving the largest weekly inflow in the ETF market #XRP #ETF #CryptoNews"
     }
   },
   "published": [
     {
-      "lang": "en",
-      "id": 358578527897694,
-      "url": "https://www.binance.com/square/post/358578527897694",
+      "lang": "tr",
+      "id": 358665144211511,
+      "url": "https://www.binance.com/square/post/358665144211511",
       "shortPost": {
-        "id": 358578529840454,
-        "url": "https://www.binance.com/square/post/358578529840454"
+        "id": 358665146228196,
+        "url": "https://www.binance.com/square/post/358665146228196"
       },
-      "title": "ETFs See $2.6B Inflows, SEC Proposes $75M Raise Path, Sandbox Halts Bridging"
+      "title": "XRP'in ETF haftası Mayıs'tan bu yana en iyi seviyesinde, BNB Chain hız için hazır, Grayscale Zcash ETF'si 2,5% ücretle yolda"
+    },
+    {
+      "lang": "en",
+      "id": 358665518029532,
+      "url": "https://www.binance.com/square/post/358665518029532",
+      "shortPost": {
+        "id": 358665519986514,
+        "url": "https://www.binance.com/square/post/358665519986514"
+      },
+      "title": "XRP's ETF week hits best level since May, BNB Chain readies speed boost, Grayscale Zcash ETF filed with 2.5% fee"
     }
   ]
 }
