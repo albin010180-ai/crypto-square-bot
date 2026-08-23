@@ -71,7 +71,7 @@ function ensureCashtagsInShortPost(shortText, caption) {
 }
 
 function savePendingTweet(text, lang, postUrl) {
-  const file = "data/pending-tweets.json";
+  const file = new URL("../data/pending-tweets.json", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
   let tweets = [];
   try { tweets = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
   tweets.push({ text, lang, postUrl, createdAt: new Date().toISOString() });
