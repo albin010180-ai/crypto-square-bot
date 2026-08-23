@@ -62,10 +62,11 @@ STRUCTURE ORDER (both languages)
 4. Transparency + disclaimer line
 
 TWEET RULES (for each language's "tweet" field)
-- A short X/Twitter post in the same language: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
+- ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
+- A short X/Twitter post: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
-- TR example: "$BTC 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
+- Example: "$BTC tests 80K level; CFTC announces crypto regulation timeline #Bitcoin #Regulation #CryptoNews"`;
 }
 
 const FALLBACK_TAG_SETS = [
@@ -195,7 +196,8 @@ STRUCTURE ORDER (both languages)
 3. Transparency + disclaimer line
 
 TWEET RULES (for each language's "tweet" field)
-- A short X/Twitter post in the same language: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
+- ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
+- A short X/Twitter post: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
 

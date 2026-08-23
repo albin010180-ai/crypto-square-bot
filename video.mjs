@@ -275,7 +275,7 @@ async function main() {
 
       if (res.url) {
         const xEnabled = Object.values(cfg.x).every(Boolean);
-        const xText = `${part.title}\n\nReferral kod: ${cfg.referralCode}`;
+        const xText = `${script.en.title}\n\nReferral kod: ${cfg.referralCode}`;
         
         if (xEnabled) {
           try {

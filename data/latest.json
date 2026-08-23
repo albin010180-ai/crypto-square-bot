@@ -1,27 +1,128 @@
 {
-  "startedAt": "2026-08-23T22:40:31.332Z",
-  "finishedAt": "2026-08-23T22:42:18.307Z",
-  "dryRun": true,
+  "startedAt": "2026-08-23T23:03:50.850Z",
+  "finishedAt": "2026-08-23T23:07:32.252Z",
+  "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
-  "contentTopic": "tokenomics-okuma",
+  "contentType": "news",
+  "contentTopic": null,
   "sourceErrors": [
     "NewsBTC: fetch failed",
     "Bitcoinist: fetch failed"
   ],
-  "candidates": [],
-  "selected": [],
+  "candidates": [
+    {
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/"
+    },
+    {
+      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/"
+    },
+    {
+      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
+    },
+    {
+      "title": "Can Zcash Flip XRP? NYSE ETF Launch Boosts Privacy Coin to 8-Year Price Record",
+      "source": "U.Today",
+      "link": "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record"
+    },
+    {
+      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543"
+    },
+    {
+      "title": "Schiff: AI Is Not Bullish for Bitcoin",
+      "source": "U.Today",
+      "link": "https://u.today/schiff-ai-is-not-bullish-for-bitcoin"
+    },
+    {
+      "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/"
+    },
+    {
+      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/"
+    },
+    {
+      "title": "New ATH for Solana: RWA Value Crosses $4 Billion",
+      "source": "U.Today",
+      "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
+    },
+    {
+      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
+    },
+    {
+      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
+    },
+    {
+      "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
+      "source": "U.Today",
+      "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
+    },
+    {
+      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes"
+    }
+  ],
+  "selected": [
+    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
+    "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
+    "https://www.theblock.co/news/defi/term-finance-loses-8-5-million-to-governance-exploit-412543",
+    "https://www.theblock.co/news/business/tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
+    "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
+    "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns"
+  ],
   "articles": {
     "tr": {
-      "title": "Tokenomics Okuma Rehberi: Arz, Dağıtım ve Kilitlenme Mekanizmaları",
-      "body": "Tokenomics, bir kripto para biriminin değerini etkileyen tüm mekaniksel unsurları ifade eder. Bunlar arasında toplam arz, tokenlerin dağıtım şekli ve kilitlenme (lock-up) süreleri yer alır. Örneğin, $BTC gibi bir madencilik modelinde arz kademeli olarak artar, bu da enflasyonu kontrol altında tutar. Diğer yandan, bazı projeler belirli bir sayıda tokenle başlar; bu da kapalı arz anlamına gelir ve talep arttıkça değerin desteklenmesine yardımcı olabilir.\n\nDağıtım, tokenlerin nerelere ve ne zaman yayıldığını gösterir. Emeklilik fonları, ekipler ve danışmanlar genellikle uzun vadeli kilitlenme sözleşmeleri altındadır. Bu, piyasada ani satış baskısının önüne geçer. Kısa kilit sürelerinden korkun; ekiplerin tokenleri hemen serbest bırakabilmesi, fiyat üzerinde istenmeyen düşüş riski taşır. Ayrıca, büyük tokenlerin çoğu tek bir cüzdan veya kuruluşta toplandıysa, bu merkezi risk oluşturur.\n\nLock-up mekanizmaları, tokenlerin belirli bir süre boyunca satılamayacağını garanti eder. Böceklerin yumurtalarına benzetirsek, bu mekanizma taze çıkan tokenlerin piyasaya sızarak değeri eritmesini engeller. Uzun kilitli tokenler, projenin uzun vadeli başarısına işaret edebilir. Ancak, kilit süresi sonunda büyük bir satış dalgası hâlâ risk taşır.\n\nPratik kontrol listesi: Toplam arz net mi? Kilitlenen yüzde ne kadar? Kilit süresi ne kadar uzun? Ekiplerin tokenleri ne kadar? Tek bir cüzdan mı kontrol ediyor? Bu sorulara yanıt bulmak, projenin dayanıklılığını değerlendirmek için kritiktir.\n\nRiskler her zaman vardır. Yüksek enflasyon, dağıtım eşitsizliği veya kısa kilit süreleri, değer kaybına yol açabilir. $ETH gibi esperli ekosistemler, daha yaygın katılım ve daha dengeli dağıtım sunar. Unutmayın, tokenomics sadece bir parçasıdır; ekosistem, geliştirici topluluğu ve gerçek kullanım da önemlidir.\n\n#Ethereum #Altcoins #Blockchain\nBu yazi yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Tokenomics okumak, kripto projelerini değerlendirmede kritik. Arz, dağıtım ve kilit mekanizmaları nasıl işler? $BTC $ETH #Tokenomics #Research #CryptoEducation"
+      "title": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı",
+      "body": "Bitcoin ve Ethereum için ETF girişimleri 2026'nın en aktif haftasını yaşadı. CryptoSlate verilerine göre, Bitcoin ETF'leri haftada 1,918 milyon dolar, Ethereum ise 697 milyon dolar çekildi. Bu değer, kıymet varlıkların toplamı çerçevesinde kriptoya yönelen yatırımcıların ilgisinin yeniden canlanmasını gösterdi. Aynı dönemde Wall Street, XRP, Solana ve Hyperliquid gibi alternatif coinlere yönelerek neredeyse 90 milyon dolarlık giriş yaptı. XRP'de özellikle 50 yıllık artış kaydetti ve CoinDesk'a göre bu, 21 ay içinde en büyük haftalık kazancı temsil ediyor. \n\nDeFi alanında ise Term Finance, yönetim sistemi açığından dolayı 8,5 milyon dolar kaybetti. The Block raporuna göre, vault önerileri artık yedi günlük bir gecikme ve likidite sağlayıcılar tarafından iptal hakkına sahip. Ancak bu önlemler, saldırının etkisini engelleyemedi. \n\nTether'in Uruguay'daki 120 milyon dolarlık bitcoin madencilik projesi de Türkiye'de benzer bir sorunla karşılaştı. The Block'a göre, proje Temmuz 2025'de, Tether'ten gelen temsilcilerin anlaşmaya imza atmaması üzerine UTE tarafından elektrik kesildi. \n\nABD'de ise CFTC, Bitcoin için yüksek levantajlı ticaret izin verirken, SEC crypto projelerinin fon toplamasında bulunmalarını engelleyen düzenleyicilerle çelişiyor. CryptoSlate, bu durumun Washington'da kripto politikalarının beklenenden farklı bir sırayla geliştiğini vurguluyor. \n\nFed'in yaptığı bir araştırma, kripto yatırımcılarının risk algılarının farklılık gösterdiğini ve Bitcoin geçmiş performans verilerinin bu yatırımcıların ise allocation ve alım kararlarını etkilediğini ortaya koydu. \n\n#ETF #Solana #Regulation\n\nKaynaklar: CryptoSlate, The Block, CoinDesk, Cointelegraph\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı #Bitcoin #CryptoNews #BinanceSquare"
     },
     "en": {
-      "title": "Reading Tokenomics: Supply, Distribution and Lock-up Mechanics",
-      "body": "Tokenomics refers to all the mechanical factors that can influence the value of a cryptocurrency. These include total supply, how tokens are distributed, and lock-up periods. For example, $BTC follows a mining model where supply increases gradually, helping keep inflation in check. In contrast, some projects begin with a fixed number of tokens, creating a capped supply that may support value as demand grows.\n\nDistribution reveals where tokens go and when. Team members, advisors, and reserve funds are typically subject to lock-up agreements that prevent immediate selling. Short lock-up periods are a red flag; if teams can dump tokens too quickly, it can create unwanted downward pressure on price. Also, if a large portion of tokens is held in a single wallet or entity, it introduces centralization risk.\n\nLock-up mechanisms ensure tokens cannot be sold for a set period. Think of it like a bird guarding its eggs; this mechanism prevents newly released tokens from flooding the market and diluting value. Long lock-up periods can signal a team’s confidence in long-term success. Still, the moment locks expire, a potential sell-off remains a risk.\n\nPractical checklist: Is the total supply clearly defined? What percentage is locked? How long is the lock-up? How much do teams and advisors hold? Are tokens concentrated in one wallet? Answering these questions is essential when evaluating a project’s sustainability.\n\nRisks always exist. High inflation, uneven distribution, or short lock-ups can lead to value erosion. $ETH, with its mature ecosystem, tends to offer broader participation and more balanced distribution. Remember, tokenomics is only one piece of the puzzle; ecosystem strength, developer community, and real-world utility also matter.\n\n#Ethereum #Altcoins #Blockchain\nThis article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Understanding tokenomics is key to evaluating crypto projects. How do supply, distribution, and lock-ups work? $BTC $ETH #Tokenomics #Research #CryptoEducation"
+      "title": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit",
+      "body": "Spot Bitcoin and Ethereum ETFs experienced their strongest week of 2026 as crypto markets surged broadly. According to CryptoSlate, Bitcoin ETFs attracted $1.918 billion in inflows over five trading days through August 21, while Ethereum funds received $697.2 million. These figures reflect renewed investor confidence in digital assets amid a sharp market rally. Simultaneously, Wall Street poured nearly $90 million into altcoins, with XRP leading at $39.78 million in net inflows—the highest since May 2024. XRP climbed 50% this week, marking its biggest weekly gain in 21 months, CoinDesk reported. \n\nIn the DeFi sector, Term Finance lost an estimated $8.5 million to a governance exploit. The Block disclosed that vault proposals now face a seven-day delay and can be vetoed by liquidity providers. However, these safeguards failed to prevent the breach. \n\nTether's $120 million Bitcoin mining project in Uruguay collapsed after a power contract dispute, The Block reported. UTE cut power to Tether's mining sites in July 2025 following the company's failure to attend the signing of a revised contract. \n\nWhile the CFTC approved high-leverage Bitcoin trading in May, the SEC proposed a public fundraising framework for crypto projects only in August, highlighting regulatory inconsistency in Washington, CryptoSlate noted. \n\nA Federal Reserve Bank of Cleveland study found that crypto investors hold divergent views on risk and returns, with information about past Bitcoin gains increasing both desired allocations and actual purchases, Cointelegraph reported. \n\n#ETF #Solana #Regulation\n\nSources: CryptoSlate, The Block, CoinDesk, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit #Bitcoin #CryptoNews #BinanceSquare"
     }
   },
-  "published": []
+  "published": [
+    {
+      "lang": "tr",
+      "id": 358953614939262,
+      "url": "https://www.binance.com/square/post/358953614939262",
+      "xUrl": "https://x.com/i/web/status/2091663273485615262",
+      "shortPost": {
+        "id": 358953619128098,
+        "url": "https://www.binance.com/square/post/358953619128098"
+      },
+      "title": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı"
+    },
+    {
+      "lang": "en",
+      "id": 358953991841047,
+      "url": "https://www.binance.com/square/post/358953991841047",
+      "xUrl": "https://x.com/i/web/status/2091663659365798225",
+      "shortPost": {
+        "id": 358953995494765,
+        "url": "https://www.binance.com/square/post/358953995494765"
+      },
+      "title": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit"
+    }
+  ]
 }
