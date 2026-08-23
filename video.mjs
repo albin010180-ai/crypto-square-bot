@@ -50,6 +50,18 @@ const CAPTION_VARIANTS = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+function ensureCashtagsInShortPost(shortText, caption) {
+  const captionCashtags = [...caption.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
+  const textCashtags = [...shortText.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
+  if (textCashtags.length >= 2 || captionCashtags.length === 0) return shortText;
+  const needed = captionCashtags.filter(ct => !textCashtags.includes(ct)).slice(0, 2);
+  if (needed.length === 0) return shortText;
+  const hashtags = shortText.match(/#[A-Za-z0-9_]+/g) || [];
+  const tagLine = hashtags.join(" ");
+  const textWithoutTags = shortText.replace(/#[A-Za-z0-9_]+/g, "").trim();
+  return `${textWithoutTags} ${needed.join(" ")} ${tagLine}`.trim();
+}
+
 async function publishWithRetry(cfg, params) {
   let lastErr;
   let variantIdx = 0;
@@ -231,7 +243,7 @@ async function main() {
 
       console.log(`[${lang.toUpperCase()}] kisa post yayinlaniyor...`);
       try {
-        const shortText = `${part.title}\n\n${part.caption.split("\n").slice(-2).join("\n")}`;
+        const shortText = ensureCashtagsInShortPost(`${part.title}\n\n${part.caption.split("\n").slice(-2).join("\n")}`, part.caption);
         const sp = await publishShortPostSafe(cfg.binanceKey, { text: shortText });
         res.shortPost = sp.result;
         console.log(`  Kisa post OK: ${sp.result.url ?? sp.result.note ?? "(id alinamadi)"}`);

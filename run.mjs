@@ -48,7 +48,7 @@ function limitHashtags(text, max = 4) {
   });
 }
 
-function limitCashtags(text, max = 4) {
+function limitCashtags(text, max = 6) {
   const seen = new Set();
   return text.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, (match, sym) => {
     if (seen.size < max || seen.has(sym)) {
@@ -68,6 +68,18 @@ function sanitizeAll(title, body) {
 
 function hardTitle(s) {
   return s.replace(/[^\p{L}\p{N}\s#@]/gu, " ").replace(/\s+/g, " ").trim();
+}
+
+function ensureCashtagsInShortPost(shortText, body) {
+  const bodyCashtags = [...body.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
+  const textCashtags = [...shortText.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
+  if (textCashtags.length >= 2 || bodyCashtags.length === 0) return shortText;
+  const needed = bodyCashtags.filter(ct => !textCashtags.includes(ct)).slice(0, 2);
+  if (needed.length === 0) return shortText;
+  const hashtags = shortText.match(/#[A-Za-z0-9_]+/g) || [];
+  const tagLine = hashtags.join(" ");
+  const textWithoutTags = shortText.replace(/#[A-Za-z0-9_]+/g, "").trim();
+  return `${textWithoutTags} ${needed.join(" ")} ${tagLine}`.trim();
 }
 
 async function main() {
@@ -226,7 +238,8 @@ async function main() {
 
       console.log(`${lang.toUpperCase()} kisa post yayinlaniyor...`);
       try {
-        const sp = await publishShortPostSafe(cfg.binanceKey, { text: art.tweet });
+        const shortText = ensureCashtagsInShortPost(art.tweet, body);
+        const sp = await publishShortPostSafe(cfg.binanceKey, { text: shortText });
         okResult.shortPost = sp.result;
         console.log(`  Kisa post OK: ${sp.result.url ?? sp.result.note ?? "(id alinamadi)"}`);
       } catch (err) {

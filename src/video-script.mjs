@@ -17,6 +17,7 @@ SLIDES RULES (each slide is shown fullscreen while narrated)
 
 CAPTION RULES (posted as the video's text on Binance Square)
 - 2-4 short factual sentences.
+- Include 2-3 cashtags ($BTC, $ETH, $SOL, etc.) for Write to Earn commission tracking.
 - Then a NEW LINE with EXACTLY 3 topical hashtags.
 - Then a NEW LINE: transparency/disclaimer line - TR: "Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)." / EN: "This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
 - ABSOLUTELY NO URLs and NO @mentions anywhere.
@@ -108,7 +109,7 @@ function makeValidate(fallbackTags = []) {
       }
       part.caption = repairHashtags(part.caption.trim(), fallbackTags);
       const tags = part.caption.match(/#[A-Za-z0-9_]+/g) || [];
-      if (tags.length < 3 || tags.length > 4) {
+      if (tags.length < 3 || tags.length > 5) {
         throw new Error(`${lang} caption hashtag sayisi hatali (${tags.length})`);
       }
       if (/https?:\/\//.test(part.caption)) throw new Error(`${lang} caption icinde URL var`);

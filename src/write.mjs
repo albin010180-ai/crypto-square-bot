@@ -47,19 +47,25 @@ COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square 
 ${SAFETY_RULES}
 
 REACH RULES (discovery without spam signals)
-- Cashtags: use AT MOST 3 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL). Uppercase standard symbols.
+- Cashtags: use 3-6 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL $BNB $XRP $SOL). Focus on coins mentioned in the stories. Uppercase standard symbols. These are essential for Write to Earn commission tracking.
 - Hashtags: EXACTLY 3, placed on one line right before the sources section. Choose them FRESH from today's actual story topics (e.g. #ETF #Solana #Regulation or #Bitcoin #DeFi #Hack) - never reuse the exact same combination as previous runs, and never include #BinanceSquare or generic filler every time.
 
+MARKET ANALYSIS ANGLE (Write to Earn optimization)
+- Include at least one sentence analyzing trading volume, price action, or on-chain metrics for the main coins discussed.
+- Mention support/resistance levels or key technical indicators when relevant to the story.
+- Connect market data to the narrative to provide actionable insights for readers.
+
 STRUCTURE ORDER (both languages)
-1. Article paragraphs (with up to 3 inline cashtags), varying your opening style between runs
+1. Article paragraphs (with 3-6 inline cashtags), varying your opening style between runs
 2. MANDATORY hashtag line: EXACTLY 3 hashtags alone on one line, immediately before the sources section. Never skip this line.
 3. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by outlet names only, comma-separated, NO URLs
 4. Transparency + disclaimer line
 
 TWEET RULES (for each language's "tweet" field)
 - A short X/Twitter post in the same language: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
+- Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
 - MAXIMUM 180 characters. No URLs (added automatically later), no mentions, plain text.
-- TR example: "Bitcoin 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
+- TR example: "$BTC 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
 }
 
 const FALLBACK_TAG_SETS = [
@@ -121,8 +127,8 @@ function validate(result) {
   for (const [label, part] of [["tr", tr], ["en", en]]) {
     part.body = ensureHashtags(part.body.trim());
     const tagCount = (part.body.match(/#[A-Za-z0-9_]+/g) || []).length;
-    if (tagCount < 3 || tagCount > 4) {
-      throw new Error(`${label} govdesinde hashtag sayisi hatali (${tagCount}), 3-4 olmali`);
+    if (tagCount < 3 || tagCount > 5) {
+      throw new Error(`${label} govdesinde hashtag sayisi hatali (${tagCount}), 3-5 olmali`);
     }
   }
   if (!Array.isArray(result.selected)) result.selected = [];
@@ -179,7 +185,7 @@ COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square 
 - ABSOLUTELY NO mentions (@...) of any account.
 - STRICTLY NEUTRAL EDUCATIONAL TONE: FORBIDDEN: price predictions or targets, buy/sell/hold suggestions, hype words, emotional exaggeration, speculation presented as fact.
 - You are an EDUCATOR, never an advisor. Do not instruct readers what to do with their money.
-- Cashtags: AT MOST 3 DIFFERENT, inline where natural ($BTC $ETH $SOL).
+- Cashtags: 3-6 DIFFERENT, inline where natural ($BTC $ETH $SOL $BNB). Focus on coins relevant to the topic. Essential for Write to Earn tracking.
 - Hashtags: EXACTLY 3 on one line near the end: use "${topic.tags.slice(0, 2).join(" ")}" plus ONE more fitting tag such as #CryptoEducation #Binance #DYOR.
 - TRANSPARENCY LINE (very last line of body): TR -> "Bu yazi yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)." / EN -> "This article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
 
@@ -190,6 +196,7 @@ STRUCTURE ORDER (both languages)
 
 TWEET RULES (for each language's "tweet" field)
 - A short X/Twitter post in the same language: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
+- Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text.
 
 ${SAFETY_RULES}`;
