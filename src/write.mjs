@@ -48,7 +48,7 @@ ${SAFETY_RULES}
 
 REACH RULES (discovery without spam signals)
 - Cashtags: use EXACTLY 2-3 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL). Focus on the most important coins mentioned in the stories. Uppercase standard symbols. NEVER exceed 3 cashtags - the API enforces a strict limit.
-- Hashtags: EXACTLY 3, placed on one line right before the sources section. Choose them FRESH from today's actual story topics (e.g. #ETF #Solana #Regulation or #Bitcoin #DeFi #Hack) - never reuse the exact same combination as previous runs, and never include #BinanceSquare or generic filler every time.
+- Hashtags: EXACTLY 3, placed on one line right before the sources section. Choose them FRESH from today's actual story topics - always include #Binance as one of the 3 hashtags (e.g. #Bitcoin #Regulation #Binance or #ETF #DeFi #Binance). Never reuse the exact same combination as previous runs.
 
 MARKET ANALYSIS ANGLE (Write to Earn optimization)
 - Include at least one sentence analyzing trading volume, price action, or on-chain metrics for the main coins discussed.
@@ -65,8 +65,9 @@ TWEET RULES (for each language's "tweet" field)
 - ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
 - A short X/Twitter post: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
+- Always include #Binance as one of the 3 hashtags.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
-- Example: "$BTC tests 80K level; CFTC announces crypto regulation timeline #Bitcoin #Regulation #CryptoNews"`;
+- Example: "$BTC tests 80K level; CFTC announces crypto regulation timeline #Bitcoin #Regulation #Binance"`;
 }
 
 const FALLBACK_TAG_SETS = [
@@ -199,6 +200,7 @@ TWEET RULES (for each language's "tweet" field)
 - ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
 - A short X/Twitter post: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
+- Always include #Binance as one of the 3 hashtags.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
 
 ${SAFETY_RULES}`;
