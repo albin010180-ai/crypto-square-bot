@@ -1,57 +1,57 @@
 {
-  "startedAt": "2026-08-22T21:59:52.169Z",
-  "finishedAt": "2026-08-22T22:04:46.072Z",
+  "startedAt": "2026-08-23T04:06:42.147Z",
+  "finishedAt": "2026-08-23T04:10:23.508Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "info",
   "story": {
     "type": "info",
-    "topicId": "rug-pull-isaretleri"
+    "topicId": "delist-isaretleri"
   },
   "script": {
     "tr": {
-      "title": "Rug Pull Olaylarını Erken Fark Etmek – Dikkat Edilmesi Gerekenler",
+      "title": "Borsa Delisting Duyurularini Okuma Rehberi",
       "slides": [
-        "Bir rug pull scamsı, yatırım yaptığınız anda likiditeyi kaybeder.",
-        "Anonim ekipleri ve doğrulanamayan token sözleşmelerini izleyin.",
-        "Gerçek kullanım olmadan hızlı fiyat artışları genellikle çıkış planını gösterir.",
-        "Satın almadan önce proje yol haritasını ve topluluk etkileşimini doğrulayın."
+        "Delisting duyurulari kripto varlilarinizi etkileyen onemli uyarilardir",
+        "Delisting, bir kripto parasinin borsadan onaiz edilmesidir",
+        "Dikkat isaretleri arasinda likaret azalmasi ve olumsuz haberler bulunur",
+        "Resmi kaynaklardan takip edin ve portfoyunuzu çeşitlendirin"
       ],
-      "caption": "Rug pull dolandırıcılıkları dikkatli bakmazsanız gözden kaçabilir; erken işaretleri öğrenin. Yatırım yapmadan önce token sözleşmelerini ve ekibin şeffaflığını kontrol edin. Dikkatli olun ve topluluk etkinliğini doğrulayın.\n#ScamAlert #Security #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Delisting duyurulari, kripto varlilarinizin degerini etkileyen kritik uyarilardir. Bilgi toplamak ve riskleri anlamak onemlidir. Kendi arastirmanizi yapiniz (DYOR). #Delisting #Exchange #Binance\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Spotting Rug Pulls Early – Key Red Flags to Watch",
+      "title": "How to Read Exchange Delisting Announcements",
       "slides": [
-        "A rug pull scam disappears liquidity the moment you invest.",
-        "Watch for anonymous teams and unverifiable token contracts.",
-        "Rapid price spikes without real use often signal a planned exit.",
-        "Always verify the project roadmap and community engagement before buying."
+        "Delisting announcements are critical warnings that can impact your crypto holdings",
+        "Delisting means a cryptocurrency is being removed from an exchange platform",
+        "Warning signs include declining liquidity and regulatory concerns",
+        "Monitor official sources and diversify your portfolio proactively"
       ],
-      "caption": "Rug pull scams hide in plain sight; learn to spot early warning signs. Check token contracts and team transparency before investing. Use caution and verify community activity.\n#ScamAlert #Security #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Delisting announcements are critical warnings that can impact your crypto holdings. Understanding these signals is essential for risk management. Always do your own research (DYOR). #Delisting #Exchange #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358584206895957,
-      "url": "https://www.binance.com/square/post/358584206895957",
+      "id": 358674060139193,
+      "url": "https://www.binance.com/square/post/358674060139193",
       "note": null,
       "shortPost": {
-        "id": 358584208480384,
-        "url": "https://www.binance.com/square/post/358584208480384"
+        "id": 358674061459351,
+        "url": "https://www.binance.com/square/post/358674061459351"
       },
-      "title": "Rug Pull Olaylarını Erken Fark Etmek – Dikkat Edilmesi Gerekenler"
+      "title": "Borsa Delisting Duyurularini Okuma Rehberi"
     },
     {
       "lang": "en",
-      "id": 358584670000957,
-      "url": "https://www.binance.com/square/post/358584670000957",
+      "id": 358674526228399,
+      "url": "https://www.binance.com/square/post/358674526228399",
       "note": null,
       "shortPost": {
-        "id": 358584672048119,
-        "url": "https://www.binance.com/square/post/358584672048119"
+        "id": 358674527924733,
+        "url": "https://www.binance.com/square/post/358674527924733"
       },
-      "title": "Spotting Rug Pulls Early – Key Red Flags to Watch"
+      "title": "How to Read Exchange Delisting Announcements"
     }
   ]
 }
