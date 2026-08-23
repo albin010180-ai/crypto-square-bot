@@ -1,61 +1,50 @@
 {
-  "startedAt": "2026-08-23T17:57:58.915Z",
-  "finishedAt": "2026-08-23T18:02:11.232Z",
+  "startedAt": "2026-08-23T21:59:32.539Z",
+  "finishedAt": "2026-08-23T22:03:23.232Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
-    "source": "Cointelegraph",
-    "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "usedLink": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "usedTitleNorm": "fed study finds crypto investors driven by beliefs easily swayed by returns"
+    "type": "info",
+    "topicId": "yeni-proje-degerlendirme"
   },
   "script": {
     "tr": {
-      "title": "Fed, Kripto Yatırımcılarının İnanç ve Getiri Etkisini İnceledi",
+      "title": "Yeni Kripto Projeleri Değerlendirme Kılavuzu",
       "slides": [
-        "Yeni bir Fed çalışması, kripto yatırımcıların inançlarla nasıl hareket ettiğini gösteriyor.",
-        "Yatırımcılar, kripto piyasasında beklenen getiri ve risk konularında keskin farklı görüşlere sahip.",
-        "Bitcoin'in geçmişi kazançları, arzu edilen tahsisleri ve gerçek alımları artırmaktadır.",
-        "Çalışma, kripto yatırımı kararlarında psikolojik faktörleri öne çıkartıyor."
+        "Yeni kripto projeleri değerlendirirken dikkat etmeniz gerekenler",
+        "Bir ekip tecrübesiyle projelerin sürdürülebilirliğini artırır",
+        "Teknoloji yenilikçi mi şeffaf kod ve güvenlik protokolü kontrol edin",
+        "Topluluk aktifse geri bildirim ve büyüme fırsatları artar"
       ],
-      "caption": "Cleveland Fed'den yapılan bir çalışma, kripto yatırımcılarının davranışlarını inceliyor. Çalışmaya göre, kişisel inançlar ve geçmiş getiri bilgileri, yatırımcı kararlarını önemli ölçüde etkiliyor. Yatırımcılar, dijital varlık piyasasında getiri ve risk konularında farklı beklentilere sahip.\n#KriptoHaberler #FedÇalışması #YatırımcıDavranışları\nKaynaklar: Cointelegraph\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Yatırım yaparken $BTC $ETH $SOL gibi temel varlıkları izleyin. Yeni projelerde ekip teknoloji ve topluluk analizini yapın. Riskleri anlayıp sadece araştırmanız yeterli.\n#NewProjects #DueDiligence #CryptoTips\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatırım tavsiyesi degildir. Kendi arastirmanızı yapiniz (DYOR)."
     },
     "en": {
-      "title": "Fed Study Reveals How Beliefs and Returns Drive Crypto Investors",
+      "title": "How to Vet New Crypto Projects",
       "slides": [
-        "A new Federal Reserve study reveals how beliefs and past returns shape crypto investor decisions.",
-        "Investors have sharply different views on expected returns and risk in the crypto market.",
-        "Information about Bitcoin historical gains can increase both desired allocations and actual purchases.",
-        "The research highlights the psychological drivers behind cryptocurrency investment choices."
+        "What to watch when new crypto projects launch",
+        "A strong team boosts a project long term sustainability",
+        "Innovative technology requires transparent code and solid security checks",
+        "An active community drives feedback and growth opportunities"
       ],
-      "caption": "A Federal Reserve Bank of Cleveland study examines the behavior of cryptocurrency investors. The research indicates that personal beliefs and information about past gains significantly influence investment decisions. Investors show varied expectations regarding returns and risk in the digital asset market.\n#CryptoNews #FedStudy #InvestorBehavior\nSources: Cointelegraph\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Investors should monitor $BTC $ETH $SOL as core assets. Analyze team technology and community for new projects. Understand risks before only researching.\n#NewProjects #DueDiligence #CryptoTips\nEN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358878472955856,
-      "url": "https://www.binance.com/square/post/358878472955856",
-      "note": null,
-      "shortPost": {
-        "id": 358878474440749,
-        "url": "https://www.binance.com/square/post/358878474440749"
-      },
-      "title": "Fed, Kripto Yatırımcılarının İnanç ve Getiri Etkisini İnceledi"
+      "error": "fetch failed"
     },
     {
       "lang": "en",
-      "id": 358878947983709,
-      "url": "https://www.binance.com/square/post/358878947983709",
+      "id": 358938225210932,
+      "url": "https://www.binance.com/square/post/358938225210932",
       "note": null,
       "shortPost": {
-        "id": 358878949843454,
-        "url": "https://www.binance.com/square/post/358878949843454"
+        "id": 358938227142595,
+        "url": "https://www.binance.com/square/post/358938227142595"
       },
-      "title": "Fed Study Reveals How Beliefs and Returns Drive Crypto Investors"
+      "title": "How to Vet New Crypto Projects"
     }
   ]
 }
