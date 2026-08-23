@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T13:45:09.434Z",
-  "finishedAt": "2026-08-23T13:49:32.811Z",
+  "startedAt": "2026-08-23T20:50:38.890Z",
+  "finishedAt": "2026-08-23T20:53:40.224Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,85 +8,94 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Can Zcash Flip XRP? NYSE ETF Launch Boosts Privacy Coin to 8-Year Price Record",
-      "source": "U.Today",
-      "link": "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record"
-    },
-    {
-      "title": "As foreign investors dump $29 billion in Treasury bills, Washington pivots to stablecoin issuers to back US debt",
+      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
+      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/"
     },
     {
-      "title": "New Milestone for Shiba Inu (SHIB) in Japan: Meme Coin Enters Elite List of Just 6 Approved Cryptocurrencies",
+      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
+    },
+    {
+      "title": "Schiff: AI Is Not Bullish for Bitcoin",
       "source": "U.Today",
-      "link": "https://u.today/new-milestone-for-shiba-inu-shib-in-japan-meme-coin-enters-elite-list-of-just-6-approved"
+      "link": "https://u.today/schiff-ai-is-not-bullish-for-bitcoin"
     },
     {
-      "title": "Kiyosaki: Educated Investors Buy Bitcoin",
-      "source": "U.Today",
-      "link": "https://u.today/kiyosaki-educated-investors-buy-bitcoin"
-    },
-    {
-      "title": "Crypto treasury firm seeks 20B share ceiling and reverse splits after launching $300M stock offering",
+      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/crypto-treasury-firm-seeks-20b-share-ceiling-and-reverse-splits-after-launching-300m-stock-offering/"
+      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/"
     },
     {
-      "title": "Right or Wrong? Peter Brandt's $58,000 Bitcoin Call Faces Reality Check",
+      "title": "New ATH for Solana: RWA Value Crosses $4 Billion",
       "source": "U.Today",
-      "link": "https://u.today/right-or-wrong-peter-brandts-58000-bitcoin-call-faces-reality-check"
+      "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
     },
     {
-      "title": "Ripple relies on locked XRP reserves to back a $275 million institutional credit line",
+      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/ripple-relies-on-locked-xrp-reserves-to-back-a-275-million-institutional-credit-line/"
+      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
     },
     {
-      "title": "Hyperliquid (HYPE) Breaks Historic Threshold for First Time Since October",
+      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
+    },
+    {
+      "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
       "source": "U.Today",
-      "link": "https://u.today/hyperliquid-hype-breaks-historic-threshold-for-first-time-since-october"
+      "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
+    },
+    {
+      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes"
+    },
+    {
+      "title": "Regulation Crypto is here: State of Crypto",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto"
     }
   ],
   "selected": [
-    "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record",
-    "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/",
-    "https://u.today/new-milestone-for-shiba-inu-shib-in-japan-meme-coin-enters-elite-list-of-just-6-approved",
-    "https://cryptoslate.com/crypto-treasury-firm-seeks-20b-share-ceiling-and-reverse-splits-after-launching-300m-stock-offering/",
-    "https://cryptoslate.com/ripple-relies-on-locked-xrp-reserves-to-back-a-275-million-institutional-credit-line/"
+    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
+    "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
+    "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
+    "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto"
   ],
   "articles": {
     "tr": {
-      "title": "Zcash ETF, Stablecoin Değişimi ve Japonya'nın SHIB Onayı Piyasayı Şekillendiriyor",
-      "body": "Son 24 saatte makro kaymalar, düzenlemeler ve şirket finansmanı kripto pazarını yeniden şekillendiriyor.\n\nYabancı yatırımcılar Haziran'da 29 milyar dolarlık Hazine bonosu satarken, 133,5 milyar doları ABD finans piyasalarına, özellikle hisse senetlerine yönlendirdi. Bu tepki olarak Washington, stablecoin çıkıcılarının ABD borcunu desteklemesini araştırmakta.\n\nVarlık tarafında, Zcash privacy coin'i, Grayscale'in 25 Ağustos'ta NYSE Arca'da başlatması planlanan ETF'nin öncesinde 814 dolarla sekiz yılın en yüksek seviyesine ulaştı. Bu ETF, kurumsal yatırımcılar için düzenli bir araç sunması bekleniyor.\n\nJaponya'da finansal düzenleyici, dört yıl süren lisans dondurmasını sona erdirdi ve altı kripto para onayladı. Shiba Inu bu onaylanan varlıklar arasında yer alarak, Bitcoin, Ethereum ve diğer dört token'in yer aldığını elite bir listeye katıldı.\n\nBir kripto hazine şirketinin 300 milyon dolarlık hisse teklifi sonrası 20 milyar hisse tavanı ve geri alma hakları için başvurusu, üç yıl geri alma yetkisi içeriyor.\n\nRipple, 275 milyon dolarlık kurumsal kredi hattı sağladı; bu kredi, mostly locked XRP rezervleri ve KBRA'dan BBB derecelendirmesiyle desteklendi.\n\nPiyasa gözlemcileri, bu gelişmelerin likidite ve duyguyu nasıl etkilediğini izlerken, $BTC, $ETH ve $SOL gibi büyük token'lar farklı tepkiler gösterdi.\n\n#ETF #Regulation #Stablecoin\n\nKaynaklar: U Today, CryptoSlate\n\nBu haber yapay zeka destekli olarak derlenmiştir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Zcash, Grayscale'in NYSE Arca'daki ETF lansmanı öncesi 814 dolarla sekiz yılın en yüksek seviyesine ulaştı. #Zcash #ETF #Kripto"
+      "title": "Bitcoin ETF'leri ve XRP'in Yükselişi: Regülasyon ve Projelerinуда",
+      "body": "2026'de Bitcoin ve Ethereum ETF'leri en güçlü akışlar kaydetti. Bu gelişme, kripto piyasada yeniden teşvik edilen bir trendi gösteriyor. Aynı zamanda Tether'in Uruguay'da yapıldığı 120 milyon dolar Bitcoin kopayı projesinin güçlü bir güç sözleşmesi çelişmesi nedeniyle sona erdi. Bu olay, crypto sektöründe risklerin ve yatırım stratejilerinin nasıl şekillendiğini gösteriyor.\n\nXRP, son 21 ay için en büyük haftalık artışa doğru gidiyor. Bu yükseliş, Amerikanın Tişkiye'de yapılan satın alma planlarıyla ilişkilendiriliyor. Bu durum, XRP'nin düzenli bir şekilde kullanılan bir para olarak algılanması için önemli bir adım olabilir. Ancak bu artış, uzun vadeli trend mi, geçici bir fprise mi yoksa bilinmiyor. Regülasyonu, bu tür gelişmeler için kritik bir rol oynuyor. Son hafta, SEC, crypto sektörü için 'Reg Crypto' talebi verdi. Bu taleb, sektörü için daha fazla kontrol ve şeffaflık talepini içeren. Bu, crypto'nın geleceğini belirleyen bir gelişme olabilir.\n\n#Ethereum #Altcoins #Blockchain\nBu haber, yapay zeka destekli olarak derlenmistir; yatırım tavsiyesi değildir. Kendi arastirmanızı yapiniz (DYOR).",
+      "tweet": "Bitcoin ETF'leri 1,9 milyar dolar alıştirdı; XRP 50% artışla 21 ayın en iyi haftalık performansı #Bitcoin #XRP #Regulation"
     },
     "en": {
-      "title": "Zcash ETF, Stablecoin Shift, and Japan's SHIB Approval Lead Market Moves",
-      "body": "Over the past 24 hours, a combination of macro shifts, regulatory milestones, and corporate financing has reshaped the crypto landscape.\n\nForeign investors sold $29 billion in Treasury bills in June, while channeling $133.5 billion into US financial markets, predominantly equities. In response, Washington is exploring whether stablecoin issuers could help back US debt, a move that would integrate dollar‑pegged tokens into government funding mechanisms.\n\nOn the asset side, privacy coin Zcash climbed to an eight‑year high of $814 ahead of Grayscale’s planned ETF debut on NYSE Arca, scheduled for August 25. The ETF is expected to offer institutional investors a regulated vehicle for exposure to the privacy token.\n\nIn Japan, the financial regulator ended its four‑year licensing freeze, approving six cryptocurrencies. Shiba Inu was among the newly approved assets, joining an elite list that includes Bitcoin, Ethereum, and four other tokens, marking a significant regulatory opening for meme coins in a major market.\n\nA crypto treasury firm filed for a 20‑billion‑share ceiling and obtained authority for reverse splits after raising $300 million through a stock offering. The proposals include a three‑year window for reverse splits, reflecting ongoing capital restructuring within the sector.\n\nRipple secured a $275 million institutional credit line, backed primarily by its locked XRP reserves and supported by a BBB rating from KBRA. The facility is intended to support the company’s working capital and expansion plans.\n\nMarket observers are tracking how these developments influence liquidity and sentiment, with major tokens such as $BTC, $ETH, and $SOL showing varied reactions throughout the session.\n\n#ETF #Regulation #Stablecoin\n\nSources: U Today, CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Zcash hits $814, its highest since 2018, ahead of Grayscale ETF launch on NYSE Arca. #Zcash #ETF #Crypto"
+      "title": "Bitcoin ETFs Surge and XRP's Rally: Regulation and Projects",
+      "body": "Bitcoin and Ethereum ETFs recorded their strongest inflows of 2026 as crypto markets rebounded. This trend signals renewed investor confidence. Meanwhile, Tether's $120 million Bitcoin mining project in Uruguay collapsed due to a power contract dispute. The project's failure highlights the risks and investment strategies in crypto.\n\nXRP is on track for its largest weekly gain in 21 months, driven by the U.S. Treasury's buyback program. This surge could mark a step toward XRP being recognized as a mainstream payment method. However, whether this rise is a long-term trend or a short-term spike remains unclear. Regulatory developments are crucial here. Last week, the SEC proposed 'Reg Crypto,' seeking 60 days of public comments. This proposal aims to impose stricter controls and transparency in the crypto sector, potentially shaping its future.\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin ETFs hit $1.9B inflows; XRP surges 50% in a week #Bitcoin #XRP #Regulation"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358816485900313,
-      "url": "https://www.binance.com/square/post/358816485900313",
+      "id": 358920716779297,
+      "url": "https://www.binance.com/square/post/358920716779297",
       "shortPost": {
-        "id": 358816487791939,
-        "url": "https://www.binance.com/square/post/358816487791939"
+        "id": 358920719448891,
+        "url": "https://www.binance.com/square/post/358920719448891"
       },
-      "title": "Zcash ETF, Stablecoin Değişimi ve Japonya'nın SHIB Onayı Piyasayı Şekillendiriyor"
+      "title": "Bitcoin ETF'leri ve XRP'in Yükselişi: Regülasyon ve Projelerinуда"
     },
     {
       "lang": "en",
-      "id": 358816859652548,
-      "url": "https://www.binance.com/square/post/358816859652548",
+      "id": 358921091773771,
+      "url": "https://www.binance.com/square/post/358921091773771",
       "shortPost": {
-        "id": 358816861038384,
-        "url": "https://www.binance.com/square/post/358816861038384"
+        "id": 358921093485385,
+        "url": "https://www.binance.com/square/post/358921093485385"
       },
-      "title": "Zcash ETF, Stablecoin Shift, and Japan's SHIB Approval Lead Market Moves"
+      "title": "Bitcoin ETFs Surge and XRP's Rally: Regulation and Projects"
     }
   ]
 }
