@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-23T14:45:01.668Z",
-  "finishedAt": "2026-08-23T14:49:11.997Z",
+  "startedAt": "2026-08-23T17:57:58.915Z",
+  "finishedAt": "2026-08-23T18:02:11.232Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
-    "source": "CryptoSlate",
-    "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
-    "usedLink": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
-    "usedTitleNorm": "the us approved high leverage bitcoin trading while crypto founders remain legally blocked from raising funds"
+    "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+    "source": "Cointelegraph",
+    "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "usedLink": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "usedTitleNorm": "fed study finds crypto investors driven by beliefs easily swayed by returns"
   },
   "script": {
     "tr": {
-      "title": "CFTC'nin Bitcoin Onayı ve SEC'nin Fonlama Teklifi",
+      "title": "Fed, Kripto Yatırımcılarının İnanç ve Getiri Etkisini İnceledi",
       "slides": [
-        "CFTC, Amerikan düzenlenmiş bir borsada Bitcoin perpetual sözleşmesini onayladı",
-        "Onay, 29 Mayıs'ta gerçekleşti ve yüksek kaldıraçlı Bitcoin işlemlerini mümkün kıldı",
-        "SEC, 18 Ağustos'ta kripto projelerin kamuoyundan fon toplamasını mümkün kılabilecek bir yol önerdi",
-        "Ancak yasal engeller hâlâ kripto kurucuların kamu fon toplamasına izin vermiyor"
+        "Yeni bir Fed çalışması, kripto yatırımcıların inançlarla nasıl hareket ettiğini gösteriyor.",
+        "Yatırımcılar, kripto piyasasında beklenen getiri ve risk konularında keskin farklı görüşlere sahip.",
+        "Bitcoin'in geçmişi kazançları, arzu edilen tahsisleri ve gerçek alımları artırmaktadır.",
+        "Çalışma, kripto yatırımı kararlarında psikolojik faktörleri öne çıkartıyor."
       ],
-      "caption": "CFTC, 29 Mayıs'ta Bitcoin perpetual sözleşmesini onayladı.\nSEC, 18 Ağustos'ta kripto projelerin kamuoyundan fon toplaması için bir yol önerdi.\nAncak yasal engeller hâlâ kripto kurucuların bu yolu kullanmasını engelliyor.\n#Bitcoin #CFTC #SEC\nKaynaklar: CryptoSlate\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)"
+      "caption": "Cleveland Fed'den yapılan bir çalışma, kripto yatırımcılarının davranışlarını inceliyor. Çalışmaya göre, kişisel inançlar ve geçmiş getiri bilgileri, yatırımcı kararlarını önemli ölçüde etkiliyor. Yatırımcılar, dijital varlık piyasasında getiri ve risk konularında farklı beklentilere sahip.\n#KriptoHaberler #FedÇalışması #YatırımcıDavranışları\nKaynaklar: Cointelegraph\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "CFTC Approves Bitcoin Trading While SEC Offers Fundraising Path",
+      "title": "Fed Study Reveals How Beliefs and Returns Drive Crypto Investors",
       "slides": [
-        "The CFTC approved a Bitcoin perpetual contract for a regulated US exchange",
-        "The approval came on May 29 and enables high leverage Bitcoin trading",
-        "On August 18 the SEC proposed a path for crypto projects to raise public funds",
-        "Yet legal barriers still prevent crypto founders from accessing those fundraising routes"
+        "A new Federal Reserve study reveals how beliefs and past returns shape crypto investor decisions.",
+        "Investors have sharply different views on expected returns and risk in the crypto market.",
+        "Information about Bitcoin historical gains can increase both desired allocations and actual purchases.",
+        "The research highlights the psychological drivers behind cryptocurrency investment choices."
       ],
-      "caption": "The CFTC approved a Bitcoin perpetual contract on May 29.\nThe SEC proposed a fundraising path for crypto projects on August 18.\nHowever, legal restrictions still block crypto founders from using that route.\n#Bitcoin #CFTC #SEC\nSources: CryptoSlate\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)"
+      "caption": "A Federal Reserve Bank of Cleveland study examines the behavior of cryptocurrency investors. The research indicates that personal beliefs and information about past gains significantly influence investment decisions. Investors show varied expectations regarding returns and risk in the digital asset market.\n#CryptoNews #FedStudy #InvestorBehavior\nSources: Cointelegraph\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358831056103320,
-      "url": "https://www.binance.com/square/post/358831056103320",
+      "id": 358878472955856,
+      "url": "https://www.binance.com/square/post/358878472955856",
       "note": null,
       "shortPost": {
-        "id": 358831058015314,
-        "url": "https://www.binance.com/square/post/358831058015314"
+        "id": 358878474440749,
+        "url": "https://www.binance.com/square/post/358878474440749"
       },
-      "title": "CFTC'nin Bitcoin Onayı ve SEC'nin Fonlama Teklifi"
+      "title": "Fed, Kripto Yatırımcılarının İnanç ve Getiri Etkisini İnceledi"
     },
     {
       "lang": "en",
-      "id": 358831519740443,
-      "url": "https://www.binance.com/square/post/358831519740443",
+      "id": 358878947983709,
+      "url": "https://www.binance.com/square/post/358878947983709",
       "note": null,
       "shortPost": {
-        "id": 358831521265161,
-        "url": "https://www.binance.com/square/post/358831521265161"
+        "id": 358878949843454,
+        "url": "https://www.binance.com/square/post/358878949843454"
       },
-      "title": "CFTC Approves Bitcoin Trading While SEC Offers Fundraising Path"
+      "title": "Fed Study Reveals How Beliefs and Returns Drive Crypto Investors"
     }
   ]
 }
