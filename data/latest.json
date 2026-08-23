@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T03:29:52.425Z",
-  "finishedAt": "2026-08-23T03:33:44.329Z",
+  "startedAt": "2026-08-23T05:16:03.401Z",
+  "finishedAt": "2026-08-23T05:18:39.611Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,58 +8,46 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "XRP Posts Best ETF Week Since May",
-      "source": "U.Today",
-      "link": "https://u.today/xrp-posts-best-etf-week-since-may"
-    },
-    {
-      "title": "2 Days Left: BNB Chain Set for Heavy Network Upgrades",
-      "source": "U.Today",
-      "link": "https://u.today/2-days-left-bnb-chain-set-for-heavy-network-upgrades"
-    },
-    {
-      "title": "Grayscale’s Zcash ETF filing proposes a 2.5% fee and a potential 34% DCG stake",
+      "title": "Coldcard now requires 65 key presses after seed exploit, while exposed funds still must move",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/grayscales-zcash-etf-filing-proposes-a-2-5-fee-and-a-potential-34-dcg-stake/"
+      "link": "https://cryptoslate.com/coldcard-now-requires-65-key-presses-after-seed-exploit-while-exposed-funds-still-must-move/"
     }
   ],
   "selected": [
-    "https://u.today/xrp-posts-best-etf-week-since-may",
-    "https://u.today/2-days-left-bnb-chain-set-for-heavy-network-upgrades",
-    "https://cryptoslate.com/grayscales-zcash-etf-filing-proposes-a-2-5-fee-and-a-potential-34-dcg-stake/"
+    "https://cryptoslate.com/coldcard-now-requires-65-key-presses-after-seed-exploit-while-exposed-funds-still-move/"
   ],
   "articles": {
     "tr": {
-      "title": "XRP'in ETF haftası Mayıs'tan bu yana en iyi seviyesinde, BNB Chain hız için hazır, Grayscale Zcash ETF'si 2,5% ücretle yolda",
-      "body": "Kripto piyasasında son 24 saat içinde XRP, BNB Chain ve Grayscale gibi üç önemli gelişme kaydedildi. XRP, ETF piyasasında Mayıs ayından bu yana en iyi haftasını geçirdi; fiyatı yaklaşık %60 yükselirken, ETF'ye yönelik haftalık giriş de en büyük seviyeye ulaştı. Analistler, bu hareketin $XRP tokenını güçlendirdiğini ve yatırımcı ilgisini artırdığını belirtiyor.\n\nBNB Chain, ağ performansını artırmak için hazır. Platform, yaklaşık iki gün sonra ağın hızını iki katına çıkarmayı hedefleyen bir hard fork ile ağ yükseltmelerine hazırlanıyor. Yeni güncelleme, işlemlerin daha hızlı gerçekleşmesini sağlayarak $BNB tokenının kullanımını artırmayı amaçlıyor.\n\nGrayscale, Zcash ETF'si için başvuru yaparak sektöre yeni bir dinamik kazandırdı. Dosyada, 2,5% yönetim ücreti öngörülürken, 30 Haziran tarihli bir anlık veriye göre DCG International'ın fonun %34'üne kadar pay sahibi olabileceği belirtiliyor. Bu, $ZEC tokenı için önemli bir adım olarak görülüyor.\n\nBu gelişmeler, kripto piyasasındaki çeşitlilik ve ETF tabanlı ürünlere olan ilginin devam ettiğini gösteriyor. Yatırımcılar, ağ geliştirmeleri ve yeni ETF seçenekleri arasındaki dengeleri yakından takip ediyor.\n\n#Bitcoin #CryptoNews #MarketUpdate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "XRP, ETF piyasasında Mayıs'ten bu yana en iyi haftasını kaydetti, fiyatı %60'a yükseldi #XRP #ETF #CryptoNews"
+      "title": "Coldcard Donanım Cüzdanı Güvenlik Açığı Sonrası 65 Tuş Basımı Gerektiriyor",
+      "body": "Popüler donanım cüzdanı üreticisi Coldcard, tohum ifşası güvenlik açığını gidermek amacıyla yeni firmware sürümlerini yayınladı. CryptoSlate'e göre, 5.6.1 ve 1.5.1Q sürümleri yeni cüzdan oluşturma sürecini önemli ölçüde sertleştiriyor. Kullanıcılar artık yeni bir cüzdan başlatırken 65 kez tuşa basmak zorunda kalıyor; bu da rastgelelik kaynaklarını güçlendirme ve olası saldırı vektörlerini daraltma amacı taşıyor.\n\nGüncellemenin en kritik noktası, etkilenen firmware sürümleriyle oluşturulmuş tohum ifadelerinin onarılamayacağı uyarısı. Etkilenen sürümlerden birini kullanarak cüzdan kuran kullanıcıların fonlarını güvenli bir cüzdana taşımaları gerektiği vurgulanıyor. Bu durum, donanım cüzdanı güvenliğinin sadece yazılım güncellemeleriyle değil, aynı zamanda kullanıcı eylemiyle de sağlanması gerektiğini hatırlatıyor.\n\nGüvenlik araştırmacıları, bu tür açıkların fiziksel erişim gerektirdiğini ancak yine de ciddi risk oluşturduğunu belirtiyor. Coldcard ekibi, sorunun tespiti ve yamalanması sürecinde şeffaf bir iletişim politikası izledi. Kullanıcılar resmi kanallardan firmware güncellemelerini indirip cihazlarını güncelleyebilir.\n\nBu olay, kripto varlık saklama çözümlerinin güvenlik denetimlerinin sürekli bir süreç olduğunu gösteriyor. Donanım cüzdanı kullanıcıları için düzenli firmware takibi ve resmi duyuruları izlemek hayati önem taşıyor.\n\n#Coldcard #HardwareWallet #Security\nKaynaklar: CryptoSlate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Coldcard tohum açığı sonrası 65 tuş basımı zorunlu kıldı; etkilenen cüzdanlar taşınmalı #Coldcard #HardwareWallet #Security"
     },
     "en": {
-      "title": "XRP's ETF week hits best level since May, BNB Chain readies speed boost, Grayscale Zcash ETF filed with 2.5% fee",
-      "body": "In the past 24 hours, three key developments unfolded across XRP, BNB Chain and Grayscale, shaping market dynamics. XRP recorded its best ETF week since May, with a 60% price surge driving the largest weekly inflow in the ETF market. Market observers note that the rally strengthened $XRP token sentiment and attracted fresh capital.\n\nBNB Chain is preparing a major network upgrade aimed at doubling speed. A forthcoming hard fork, scheduled for the next few days, is set to boost throughput and improve transaction efficiency, potentially enhancing $BNB token utility. The upgrade reflects the platform's commitment to scalability.\n\nGrayscale filed a Zcash ETF proposal that introduces a 2.5% management fee and a potential 34% stake for DCG International based on a June 30 snapshot. The filing signals growing institutional interest in $ZEC token exposure. Analysts view the move as a milestone for Zcash's integration into mainstream investment products.\n\nThese stories highlight the ongoing diversification of crypto assets and the expanding role of ETFs in the ecosystem. Investors continue to monitor network improvements and new fund offerings for strategic insights.\n\n#Bitcoin #CryptoNews #MarketUpdate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "XRP recorded its best ETF week since May, with a 60% price surge driving the largest weekly inflow in the ETF market #XRP #ETF #CryptoNews"
+      "title": "Coldcard Hardware Wallet Now Requires 65 Key Presses After Seed Exploit",
+      "body": "Popular hardware wallet manufacturer Coldcard has released new firmware versions to address a seed phrase exposure vulnerability. According to CryptoSlate, versions 5.6.1 and 1.5.1Q significantly harden the new wallet creation process. Users must now press keys 65 times when initializing a new wallet, a measure designed to strengthen entropy sources and narrow potential attack vectors.\n\nThe most critical aspect of the update is the warning that seed phrases created on affected firmware versions cannot be repaired. Users who initialized wallets using the vulnerable releases must move their funds to a secure wallet. This highlights that hardware wallet security requires both software patches and user action.\n\nSecurity researchers note that such vulnerabilities typically require physical access but still pose serious risks. The Coldcard team maintained transparent communication throughout the detection and patching process. Users can download firmware updates through official channels to secure their devices.\n\nThis incident demonstrates that security auditing of crypto custody solutions is an ongoing process. For hardware wallet users, regular firmware monitoring and following official announcements remains essential.\n\n#Coldcard #HardwareWallet #Security\nSources: CryptoSlate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Coldcard mandates 65 key presses after seed exploit; affected wallets must migrate funds #Coldcard #HardwareWallet #Security"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358665144211511,
-      "url": "https://www.binance.com/square/post/358665144211511",
+      "id": 358690930361972,
+      "url": "https://www.binance.com/square/post/358690930361972",
       "shortPost": {
-        "id": 358665146228196,
-        "url": "https://www.binance.com/square/post/358665146228196"
+        "id": 358690931772094,
+        "url": "https://www.binance.com/square/post/358690931772094"
       },
-      "title": "XRP'in ETF haftası Mayıs'tan bu yana en iyi seviyesinde, BNB Chain hız için hazır, Grayscale Zcash ETF'si 2,5% ücretle yolda"
+      "title": "Coldcard Donanım Cüzdanı Güvenlik Açığı Sonrası 65 Tuş Basımı Gerektiriyor"
     },
     {
       "lang": "en",
-      "id": 358665518029532,
-      "url": "https://www.binance.com/square/post/358665518029532",
+      "id": 358691303079241,
+      "url": "https://www.binance.com/square/post/358691303079241",
       "shortPost": {
-        "id": 358665519986514,
-        "url": "https://www.binance.com/square/post/358665519986514"
+        "id": 358691305533542,
+        "url": "https://www.binance.com/square/post/358691305533542"
       },
-      "title": "XRP's ETF week hits best level since May, BNB Chain readies speed boost, Grayscale Zcash ETF filed with 2.5% fee"
+      "title": "Coldcard Hardware Wallet Now Requires 65 Key Presses After Seed Exploit"
     }
   ]
 }
