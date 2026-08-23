@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-23T07:22:11.082Z",
-  "finishedAt": "2026-08-23T07:26:36.548Z",
+  "startedAt": "2026-08-23T10:03:12.570Z",
+  "finishedAt": "2026-08-23T10:09:05.785Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Local’s access to global crypto platforms could end under Nigeria’s proposed capital floor",
-    "source": "CryptoSlate",
-    "link": "https://cryptoslate.com/seamless-access-to-global-crypto-platforms-could-evaporate-for-locals-under-nigerias-proposed-%e2%82%a62-billion-capital-floor/",
-    "usedLink": "https://cryptoslate.com/seamless-access-to-global-crypto-platforms-could-evaporate-for-locals-under-nigerias-proposed-%e2%82%a62-billion-capital-floor/",
-    "usedTitleNorm": "local s access to global crypto platforms could end under nigeria s proposed capital floor"
+    "title": "Satoshi's Code Reopened: Someone Just Deciphered Bitcoin Puzzle Into Genesis Block Data",
+    "source": "U.Today",
+    "link": "https://u.today/satoshis-code-reopened-someone-just-deciphered-bitcoin-puzzle-into-genesis-block-data",
+    "usedLink": "https://u.today/satoshis-code-reopened-someone-just-deciphered-bitcoin-puzzle-into-genesis-block-data",
+    "usedTitleNorm": "satoshi s code reopened someone just deciphered bitcoin puzzle into genesis block data"
   },
   "script": {
     "tr": {
-      "title": "Nijerya, kripto platformlarına erişimi sınırlayacak sermaye zorunluluğu getiriyor",
+      "title": "Satoshi'nın Kodu Yenileniyor: Bitcoin Puzzlesi Açıldı",
       "slides": [
-        "Nijerya yerel kullanıcıları küresel platformlardan bloklayabilir.",
-        "Regülatörler, değişikliklerde iki milyar naira sermaye zorunluluğu getiriyor.",
-        "Dış para birimli stabilcoinlerin destek degeri bir yüz yirmi katına çıkmalı.",
-        "Kural kabul edildiğinde yerel kullanıcılar önemli cripto hizmetlerine erişim kaybetti."
+        "Satoshi'nın Bitcoin testinde gizložen bir puzzle, yenilenmiş!",
+        "Kullanıcı, Genis Blok verilerini kullanarak puzzle'yi çözdü.",
+        "Puzzle çözümü, Bitcoin'un başlangıç bloku ile ilişkilendirildi.",
+        "Bu gelişme, Bitcoin'in güvenlik ve geçmişi keşfedilmesine yardımcı olabilir"
       ],
-      "caption": "Nijerya, kripto platformlarına erişimi sınırlayacak bir sermaye zorunluluğu getiriyor.\nDeğişen kural, yerel kullanıcıları dışarıda bırakabilir.\nKaynaklar: CryptoSlate\n#Kripto #Nigeria #Regülasyon\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Kaynak: U.Today. Bu video yapay zeka destekli olarak hazirlanmistir; yatırım tavsiyesi değildir. Kendi arastirmanızı yapiniz (DYOR).\n#Crypto #CryptoNews #Binance"
     },
     "en": {
-      "title": "Nigeria's new capital rule could shut local crypto users out of global platforms",
+      "title": "Satoshi's Code Reopened: Bitcoin Puzzle Solved",
       "slides": [
-        "Nigeria may block local crypto users from global platforms.",
-        "Regulators propose a two billion naira capital requirement for exchanges.",
-        "Backing for foreign stablecoins must reach one hundred twenty times the token value.",
-        "If the rule passes local users could lose access to major crypto services."
+        "Satoshi's Bitcoin puzzle hidden in Genesis Block data is now solved!",
+        "User decoded Genesis Block data using Satoshi's original code.",
+        "Puzzle solution links Bitcoin's history to its first block.",
+        "This discovery could reveal more about Bitcoin's security and origins"
       ],
-      "caption": "Nigeria's new capital rule may restrict local users from global crypto platforms.\nThe proposal requires a two billion naira capital floor for exchanges.\nSources: CryptoSlate\n#Crypto #Nigeria #Regulation\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR). / EN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Sources: U.Today. This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR).\n#Crypto #CryptoNews #Binance"
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 358722270099411,
-      "url": "https://www.binance.com/square/post/358722270099411",
+      "id": 358762215513276,
+      "url": "https://www.binance.com/square/post/358762215513276",
       "note": null,
       "shortPost": {
-        "id": 358722283884818,
-        "url": "https://www.binance.com/square/post/358722283884818"
+        "id": 358762217928996,
+        "url": "https://www.binance.com/square/post/358762217928996"
       },
-      "title": "Nijerya, kripto platformlarına erişimi sınırlayacak sermaye zorunluluğu getiriyor"
+      "title": "Satoshi'nın Kodu Yenileniyor: Bitcoin Puzzlesi Açıldı"
     },
     {
       "lang": "en",
-      "id": 358722748941339,
-      "url": "https://www.binance.com/square/post/358722748941339",
+      "id": 358762681405083,
+      "url": "https://www.binance.com/square/post/358762681405083",
       "note": null,
       "shortPost": {
-        "id": 358722750289596,
-        "url": "https://www.binance.com/square/post/358722750289596"
+        "id": 358762683035682,
+        "url": "https://www.binance.com/square/post/358762683035682"
       },
-      "title": "Nigeria's new capital rule could shut local crypto users out of global platforms"
+      "title": "Satoshi's Code Reopened: Bitcoin Puzzle Solved"
     }
   ]
 }
