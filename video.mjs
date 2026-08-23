@@ -7,6 +7,7 @@ import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateVideoScript, generateInfoVideoScript } from "./src/video-script.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
 import { uploadVideoAsset, uploadImageAsset, publishVideoPost } from "./src/video-publish.mjs";
+import { tweet } from "./src/x.mjs";
 import {
   publishShortPostSafe,
   stripRiskyPunct,
@@ -38,6 +39,13 @@ function buildCfg() {
       .map((s) => s.trim().toLowerCase())
       .filter(Boolean),
     footer: process.env.VIDEO_FOOTER?.trim() || "@Mr_Emanetson | Binance Square",
+    referralLink: process.env.X_REFERRAL_LINK?.trim() || "https://me-l.co/b6iygwwa",
+    x: {
+      apiKey: process.env.X_API_KEY?.trim() || "",
+      apiSecret: process.env.X_API_SECRET?.trim() || "",
+      accessToken: process.env.X_ACCESS_TOKEN?.trim() || "",
+      accessSecret: process.env.X_ACCESS_SECRET?.trim() || "",
+    },
   };
 }
 
@@ -60,6 +68,15 @@ function ensureCashtagsInShortPost(shortText, caption) {
   const tagLine = hashtags.join(" ");
   const textWithoutTags = shortText.replace(/#[A-Za-z0-9_]+/g, "").trim();
   return `${textWithoutTags} ${needed.join(" ")} ${tagLine}`.trim();
+}
+
+function savePendingTweet(text, lang, postUrl) {
+  const file = "data/pending-tweets.json";
+  let tweets = [];
+  try { tweets = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
+  tweets.push({ text, lang, postUrl, createdAt: new Date().toISOString() });
+  fs.writeFileSync(file, JSON.stringify(tweets, null, 2));
+  console.log(`  Tweet kaydedildi (pending-tweets.json) - manuel paylasim icin`);
 }
 
 async function publishWithRetry(cfg, params) {
@@ -250,6 +267,26 @@ async function main() {
       } catch (err) {
         console.warn(`  Kisa post atlandi: ${err.message}`);
         res.shortPostError = err.message;
+      }
+
+      if (res.url) {
+        const xEnabled = Object.values(cfg.x).every(Boolean);
+        const joinLabel = lang === "tr" ? "Binance'de izleyin:" : "Watch on Binance:";
+        const xText = `${part.title}\n\n${res.url}\n${joinLabel} ${cfg.referralLink}`;
+        
+        if (xEnabled) {
+          try {
+            const x = await tweet({ ...cfg.x, text: xText });
+            console.log(`  X: ${x.url}`);
+            res.xUrl = x.url;
+          } catch (err) {
+            console.warn(`  X hatasi: ${err.message}`);
+            res.xError = err.message;
+            savePendingTweet(xText, lang, res.url);
+          }
+        } else {
+          savePendingTweet(xText, lang, res.url);
+        }
       }
 
       record.videos.push({ lang, ...res, title: part.title });

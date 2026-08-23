@@ -5,6 +5,7 @@ import { generateArticles, generateInfoArticles } from "./src/write.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
 import { publishArticle, publishShortPostSafe, stripRiskyPunct, aggressiveStrip } from "./src/publish.mjs";
 import { tweet } from "./src/x.mjs";
+import fs from "node:fs";
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
 
@@ -30,7 +31,7 @@ function buildCfg() {
     maxWords: num("ARTICLE_MAX_WORDS", 600),
     referralLink:
       process.env.X_REFERRAL_LINK?.trim() ||
-      "https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001D41FKZ1",
+      "https://me-l.co/b6iygwwa",
     x: {
       apiKey: process.env.X_API_KEY?.trim() || "",
       apiSecret: process.env.X_API_SECRET?.trim() || "",
@@ -80,6 +81,16 @@ function ensureCashtagsInShortPost(shortText, body) {
   const tagLine = hashtags.join(" ");
   const textWithoutTags = shortText.replace(/#[A-Za-z0-9_]+/g, "").trim();
   return `${textWithoutTags} ${needed.join(" ")} ${tagLine}`.trim();
+}
+
+function savePendingTweet(text, lang, postUrl) {
+  const dir = "data";
+  const file = `${dir}/pending-tweets.json`;
+  let tweets = [];
+  try { tweets = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
+  tweets.push({ text, lang, postUrl, createdAt: new Date().toISOString() });
+  fs.writeFileSync(file, JSON.stringify(tweets, null, 2));
+  console.log(`  Tweet kaydedildi (pending-tweets.json) - manuel paylasim icin`);
 }
 
 async function main() {
@@ -223,16 +234,22 @@ async function main() {
     }
 
     if (okResult) {
-      if (okResult.url && xEnabled) {
-        try {
-          const joinLabel = lang === "tr" ? "Binance'e katilin:" : "Join Binance:";
-          const xText = `${art.tweet}\n\n${okResult.url}\n${joinLabel} ${cfg.referralLink}`;
-          const x = await tweet({ ...cfg.x, text: xText });
-          console.log(`  X: ${x.url}`);
-          okResult.xUrl = x.url;
-        } catch (err) {
-          console.warn(`  X hatasi: ${err.message}`);
-          okResult.xError = err.message;
+      if (okResult.url) {
+        const joinLabel = lang === "tr" ? "Binance'e katilin:" : "Join Binance:";
+        const xText = `${art.tweet}\n\n${okResult.url}\n${joinLabel} ${cfg.referralLink}`;
+        
+        if (xEnabled) {
+          try {
+            const x = await tweet({ ...cfg.x, text: xText });
+            console.log(`  X: ${x.url}`);
+            okResult.xUrl = x.url;
+          } catch (err) {
+            console.warn(`  X hatasi: ${err.message}`);
+            okResult.xError = err.message;
+            savePendingTweet(xText, lang, okResult.url);
+          }
+        } else {
+          savePendingTweet(xText, lang, okResult.url);
         }
       }
 
