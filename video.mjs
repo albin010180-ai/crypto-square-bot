@@ -274,8 +274,7 @@ async function main() {
 
       if (res.url) {
         const xEnabled = Object.values(cfg.x).every(Boolean);
-        const joinLabel = lang === "tr" ? "Binance'de izleyin:" : "Watch on Binance:";
-        const xText = `${part.title}\n\n${res.url}\n${joinLabel} ${cfg.referralLink}`;
+        const xText = part.title;
         
         if (xEnabled) {
           try {

@@ -64,7 +64,7 @@ STRUCTURE ORDER (both languages)
 TWEET RULES (for each language's "tweet" field)
 - A short X/Twitter post in the same language: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
-- MAXIMUM 180 characters. No URLs (added automatically later), no mentions, plain text.
+- MAXIMUM 180 characters. No URLs, no mentions, plain text only.
 - TR example: "$BTC 80K seviyesini test ediyor; CFTC kripto regülasyonu icin takvim acikladi #Bitcoin #Regulation #CryptoNews"`;
 }
 
@@ -197,7 +197,7 @@ STRUCTURE ORDER (both languages)
 TWEET RULES (for each language's "tweet" field)
 - A short X/Twitter post in the same language: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
 - Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
-- MAXIMUM 180 characters. No URLs, no mentions, plain text.
+- MAXIMUM 180 characters. No URLs, no mentions, plain text only.
 
 ${SAFETY_RULES}`;
 }

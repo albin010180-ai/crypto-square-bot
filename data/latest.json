@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T21:56:42.283Z",
-  "finishedAt": "2026-08-23T22:00:36.823Z",
+  "startedAt": "2026-08-23T22:13:42.004Z",
+  "finishedAt": "2026-08-23T22:16:58.497Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -83,7 +83,7 @@
   ],
   "selected": [
     "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
-    "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record",
+    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
     "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
     "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
     "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion",
@@ -91,15 +91,38 @@
   ],
   "articles": {
     "tr": {
-      "title": "Altcoin Rallisı, DeFi Hack'i ve ABD'de Kripto Düzenlemesi Değişimi",
-      "body": "Wall Street, son bir haftada Bitcoin ve Ethereum dışındaki altcoin fonlarına yaklaşık 90 milyon dolar akış sağlayarak XRP, $SOL ve $HYPE'nin yükselişine öncülük etti. Bu hamle, BTC ve ETH ETF'lerinin de 2026 yılının en güçlü haftasını geçirmesine yardımcı oldu; BTC ETF'leri 1.918 milyar dolar, ETH fonları ise 697 milyon dolar net giriş kaydetti. Analistler, yüksek hacimlerin $BTC ve $ETH için önemli direnç seviyelerini test ettiğini belirtiyor.\n\nGrayscale'in 25 Ağustos tarihli NYSE Arca ETF lansmanı öncesinde Zcash, 814 dolar seviyesine yükselerek 8 yıllık rekor kırdı. Yeniden değerlendirme, ZEC topluluğunda XRP'yi geçme tartışmasını yeniden alevlendirdi. $ZEC'nin fiyat artışı, ETF beklentileriyle birlikte gelen likidite dalgasının özel coin pazarında nasıl etkili olduğunu gösteriyor.\n\nTerm Finance, 8,5 milyon dolarlık bir governance exploit'üne maruz kaldı. Protokol, önerilerin yedi günlük bir gecikmeyle devre dışı bırakılmasını ve likidite sağlayıcıların veto yetkisine sahip olmasını sağlayarak savunma mekanizmaları kurmuş olsa da, saldırganlar bu kontrolleri aşmayı başardı. Olay, DeFi lending platformlarının on-chain yönetişim güvenliği konusunda ne kadar hassas olduklarını bir kez daha ortaya koydu.\n\nABD'de düzenleyici çatışmalar devam ediyor. CFTC, 29 Mayıs'ta düzenlenmiş bir Bitcoin sürekli kontratını onaylarken, SEC 18 Ağustos'ta kripto projelerinin halka açık fon toplaması için token ağlarına özel kurallar içeren bir yol haritası sundu. Bu çelişkili adımlar, kurumsal katılımı teşvik etme ve yatırımcıları koruma arasındaki dengeyi göstermekte.\n\nSolana'nın reel dünya varlıkları (RWA) segmenti, 4 milyar dolarlık yeni bir zirveye ulaştı. RWA büyümesindeki ivme, $SOL için yeni destek seviyeleri oluştururken, aynı zamanda platformun merkezi olmayan finansal hizmetler pazarındaki önemini artırıyor.\n\nSon olarak, yabancı yatırımcılar Haziran ayında 29 milyar dolar değerinde ABD Hazine bonolarını sattı. Bu büyük çıkışın ardından Washington, ABD borcunu desteklemek için stablecoin ihraççılarını yeni bir kanal olarak değerlendirmeye başladı. Bu makro ekonomik gelişme, geleneksel finans dünyasının kripto varlıklara olan bakışını değiştirebilir.\n\nKaynaklar: CryptoSlate, The Block, U.Today\n\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$90 milyonluk altcoin akışı, $SOL ve $XRP yükselişe geçti; Wall Street ilgi gösteriyor #Altcoin #ETF #CryptoNews"
+      "title": "Crypto Market Update: ETF Yükselişleri, DeFi Güvenlik Olayları ve Regülasyonlar",
+      "body": "Son 24 saat içinde crypto piyasa, Bitcoin ve Ethereum ETF'leriyle dikkat çekici bir gelişme yaşamıştır. Bu fırsatlar, insansızdan içeri girerek $2.615 milyarınca流入asuklar. Aynı zamanda, Term Finance gibi DeFi protokoller, $8.5 milyon kaybına neden olan güvenlik açıklarıyla dikkat çekmeye devam etmektedir. Bu olaylar, piyasa güvenilirliğinin ve düzenlemelerin önemiyle ilişkiliriskleri vurgulamaktadır.\n\nBitcoin ve Ethereum ETF'leri, 2026 yılın en güçlü hafta geçti. Bu fonlar, piyasa sıcaktığına karşılık olarak, Bitcoin ETF'leri $1.918 milyar, Ethereum ETF'leri $697.2 milyon çekmişlerdir. Bu akışlar, büyük paraçlıklar ve kurumlar, özellikle altcoinlar gibi alt katmanlar için fırsat olarak görmektedir. XRP ve Solana gibi altcoinlar, bu alışverişlerle 8-10% artışlar yaşadıkları için dikkat çekici bir performans sergilemiştir.\n\nDeFi alanında ise, Term Finance, bir yönetim açıklığıyla $8.5 milyon kaybına neden olmuştur. Bu olay, protokoller, kullanıcı koruma ve güvenlik testlerinin önemiyle ilgili kritik bir örnektir. Açıklığın, liquidity sağlayıcıların ve kullanıcıların güvenini etkisi muhtemeldir. Ancak, projenin güvenilirliği, 팀 arka planda, auditelikler veya yatırımcılarla ilgili bilinen bilgiler eksik. Bu, potansiyel risklerin var olduğunu gösterir.\n#Ethereum #Altcoins #Blockchain",
+      "tweet": "$BTC ve $ETH ETF'leri 2026'un en güçlü hafta geçti; Term Finance'de $8.5M kaybı. #ETF #Hack #Regulation"
     },
     "en": {
-      "title": "Altcoin Surge, DeFi Hack, and U.S. Crypto Regulation Shift",
-      "body": "Wall Street poured nearly $90 million into altcoin ETFs last week, driving XRP, $SOL and $HYPE higher. The influx came as Bitcoin and Ethereum ETFs recorded their strongest week of 2026, with BTC funds attracting $1.918 billion and ETH funds pulling in $697 million. Traders note that the elevated volumes have pushed $BTC and $ETH toward key resistance levels, reinforcing the rally’s momentum.\n\nZcash surged to $814, an eight‑year high, ahead of Grayscale’s upcoming NYSE Arca ETF launch on August 25. The price jump has sparked fresh debate in the community about whether ZEC can overtake XRP in market dominance. The rally illustrates how ETF anticipation can quickly translate into price appreciation for niche assets.\n\nDeFi lending protocol Term Finance lost an estimated $8.5 million to a governance exploit. The protocol had introduced a seven‑day delay for vault proposals and granted liquidity providers veto power, yet attackers bypassed these controls. The incident underscores ongoing concerns about on‑chain governance security in decentralized finance.\n\nRegulatory activity in the U.S. remains mixed. On May 29, the CFTC approved a Bitcoin perpetual contract for a regulated exchange, while on August 18 the SEC proposed a legal pathway for crypto projects to raise funds from the public under token‑network rules. The contrasting moves highlight the tension between fostering innovation and protecting investors.\n\nSolana’s real‑world asset (RWA) ecosystem hit a new milestone, with total RWA value crossing $4 billion. The growth reinforces $SOL’s position as a leading platform for tokenized traditional assets and suggests expanding use cases beyond pure speculation.\n\nMeanwhile, foreign investors sold $29 billion of U.S. Treasury bills in June, prompting Washington to consider stablecoin issuers as a new source of backing for U.S. debt. The shift could open doors for stablecoins to play a larger role in government financing.\n\nSources: CryptoSlate, The Block, U.Today\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "$90M poured into altcoins as $SOL and $XRP rally; Wall Street shifts focus #Altcoin #ETF #CryptoNews"
+      "title": "Market Roundup: ETF Inflows, DeFi Hacks, and Regulatory Shifts",
+      "body": "The crypto market witnessed significant developments in the last 24 hours, with Bitcoin and Ethereum ETFs attracting $2.615 billion in inflows. This surge reflects institutional confidence as investors re-enter the market amid a broader rally. Altcoins like XRP and Solana also saw sharp gains, driven by increased trading activity.\n\nSimultaneously, DeFi protocols faced security challenges. Term Finance, a lending platform, suffered an $8.5 million loss due to a governance exploit. Despite existing safeguards, the attack highlights vulnerabilities in decentralized systems. While the protocol's team and audit status remain unverified, the incident underscores the need for robust risk management in DeFi.\n\nRegulatory actions also dominated the news. The U.S. approved high-leverage Bitcoin trading, signaling a shift toward institutional-grade products. Meanwhile, foreign investors offloaded $29 billion in Treasury bills, prompting the government to explore stablecoin issuers as a debt-backing mechanism. This pivot reflects broader macroeconomic pressures and the evolving role of crypto in financial systems.\n\nSolana's Real-World Asset (RWA) value crossed $4 billion, marking a new all-time high. This growth aligns with the increasing adoption of tokenized assets, further cementing Solana's position in the market.\n\nMarket analysis shows Bitcoin maintaining strong support above $60,000, while Ethereum's ETF inflows suggest potential resistance at $3,500. These technical levels may influence short-term price action.\n#Ethereum #Altcoins #Blockchain",
+      "tweet": "$BTC $ETH ETF'leri $2.6B çekti; Term Finance'de $8.5M kaybı. #ETF #Hack #Regulation"
     }
   },
-  "published": []
+  "published": [
+    {
+      "lang": "tr",
+      "id": 358941190634203,
+      "url": "https://www.binance.com/square/post/358941190634203",
+      "xError": "X API HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
+      "shortPost": {
+        "id": 358941193701750,
+        "url": "https://www.binance.com/square/post/358941193701750"
+      },
+      "title": "Crypto Market Update: ETF Yükselişleri, DeFi Güvenlik Olayları ve Regülasyonlar"
+    },
+    {
+      "lang": "en",
+      "id": 358941565509395,
+      "url": "https://www.binance.com/square/post/358941565509395",
+      "xError": "X API HTTP 402: {\"detail\":\"credits depleted\",\"status\":402,\"title\":\"Payment Required\",\"type\":\"https://api.x.com/2/problems/credits-depleted\"}",
+      "shortPost": {
+        "id": 358941569165832,
+        "url": "https://www.binance.com/square/post/358941569165832"
+      },
+      "title": "Market Roundup: ETF Inflows, DeFi Hacks, and Regulatory Shifts"
+    }
+  ]
 }

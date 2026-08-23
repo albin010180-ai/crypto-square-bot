@@ -250,8 +250,7 @@ async function main() {
 
     if (okResult) {
       if (okResult.url) {
-        const joinLabel = lang === "tr" ? "Binance'e katilin:" : "Join Binance:";
-        const xText = `${art.tweet}\n\n${okResult.url}\n${joinLabel} ${cfg.referralLink}`;
+        const xText = art.tweet;
         
         if (xEnabled) {
           try {
