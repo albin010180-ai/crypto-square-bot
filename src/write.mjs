@@ -47,7 +47,7 @@ COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square 
 ${SAFETY_RULES}
 
 REACH RULES (discovery without spam signals)
-- Cashtags: use 3-6 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL $BNB $XRP $SOL). Focus on coins mentioned in the stories. Uppercase standard symbols. These are essential for Write to Earn commission tracking.
+- Cashtags: use 2-4 DIFFERENT cashtags in the entire body, inline where natural ($BTC $ETH $SOL $BNB). Focus on coins mentioned in the stories. Uppercase standard symbols. These are essential for Write to Earn commission tracking.
 - Hashtags: EXACTLY 3, placed on one line right before the sources section. Choose them FRESH from today's actual story topics (e.g. #ETF #Solana #Regulation or #Bitcoin #DeFi #Hack) - never reuse the exact same combination as previous runs, and never include #BinanceSquare or generic filler every time.
 
 MARKET ANALYSIS ANGLE (Write to Earn optimization)
@@ -56,7 +56,7 @@ MARKET ANALYSIS ANGLE (Write to Earn optimization)
 - Connect market data to the narrative to provide actionable insights for readers.
 
 STRUCTURE ORDER (both languages)
-1. Article paragraphs (with 3-6 inline cashtags), varying your opening style between runs
+1. Article paragraphs (with 2-4 inline cashtags), varying your opening style between runs
 2. MANDATORY hashtag line: EXACTLY 3 hashtags alone on one line, immediately before the sources section. Never skip this line.
 3. Sources section: "Kaynaklar:" (TR) / "Sources:" (EN) followed by outlet names only, comma-separated, NO URLs
 4. Transparency + disclaimer line
@@ -185,7 +185,7 @@ COMPLIANCE RULES (critical - non-compliant posts get delisted by Binance Square 
 - ABSOLUTELY NO mentions (@...) of any account.
 - STRICTLY NEUTRAL EDUCATIONAL TONE: FORBIDDEN: price predictions or targets, buy/sell/hold suggestions, hype words, emotional exaggeration, speculation presented as fact.
 - You are an EDUCATOR, never an advisor. Do not instruct readers what to do with their money.
-- Cashtags: 3-6 DIFFERENT, inline where natural ($BTC $ETH $SOL $BNB). Focus on coins relevant to the topic. Essential for Write to Earn tracking.
+- Cashtags: 2-4 DIFFERENT, inline where natural ($BTC $ETH $SOL $BNB). Focus on coins relevant to the topic. Essential for Write to Earn tracking.
 - Hashtags: EXACTLY 3 on one line near the end: use "${topic.tags.slice(0, 2).join(" ")}" plus ONE more fitting tag such as #CryptoEducation #Binance #DYOR.
 - TRANSPARENCY LINE (very last line of body): TR -> "Bu yazi yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)." / EN -> "This article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
 

@@ -1,101 +1,35 @@
 {
-  "startedAt": "2026-08-23T20:50:38.890Z",
-  "finishedAt": "2026-08-23T20:53:40.224Z",
-  "dryRun": false,
+  "startedAt": "2026-08-23T21:47:04.583Z",
+  "finishedAt": "2026-08-23T21:48:31.903Z",
+  "dryRun": true,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "contentTopic": null,
-  "sourceErrors": [],
+  "sourceErrors": [
+    "NewsBTC: fetch failed",
+    "Bitcoinist: fetch failed"
+  ],
   "candidates": [
     {
-      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/"
-    },
-    {
-      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
-    },
-    {
-      "title": "Schiff: AI Is Not Bullish for Bitcoin",
-      "source": "U.Today",
-      "link": "https://u.today/schiff-ai-is-not-bullish-for-bitcoin"
-    },
-    {
-      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/"
-    },
-    {
-      "title": "New ATH for Solana: RWA Value Crosses $4 Billion",
-      "source": "U.Today",
-      "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
-    },
-    {
-      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
-    },
-    {
-      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
-    },
-    {
-      "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
-      "source": "U.Today",
-      "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
-    },
-    {
-      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes"
-    },
-    {
-      "title": "Regulation Crypto is here: State of Crypto",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto"
+      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
-    "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
-    "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
-    "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto"
+    "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin ETF'leri ve XRP'in Yükselişi: Regülasyon ve Projelerinуда",
-      "body": "2026'de Bitcoin ve Ethereum ETF'leri en güçlü akışlar kaydetti. Bu gelişme, kripto piyasada yeniden teşvik edilen bir trendi gösteriyor. Aynı zamanda Tether'in Uruguay'da yapıldığı 120 milyon dolar Bitcoin kopayı projesinin güçlü bir güç sözleşmesi çelişmesi nedeniyle sona erdi. Bu olay, crypto sektöründe risklerin ve yatırım stratejilerinin nasıl şekillendiğini gösteriyor.\n\nXRP, son 21 ay için en büyük haftalık artışa doğru gidiyor. Bu yükseliş, Amerikanın Tişkiye'de yapılan satın alma planlarıyla ilişkilendiriliyor. Bu durum, XRP'nin düzenli bir şekilde kullanılan bir para olarak algılanması için önemli bir adım olabilir. Ancak bu artış, uzun vadeli trend mi, geçici bir fprise mi yoksa bilinmiyor. Regülasyonu, bu tür gelişmeler için kritik bir rol oynuyor. Son hafta, SEC, crypto sektörü için 'Reg Crypto' talebi verdi. Bu taleb, sektörü için daha fazla kontrol ve şeffaflık talepini içeren. Bu, crypto'nın geleceğini belirleyen bir gelişme olabilir.\n\n#Ethereum #Altcoins #Blockchain\nBu haber, yapay zeka destekli olarak derlenmistir; yatırım tavsiyesi değildir. Kendi arastirmanızı yapiniz (DYOR).",
-      "tweet": "Bitcoin ETF'leri 1,9 milyar dolar alıştirdı; XRP 50% artışla 21 ayın en iyi haftalık performansı #Bitcoin #XRP #Regulation"
+      "title": "Dollar Heyecanlarıyla Altyapıya Yatırım: XRP ve SOL'un Yükselişleri",
+      "body": "Son 24 saat içinde, Amerika'nın-yourdaki yatırımcılar Almost $90 milyar altyapıya atarak XRP, Solana ve HYPE'nin fiyatlarını artırdı. Bu büyüme, Bitcoin ve Ethereum dışındaki altcoin'lara yönelik ETF'lerin başarıyla yatırımlarla-connected'un göstermesiyle bağlı. XRP ürünleri bu ayaklanmada $39,78 milyar yatırım alarak en güçlü performansini gösterdi. Bu gelişme, makro ekonometrik-hostlar ve altcoin pazara yön veren bir trend olabilir.\n\nXRP'nin yatırım akışı, özellikle CFTC'de crypto-regülasyonla ilgili beklentileri karşılamış olabilir. Solana ise, bu periyodun içindeki yüksek işlem hacmiyle da desteklenmiş oldu. Bu, Solana'nın altcoin pazara autoresans için potansiyel bir fırsat göstermesiyle ilişkilendirilebilir. HYPE'nin de bu altyapıya yatırımla çaplı bir yükselişini experiencia etti, ancak bu proje'nin uzun vadeli güvenilirliği hala belirlenmemiştir.\n\nBu altyapıya yatırım, Bitcoin ve Ethereum'e göre daha az riskli altcoin'leri çekmeye yönelik bir stratejiye sahip olan büyük yatırımcılardan kaynaklanıyor. Bu, altcoin pazarındaki sıklıkla yaşanan aşırı volatiliteye karşı daha dengeli bir bakış açısının işe yaraması olabilir. XRP ve Solana'nın bu altyapıya yatırımla desteklenen fiyat üzerindeki destek seviyeleri, bu trendin sürmesi için kritik bir rol oynayabilir.\n\nBu gelişmenin, kripto pazara Genel ve altcoin'lara yönelik yatırımcılardaki ilgi artışını ve potansiyel bir pazara açılışını göstermesi potansiyel bir etkisi vardır. Ancak, bu trendin sürmesi için makro faktörler ve regulasyon gelişmelerinin de dikkat edilmesi gerekir.\n\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatırım tavsiyesi değildir. Kendi arastirmanızı yapiniz (DYOR).",
+      "tweet": "$XRP $SOL $HYPE #AltyapıyaYatırım #CryptoNews #MarketRally"
     },
     "en": {
-      "title": "Bitcoin ETFs Surge and XRP's Rally: Regulation and Projects",
-      "body": "Bitcoin and Ethereum ETFs recorded their strongest inflows of 2026 as crypto markets rebounded. This trend signals renewed investor confidence. Meanwhile, Tether's $120 million Bitcoin mining project in Uruguay collapsed due to a power contract dispute. The project's failure highlights the risks and investment strategies in crypto.\n\nXRP is on track for its largest weekly gain in 21 months, driven by the U.S. Treasury's buyback program. This surge could mark a step toward XRP being recognized as a mainstream payment method. However, whether this rise is a long-term trend or a short-term spike remains unclear. Regulatory developments are crucial here. Last week, the SEC proposed 'Reg Crypto,' seeking 60 days of public comments. This proposal aims to impose stricter controls and transparency in the crypto sector, potentially shaping its future.\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin ETFs hit $1.9B inflows; XRP surges 50% in a week #Bitcoin #XRP #Regulation"
+      "title": "Wall Street Pours $90M into Altcoins, Boosting XRP and SOL",
+      "body": "In the past 24 hours, Wall Street investors have poured nearly $90 million into altcoins, driving significant gains for XRP, Solana (SOL), and HYPE. This surge follows strong inflows into non-Bitcoin, non-Ethereum ETFs, with XRP products alone attracting $39.78 million in net inflows—their strongest performance since May 15. The rally highlights a growing trend of institutional interest in altcoins beyond the dominant cryptocurrencies.\n\nThe inflows into XRP and Solana suggest institutional confidence in their technological foundations and potential for growth. XRP's performance may be linked to ongoing regulatory discussions in the CFTC, while Solana's high trading volume indicates strong retail and institutional demand. HYPE's rise, though less analyzed, adds to the broader altcoin market momentum.\n\nThis institutional inflow could signal a shift in market dynamics, where altcoins are gaining traction as alternatives to Bitcoin and Ethereum. However, the sustainability of this trend depends on macroeconomic factors and regulatory clarity. Key technical levels for XRP and SOL, such as support and resistance zones, will be critical in determining whether this rally continues.\n\nThe report underscores the evolving nature of the crypto market, where institutional capital is increasingly diversifying into niche assets. While this presents opportunities, it also highlights the need for cautious analysis of altcoin projects, particularly newer ones like HYPE.\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$XRP $SOL $HYPE #AltcoinRally #CryptoMarket #Regulation"
     }
   },
-  "published": [
-    {
-      "lang": "tr",
-      "id": 358920716779297,
-      "url": "https://www.binance.com/square/post/358920716779297",
-      "shortPost": {
-        "id": 358920719448891,
-        "url": "https://www.binance.com/square/post/358920719448891"
-      },
-      "title": "Bitcoin ETF'leri ve XRP'in Yükselişi: Regülasyon ve Projelerinуда"
-    },
-    {
-      "lang": "en",
-      "id": 358921091773771,
-      "url": "https://www.binance.com/square/post/358921091773771",
-      "shortPost": {
-        "id": 358921093485385,
-        "url": "https://www.binance.com/square/post/358921093485385"
-      },
-      "title": "Bitcoin ETFs Surge and XRP's Rally: Regulation and Projects"
-    }
-  ]
+  "published": []
 }

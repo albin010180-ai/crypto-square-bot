@@ -49,7 +49,7 @@ function limitHashtags(text, max = 4) {
   });
 }
 
-function limitCashtags(text, max = 6) {
+function limitCashtags(text, max = 4) {
   const seen = new Set();
   return text.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, (match, sym) => {
     if (seen.size < max || seen.has(sym)) {
