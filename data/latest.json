@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T05:16:03.401Z",
-  "finishedAt": "2026-08-23T05:18:39.611Z",
+  "startedAt": "2026-08-23T09:01:18.469Z",
+  "finishedAt": "2026-08-23T09:06:15.482Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,46 +8,36 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Coldcard now requires 65 key presses after seed exploit, while exposed funds still must move",
+      "title": "America is creating a new class of crypto banks – but they aren’t really banks",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/coldcard-now-requires-65-key-presses-after-seed-exploit-while-exposed-funds-still-must-move/"
+      "link": "https://cryptoslate.com/america-is-creating-a-new-class-of-crypto-banks-but-they-arent-really-banks/"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/coldcard-now-requires-65-key-presses-after-seed-exploit-while-exposed-funds-still-move/"
+    "https://cryptoslate.com/america-is-creating-a-new-class-of-crypto-banks-but-they-arent-really-banks/"
   ],
   "articles": {
     "tr": {
-      "title": "Coldcard Donanım Cüzdanı Güvenlik Açığı Sonrası 65 Tuş Basımı Gerektiriyor",
-      "body": "Popüler donanım cüzdanı üreticisi Coldcard, tohum ifşası güvenlik açığını gidermek amacıyla yeni firmware sürümlerini yayınladı. CryptoSlate'e göre, 5.6.1 ve 1.5.1Q sürümleri yeni cüzdan oluşturma sürecini önemli ölçüde sertleştiriyor. Kullanıcılar artık yeni bir cüzdan başlatırken 65 kez tuşa basmak zorunda kalıyor; bu da rastgelelik kaynaklarını güçlendirme ve olası saldırı vektörlerini daraltma amacı taşıyor.\n\nGüncellemenin en kritik noktası, etkilenen firmware sürümleriyle oluşturulmuş tohum ifadelerinin onarılamayacağı uyarısı. Etkilenen sürümlerden birini kullanarak cüzdan kuran kullanıcıların fonlarını güvenli bir cüzdana taşımaları gerektiği vurgulanıyor. Bu durum, donanım cüzdanı güvenliğinin sadece yazılım güncellemeleriyle değil, aynı zamanda kullanıcı eylemiyle de sağlanması gerektiğini hatırlatıyor.\n\nGüvenlik araştırmacıları, bu tür açıkların fiziksel erişim gerektirdiğini ancak yine de ciddi risk oluşturduğunu belirtiyor. Coldcard ekibi, sorunun tespiti ve yamalanması sürecinde şeffaf bir iletişim politikası izledi. Kullanıcılar resmi kanallardan firmware güncellemelerini indirip cihazlarını güncelleyebilir.\n\nBu olay, kripto varlık saklama çözümlerinin güvenlik denetimlerinin sürekli bir süreç olduğunu gösteriyor. Donanım cüzdanı kullanıcıları için düzenli firmware takibi ve resmi duyuruları izlemek hayati önem taşıyor.\n\n#Coldcard #HardwareWallet #Security\nKaynaklar: CryptoSlate\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Coldcard tohum açığı sonrası 65 tuş basımı zorunlu kıldı; etkilenen cüzdanlar taşınmalı #Coldcard #HardwareWallet #Security"
+      "title": "ABD Yeni Kripto Bankalarını Tanımlıyor Circle İlk Federal Karakteri Aldı",
+      "body": "ABD, kripto para birimlerinin geleneksel bankacılık sistemine entegrasyonunda yeni bir adım atıyor. CryptoSlate haberine göre, Circle artık federal bir banka karakterine sahip. Ancak bu karakter, geleneksel bankacılık hizmetlerini tam olarak kapsamıyor. Circle National Trust, yeni federal grup kapsamında yer alıyor ve bu grup temel olarak kâr amacı gütmeyen kuruluşlardan oluşuyor. Bu kuruluşlar arasında Ripple, BitGo, Fidelity Digital Assets, Paxos, Bridge, Crypto.com, Coinbase, Morgan Stanley ve World Liberty Financial gibi isimler yer alıyor. Circle'ın yeni karakteri, klasik mevduat hesabı, FDIC sigortalı tasarruf hesabı veya konut kredileri sunmuyor. Bunun yerine, ödeme sistemleri, stablecoin temellerinin korunması ve yerleşik (settlement) işlemlerine odaklanıyor. Bu gelişme, ABD'de kripto para birimlerinin resmi tanınması ve düzenlenmesi konusundaki yasa tasarıları ve kurallarla paralel bir trendi yansıtıyor. Yeni sınıf, sadece stablecoin emisyoncusu olan Circle için değil, aynı zamanda diğer büyük kripto firmaları için de önemli bir düzenleyici çerçevedir. Bu yapı, kripto varlıklarının daha büyük finansal sistem içinde nasıl entegre edilebileceğini yeniden tanımlıyor. Kullanıcılar ve yatırımcılar için bu gelişme, kripto para birimlerinin geleceği konusunda daha fazla belirsizlik bıraksa da, aynı zamanda daha fazla şeffaflık ve denetim imkanı sunuyor. Circle'ın federal karakterini alması, kripto endüstrisinin ABD'de resmi tanınma yolunda attığı bir adım olarak değerlendiriliyor. Bu tür kurumsal yapılar, gelecekte daha fazla regülasyon ve denetimle birlikle gelişmeye devam edebilir. Kullanıcılar, bu yeni çerçevenin sunduğu fırsatları ve riskleri anlamalı ve kendi araştırmalarını yapmalılar.\n\n#KriptoBanka #Regülasyon #Stablecoin\n\nKaynaklar: CryptoSlate\n\nBu haber yapay zeka destekli olarak derlenmiştir; yatırım tavsiyesi değildir. Kendi araştırmanızı yapınız (DYOR).",
+      "tweet": "Circle, ABD'nin ilk kripto bankası karakterine sahip oldu. Geleneksel bankacılık yerine stablecoin ve kâr amacı gütmeyen kurumsal yapıya odaklanıyor #KriptoBanka #Regülasyon #Stablecoin"
     },
     "en": {
-      "title": "Coldcard Hardware Wallet Now Requires 65 Key Presses After Seed Exploit",
-      "body": "Popular hardware wallet manufacturer Coldcard has released new firmware versions to address a seed phrase exposure vulnerability. According to CryptoSlate, versions 5.6.1 and 1.5.1Q significantly harden the new wallet creation process. Users must now press keys 65 times when initializing a new wallet, a measure designed to strengthen entropy sources and narrow potential attack vectors.\n\nThe most critical aspect of the update is the warning that seed phrases created on affected firmware versions cannot be repaired. Users who initialized wallets using the vulnerable releases must move their funds to a secure wallet. This highlights that hardware wallet security requires both software patches and user action.\n\nSecurity researchers note that such vulnerabilities typically require physical access but still pose serious risks. The Coldcard team maintained transparent communication throughout the detection and patching process. Users can download firmware updates through official channels to secure their devices.\n\nThis incident demonstrates that security auditing of crypto custody solutions is an ongoing process. For hardware wallet users, regular firmware monitoring and following official announcements remains essential.\n\n#Coldcard #HardwareWallet #Security\nSources: CryptoSlate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Coldcard mandates 65 key presses after seed exploit; affected wallets must migrate funds #Coldcard #HardwareWallet #Security"
+      "title": "US Creates New Class of Crypto Banks: Circle Gets Federal Charter",
+      "body": "The United States is taking a new step toward integrating cryptocurrency into the traditional banking system. According to CryptoSlate, Circle has now obtained a federal bank charter. However, this charter does not fully cover traditional banking services. Circle National Trust is part of a new federal cohort composed mainly of non-profit institutions. This group includes Ripple, BitGo, Fidelity Digital Assets, Paxos, Bridge, Crypto.com, Coinbase, Morgan Stanley, and World Liberty Financial. Circle's new charter does not offer standard checking accounts, FDIC-insured savings accounts, or home mortgages. Instead, it focuses on payment systems, protection of stablecoin reserves, and settlement transactions. This development reflects a parallel trend with cryptocurrency legislation and regulations currently being considered in the US. The new class is significant not only for Circle, the stablecoin issuer, but also as a regulatory framework for other major crypto firms. This structure is redefining how crypto assets can be integrated into the larger financial system. While this development leaves investors and users with more uncertainty about the future of cryptocurrency, it also offers greater transparency and oversight. Circle obtaining a federal charter is seen as a step toward official recognition of the crypto industry in the US. Such institutional structures may continue to evolve with more regulation and oversight in the future. Users should understand the opportunities and risks offered by this new framework and conduct their own research.\n\n#CryptoBank #Regulation #Stablecoin\n\nSources: CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Circle has obtained the first US federal bank charter for a crypto firm, focusing on stablecoin reserves and settlement rather than traditional banking #CryptoBank #Regulation #Stablecoin"
     }
   },
   "published": [
     {
-      "lang": "tr",
-      "id": 358690930361972,
-      "url": "https://www.binance.com/square/post/358690930361972",
-      "shortPost": {
-        "id": 358690931772094,
-        "url": "https://www.binance.com/square/post/358690931772094"
-      },
-      "title": "Coldcard Donanım Cüzdanı Güvenlik Açığı Sonrası 65 Tuş Basımı Gerektiriyor"
-    },
-    {
       "lang": "en",
-      "id": 358691303079241,
-      "url": "https://www.binance.com/square/post/358691303079241",
+      "id": 358747238490608,
+      "url": "https://www.binance.com/square/post/358747238490608",
       "shortPost": {
-        "id": 358691305533542,
-        "url": "https://www.binance.com/square/post/358691305533542"
+        "id": 358747239899869,
+        "url": "https://www.binance.com/square/post/358747239899869"
       },
-      "title": "Coldcard Hardware Wallet Now Requires 65 Key Presses After Seed Exploit"
+      "title": "US Creates New Class of Crypto Banks: Circle Gets Federal Charter"
     }
   ]
 }
