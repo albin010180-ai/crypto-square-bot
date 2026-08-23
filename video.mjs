@@ -1,6 +1,7 @@
 ﻿import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
@@ -16,6 +17,8 @@ import {
   hardCore,
 } from "./src/publish.mjs";
 import { speak, makeSlides, renderVideo } from "./src/media.mjs";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
 const STAGGER_MS = Number.parseInt(process.env.POST_STAGGER_MS ?? "90000", 10) || 90000;
@@ -71,7 +74,7 @@ function ensureCashtagsInShortPost(shortText, caption) {
 }
 
 function savePendingTweet(text, lang, postUrl) {
-  const file = new URL("../data/pending-tweets.json", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
+  const file = path.join(__dirname, "data", "pending-tweets.json");
   let tweets = [];
   try { tweets = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
   tweets.push({ text, lang, postUrl, createdAt: new Date().toISOString() });

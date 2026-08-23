@@ -6,6 +6,10 @@ import { pickInfoTopic } from "./src/info-topics.mjs";
 import { publishArticle, publishShortPostSafe, stripRiskyPunct, aggressiveStrip } from "./src/publish.mjs";
 import { tweet } from "./src/x.mjs";
 import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const DEFAULT_MODEL = "google/gemma-4-31b-it:free";
 
@@ -94,7 +98,7 @@ function enforceCashtagLimit(text, max = 3) {
 }
 
 function savePendingTweet(text, lang, postUrl) {
-  const file = new URL("../data/pending-tweets.json", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
+  const file = path.join(__dirname, "data", "pending-tweets.json");
   let tweets = [];
   try { tweets = JSON.parse(fs.readFileSync(file, "utf8")); } catch {}
   tweets.push({ text, lang, postUrl, createdAt: new Date().toISOString() });
