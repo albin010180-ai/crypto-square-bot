@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-23T09:01:18.469Z",
-  "finishedAt": "2026-08-23T09:06:15.482Z",
+  "startedAt": "2026-08-23T13:45:09.434Z",
+  "finishedAt": "2026-08-23T13:49:32.811Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,36 +8,85 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "America is creating a new class of crypto banks – but they aren’t really banks",
+      "title": "Can Zcash Flip XRP? NYSE ETF Launch Boosts Privacy Coin to 8-Year Price Record",
+      "source": "U.Today",
+      "link": "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record"
+    },
+    {
+      "title": "As foreign investors dump $29 billion in Treasury bills, Washington pivots to stablecoin issuers to back US debt",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/america-is-creating-a-new-class-of-crypto-banks-but-they-arent-really-banks/"
+      "link": "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/"
+    },
+    {
+      "title": "New Milestone for Shiba Inu (SHIB) in Japan: Meme Coin Enters Elite List of Just 6 Approved Cryptocurrencies",
+      "source": "U.Today",
+      "link": "https://u.today/new-milestone-for-shiba-inu-shib-in-japan-meme-coin-enters-elite-list-of-just-6-approved"
+    },
+    {
+      "title": "Kiyosaki: Educated Investors Buy Bitcoin",
+      "source": "U.Today",
+      "link": "https://u.today/kiyosaki-educated-investors-buy-bitcoin"
+    },
+    {
+      "title": "Crypto treasury firm seeks 20B share ceiling and reverse splits after launching $300M stock offering",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/crypto-treasury-firm-seeks-20b-share-ceiling-and-reverse-splits-after-launching-300m-stock-offering/"
+    },
+    {
+      "title": "Right or Wrong? Peter Brandt's $58,000 Bitcoin Call Faces Reality Check",
+      "source": "U.Today",
+      "link": "https://u.today/right-or-wrong-peter-brandts-58000-bitcoin-call-faces-reality-check"
+    },
+    {
+      "title": "Ripple relies on locked XRP reserves to back a $275 million institutional credit line",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/ripple-relies-on-locked-xrp-reserves-to-back-a-275-million-institutional-credit-line/"
+    },
+    {
+      "title": "Hyperliquid (HYPE) Breaks Historic Threshold for First Time Since October",
+      "source": "U.Today",
+      "link": "https://u.today/hyperliquid-hype-breaks-historic-threshold-for-first-time-since-october"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/america-is-creating-a-new-class-of-crypto-banks-but-they-arent-really-banks/"
+    "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record",
+    "https://cryptoslate.com/as-foreign-investors-dump-29-billion-in-treasury-bills-washington-pivots-to-stablecoin-issuers-to-back-us-debt/",
+    "https://u.today/new-milestone-for-shiba-inu-shib-in-japan-meme-coin-enters-elite-list-of-just-6-approved",
+    "https://cryptoslate.com/crypto-treasury-firm-seeks-20b-share-ceiling-and-reverse-splits-after-launching-300m-stock-offering/",
+    "https://cryptoslate.com/ripple-relies-on-locked-xrp-reserves-to-back-a-275-million-institutional-credit-line/"
   ],
   "articles": {
     "tr": {
-      "title": "ABD Yeni Kripto Bankalarını Tanımlıyor Circle İlk Federal Karakteri Aldı",
-      "body": "ABD, kripto para birimlerinin geleneksel bankacılık sistemine entegrasyonunda yeni bir adım atıyor. CryptoSlate haberine göre, Circle artık federal bir banka karakterine sahip. Ancak bu karakter, geleneksel bankacılık hizmetlerini tam olarak kapsamıyor. Circle National Trust, yeni federal grup kapsamında yer alıyor ve bu grup temel olarak kâr amacı gütmeyen kuruluşlardan oluşuyor. Bu kuruluşlar arasında Ripple, BitGo, Fidelity Digital Assets, Paxos, Bridge, Crypto.com, Coinbase, Morgan Stanley ve World Liberty Financial gibi isimler yer alıyor. Circle'ın yeni karakteri, klasik mevduat hesabı, FDIC sigortalı tasarruf hesabı veya konut kredileri sunmuyor. Bunun yerine, ödeme sistemleri, stablecoin temellerinin korunması ve yerleşik (settlement) işlemlerine odaklanıyor. Bu gelişme, ABD'de kripto para birimlerinin resmi tanınması ve düzenlenmesi konusundaki yasa tasarıları ve kurallarla paralel bir trendi yansıtıyor. Yeni sınıf, sadece stablecoin emisyoncusu olan Circle için değil, aynı zamanda diğer büyük kripto firmaları için de önemli bir düzenleyici çerçevedir. Bu yapı, kripto varlıklarının daha büyük finansal sistem içinde nasıl entegre edilebileceğini yeniden tanımlıyor. Kullanıcılar ve yatırımcılar için bu gelişme, kripto para birimlerinin geleceği konusunda daha fazla belirsizlik bıraksa da, aynı zamanda daha fazla şeffaflık ve denetim imkanı sunuyor. Circle'ın federal karakterini alması, kripto endüstrisinin ABD'de resmi tanınma yolunda attığı bir adım olarak değerlendiriliyor. Bu tür kurumsal yapılar, gelecekte daha fazla regülasyon ve denetimle birlikle gelişmeye devam edebilir. Kullanıcılar, bu yeni çerçevenin sunduğu fırsatları ve riskleri anlamalı ve kendi araştırmalarını yapmalılar.\n\n#KriptoBanka #Regülasyon #Stablecoin\n\nKaynaklar: CryptoSlate\n\nBu haber yapay zeka destekli olarak derlenmiştir; yatırım tavsiyesi değildir. Kendi araştırmanızı yapınız (DYOR).",
-      "tweet": "Circle, ABD'nin ilk kripto bankası karakterine sahip oldu. Geleneksel bankacılık yerine stablecoin ve kâr amacı gütmeyen kurumsal yapıya odaklanıyor #KriptoBanka #Regülasyon #Stablecoin"
+      "title": "Zcash ETF, Stablecoin Değişimi ve Japonya'nın SHIB Onayı Piyasayı Şekillendiriyor",
+      "body": "Son 24 saatte makro kaymalar, düzenlemeler ve şirket finansmanı kripto pazarını yeniden şekillendiriyor.\n\nYabancı yatırımcılar Haziran'da 29 milyar dolarlık Hazine bonosu satarken, 133,5 milyar doları ABD finans piyasalarına, özellikle hisse senetlerine yönlendirdi. Bu tepki olarak Washington, stablecoin çıkıcılarının ABD borcunu desteklemesini araştırmakta.\n\nVarlık tarafında, Zcash privacy coin'i, Grayscale'in 25 Ağustos'ta NYSE Arca'da başlatması planlanan ETF'nin öncesinde 814 dolarla sekiz yılın en yüksek seviyesine ulaştı. Bu ETF, kurumsal yatırımcılar için düzenli bir araç sunması bekleniyor.\n\nJaponya'da finansal düzenleyici, dört yıl süren lisans dondurmasını sona erdirdi ve altı kripto para onayladı. Shiba Inu bu onaylanan varlıklar arasında yer alarak, Bitcoin, Ethereum ve diğer dört token'in yer aldığını elite bir listeye katıldı.\n\nBir kripto hazine şirketinin 300 milyon dolarlık hisse teklifi sonrası 20 milyar hisse tavanı ve geri alma hakları için başvurusu, üç yıl geri alma yetkisi içeriyor.\n\nRipple, 275 milyon dolarlık kurumsal kredi hattı sağladı; bu kredi, mostly locked XRP rezervleri ve KBRA'dan BBB derecelendirmesiyle desteklendi.\n\nPiyasa gözlemcileri, bu gelişmelerin likidite ve duyguyu nasıl etkilediğini izlerken, $BTC, $ETH ve $SOL gibi büyük token'lar farklı tepkiler gösterdi.\n\n#ETF #Regulation #Stablecoin\n\nKaynaklar: U Today, CryptoSlate\n\nBu haber yapay zeka destekli olarak derlenmiştir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Zcash, Grayscale'in NYSE Arca'daki ETF lansmanı öncesi 814 dolarla sekiz yılın en yüksek seviyesine ulaştı. #Zcash #ETF #Kripto"
     },
     "en": {
-      "title": "US Creates New Class of Crypto Banks: Circle Gets Federal Charter",
-      "body": "The United States is taking a new step toward integrating cryptocurrency into the traditional banking system. According to CryptoSlate, Circle has now obtained a federal bank charter. However, this charter does not fully cover traditional banking services. Circle National Trust is part of a new federal cohort composed mainly of non-profit institutions. This group includes Ripple, BitGo, Fidelity Digital Assets, Paxos, Bridge, Crypto.com, Coinbase, Morgan Stanley, and World Liberty Financial. Circle's new charter does not offer standard checking accounts, FDIC-insured savings accounts, or home mortgages. Instead, it focuses on payment systems, protection of stablecoin reserves, and settlement transactions. This development reflects a parallel trend with cryptocurrency legislation and regulations currently being considered in the US. The new class is significant not only for Circle, the stablecoin issuer, but also as a regulatory framework for other major crypto firms. This structure is redefining how crypto assets can be integrated into the larger financial system. While this development leaves investors and users with more uncertainty about the future of cryptocurrency, it also offers greater transparency and oversight. Circle obtaining a federal charter is seen as a step toward official recognition of the crypto industry in the US. Such institutional structures may continue to evolve with more regulation and oversight in the future. Users should understand the opportunities and risks offered by this new framework and conduct their own research.\n\n#CryptoBank #Regulation #Stablecoin\n\nSources: CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Circle has obtained the first US federal bank charter for a crypto firm, focusing on stablecoin reserves and settlement rather than traditional banking #CryptoBank #Regulation #Stablecoin"
+      "title": "Zcash ETF, Stablecoin Shift, and Japan's SHIB Approval Lead Market Moves",
+      "body": "Over the past 24 hours, a combination of macro shifts, regulatory milestones, and corporate financing has reshaped the crypto landscape.\n\nForeign investors sold $29 billion in Treasury bills in June, while channeling $133.5 billion into US financial markets, predominantly equities. In response, Washington is exploring whether stablecoin issuers could help back US debt, a move that would integrate dollar‑pegged tokens into government funding mechanisms.\n\nOn the asset side, privacy coin Zcash climbed to an eight‑year high of $814 ahead of Grayscale’s planned ETF debut on NYSE Arca, scheduled for August 25. The ETF is expected to offer institutional investors a regulated vehicle for exposure to the privacy token.\n\nIn Japan, the financial regulator ended its four‑year licensing freeze, approving six cryptocurrencies. Shiba Inu was among the newly approved assets, joining an elite list that includes Bitcoin, Ethereum, and four other tokens, marking a significant regulatory opening for meme coins in a major market.\n\nA crypto treasury firm filed for a 20‑billion‑share ceiling and obtained authority for reverse splits after raising $300 million through a stock offering. The proposals include a three‑year window for reverse splits, reflecting ongoing capital restructuring within the sector.\n\nRipple secured a $275 million institutional credit line, backed primarily by its locked XRP reserves and supported by a BBB rating from KBRA. The facility is intended to support the company’s working capital and expansion plans.\n\nMarket observers are tracking how these developments influence liquidity and sentiment, with major tokens such as $BTC, $ETH, and $SOL showing varied reactions throughout the session.\n\n#ETF #Regulation #Stablecoin\n\nSources: U Today, CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Zcash hits $814, its highest since 2018, ahead of Grayscale ETF launch on NYSE Arca. #Zcash #ETF #Crypto"
     }
   },
   "published": [
     {
-      "lang": "en",
-      "id": 358747238490608,
-      "url": "https://www.binance.com/square/post/358747238490608",
+      "lang": "tr",
+      "id": 358816485900313,
+      "url": "https://www.binance.com/square/post/358816485900313",
       "shortPost": {
-        "id": 358747239899869,
-        "url": "https://www.binance.com/square/post/358747239899869"
+        "id": 358816487791939,
+        "url": "https://www.binance.com/square/post/358816487791939"
       },
-      "title": "US Creates New Class of Crypto Banks: Circle Gets Federal Charter"
+      "title": "Zcash ETF, Stablecoin Değişimi ve Japonya'nın SHIB Onayı Piyasayı Şekillendiriyor"
+    },
+    {
+      "lang": "en",
+      "id": 358816859652548,
+      "url": "https://www.binance.com/square/post/358816859652548",
+      "shortPost": {
+        "id": 358816861038384,
+        "url": "https://www.binance.com/square/post/358816861038384"
+      },
+      "title": "Zcash ETF, Stablecoin Shift, and Japan's SHIB Approval Lead Market Moves"
     }
   ]
 }
