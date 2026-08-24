@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T05:57:43.351Z",
-  "finishedAt": "2026-08-24T06:00:24.216Z",
+  "startedAt": "2026-08-24T10:20:49.946Z",
+  "finishedAt": "2026-08-24T10:23:10.810Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,73 +8,84 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
+      "title": "Crypto roars back as bitcoin posts its second-best week since early 2021",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus"
+      "link": "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021"
     },
     {
-      "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
+      "title": "Biggest Jump in 3 Years: Bitcoin Burns Shorts as It Gears Up to Test $80,000",
+      "source": "U.Today",
+      "link": "https://u.today/biggest-jump-in-3-years-bitcoin-burns-shorts-as-it-gears-up-to-test-80000"
+    },
+    {
+      "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/bessent-s-usd4-billion-bond-buyback-wanted-lower-yields-it-got-a-bitcoin-surge-instead"
+      "link": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
     },
     {
-      "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547"
-    },
-    {
-      "title": "Bitcoin holders face unresolved fork risks as new eCash test chain launches ahead of October deadline",
+      "title": "Cleaning firm dumps Dogecoin to fund $100M AI pivot amid stock dilution warning",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-holders-face-unresolved-fork-risks-as-new-ecash-test-chain-launches-ahead-of-october-deadline/"
+      "link": "https://cryptoslate.com/cleaning-firm-dumps-dogecoin-to-fund-100m-ai-pivot-amid-stock-dilution-warning/"
     },
     {
-      "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
+      "title": "Fed experiment shows how bitcoin rallies attract new crypto buyers",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise"
+      "link": "https://www.coindesk.com/markets/2026/08/24/fed-experiment-shows-how-bitcoin-rallies-attract-new-crypto-buyers"
     },
     {
-      "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Ether is crushing bitcoin and the 'golden cross' says it may not be done yet",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push"
+      "link": "https://www.coindesk.com/markets/2026/08/24/ether-is-crushing-bitcoin-and-the-golden-cross-says-it-may-not-be-done-yet"
     }
   ],
   "selected": [
-    "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus",
-    "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
-    "https://cryptoslate.com/bitcoin-holders-face-unresolved-fork-risks-as-new-ecash-test-chain-launches-ahead-of-october-deadline/"
+    "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021",
+    "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://www.coindesk.com/markets/2026/08/24/ether-is-crushing-bitcoin-and-the-golden-cross-says-it-may-not-be-done-yet",
+    "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
   ],
   "articles": {
     "tr": {
-      "title": "BTC $77K'lı haftalık yükselen; eCash test zincirinin riskleri",
-      "body": "Bitcoin $77.000'yi aşarak haftalık %21 yükselerek en güçlü bir performans sergileyerek, Strive CEO'nun 'en güçlü' bir döngü talebiyle dikkat çekiyor. XRP ise bu süreçte %46 artarak crypto piyasasını sürpriz veriyor. Ancak teknik analizlere göre BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var. Piyasa rekabeti, Strive CEO'nun Bitcoin'in dolardan daha iyi olan performansını vurguladıkça artıyor. Bu kutuplamada, piyasa rekabetinin artması ve Strive CEO'nun stratejik ifadeleri dikkat çekiyor.\n\nBitcoin'in geçtiğineki performansı, Strive CEO'nun 'en güçlü' bir döngü talebiyle desteklendi. Bu ifade, piyasa rekabetinin artmasına katkı sağlar. Ancak teknikal analizlere göre, BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var.\n\neCash test zincirinin başlatılması, Bitcoin kullanıcıları için fork risklerini gündeme getirdi. 23 Ağustos blokları 'pECX' test zincirini kullandıkça, 26 Ekim sonuna kadar geçerli yazılım ve yinelerle ilgili kararlar henüz alinmamış. Bu durum, kullanıcıların etkinleştirmeden önce dikkatli olmaları gerektiğini gösteriyor. CryptoSlate, bu gelişmenin potansiyel risklerini detaylandırıyor.\n\nPiyasa rekabeti, Strive CEO'nun 'en güçlü' bir döngü talebiyle artıyor. Ancak teknikal analizlere göre, BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var. Bu durum, piyasanın kutuplanmasıyla bağlantılı olarak değerlendiriliyor.\n#Bitcoin #ETF #Markets",
-      "tweet": "$BTC tests $80K level; eCash test chain risks emerge #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin ETF Girişleri Artarken Ethereum Teknik Sinyallerle Öne Çıkıyor",
+      "body": "Kripto para piyasaları, kurumsal ilgi ve teknik göstergelerin etkisiyle hareketli bir döneme girdi. Bitcoin, ABD spot ETF'lerine geçen hafta gerçekleşen 1,92 milyar dolarlık girişlerle birlikte güçlü bir ivme yakaladı. Bu rakam, Ekim 2025'ten bu yana görülen en yüksek haftalık giriş seviyesi olarak kayıtlara geçti. Hazine geri alımları ve zayıflayan dolar endeksiyle desteklenen $BTC, kısa süreliğine 78.000 dolar seviyesini aşarak piyasadaki yükseliş trendini pekiştirdi.\n\nSadece Bitcoin değil, Ethereum tarafında da dikkat çekici gelişmeler yaşanıyor. ETH/BTC paritesinde bullish bir altın kesişme (golden cross) oluşması, $ETH varlığının Bitcoin karşısında performansını artırabileceğine dair teknik bir sinyal olarak değerlendiriliyor. On-chain veriler ve işlem hacimleri, piyasanın odağının kademeli olarak Ethereum'a kayabileceğini gösteriyor.\n\nAncak yükseliş trendine rağmen DeFi ekosisteminde güvenlik riskleri devam ediyor. Ethereum tabanlı borç verme uygulaması Term Finance, bir saldırganın yönetişim tokenlarını satın alarak oy gücünü ele geçirmesi sonucu 8,5 milyon dolar kaybetti. Bu olay, düşük piyasa değerine sahip yönetişim tokenlarının, protokol kontrolünü ele geçirmek için bir araç olarak kullanılabileceği riskini bir kez daha ortaya koydu.\n\nGenel piyasa görünümünde, ETF girişlerinin sağladığı likidite artışı ve teknik kırılımlar ön planda yer alırken, akıllı sözleşme açıklarının yarattığı volatilite yatırımcılar tarafından takip ediliyor.\n\n#Bitcoin #Ethereum #Binance\n\nKaynaklar: CoinDesk, Cointelegraph\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$BTC sees $1.9B in weekly ETF inflows while $ETH forms a bullish golden cross. DeFi security remains a concern after Term Finance exploit. #Bitcoin #Ethereum #Binance"
     },
     "en": {
-      "title": "BTC $77K rally; eCash test chain risks",
-      "body": "Bitcoin surged above $77,000 with a 21% weekly gain, marking its highest weekly dollar gain ever. Strive CEO called it the 'strongest' cycle, citing strong performance against the dollar and gold. Meanwhile, eCash's test chain launch raises unresolved fork risks for Bitcoin holders. The August 23 blocks used practice pECX, but final software and replay rules remain unclear. CryptoSlate highlights the uncertainty around exchange handling and technical specifications.\n\nThe surge in Bitcoin's price has drawn attention from analysts, with Strive CEO's bullish outlook adding momentum. However, technical indicators show a $80,000 resistance level still ahead. XRP's 46% gain over the same period further highlights market volatility.\n\neCash's test chain launch has sparked concerns about potential fork risks. The August 23 blocks used a practice test chain (pECX), but the final software, replay rules, and exchange protocols remain unresolved. This leaves Bitcoin holders in a state of uncertainty, as the October deadline approaches. CryptoSlate's report emphasizes the need for caution before activation.\n#Bitcoin #ETF #Markets",
-      "tweet": "$BTC tests $80K level; eCash test chain risks emerge #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin ETF Inflows Surge as Ethereum Shows Bullish Technical Signals",
+      "body": "The cryptocurrency market is experiencing a significant resurgence driven by institutional capital and favorable technical indicators. US spot Bitcoin ETFs recorded $1.92 billion in inflows last week, marking the strongest weekly performance since October 2025. This surge in liquidity, coupled with Treasury buybacks and a weaker US dollar, pushed $BTC briefly above the $78,000 mark, signaling strong buying pressure.\n\nWhile Bitcoin leads in inflows, Ethereum is showing signs of relative strength. The ETH/BTC ratio has recently formed a bullish golden cross, a technical indicator suggesting that $ETH may continue to outperform Bitcoin in the near term. Trading volume and price action indicate a potential shift in momentum as traders eye the recovery of the broader altcoin market.\n\nDespite the positive price action, the DeFi sector faced a setback with a security breach at Term Finance. The Ethereum-based lending protocol lost $8.5 million after an attacker acquired sufficient voting power to manipulate the system. This exploit highlights a critical vulnerability in protocols where the cost of acquiring governance control is lower than the value of the assets being governed.\n\nOverall, the market is currently balanced between strong institutional adoption via ETFs and the ongoing necessity for improved security frameworks within decentralized finance.\n\n#ETF #DeFi #Binance\n\nSources: CoinDesk, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Institutional demand pushes $BTC ETF inflows to $1.9B, while $ETH signals a potential breakout via a golden cross. #ETF #Ethereum #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359055082167263,
-      "url": "https://www.binance.com/square/post/359055082167263",
+      "id": 359119662990331,
+      "url": "https://www.binance.com/square/post/359119662990331",
       "shortPost": {
-        "id": 359055083960380,
-        "url": "https://www.binance.com/square/post/359055083960380"
+        "id": 359119665328432,
+        "url": "https://www.binance.com/square/post/359119665328432"
       },
-      "title": "BTC $77K'lı haftalık yükselen; eCash test zincirinin riskleri"
+      "title": "Bitcoin ETF Girişleri Artarken Ethereum Teknik Sinyallerle Öne Çıkıyor"
     },
     {
       "lang": "en",
-      "id": 359055456161794,
-      "url": "https://www.binance.com/square/post/359055456161794",
+      "id": 359120036867730,
+      "url": "https://www.binance.com/square/post/359120036867730",
       "shortPost": {
-        "id": 359055458659895,
-        "url": "https://www.binance.com/square/post/359055458659895"
+        "id": 359120038661813,
+        "url": "https://www.binance.com/square/post/359120038661813"
       },
-      "title": "BTC $77K rally; eCash test chain risks"
+      "title": "Bitcoin ETF Inflows Surge as Ethereum Shows Bullish Technical Signals"
     }
   ]
 }
