@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T17:19:12.588Z",
-  "finishedAt": "2026-08-24T17:21:43.488Z",
+  "startedAt": "2026-08-24T21:04:23.756Z",
+  "finishedAt": "2026-08-24T21:06:55.895Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,69 +8,75 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Saylor sat out Bitcoin’s 20% rally while Tom Lee bought Ethereum after a 30% surge",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/saylor-sat-out-bitcoins-20-rally-while-tom-lee-bought-ethereum-after-a-30-surge/"
-    },
-    {
-      "title": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows"
-    },
-    {
-      "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "PrimeXBT: Is this the start of a Bitcoin bull run? A 2022 signal appeared before the rally",
+      "title": "Bitcoin And Ethereum ETFs Add $492M As Inflow Streak Continues",
       "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/primexbt-is-this-the-start-of-a-bitcoin-bull-run-a-2022-signal-appeared-before-the-rally/"
+      "link": "https://www.newsbtc.com/news/bitcoin-and-ethereum-etfs-add-492m-as-inflow-streak-continues/"
     },
     {
-      "title": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
+      "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
       "source": "Decrypt",
-      "link": "https://decrypt.co/376336/bitmine-81m-more-ethereum-eth-tops-bitcoin"
+      "link": "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar"
+    },
+    {
+      "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key"
+    },
+    {
+      "title": "Bitcoin Traders Watch Jackson Hole As Kevin Warsh Prepares First Fed Keynote",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/bitcoin-traders-watch-jackson-hole-as-kevin-warsh-prepares-first-fed-keynote/"
+    },
+    {
+      "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum"
+    },
+    {
+      "title": "CleanCore Dumps Dogecoin Treasury To Fund $100M AI Pivot",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/cleancore-dumps-dogecoin-treasury-to-fund-100m-ai-pivot/"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/saylor-sat-out-bitcoins-20-rally-while-tom-lee-bought-ethereum-after-a-30-surge/",
-    "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows",
-    "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc",
-    "https://newsbtc.com/news/primexbt-is-this-the-start-of-a-bitcoin-bull-run-a-2022-signal-appeared-before-the-rally/"
+    "https://www.newsbtc.com/news/bitcoin-and-ethereum-etfs-add-492m-as-inflow-streak-continues/",
+    "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar",
+    "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
+    "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
+    "https://www.newsbtc.com/news/cleancore-dumps-dogecoin-treasury-to-fund-100m-ai-pivot/"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin ve Ethereum ETF'leri Ağır Yükseliş, Dolap Yatırımcıları Çarpıyor",
-      "body": "Bir sonraki haftada Bitcoin ve Ethereum için özel fonlar (ETF) toplamda 23 milyar doların üzerinde dolaşım kazandı, ancak yeni girişimler yalnızca 2,6 milyar dolar-only. Bitcoin'nin 20'%lik yükselişi, Mayıs 2025'teki en güçlü haftalık yükselişten emin bir adım olarak değerlendirilirken, Ethereum yaklaşık 30% artış gösterdi. Bu iki alttürküge, Treasury faiz oranlarının düşmesi ve Kuzey Amerika'daki yeniden artışı parkur da şekillendiriyor.\n\nBitcoin ve Ethereum ETF'lerini takip eden yatırımcılar, bu hareketliliğe yanıt vermek için hem büyük yatırımcıların hem de denetimli fonlar arasında güçlü bir talep sergilediler. Özellikle Bitcoin'in 20%'luk yükselişi, sektördeki risk oluşturma endişelerinin azaldığında ve dijital varlıkların daha fazla sermaye çekme potansiyeline sahip olduğu bir dönemde gerçekleşmiştir.\n\nGelişen piyasa dinamikleri, Bitcoin'in 20.000 dolarlık seviyesine yaklaşmasını ve Ethereum'in daha önceki gibi güçlü hareketliliğini desteklemektedir. Strive, Nasdaq listeli Bitcoin rezervi olan bir şirket olarak 1.110 ek BTC satın alarak toplam mülkiyetinin 21.356 BTC'ye ulaştı. Bu hamlede, şirketin on-chain pozisyonunu önemli ölçüde güçlendirmiştir.\n\nAnalistlar teknik göstergeleri de dikkat çeker. PrimeXBT analistinin belirttiği haftalık momentum ayrışması, Bitcoin grafiğindeki benzer bir desenin daha önceki yıllara (Ekim 2023) dayandığını ortaya koyar. Haftalık standartlara göre, fiyatlar 80.000 dolar gibi önemli destek seviyelerini test ederken, bu dengede durma noktası henüz kesin değildir. Teknik analiz, fiyatların yukarı yönlü bir hareket germe ihtimalini işaret etmektedir.\n#Crypto #DeFi #Web3",
-      "tweet": "Bitcoin ETF dolaşımı 23M dolar artarken Bitcoin 80K seviyesine yaklaşıyor. Strive 1.110 BTC satın alıyor. #Bitcoin #Ethereum #Binance"
+      "title": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor",
+      "body": "Güneş yüzünde $BTC, son 24 saatte 5 farklı önemli gelişmeyle piyasayı şekillendirdi. En çarpıcı gelişme, Bitcoin ve Ethereum ETF'lerinin $492 milyonluk bir giriş hacmi kaydetmesiydi ki bu, yatırımcıların kripto piyasasına olan güvenini yansıtan bir trend. CoinDesk'e göre, analistler $80.000 seviyesinin altında konSOLIDASYON beklerken, bu seviyenin üzerindeki ince likidite potansiyel olarak daha büyük fiyat hareketlerine işaret ediyor. Decrypt'in analizine göre ise Bitcoin'in dolara karşı yaptığı yükseliş, ABD reçete tahvillerinin genişletilmiş pazarlayıcıları sonrasında doların zayıflamasıyla paralel olarak gerçekleşti. Bu durum, kamu maliyesi politikaları endişelerini tümsek üzerinde yükselten bir oy olarak yorumlandı. Base tabanlı L2 çözümünde Coinbase, regülasyonlu bir mutlağın (Alpaca) aracılığıyla tokenize edilmiş his senetlerini tanıttı. Bu yenilikçi uygulama, DeFi ekosisteminin gelişimini hızlandırarak kullanıcıların geleneksel finansal ürünleri blockchain üzerinde erişebilmesini sağlıyor. En son gelişme ise CleanCore'un Dogecoin hazinesinden $100 milyonluğu bir AI yatırımı için çıkarılmasıydı. Bu karar, topluluk tarafından büyük merakla takip edilen Dogecoin'in değer kaybıyla ilişkilendiriliyor. Piyasa verileri, $BTC'nin 50 günlük ortalama fiyatının yükselmesi ve yükseliş momentumunun devam etme ihtimalini gösteriyor. #Binance #Bitcoin #ETF\nKaynaklar: NewsBTC, CoinDesk, Decrypt\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor #Bitcoin #CryptoNews #BinanceSquare"
     },
     "en": {
-      "title": "Major Crypto ETF Inflows Fuel Bitcoin Rally, Whales Accumulate More Bitcoin",
-      "body": "Last week saw Bitcoin and Ethereum ETFs reach their highest quarterly inflows ever, totaling $23 billion, although only $2.6 billion represented new capital. This substantial flow into digital assets coincides with Bitcoin climbing over 20% toward $80,000 and Ethereum surging approximately 30%, drawing $2.6 billion in fresh ETF investments. The combined market movement has created a robust foundation for continued price appreciation.\n\nThe sector-wide inflow surge reflects heightened institutional confidence following falling U.S. Treasury yields and renewed cryptographic enthusiasm across global markets. Large-scale purchases by well-known entities further reinforce the bullish sentiment driving this rally.\n\nStrive, a Nasdaq-listed Bitcoin treasury management company, announced its acquisition of 1,110 additional Bitcoin at an average price point of $73,409 per unit. This transaction brings the company's total holdings to 21,356 Bitcoin, demonstrating significant strategic asset accumulation by a prominent player in the ecosystem. Such large-scale purchases typically signal strengthening conviction among major holders during periods of upward price pressure.\n\nTechnical analysts continue to monitor the market dynamics closely. PrimeXBT contributors highlighted a weekly momentum divergence pattern preceding this rally, which mirrors performance characteristics observed during January 2023. While the daily readings suggest potential continuation of the uptrend, careful observation of subsequent price action will be necessary to confirm the sustainability of this momentum.\n#Crypto #DeFi #Web3",
-      "tweet": "Major crypto ETF inflows hit $23B, Bitcoin hits $80K. Whale Strive adds 1,110 BTC. #Bitcoin #Ethereum #Binance"
+      "title": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K",
+      "body": "The crypto market witnessed five significant developments in the last 24 hours, with $BTC leading the charge. The most notable event was the $492 million inflow into Bitcoin and Ethereum ETFs, signaling sustained investor confidence in the asset class. According to CoinDesk, analysts expect consolidation near the $80,000 mark, where thin trading volume could set up sharper price movements. Decrypt reports that Bitcoin's rally against the dollar coincided with weakening USD following expanded Treasury bond buybacks, suggesting a vote of no confidence in U.S. fiscal policy. Meanwhile, Coinbase launched tokenized stocks on the Base L2, using regulated custodian Alpaca to issue shares that can be traded or deployed in DeFi applications. The final headline shows CleanCore dumping its Dogecoin treasury to fund a $100 million AI pivot, drawing community attention. On-chain metrics reveal $BTC's 50-day moving average climbing higher, with bullish momentum building above key resistance levels. Trading volumes remain elevated, indicating strong market participation despite the upcoming Jackson Hole symposium. #Binance #Bitcoin #ETF\nSources: NewsBTC, CoinDesk, Decrypt\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K #Bitcoin #CryptoNews #BinanceSquare"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359222523070797,
-      "url": "https://www.binance.com/square/post/359222523070797",
+      "id": 359277872053879,
+      "url": "https://www.binance.com/square/post/359277872053879",
       "shortPost": {
-        "id": 359222524917596,
-        "url": "https://www.binance.com/square/post/359222524917596"
+        "id": 359277873701085,
+        "url": "https://www.binance.com/square/post/359277873701085"
       },
-      "title": "Bitcoin ve Ethereum ETF'leri Ağır Yükseliş, Dolap Yatırımcıları Çarpıyor"
+      "title": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor"
     },
     {
       "lang": "en",
-      "id": 359222898468434,
-      "url": "https://www.binance.com/square/post/359222898468434",
+      "id": 359278245267785,
+      "url": "https://www.binance.com/square/post/359278245267785",
       "shortPost": {
-        "id": 359222900192292,
-        "url": "https://www.binance.com/square/post/359222900192292"
+        "id": 359278247038903,
+        "url": "https://www.binance.com/square/post/359278247038903"
       },
-      "title": "Major Crypto ETF Inflows Fuel Bitcoin Rally, Whales Accumulate More Bitcoin"
+      "title": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K"
     }
   ]
 }
