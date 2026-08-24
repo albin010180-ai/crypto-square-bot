@@ -1,50 +1,61 @@
 {
-  "startedAt": "2026-08-23T21:59:32.539Z",
-  "finishedAt": "2026-08-23T22:03:23.232Z",
+  "startedAt": "2026-08-24T04:12:39.966Z",
+  "finishedAt": "2026-08-24T04:16:58.274Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "yeni-proje-degerlendirme"
+    "type": "news",
+    "title": "Term Finance loses estimated $8.5M in vault governance exploit",
+    "source": "Cointelegraph",
+    "link": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "usedLink": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "usedTitleNorm": "term finance loses estimated 8 5m in vault governance exploit"
   },
   "script": {
     "tr": {
-      "title": "Yeni Kripto Projeleri Değerlendirme Kılavuzu",
+      "title": "Term Finance Protokolunde 8.5 Milyon Dolarlik Saldiri",
       "slides": [
-        "Yeni kripto projeleri değerlendirirken dikkat etmeniz gerekenler",
-        "Bir ekip tecrübesiyle projelerin sürdürülebilirliğini artırır",
-        "Teknoloji yenilikçi mi şeffaf kod ve güvenlik protokolü kontrol edin",
-        "Topluluk aktifse geri bildirim ve büyüme fırsatları artar"
+        "Term Finance protokolunde 8.5 milyon dolarlik bir saldiri tespit edildi",
+        "Saldiri Meta Vaults yonetim acigindan yararlanarak gerceklesti",
+        "Kasalardaki Ethereum mevduatinin neredeyse tamami bosaltildi",
+        "Term Meta Vaults kalici olarak kapatti ve sorusturma baslatti"
       ],
-      "caption": "Yatırım yaparken $BTC $ETH $SOL gibi temel varlıkları izleyin. Yeni projelerde ekip teknoloji ve topluluk analizini yapın. Riskleri anlayıp sadece araştırmanız yeterli.\n#NewProjects #DueDiligence #CryptoTips\nTR: Bu video yapay zeka destekli olarak hazirlanmistir; yatırım tavsiyesi degildir. Kendi arastirmanızı yapiniz (DYOR)."
+      "caption": "Term Finance protokolu, Meta Vaults yonetim acigi saldirisinda tahmini 8.5 milyon dolar kaybetti. Saldirida $ETH varliklarinin neredeyse tamami bosaltildi. Protokol Meta Vaults kalici olarak kapattigini acikladi.\n\n#DeFi #Ethereum #Guvenlik\n\nKaynaklar: Cointelegraph\n\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "How to Vet New Crypto Projects",
+      "title": "Term Finance Hit by 8.5 Million Dollar Vault Exploit",
       "slides": [
-        "What to watch when new crypto projects launch",
-        "A strong team boosts a project long term sustainability",
-        "Innovative technology requires transparent code and solid security checks",
-        "An active community drives feedback and growth opportunities"
+        "Term Finance protocol hit by an 8.5 million dollar exploit",
+        "The attack targeted a governance vulnerability in Meta Vaults",
+        "Nearly all Ethereum deposits were drained from the vaults",
+        "Term has permanently closed Meta Vaults and launched an investigation"
       ],
-      "caption": "Investors should monitor $BTC $ETH $SOL as core assets. Analyze team technology and community for new projects. Understand risks before only researching.\n#NewProjects #DueDiligence #CryptoTips\nEN: This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Term Finance lost an estimated 8.5 million dollars in a Meta Vaults governance exploit. The attack drained nearly all $ETH deposits from the vaults. The protocol has permanently closed its Meta Vaults.\n\n#DeFi #Ethereum #Security\n\nSources: Cointelegraph\n\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "error": "fetch failed"
+      "id": 359029571224397,
+      "url": "https://www.binance.com/square/post/359029571224397",
+      "note": null,
+      "shortPost": {
+        "id": 359029572674545,
+        "url": "https://www.binance.com/square/post/359029572674545"
+      },
+      "title": "Term Finance Protokolunde 8.5 Milyon Dolarlik Saldiri"
     },
     {
       "lang": "en",
-      "id": 358938225210932,
-      "url": "https://www.binance.com/square/post/358938225210932",
+      "id": 359030036216864,
+      "url": "https://www.binance.com/square/post/359030036216864",
       "note": null,
       "shortPost": {
-        "id": 358938227142595,
-        "url": "https://www.binance.com/square/post/358938227142595"
+        "id": 359030039201238,
+        "url": "https://www.binance.com/square/post/359030039201238"
       },
-      "title": "How to Vet New Crypto Projects"
+      "title": "Term Finance Hit by 8.5 Million Dollar Vault Exploit"
     }
   ]
 }
