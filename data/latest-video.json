@@ -1,61 +1,57 @@
 {
-  "startedAt": "2026-08-24T11:04:51.746Z",
-  "finishedAt": "2026-08-24T11:09:38.525Z",
+  "startedAt": "2026-08-24T15:25:32.226Z",
+  "finishedAt": "2026-08-24T15:28:52.708Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
-    "source": "CoinDesk",
-    "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
-    "usedLink": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
-    "usedTitleNorm": "bitcoin steadies near 78 000 as gold rallies altcoins consolidate after best week in 3 years"
+    "type": "info",
+    "topicId": "stablecoin-mantigi"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin 78,000 Doların Etrafında Stabil Altın Yükselişti Altcoinler Durdu",
+      "title": "Stablecoinler Nasil Deger Korur ve Riskleri Nedir",
       "slides": [
-        "Bitcoin yetmiş sekiz dolar civarında yuvarlandı geçen haftanın yüzde yirmi dört artıştan sonra.",
-        "Altın fiyatları yatırımcılar güvenli varlık arayışında yükseldi.",
-        "Altcoinler kazançlarını durdurdu ve bir konsolidasyon fazına girdi.",
-        "Erken Bitcoin artışı ABD Hazine'nin geri alım yapmasıyla kısa pozisyonlar üzerindeki üç milyar doları sıkıştırdı."
+        "Stablecoinler fiat para veya baska varliklara baglanarak degerlerini korur.",
+        "En yaygin mekanizmalar tam altin teminatlı, kredi teminatlı ve algoritmik sistemlerdir.",
+        "Teminat duvarlarinin altinda kalan varliklarin guvenilirligi ve on-demand cigneme yeteneği kritiktir.",
+        "Bir stablecoinin bagimliliği yüksek olduğunda likidite krizleri ve deger kaymasi riski artar."
       ],
-      "caption": "Bitcoin yetmiş sekiz dolar civarında yuvarlandı geçen haftanın yüzde yirmi dört artıştan sonra $BTC. Altın fiyatları yatırımcılar güvenli varlık arayışında yükseldi. Altcoinler kazançlarını durdurdu ve bir konsolidasyon fazına girdi $ETH $SOL.\n#Bitcoin #Gold #Altcoins\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Stablecoinler değeri korumak için teminat, kredi ya da algoritma mekanizmaları kullanır. Bu mekanizmaların güvenilirliği ve şeffaflığı, kullanıcılar için en önemli faktördür. $BTC $ETH $USDT\n#Stablecoins #DeFi #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Bitcoin Holds Near 78,000 While Gold Rises and Altcoins Pause",
+      "title": "How Stablecoins Hold Their Value and What Risks They Carry",
       "slides": [
-        "Bitcoin stabilized around seventy eight thousand dollars after last week's twenty four percent surge.",
-        "Gold prices rose as investors sought safety amid market uncertainty.",
-        "Altcoins entered a consolidation phase after recording their best weekly performance in three years.",
-        "The earlier Bitcoin surge was linked to a U.S. Treasury buyback that squeezed over three billion dollars in short positions."
+        "Stablecoins maintain their value by being pegged to fiat currency or other assets.",
+        "The most common mechanisms are full reserve backing, credit backed, and algorithmic systems.",
+        "The quality of the underlying reserve assets and the ability to redeem on demand are critical.",
+        "When a stablecoin's backing becomes fragile, liquidity crises and value depegging risks increase."
       ],
-      "caption": "Bitcoin held steady near seventy eight thousand dollars after last week's twenty four percent rise $BTC. Gold prices rose as investors sought safety amid market uncertainty. Altcoins paused their gains and entered a consolidation phase $ETH $SOL.\n#Bitcoin #Gold #Altcoins\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Stablecoins use reserve, credit, or algorithmic mechanisms to maintain their value. The reliability and transparency of these mechanisms are the most important factors for users. $BTC $ETH $USDT\n#Stablecoins #DeFi #LearnCrypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359130987384789,
-      "url": "https://www.binance.com/square/post/359130987384789",
+      "id": 359194698213247,
+      "url": "https://www.binance.com/square/post/359194698213247",
       "note": null,
       "shortPost": {
-        "id": 359130989247322,
-        "url": "https://www.binance.com/square/post/359130989247322"
+        "id": 359194700136563,
+        "url": "https://www.binance.com/square/post/359194700136563"
       },
-      "title": "Bitcoin 78,000 Doların Etrafında Stabil Altın Yükselişti Altcoinler Durdu"
+      "title": "Stablecoinler Nasil Deger Korur ve Riskleri Nedir"
     },
     {
       "lang": "en",
-      "id": 359131455662941,
-      "url": "https://www.binance.com/square/post/359131455662941",
+      "id": 359195165271274,
+      "url": "https://www.binance.com/square/post/359195165271274",
       "note": null,
       "shortPost": {
-        "id": 359131457156615,
-        "url": "https://www.binance.com/square/post/359131457156615"
+        "id": 359195167149667,
+        "url": "https://www.binance.com/square/post/359195167149667"
       },
-      "title": "Bitcoin Holds Near 78,000 While Gold Rises and Altcoins Pause"
+      "title": "How Stablecoins Hold Their Value and What Risks They Carry"
     }
   ]
 }
