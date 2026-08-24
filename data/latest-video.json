@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-24T04:12:39.966Z",
-  "finishedAt": "2026-08-24T04:16:58.274Z",
+  "startedAt": "2026-08-24T08:09:46.984Z",
+  "finishedAt": "2026-08-24T08:14:21.190Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Term Finance loses estimated $8.5M in vault governance exploit",
-    "source": "Cointelegraph",
-    "link": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "usedLink": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "usedTitleNorm": "term finance loses estimated 8 5m in vault governance exploit"
+    "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
+    "source": "CoinDesk",
+    "link": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
+    "usedLink": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
+    "usedTitleNorm": "live updates bitcoin holds 77 000 as xrp zcash pull back after a big weekly rally"
   },
   "script": {
     "tr": {
-      "title": "Term Finance Protokolunde 8.5 Milyon Dolarlik Saldiri",
+      "title": "Bitcoin 77000 dolarda dayanıyor XRP ve Zcash geriliyor",
       "slides": [
-        "Term Finance protokolunde 8.5 milyon dolarlik bir saldiri tespit edildi",
-        "Saldiri Meta Vaults yonetim acigindan yararlanarak gerceklesti",
-        "Kasalardaki Ethereum mevduatinin neredeyse tamami bosaltildi",
-        "Term Meta Vaults kalici olarak kapatti ve sorusturma baslatti"
+        "Bitcoin 77000 dolara yakın bir seviyede kaldı haftalık yükseliş sonrası",
+        "Geçen hafta yaklaşık 22 yüzde değer kazandı",
+        "Geçen hafta en iyi performans gösteren altcoinler XRP ve Zcash geriye çekiliyor",
+        "Fed Başkanı Warsh Jackson Hole etkinliğine yönelmeye başladı"
       ],
-      "caption": "Term Finance protokolu, Meta Vaults yonetim acigi saldirisinda tahmini 8.5 milyon dolar kaybetti. Saldirida $ETH varliklarinin neredeyse tamami bosaltildi. Protokol Meta Vaults kalici olarak kapattigini acikladi.\n\n#DeFi #Ethereum #Guvenlik\n\nKaynaklar: Cointelegraph\n\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin $BTC 77000 dolara yakın bir seviyede kaldı geçen hafta 22 yüzde artış gösterdi.\nGeçen hafta en çok kazanç sağlayan altcoinler XRP $XRP ve Zcash $ZEC değerini geriletmeye başladı.\nPiyasaların dikkati Fed Başkanı Warsh Jackson Hole etkinliğine yönelmeye başladı.\n#Bitcoin #XRP #Zcash\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Term Finance Hit by 8.5 Million Dollar Vault Exploit",
+      "title": "Bitcoin holds near 77000 as XRP Zcash retreat",
       "slides": [
-        "Term Finance protocol hit by an 8.5 million dollar exploit",
-        "The attack targeted a governance vulnerability in Meta Vaults",
-        "Nearly all Ethereum deposits were drained from the vaults",
-        "Term has permanently closed Meta Vaults and launched an investigation"
+        "Bitcoin holds near 77000 dollars after a strong week",
+        "It gained about 22 percent over the past seven days",
+        "Last week top altcoin performers XRP and Zcash are pulling back",
+        "Focus shifts to Fed Chair Warsh upcoming Jackson Hole appearance"
       ],
-      "caption": "Term Finance lost an estimated 8.5 million dollars in a Meta Vaults governance exploit. The attack drained nearly all $ETH deposits from the vaults. The protocol has permanently closed its Meta Vaults.\n\n#DeFi #Ethereum #Security\n\nSources: Cointelegraph\n\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin $BTC holds near 77000 dollars after a 22 percent gain over the past week.\nLast week top altcoin performers XRP $XRP and Zcash $ZEC are now pulling back from their highs.\nInvestor focus is shifting to Fed Chair Warsh upcoming Jackson Hole speech.\n#Bitcoin #XRP #Zcash\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359029571224397,
-      "url": "https://www.binance.com/square/post/359029571224397",
+      "id": 359087915237727,
+      "url": "https://www.binance.com/square/post/359087915237727",
       "note": null,
       "shortPost": {
-        "id": 359029572674545,
-        "url": "https://www.binance.com/square/post/359029572674545"
+        "id": 359087917720256,
+        "url": "https://www.binance.com/square/post/359087917720256"
       },
-      "title": "Term Finance Protokolunde 8.5 Milyon Dolarlik Saldiri"
+      "title": "Bitcoin 77000 dolarda dayanıyor XRP ve Zcash geriliyor"
     },
     {
       "lang": "en",
-      "id": 359030036216864,
-      "url": "https://www.binance.com/square/post/359030036216864",
+      "id": 359088376276949,
+      "url": "https://www.binance.com/square/post/359088376276949",
       "note": null,
       "shortPost": {
-        "id": 359030039201238,
-        "url": "https://www.binance.com/square/post/359030039201238"
+        "id": 359088378184017,
+        "url": "https://www.binance.com/square/post/359088378184017"
       },
-      "title": "Term Finance Hit by 8.5 Million Dollar Vault Exploit"
+      "title": "Bitcoin holds near 77000 as XRP Zcash retreat"
     }
   ]
 }
