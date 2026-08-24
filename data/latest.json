@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T03:32:46.387Z",
-  "finishedAt": "2026-08-24T03:38:41.447Z",
+  "startedAt": "2026-08-24T05:57:43.351Z",
+  "finishedAt": "2026-08-24T06:00:24.216Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,52 +8,73 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "XRP, Shiba Inu (SHIB), Hyperliquid (HYPE) and Bitcoin (BTC) Price Analysis For August 24: Bears Take Upper Hand",
-      "source": "U.Today",
-      "link": "https://u.today/price-analysis/xrp-shiba-inu-shib-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-august-24-bears-take-upper"
+      "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus"
     },
     {
-      "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/24/bessent-s-usd4-billion-bond-buyback-wanted-lower-yields-it-got-a-bitcoin-surge-instead"
+    },
+    {
+      "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547"
+    },
+    {
+      "title": "Bitcoin holders face unresolved fork risks as new eCash test chain launches ahead of October deadline",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-holders-face-unresolved-fork-risks-as-new-ecash-test-chain-launches-ahead-of-october-deadline/"
+    },
+    {
+      "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise"
+    },
+    {
+      "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push"
     }
   ],
   "selected": [
-    "https://u.today/price-analysis/xrp-shiba-inu-shib-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-august-24-bears-take-upper",
-    "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus",
+    "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
+    "https://cryptoslate.com/bitcoin-holders-face-unresolved-fork-risks-as-new-ecash-test-chain-launches-ahead-of-october-deadline/"
   ],
   "articles": {
     "tr": {
-      "title": "BTC 23% Yatışı; ABD Hukuk Politikası ve Siyah Inu Fiyatlı",
-      "body": "ABD'nin potansiyel hâkimlik krizine dair Ray Dalio'nun tahminleri, Bitcoin'in 23% yatışını tetikledim. Bu yükseliş, daha geniş bir piyasa düşüş trendiyle yabılamaktan kaçınamaktan kaçınamadı. XRP, Shiba Inu ve Hyperliquid gibi altcoinlar ise büyüklüklerin boyunda düşmeye devam ettiler. Bitcoin'in 23%'lik yükseliş, ABD'de borç politikasından kaynaklanan endişelerin piyasa tepkilerini gösteriyor. Çözüm-less bir borç krizinin 2029'te gerçekleşebileceği fear, BTC'nin 80.000 dolarlık direnç seviyesini test ettiğini gösteren teknik analizlerle birlikte, piyasa, bu fırsatın kapanması için hızlı hareket etmeye devam ediyor. Siyah Inu, 24. Agustus itibariyle 0.000008 dolar için destek seviyesini tutarken, 0.000005 dolar fiyatındaki koruma seviyesini kırarak bearish trendin devamini gösteriyor. XRP de, 0.45 dolar fiyatında 50 günlük ortalama fiyatın altına düşerek, 0.40 dolar hedefi için daha da düşüş riskini taşıyor. Bu piyasa durumunda, altcoinlar Bitcoin'in performansına göre daha az volatilite göstermesi gereken bir ortam oluşturuyor. Ancak, altcoinlerin büyüklüklerin boyunda düşmesi, Bitcoin'in zenginlikten kaçınan bir piyasa tepkisini de destekliyor. Trading hacmi, Bitcoin'in yükseliş döneminde 24 saat son 30 güne kadar 150 milyon doları aşıyor, ancak altcoinlar için bu hacim artışı, Bitcoin'in dominansini yansıtır. Siyah Inu ve XRP gibi altcoinlar, 23. Agustus itibariyle 24 saat içindeki hacimleri 40% ve 30% düşürerek, Bitcoin'in yatışını yabılamamayı試圖 ediyor. Bu piyasa durum, Bitcoin'in 75.000 dolar desteği seviyesini koruyabilse, 80.000 dolar hedefi için daha fazla tepki alabilirken, altcoinlar için uzun vadeli düşüş riski artıyor.\n#Crypto #DeFi #Web3",
-      "tweet": "$BTC 23% yatış, ABD borç politikası endişeleriyle; XRP ve SHIB düşüyor #Bitcoin #Regulation #Binance"
+      "title": "BTC $77K'lı haftalık yükselen; eCash test zincirinin riskleri",
+      "body": "Bitcoin $77.000'yi aşarak haftalık %21 yükselerek en güçlü bir performans sergileyerek, Strive CEO'nun 'en güçlü' bir döngü talebiyle dikkat çekiyor. XRP ise bu süreçte %46 artarak crypto piyasasını sürpriz veriyor. Ancak teknik analizlere göre BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var. Piyasa rekabeti, Strive CEO'nun Bitcoin'in dolardan daha iyi olan performansını vurguladıkça artıyor. Bu kutuplamada, piyasa rekabetinin artması ve Strive CEO'nun stratejik ifadeleri dikkat çekiyor.\n\nBitcoin'in geçtiğineki performansı, Strive CEO'nun 'en güçlü' bir döngü talebiyle desteklendi. Bu ifade, piyasa rekabetinin artmasına katkı sağlar. Ancak teknikal analizlere göre, BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var.\n\neCash test zincirinin başlatılması, Bitcoin kullanıcıları için fork risklerini gündeme getirdi. 23 Ağustos blokları 'pECX' test zincirini kullandıkça, 26 Ekim sonuna kadar geçerli yazılım ve yinelerle ilgili kararlar henüz alinmamış. Bu durum, kullanıcıların etkinleştirmeden önce dikkatli olmaları gerektiğini gösteriyor. CryptoSlate, bu gelişmenin potansiyel risklerini detaylandırıyor.\n\nPiyasa rekabeti, Strive CEO'nun 'en güçlü' bir döngü talebiyle artıyor. Ancak teknikal analizlere göre, BTC'nin $80.000 seviyesine ulaşması için hâlâ %10'lık bir boşluk var. Bu durum, piyasanın kutuplanmasıyla bağlantılı olarak değerlendiriliyor.\n#Bitcoin #ETF #Markets",
+      "tweet": "$BTC tests $80K level; eCash test chain risks emerge #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "Bitcoin's 23% Rally Amid US Debt Policy Concerns",
-      "body": "Bitcoin surged 23% following concerns over U.S. debt policy, though broader market sentiment remains bearish. Ray Dalio's warnings about a potential U.S. debt crisis in 2029 fueled the rally, with Bitcoin testing the $80,000 resistance level. Meanwhile, XRP, Shiba Inu, and Hyperliquid faced significant declines, with SHIB dropping below its 50-day average support. Bitcoin's trading volume spiked during the rally, reaching $150 million in 24 hours, indicating strong investor interest despite overall market caution. The $75,000 support level remains critical for BTC's short-term trajectory. If BTC sustains above this level, a move toward $80,000 could gain momentum, but a breakdown might trigger altcoin sell-offs. SHIB's price action suggests bearish sentiment, as it failed to hold its 0.000005 support. XRP's decline below $0.45 highlights altcoin vulnerability amid Bitcoin's rally. Trading data shows altcoins' volume fell 40% and 30% respectively, contrasting BTC's surge. This divergence suggests investors are rotating into Bitcoin as a safer haven. Technical indicators show BTC's RSI at 65, indicating potential overbought conditions if the rally continues. The market's focus on U.S. debt policy underscores macroeconomic factors driving crypto prices. A breakdown below $75,000 could accelerate altcoin declines, while holding above this level may stabilize BTC's rally. Investors should monitor key levels closely as macro risks persist.\n#Crypto #DeFi #Web3",
-      "tweet": "$BTC tests $80K amid US debt fears; SHIB/XRP fall #Bitcoin #MarketAnalysis #Binance"
+      "title": "BTC $77K rally; eCash test chain risks",
+      "body": "Bitcoin surged above $77,000 with a 21% weekly gain, marking its highest weekly dollar gain ever. Strive CEO called it the 'strongest' cycle, citing strong performance against the dollar and gold. Meanwhile, eCash's test chain launch raises unresolved fork risks for Bitcoin holders. The August 23 blocks used practice pECX, but final software and replay rules remain unclear. CryptoSlate highlights the uncertainty around exchange handling and technical specifications.\n\nThe surge in Bitcoin's price has drawn attention from analysts, with Strive CEO's bullish outlook adding momentum. However, technical indicators show a $80,000 resistance level still ahead. XRP's 46% gain over the same period further highlights market volatility.\n\neCash's test chain launch has sparked concerns about potential fork risks. The August 23 blocks used a practice test chain (pECX), but the final software, replay rules, and exchange protocols remain unresolved. This leaves Bitcoin holders in a state of uncertainty, as the October deadline approaches. CryptoSlate's report emphasizes the need for caution before activation.\n#Bitcoin #ETF #Markets",
+      "tweet": "$BTC tests $80K level; eCash test chain risks emerge #Bitcoin #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359020256413016,
-      "url": "https://www.binance.com/square/post/359020256413016",
+      "id": 359055082167263,
+      "url": "https://www.binance.com/square/post/359055082167263",
       "shortPost": {
-        "id": 359020258168509,
-        "url": "https://www.binance.com/square/post/359020258168509"
+        "id": 359055083960380,
+        "url": "https://www.binance.com/square/post/359055083960380"
       },
-      "title": "BTC 23% Yatışı; ABD Hukuk Politikası ve Siyah Inu Fiyatlı"
+      "title": "BTC $77K'lı haftalık yükselen; eCash test zincirinin riskleri"
     },
     {
       "lang": "en",
-      "id": 359020629807932,
-      "url": "https://www.binance.com/square/post/359020629807932",
+      "id": 359055456161794,
+      "url": "https://www.binance.com/square/post/359055456161794",
       "shortPost": {
-        "id": 359020631332183,
-        "url": "https://www.binance.com/square/post/359020631332183"
+        "id": 359055458659895,
+        "url": "https://www.binance.com/square/post/359055458659895"
       },
-      "title": "Bitcoin's 23% Rally Amid US Debt Policy Concerns"
+      "title": "BTC $77K rally; eCash test chain risks"
     }
   ]
 }
