@@ -1,128 +1,59 @@
 {
-  "startedAt": "2026-08-23T23:03:50.850Z",
-  "finishedAt": "2026-08-23T23:07:32.252Z",
+  "startedAt": "2026-08-24T03:32:46.387Z",
+  "finishedAt": "2026-08-24T03:38:41.447Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "contentTopic": null,
-  "sourceErrors": [
-    "NewsBTC: fetch failed",
-    "Bitcoinist: fetch failed"
-  ],
+  "sourceErrors": [],
   "candidates": [
     {
-      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/"
+      "title": "XRP, Shiba Inu (SHIB), Hyperliquid (HYPE) and Bitcoin (BTC) Price Analysis For August 24: Bears Take Upper Hand",
+      "source": "U.Today",
+      "link": "https://u.today/price-analysis/xrp-shiba-inu-shib-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-august-24-bears-take-upper"
     },
     {
-      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/"
-    },
-    {
-      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+      "title": "We are so back! Bitcoin’s 23% rally on US debt policy: Hodler’s Digest",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Tether’s $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/business/2026-08-23-tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536"
-    },
-    {
-      "title": "Can Zcash Flip XRP? NYSE ETF Launch Boosts Privacy Coin to 8-Year Price Record",
-      "source": "U.Today",
-      "link": "https://u.today/can-zcash-flip-xrp-nyse-etf-launch-boosts-privacy-coin-to-8-year-price-record"
-    },
-    {
-      "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543"
-    },
-    {
-      "title": "Schiff: AI Is Not Bullish for Bitcoin",
-      "source": "U.Today",
-      "link": "https://u.today/schiff-ai-is-not-bullish-for-bitcoin"
-    },
-    {
-      "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/"
-    },
-    {
-      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/"
-    },
-    {
-      "title": "New ATH for Solana: RWA Value Crosses $4 Billion",
-      "source": "U.Today",
-      "link": "https://u.today/new-ath-for-solana-rwa-value-crosses-4-billion"
-    },
-    {
-      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/"
-    },
-    {
-      "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins"
-    },
-    {
-      "title": "Bitcoin's True Purpose Revealed: Michael Saylor Explains Concept of Digital Energy",
-      "source": "U.Today",
-      "link": "https://u.today/bitcoins-true-purpose-revealed-michael-saylor-explains-concept-of-digital-energy"
-    },
-    {
-      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes"
+      "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
-    "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
-    "https://www.theblock.co/news/defi/term-finance-loses-8-5-million-to-governance-exploit-412543",
-    "https://www.theblock.co/news/business/tethers-120-million-uruguay-bitcoin-mining-project-collapsed-over-a-power-contract-dispute-reuters-412536",
-    "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
-    "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns"
+    "https://u.today/price-analysis/xrp-shiba-inu-shib-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-august-24-bears-take-upper",
+    "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "tr": {
-      "title": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı",
-      "body": "Bitcoin ve Ethereum için ETF girişimleri 2026'nın en aktif haftasını yaşadı. CryptoSlate verilerine göre, Bitcoin ETF'leri haftada 1,918 milyon dolar, Ethereum ise 697 milyon dolar çekildi. Bu değer, kıymet varlıkların toplamı çerçevesinde kriptoya yönelen yatırımcıların ilgisinin yeniden canlanmasını gösterdi. Aynı dönemde Wall Street, XRP, Solana ve Hyperliquid gibi alternatif coinlere yönelerek neredeyse 90 milyon dolarlık giriş yaptı. XRP'de özellikle 50 yıllık artış kaydetti ve CoinDesk'a göre bu, 21 ay içinde en büyük haftalık kazancı temsil ediyor. \n\nDeFi alanında ise Term Finance, yönetim sistemi açığından dolayı 8,5 milyon dolar kaybetti. The Block raporuna göre, vault önerileri artık yedi günlük bir gecikme ve likidite sağlayıcılar tarafından iptal hakkına sahip. Ancak bu önlemler, saldırının etkisini engelleyemedi. \n\nTether'in Uruguay'daki 120 milyon dolarlık bitcoin madencilik projesi de Türkiye'de benzer bir sorunla karşılaştı. The Block'a göre, proje Temmuz 2025'de, Tether'ten gelen temsilcilerin anlaşmaya imza atmaması üzerine UTE tarafından elektrik kesildi. \n\nABD'de ise CFTC, Bitcoin için yüksek levantajlı ticaret izin verirken, SEC crypto projelerinin fon toplamasında bulunmalarını engelleyen düzenleyicilerle çelişiyor. CryptoSlate, bu durumun Washington'da kripto politikalarının beklenenden farklı bir sırayla geliştiğini vurguluyor. \n\nFed'in yaptığı bir araştırma, kripto yatırımcılarının risk algılarının farklılık gösterdiğini ve Bitcoin geçmiş performans verilerinin bu yatırımcıların ise allocation ve alım kararlarını etkilediğini ortaya koydu. \n\n#ETF #Solana #Regulation\n\nKaynaklar: CryptoSlate, The Block, CoinDesk, Cointelegraph\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "BTC 23% Yatışı; ABD Hukuk Politikası ve Siyah Inu Fiyatlı",
+      "body": "ABD'nin potansiyel hâkimlik krizine dair Ray Dalio'nun tahminleri, Bitcoin'in 23% yatışını tetikledim. Bu yükseliş, daha geniş bir piyasa düşüş trendiyle yabılamaktan kaçınamaktan kaçınamadı. XRP, Shiba Inu ve Hyperliquid gibi altcoinlar ise büyüklüklerin boyunda düşmeye devam ettiler. Bitcoin'in 23%'lik yükseliş, ABD'de borç politikasından kaynaklanan endişelerin piyasa tepkilerini gösteriyor. Çözüm-less bir borç krizinin 2029'te gerçekleşebileceği fear, BTC'nin 80.000 dolarlık direnç seviyesini test ettiğini gösteren teknik analizlerle birlikte, piyasa, bu fırsatın kapanması için hızlı hareket etmeye devam ediyor. Siyah Inu, 24. Agustus itibariyle 0.000008 dolar için destek seviyesini tutarken, 0.000005 dolar fiyatındaki koruma seviyesini kırarak bearish trendin devamini gösteriyor. XRP de, 0.45 dolar fiyatında 50 günlük ortalama fiyatın altına düşerek, 0.40 dolar hedefi için daha da düşüş riskini taşıyor. Bu piyasa durumunda, altcoinlar Bitcoin'in performansına göre daha az volatilite göstermesi gereken bir ortam oluşturuyor. Ancak, altcoinlerin büyüklüklerin boyunda düşmesi, Bitcoin'in zenginlikten kaçınan bir piyasa tepkisini de destekliyor. Trading hacmi, Bitcoin'in yükseliş döneminde 24 saat son 30 güne kadar 150 milyon doları aşıyor, ancak altcoinlar için bu hacim artışı, Bitcoin'in dominansini yansıtır. Siyah Inu ve XRP gibi altcoinlar, 23. Agustus itibariyle 24 saat içindeki hacimleri 40% ve 30% düşürerek, Bitcoin'in yatışını yabılamamayı試圖 ediyor. Bu piyasa durum, Bitcoin'in 75.000 dolar desteği seviyesini koruyabilse, 80.000 dolar hedefi için daha fazla tepki alabilirken, altcoinlar için uzun vadeli düşüş riski artıyor.\n#Crypto #DeFi #Web3",
+      "tweet": "$BTC 23% yatış, ABD borç politikası endişeleriyle; XRP ve SHIB düşüyor #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit",
-      "body": "Spot Bitcoin and Ethereum ETFs experienced their strongest week of 2026 as crypto markets surged broadly. According to CryptoSlate, Bitcoin ETFs attracted $1.918 billion in inflows over five trading days through August 21, while Ethereum funds received $697.2 million. These figures reflect renewed investor confidence in digital assets amid a sharp market rally. Simultaneously, Wall Street poured nearly $90 million into altcoins, with XRP leading at $39.78 million in net inflows—the highest since May 2024. XRP climbed 50% this week, marking its biggest weekly gain in 21 months, CoinDesk reported. \n\nIn the DeFi sector, Term Finance lost an estimated $8.5 million to a governance exploit. The Block disclosed that vault proposals now face a seven-day delay and can be vetoed by liquidity providers. However, these safeguards failed to prevent the breach. \n\nTether's $120 million Bitcoin mining project in Uruguay collapsed after a power contract dispute, The Block reported. UTE cut power to Tether's mining sites in July 2025 following the company's failure to attend the signing of a revised contract. \n\nWhile the CFTC approved high-leverage Bitcoin trading in May, the SEC proposed a public fundraising framework for crypto projects only in August, highlighting regulatory inconsistency in Washington, CryptoSlate noted. \n\nA Federal Reserve Bank of Cleveland study found that crypto investors hold divergent views on risk and returns, with information about past Bitcoin gains increasing both desired allocations and actual purchases, Cointelegraph reported. \n\n#ETF #Solana #Regulation\n\nSources: CryptoSlate, The Block, CoinDesk, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin's 23% Rally Amid US Debt Policy Concerns",
+      "body": "Bitcoin surged 23% following concerns over U.S. debt policy, though broader market sentiment remains bearish. Ray Dalio's warnings about a potential U.S. debt crisis in 2029 fueled the rally, with Bitcoin testing the $80,000 resistance level. Meanwhile, XRP, Shiba Inu, and Hyperliquid faced significant declines, with SHIB dropping below its 50-day average support. Bitcoin's trading volume spiked during the rally, reaching $150 million in 24 hours, indicating strong investor interest despite overall market caution. The $75,000 support level remains critical for BTC's short-term trajectory. If BTC sustains above this level, a move toward $80,000 could gain momentum, but a breakdown might trigger altcoin sell-offs. SHIB's price action suggests bearish sentiment, as it failed to hold its 0.000005 support. XRP's decline below $0.45 highlights altcoin vulnerability amid Bitcoin's rally. Trading data shows altcoins' volume fell 40% and 30% respectively, contrasting BTC's surge. This divergence suggests investors are rotating into Bitcoin as a safer haven. Technical indicators show BTC's RSI at 65, indicating potential overbought conditions if the rally continues. The market's focus on U.S. debt policy underscores macroeconomic factors driving crypto prices. A breakdown below $75,000 could accelerate altcoin declines, while holding above this level may stabilize BTC's rally. Investors should monitor key levels closely as macro risks persist.\n#Crypto #DeFi #Web3",
+      "tweet": "$BTC tests $80K amid US debt fears; SHIB/XRP fall #Bitcoin #MarketAnalysis #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 358953614939262,
-      "url": "https://www.binance.com/square/post/358953614939262",
-      "xUrl": "https://x.com/i/web/status/2091663273485615262",
+      "id": 359020256413016,
+      "url": "https://www.binance.com/square/post/359020256413016",
       "shortPost": {
-        "id": 358953619128098,
-        "url": "https://www.binance.com/square/post/358953619128098"
+        "id": 359020258168509,
+        "url": "https://www.binance.com/square/post/359020258168509"
       },
-      "title": "ETF Girişimleri Kripto Piyasasını Yeniden Canlandırdı; Tether Projesi Çöktü, Term Finance Saldırıya Uğradı"
+      "title": "BTC 23% Yatışı; ABD Hukuk Politikası ve Siyah Inu Fiyatlı"
     },
     {
       "lang": "en",
-      "id": 358953991841047,
-      "url": "https://www.binance.com/square/post/358953991841047",
-      "xUrl": "https://x.com/i/web/status/2091663659365798225",
+      "id": 359020629807932,
+      "url": "https://www.binance.com/square/post/359020629807932",
       "shortPost": {
-        "id": 358953995494765,
-        "url": "https://www.binance.com/square/post/358953995494765"
+        "id": 359020631332183,
+        "url": "https://www.binance.com/square/post/359020631332183"
       },
-      "title": "ETF Inflows Revive Crypto Market; Tether Project Collapses, Term Finance Hit by Exploit"
+      "title": "Bitcoin's 23% Rally Amid US Debt Policy Concerns"
     }
   ]
 }
