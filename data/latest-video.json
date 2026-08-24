@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-24T08:09:46.984Z",
-  "finishedAt": "2026-08-24T08:14:21.190Z",
+  "startedAt": "2026-08-24T11:04:51.746Z",
+  "finishedAt": "2026-08-24T11:09:38.525Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
+    "title": "Bitcoin steadies near $78,000 as gold rallies, altcoins consolidate after best week in 3 years",
     "source": "CoinDesk",
-    "link": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
-    "usedLink": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
-    "usedTitleNorm": "live updates bitcoin holds 77 000 as xrp zcash pull back after a big weekly rally"
+    "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
+    "usedLink": "https://www.coindesk.com/markets/2026/08/24/bitcoin-steadies-near-usd78-000-as-gold-rallies-altcoins-consolidate-after-best-week-in-3-years",
+    "usedTitleNorm": "bitcoin steadies near 78 000 as gold rallies altcoins consolidate after best week in 3 years"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin 77000 dolarda dayanıyor XRP ve Zcash geriliyor",
+      "title": "Bitcoin 78,000 Doların Etrafında Stabil Altın Yükselişti Altcoinler Durdu",
       "slides": [
-        "Bitcoin 77000 dolara yakın bir seviyede kaldı haftalık yükseliş sonrası",
-        "Geçen hafta yaklaşık 22 yüzde değer kazandı",
-        "Geçen hafta en iyi performans gösteren altcoinler XRP ve Zcash geriye çekiliyor",
-        "Fed Başkanı Warsh Jackson Hole etkinliğine yönelmeye başladı"
+        "Bitcoin yetmiş sekiz dolar civarında yuvarlandı geçen haftanın yüzde yirmi dört artıştan sonra.",
+        "Altın fiyatları yatırımcılar güvenli varlık arayışında yükseldi.",
+        "Altcoinler kazançlarını durdurdu ve bir konsolidasyon fazına girdi.",
+        "Erken Bitcoin artışı ABD Hazine'nin geri alım yapmasıyla kısa pozisyonlar üzerindeki üç milyar doları sıkıştırdı."
       ],
-      "caption": "Bitcoin $BTC 77000 dolara yakın bir seviyede kaldı geçen hafta 22 yüzde artış gösterdi.\nGeçen hafta en çok kazanç sağlayan altcoinler XRP $XRP ve Zcash $ZEC değerini geriletmeye başladı.\nPiyasaların dikkati Fed Başkanı Warsh Jackson Hole etkinliğine yönelmeye başladı.\n#Bitcoin #XRP #Zcash\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin yetmiş sekiz dolar civarında yuvarlandı geçen haftanın yüzde yirmi dört artıştan sonra $BTC. Altın fiyatları yatırımcılar güvenli varlık arayışında yükseldi. Altcoinler kazançlarını durdurdu ve bir konsolidasyon fazına girdi $ETH $SOL.\n#Bitcoin #Gold #Altcoins\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Bitcoin holds near 77000 as XRP Zcash retreat",
+      "title": "Bitcoin Holds Near 78,000 While Gold Rises and Altcoins Pause",
       "slides": [
-        "Bitcoin holds near 77000 dollars after a strong week",
-        "It gained about 22 percent over the past seven days",
-        "Last week top altcoin performers XRP and Zcash are pulling back",
-        "Focus shifts to Fed Chair Warsh upcoming Jackson Hole appearance"
+        "Bitcoin stabilized around seventy eight thousand dollars after last week's twenty four percent surge.",
+        "Gold prices rose as investors sought safety amid market uncertainty.",
+        "Altcoins entered a consolidation phase after recording their best weekly performance in three years.",
+        "The earlier Bitcoin surge was linked to a U.S. Treasury buyback that squeezed over three billion dollars in short positions."
       ],
-      "caption": "Bitcoin $BTC holds near 77000 dollars after a 22 percent gain over the past week.\nLast week top altcoin performers XRP $XRP and Zcash $ZEC are now pulling back from their highs.\nInvestor focus is shifting to Fed Chair Warsh upcoming Jackson Hole speech.\n#Bitcoin #XRP #Zcash\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin held steady near seventy eight thousand dollars after last week's twenty four percent rise $BTC. Gold prices rose as investors sought safety amid market uncertainty. Altcoins paused their gains and entered a consolidation phase $ETH $SOL.\n#Bitcoin #Gold #Altcoins\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359087915237727,
-      "url": "https://www.binance.com/square/post/359087915237727",
+      "id": 359130987384789,
+      "url": "https://www.binance.com/square/post/359130987384789",
       "note": null,
       "shortPost": {
-        "id": 359087917720256,
-        "url": "https://www.binance.com/square/post/359087917720256"
+        "id": 359130989247322,
+        "url": "https://www.binance.com/square/post/359130989247322"
       },
-      "title": "Bitcoin 77000 dolarda dayanıyor XRP ve Zcash geriliyor"
+      "title": "Bitcoin 78,000 Doların Etrafında Stabil Altın Yükselişti Altcoinler Durdu"
     },
     {
       "lang": "en",
-      "id": 359088376276949,
-      "url": "https://www.binance.com/square/post/359088376276949",
+      "id": 359131455662941,
+      "url": "https://www.binance.com/square/post/359131455662941",
       "note": null,
       "shortPost": {
-        "id": 359088378184017,
-        "url": "https://www.binance.com/square/post/359088378184017"
+        "id": 359131457156615,
+        "url": "https://www.binance.com/square/post/359131457156615"
       },
-      "title": "Bitcoin holds near 77000 as XRP Zcash retreat"
+      "title": "Bitcoin Holds Near 78,000 While Gold Rises and Altcoins Pause"
     }
   ]
 }
