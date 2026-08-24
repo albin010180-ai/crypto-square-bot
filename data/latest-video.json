@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-24T19:18:29.580Z",
-  "finishedAt": "2026-08-24T19:25:15.708Z",
+  "startedAt": "2026-08-24T22:49:27.968Z",
+  "finishedAt": "2026-08-24T22:54:56.885Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Grayscale Zcash ETF Filing Puts Privacy Coin Back In Regulatory Spotlight",
-    "source": "NewsBTC",
-    "link": "https://www.newsbtc.com/news/grayscale-zcash-etf-filing-puts-privacy-coin-back-in-regulatory-spotlight/",
-    "usedLink": "https://www.newsbtc.com/news/grayscale-zcash-etf-filing-puts-privacy-coin-back-in-regulatory-spotlight/",
-    "usedTitleNorm": "grayscale zcash etf filing puts privacy coin back in regulatory spotlight"
+    "title": "Users warned to pull funds immediately as EU sanctions force crypto platform into withdrawal-only mode",
+    "source": "CryptoSlate",
+    "link": "https://cryptoslate.com/users-warned-to-pull-funds-immediately-as-eu-sanctions-force-crypto-platform-into-withdrawal-only-mode/",
+    "usedLink": "https://cryptoslate.com/users-warned-to-pull-funds-immediately-as-eu-sanctions-force-crypto-platform-into-withdrawal-only-mode/",
+    "usedTitleNorm": "users warned to pull funds immediately as eu sanctions force crypto platform into withdrawal only mode"
   },
   "script": {
     "tr": {
-      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny",
+      "title": "Kullanıcılar Farklılık Yapma Olarak Fundları Çekmek İsteyenin Uyarısı",
       "slides": [
-        "Grayscale submits a Zcash ETF application to US regulators",
-        "The filing seeks approval for a publicly traded Zcash investment product",
-        "Regulators have previously rejected privacy coin ETF proposals due to compliance concerns",
-        "Grayscale aims to list the ETF on major exchanges if approved"
+        "Kullanıcılar, EU yaptırımlarından dolayı fonlarını çekmelidir",
+        "Eski operatör henüz belirlenmemmektedir ve platform kaldırılmıştır",
+        "Bitcoin ve TRC-20 USDT çekimi hâlâ açık olup varış modunda",
+        "Gelir hedefleri veya yatırım tavsiyesi bu haberde yer almaz"
       ],
-      "caption": "Grayscale has submitted a Zcash ETF application to the SEC\nThe filing could bring privacy coin exposure to mainstream markets\n$BTC $ETH $SOL\n#Crypto #ETF #Privacy\nBu video yapay zeka destekli olarak hazırlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Platform kullanıcıları, EU yaptırımlarından dolayı fonlarını çekmelidir. Eski operatör henüz belirlenmemektedir ve platform kaldırılmıştır. $BTC $ETH $SOL\n#crypto #sanctions #eu\nBu video yapay zeka destekli olarak hazırlanmaktadır; yatırım tavsiyesi değildir. Kendi arastınız yapın (DYOR)."
     },
     "en": {
-      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny",
+      "title": "Users Warned to Remove Funds Due to EU Sanctions Blocking Withdrawals",
       "slides": [
-        "Grayscale submits a Zcash ETF application to US regulators",
-        "The filing seeks approval for a publicly traded Zcash investment product",
-        "Regulators have previously rejected privacy coin ETF proposals due to compliance concerns",
-        "Grayscale aims to list the ETF on major exchanges if approved"
+        "Kullikers, EU sanctions are forcing the platform into withdrawal only mode.",
+        "No specific operator has been identified yet.",
+        "Bitcoin and TRC-20 USDT transfer remains open while waiting for resolution.",
+        "Profit targets or investment recommendations are not included in this report."
       ],
-      "caption": "Grayscale has filed a Zcash ETF application with the SEC\nThis could increase mainstream access to privacy coin investments\n$BTC $ETH $SOL\n#Crypto #ETF #Privacy\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "EU sanctions are forcing the platform into withdrawal only mode. No specific operator has been identified yet. $BTC $ETH $SOL\n#crypto #sanctions #eu\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359252788443385,
-      "url": "https://www.binance.com/square/post/359252788443385",
+      "id": 359304317706866,
+      "url": "https://www.binance.com/square/post/359304317706866",
       "note": null,
       "shortPost": {
-        "id": 359252789790409,
-        "url": "https://www.binance.com/square/post/359252789790409"
+        "id": 359304319065346,
+        "url": "https://www.binance.com/square/post/359304319065346"
       },
-      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny"
+      "title": "Kullanıcılar Farklılık Yapma Olarak Fundları Çekmek İsteyenin Uyarısı"
     },
     {
       "lang": "en",
-      "id": 359253258542131,
-      "url": "https://www.binance.com/square/post/359253258542131",
+      "id": 359304791917857,
+      "url": "https://www.binance.com/square/post/359304791917857",
       "note": null,
       "shortPost": {
-        "id": 359253260726486,
-        "url": "https://www.binance.com/square/post/359253260726486"
+        "id": 359304793258433,
+        "url": "https://www.binance.com/square/post/359304793258433"
       },
-      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny"
+      "title": "Users Warned to Remove Funds Due to EU Sanctions Blocking Withdrawals"
     }
   ]
 }
