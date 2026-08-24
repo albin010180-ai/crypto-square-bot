@@ -1,57 +1,61 @@
 {
-  "startedAt": "2026-08-24T15:25:32.226Z",
-  "finishedAt": "2026-08-24T15:28:52.708Z",
+  "startedAt": "2026-08-24T19:18:29.580Z",
+  "finishedAt": "2026-08-24T19:25:15.708Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "stablecoin-mantigi"
+    "type": "news",
+    "title": "Grayscale Zcash ETF Filing Puts Privacy Coin Back In Regulatory Spotlight",
+    "source": "NewsBTC",
+    "link": "https://www.newsbtc.com/news/grayscale-zcash-etf-filing-puts-privacy-coin-back-in-regulatory-spotlight/",
+    "usedLink": "https://www.newsbtc.com/news/grayscale-zcash-etf-filing-puts-privacy-coin-back-in-regulatory-spotlight/",
+    "usedTitleNorm": "grayscale zcash etf filing puts privacy coin back in regulatory spotlight"
   },
   "script": {
     "tr": {
-      "title": "Stablecoinler Nasil Deger Korur ve Riskleri Nedir",
+      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny",
       "slides": [
-        "Stablecoinler fiat para veya baska varliklara baglanarak degerlerini korur.",
-        "En yaygin mekanizmalar tam altin teminatlı, kredi teminatlı ve algoritmik sistemlerdir.",
-        "Teminat duvarlarinin altinda kalan varliklarin guvenilirligi ve on-demand cigneme yeteneği kritiktir.",
-        "Bir stablecoinin bagimliliği yüksek olduğunda likidite krizleri ve deger kaymasi riski artar."
+        "Grayscale submits a Zcash ETF application to US regulators",
+        "The filing seeks approval for a publicly traded Zcash investment product",
+        "Regulators have previously rejected privacy coin ETF proposals due to compliance concerns",
+        "Grayscale aims to list the ETF on major exchanges if approved"
       ],
-      "caption": "Stablecoinler değeri korumak için teminat, kredi ya da algoritma mekanizmaları kullanır. Bu mekanizmaların güvenilirliği ve şeffaflığı, kullanıcılar için en önemli faktördür. $BTC $ETH $USDT\n#Stablecoins #DeFi #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Grayscale has submitted a Zcash ETF application to the SEC\nThe filing could bring privacy coin exposure to mainstream markets\n$BTC $ETH $SOL\n#Crypto #ETF #Privacy\nBu video yapay zeka destekli olarak hazırlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "How Stablecoins Hold Their Value and What Risks They Carry",
+      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny",
       "slides": [
-        "Stablecoins maintain their value by being pegged to fiat currency or other assets.",
-        "The most common mechanisms are full reserve backing, credit backed, and algorithmic systems.",
-        "The quality of the underlying reserve assets and the ability to redeem on demand are critical.",
-        "When a stablecoin's backing becomes fragile, liquidity crises and value depegging risks increase."
+        "Grayscale submits a Zcash ETF application to US regulators",
+        "The filing seeks approval for a publicly traded Zcash investment product",
+        "Regulators have previously rejected privacy coin ETF proposals due to compliance concerns",
+        "Grayscale aims to list the ETF on major exchanges if approved"
       ],
-      "caption": "Stablecoins use reserve, credit, or algorithmic mechanisms to maintain their value. The reliability and transparency of these mechanisms are the most important factors for users. $BTC $ETH $USDT\n#Stablecoins #DeFi #LearnCrypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Grayscale has filed a Zcash ETF application with the SEC\nThis could increase mainstream access to privacy coin investments\n$BTC $ETH $SOL\n#Crypto #ETF #Privacy\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359194698213247,
-      "url": "https://www.binance.com/square/post/359194698213247",
+      "id": 359252788443385,
+      "url": "https://www.binance.com/square/post/359252788443385",
       "note": null,
       "shortPost": {
-        "id": 359194700136563,
-        "url": "https://www.binance.com/square/post/359194700136563"
+        "id": 359252789790409,
+        "url": "https://www.binance.com/square/post/359252789790409"
       },
-      "title": "Stablecoinler Nasil Deger Korur ve Riskleri Nedir"
+      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny"
     },
     {
       "lang": "en",
-      "id": 359195165271274,
-      "url": "https://www.binance.com/square/post/359195165271274",
+      "id": 359253258542131,
+      "url": "https://www.binance.com/square/post/359253258542131",
       "note": null,
       "shortPost": {
-        "id": 359195167149667,
-        "url": "https://www.binance.com/square/post/359195167149667"
+        "id": 359253260726486,
+        "url": "https://www.binance.com/square/post/359253260726486"
       },
-      "title": "How Stablecoins Hold Their Value and What Risks They Carry"
+      "title": "Grayscale Zcash ETF filing reignites privacy coin scrutiny"
     }
   ]
 }
