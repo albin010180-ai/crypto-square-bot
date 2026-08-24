@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T14:24:39.864Z",
-  "finishedAt": "2026-08-24T14:30:24.008Z",
+  "startedAt": "2026-08-24T17:19:12.588Z",
+  "finishedAt": "2026-08-24T17:21:43.488Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,84 +8,69 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin price gains pull new investors into crypto, Fed experiment shows",
+      "title": "Saylor sat out Bitcoin’s 20% rally while Tom Lee bought Ethereum after a 30% surge",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-price-gains-can-pull-new-investors-into-crypto-fed-experiment-shows/"
+      "link": "https://cryptoslate.com/saylor-sat-out-bitcoins-20-rally-while-tom-lee-bought-ethereum-after-a-30-surge/"
     },
     {
-      "title": "Whales Hedge $1.3 Billion in Bitcoin and XRP While Gold Hits Fresh August Highs: Main Crypto News This Morning",
-      "source": "U.Today",
-      "link": "https://u.today/whales-hedge-13-billion-in-bitcoin-and-xrp-while-gold-hits-fresh-august-highs-main-crypto-news-this"
-    },
-    {
-      "title": "Strategy launches $1.6B cash pool after $2B common shares raise, maintains hold on BTC buys",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/strategy-2-billion-raise-strc-136-million-bitcoin-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin"
-    },
-    {
-      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Japan’s SBI leads $68M Fasset round at $1B valuation",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/sbi-fasset-round-1b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july"
-    },
-    {
-      "title": "Morning Minute: Saylor’s Strategy Back in Green As BTC Soars to $78k",
+      "title": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
       "source": "Decrypt",
-      "link": "https://decrypt.co/376321/morning-minute-saylors-strategy-back-in-green-as-btc-soars-to-78k"
+      "link": "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows"
+    },
+    {
+      "title": "Strive buys 1,110 Bitcoin for $81.5M, holdings top 21K BTC; ASST shares surge 11%",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "PrimeXBT: Is this the start of a Bitcoin bull run? A 2022 signal appeared before the rally",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/primexbt-is-this-the-start-of-a-bitcoin-bull-run-a-2022-signal-appeared-before-the-rally/"
+    },
+    {
+      "title": "Bitmine Buys Another $81M in Ethereum as ETH Outperforms Bitcoin",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376336/bitmine-81m-more-ethereum-eth-tops-bitcoin"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/bitcoin-price-gains-can-pull-new-investors-into-crypto-fed-experiment-shows/",
-    "https://u.today/whales-hedge-13-billion-in-bitcoin-and-xrp-while-gold-hits-fresh-august-highs-main-crypto-news-this",
-    "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
-    "https://cointelegraph.com/news/sbi-fasset-round-1b-valuation"
+    "https://cryptoslate.com/saylor-sat-out-bitcoins-20-rally-while-tom-lee-bought-ethereum-after-a-30-surge/",
+    "https://decrypt.co/376349/bitcoin-ethereum-etfs-23-billion-aum-inflows",
+    "https://cointelegraph.com/news/strive-buys-1110-bitcoin-for-815m-holdings-top-21k-btc",
+    "https://newsbtc.com/news/primexbt-is-this-the-start-of-a-bitcoin-bull-run-a-2022-signal-appeared-before-the-rally/"
   ],
   "articles": {
     "tr": {
-      "title": "Hafta Sonu Piyasası: Bitcoin Yeni Yatırımcıları Çekiyor, $1.3B Bahis Yapılıyor, HKD Stablecoin Geliyor",
-      "body": "Bitcoin fiyatındaki artış, Fed Cleveland şubesinin gerçekleştirdiği bir deneyle yeni yatırımcıları kripto sektörüne çekebiliyor. Araştırmacılar, Bitcoin'in önceki 12 aylık performansının gösterilmesiyle katılımcıların kripto para sahibi olma olasılığının yaklaşık 2.5 puan arttığını tespit etti. Bu psikolojik etki, günümüzde $BTC'nin 78.000 dolar civarındaki seviyelerde seyretmesiyle birlikte kaydedilen haftalık en büyük hacimli mumda da yansıdı.\n\nAynı dönemde, Hyperliquid'te piyasa yapıcılar $1.3 milyar değerinde BTC ve $XRP short pozisyonları açarak büyük miktarda riskten kaçındı. Gold ise 4.659 dolara yükselirken, ABD borç kriziyle ilgili endişeler devam ediyor. Büyük balinaların bu hamlesi, volatilitenin yüksek olduğu bir dönemde fiyat iniş çıkışlarına karşı korunma isteğini gösteriyor.\n\nStandard Chartered, Londra merkezli çok uluslu banka olarak, 850 milyar dolar varlık ile Anchorpoint'in HKDAP stablecoin'ini dağıtacak ilk banka oldu. Karar, Asya'da dijital para birimlerine olan talebi artıran düzenleyici ortamın bir sonucu olarak görülüyor.\n\nJaponya'nın SBI Group'u, Fasset'in 68 milyon dolarlık Seri C turuna liderlik ederek 1 milyar dolar değerlemeye ulaştı. Fon, Malezya'da bir dijital banka kurmayı ve stablecoin ödemelerini genişletmeyi planlıyor. Fasset'in ekibi, daha önce blockchain altyapı projelerinde deneyim sahibi olduğunu ve token dağıtımının şeffaflık prensipleriyle uyumlu olduğunu iddia ediyor; ancak bağımsız kod denetim raporları ve kurucu ortakların kimlik doğrulaması henüz kamuya açık değil.\n\nHaftalık genel seyir, ETH yönünde de hareketlilik gösterdi. Tom Lee'nin Bitmine fonu, Temmuz başından bu yana kaydedilen en büyük haftalık ETH alımını gerçekleştirerek 81 milyon dolar değerinde ETH satın aldı. Analistler, ETH'nin haftalık %30'luk yükselişinin daha büyük bir ralliye işaret edebileceğini belirtiyor.\n\nKaynaklar: CryptoSlate, U.Today, CoinDesk, Cointelegraph\n\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$BTC and $XRP see $1.3B in whale hedge as gold rises; market remains volatile #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin ve Ethereum ETF'leri Ağır Yükseliş, Dolap Yatırımcıları Çarpıyor",
+      "body": "Bir sonraki haftada Bitcoin ve Ethereum için özel fonlar (ETF) toplamda 23 milyar doların üzerinde dolaşım kazandı, ancak yeni girişimler yalnızca 2,6 milyar dolar-only. Bitcoin'nin 20'%lik yükselişi, Mayıs 2025'teki en güçlü haftalık yükselişten emin bir adım olarak değerlendirilirken, Ethereum yaklaşık 30% artış gösterdi. Bu iki alttürküge, Treasury faiz oranlarının düşmesi ve Kuzey Amerika'daki yeniden artışı parkur da şekillendiriyor.\n\nBitcoin ve Ethereum ETF'lerini takip eden yatırımcılar, bu hareketliliğe yanıt vermek için hem büyük yatırımcıların hem de denetimli fonlar arasında güçlü bir talep sergilediler. Özellikle Bitcoin'in 20%'luk yükselişi, sektördeki risk oluşturma endişelerinin azaldığında ve dijital varlıkların daha fazla sermaye çekme potansiyeline sahip olduğu bir dönemde gerçekleşmiştir.\n\nGelişen piyasa dinamikleri, Bitcoin'in 20.000 dolarlık seviyesine yaklaşmasını ve Ethereum'in daha önceki gibi güçlü hareketliliğini desteklemektedir. Strive, Nasdaq listeli Bitcoin rezervi olan bir şirket olarak 1.110 ek BTC satın alarak toplam mülkiyetinin 21.356 BTC'ye ulaştı. Bu hamlede, şirketin on-chain pozisyonunu önemli ölçüde güçlendirmiştir.\n\nAnalistlar teknik göstergeleri de dikkat çeker. PrimeXBT analistinin belirttiği haftalık momentum ayrışması, Bitcoin grafiğindeki benzer bir desenin daha önceki yıllara (Ekim 2023) dayandığını ortaya koyar. Haftalık standartlara göre, fiyatlar 80.000 dolar gibi önemli destek seviyelerini test ederken, bu dengede durma noktası henüz kesin değildir. Teknik analiz, fiyatların yukarı yönlü bir hareket germe ihtimalini işaret etmektedir.\n#Crypto #DeFi #Web3",
+      "tweet": "Bitcoin ETF dolaşımı 23M dolar artarken Bitcoin 80K seviyesine yaklaşıyor. Strive 1.110 BTC satın alıyor. #Bitcoin #Ethereum #Binance"
     },
     "en": {
-      "title": "Weekly Market Pulse: Bitcoin Attracts New Investors, $1.3B Whale Hedge, HKD Stablecoin Launch",
-      "body": "Bitcoin's recent price gains are pulling new investors into crypto, according to a Federal Reserve Bank of Cleveland experiment. Participants who viewed Bitcoin's prior 12‑month performance were about 2.5 percentage points more likely to own crypto in a follow‑up survey, highlighting the psychological impact of strong returns. This effect is evident in $BTC's latest weekly close, which marked the biggest notional candle on record near $78,000.\n\nMeanwhile, market makers on Hyperliquid have locked $1.3 billion in short hedges on $BTC and $XRP, while gold climbed to fresh August highs around $4,659 amid ongoing U.S. debt‑ceiling concerns. The large‑scale hedging suggests that whales are protecting portfolios against heightened volatility.\n\nStandard Chartered, the London‑based multinational with $850 billion in assets, announced it will distribute Anchorpoint's HKDAP stablecoin to eligible clients and partners. The move positions the bank as the first to offer a Hong Kong‑dollar‑pegged token, reflecting growing regulatory acceptance in the region.\n\nIn a separate fundraising development, Japan's SBI Group led a $68 million Series C round for Fasset, valuing the firm at $1 billion. Fasset plans to launch a digital bank in Malaysia and expand stablecoin payments. The project cites a team with prior blockchain infrastructure experience and claims transparent token distribution, though independent code audits and full investor verification have not yet been publicly released.\n\nTom Lee's treasury firm Bitmine also made waves, purchasing $81 million of ETH in its largest weekly buy since early July. The 30 % weekly rally in ETH has prompted Lee to suggest the asset could be setting up for a broader move higher.\n\nSources: CryptoSlate, U.Today, CoinDesk, Cointelegraph\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "$BTC and $XRP see $1.3B in whale hedge as gold rises; market remains volatile #Bitcoin #Regulation #Binance"
+      "title": "Major Crypto ETF Inflows Fuel Bitcoin Rally, Whales Accumulate More Bitcoin",
+      "body": "Last week saw Bitcoin and Ethereum ETFs reach their highest quarterly inflows ever, totaling $23 billion, although only $2.6 billion represented new capital. This substantial flow into digital assets coincides with Bitcoin climbing over 20% toward $80,000 and Ethereum surging approximately 30%, drawing $2.6 billion in fresh ETF investments. The combined market movement has created a robust foundation for continued price appreciation.\n\nThe sector-wide inflow surge reflects heightened institutional confidence following falling U.S. Treasury yields and renewed cryptographic enthusiasm across global markets. Large-scale purchases by well-known entities further reinforce the bullish sentiment driving this rally.\n\nStrive, a Nasdaq-listed Bitcoin treasury management company, announced its acquisition of 1,110 additional Bitcoin at an average price point of $73,409 per unit. This transaction brings the company's total holdings to 21,356 Bitcoin, demonstrating significant strategic asset accumulation by a prominent player in the ecosystem. Such large-scale purchases typically signal strengthening conviction among major holders during periods of upward price pressure.\n\nTechnical analysts continue to monitor the market dynamics closely. PrimeXBT contributors highlighted a weekly momentum divergence pattern preceding this rally, which mirrors performance characteristics observed during January 2023. While the daily readings suggest potential continuation of the uptrend, careful observation of subsequent price action will be necessary to confirm the sustainability of this momentum.\n#Crypto #DeFi #Web3",
+      "tweet": "Major crypto ETF inflows hit $23B, Bitcoin hits $80K. Whale Strive adds 1,110 BTC. #Bitcoin #Ethereum #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359180419728394,
-      "url": "https://www.binance.com/square/post/359180419728394",
+      "id": 359222523070797,
+      "url": "https://www.binance.com/square/post/359222523070797",
       "shortPost": {
-        "id": 359180421484175,
-        "url": "https://www.binance.com/square/post/359180421484175"
+        "id": 359222524917596,
+        "url": "https://www.binance.com/square/post/359222524917596"
       },
-      "title": "Hafta Sonu Piyasası: Bitcoin Yeni Yatırımcıları Çekiyor, $1.3B Bahis Yapılıyor, HKD Stablecoin Geliyor"
+      "title": "Bitcoin ve Ethereum ETF'leri Ağır Yükseliş, Dolap Yatırımcıları Çarpıyor"
     },
     {
       "lang": "en",
-      "id": 359180793747283,
-      "url": "https://www.binance.com/square/post/359180793747283",
+      "id": 359222898468434,
+      "url": "https://www.binance.com/square/post/359222898468434",
       "shortPost": {
-        "id": 359180795432517,
-        "url": "https://www.binance.com/square/post/359180795432517"
+        "id": 359222900192292,
+        "url": "https://www.binance.com/square/post/359222900192292"
       },
-      "title": "Weekly Market Pulse: Bitcoin Attracts New Investors, $1.3B Whale Hedge, HKD Stablecoin Launch"
+      "title": "Major Crypto ETF Inflows Fuel Bitcoin Rally, Whales Accumulate More Bitcoin"
     }
   ]
 }
