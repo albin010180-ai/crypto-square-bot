@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T10:20:49.946Z",
-  "finishedAt": "2026-08-24T10:23:10.810Z",
+  "startedAt": "2026-08-24T14:24:39.864Z",
+  "finishedAt": "2026-08-24T14:30:24.008Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,84 +8,84 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Crypto roars back as bitcoin posts its second-best week since early 2021",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021"
-    },
-    {
-      "title": "Biggest Jump in 3 Years: Bitcoin Burns Shorts as It Gears Up to Test $80,000",
-      "source": "U.Today",
-      "link": "https://u.today/biggest-jump-in-3-years-bitcoin-burns-shorts-as-it-gears-up-to-test-80000"
-    },
-    {
-      "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Ethereum lending app Term Finance loses $8.5 million after attacker buys voting power",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
-    },
-    {
-      "title": "Cleaning firm dumps Dogecoin to fund $100M AI pivot amid stock dilution warning",
+      "title": "Bitcoin price gains pull new investors into crypto, Fed experiment shows",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/cleaning-firm-dumps-dogecoin-to-fund-100m-ai-pivot-amid-stock-dilution-warning/"
+      "link": "https://cryptoslate.com/bitcoin-price-gains-can-pull-new-investors-into-crypto-fed-experiment-shows/"
     },
     {
-      "title": "Fed experiment shows how bitcoin rallies attract new crypto buyers",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/fed-experiment-shows-how-bitcoin-rallies-attract-new-crypto-buyers"
+      "title": "Whales Hedge $1.3 Billion in Bitcoin and XRP While Gold Hits Fresh August Highs: Main Crypto News This Morning",
+      "source": "U.Today",
+      "link": "https://u.today/whales-hedge-13-billion-in-bitcoin-and-xrp-while-gold-hits-fresh-august-highs-main-crypto-news-this"
     },
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "Strategy launches $1.6B cash pool after $2B common shares raise, maintains hold on BTC buys",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/strategy-2-billion-raise-strc-136-million-bitcoin-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Ether is crushing bitcoin and the 'golden cross' says it may not be done yet",
+      "title": "Standard Chartered becomes first bank to distribute Hong Kong dollar stablecoin",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/ether-is-crushing-bitcoin-and-the-golden-cross-says-it-may-not-be-done-yet"
+      "link": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin"
+    },
+    {
+      "title": "Bitget CEO isn’t buying the Bitcoin rally — She’s waiting for $50K",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/magazine/bitget-ceo-isnt-buying-the-bitcoin-rally-waiting-for-50k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Japan’s SBI leads $68M Fasset round at $1B valuation",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/sbi-fasset-round-1b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Tom Lee's Bitmine buys $81 million of ETH in largest weekly haul since early July",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/24/tom-lee-s-bitmine-buys-usd81-million-of-eth-in-largest-weekly-haul-since-early-july"
+    },
+    {
+      "title": "Morning Minute: Saylor’s Strategy Back in Green As BTC Soars to $78k",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376321/morning-minute-saylors-strategy-back-in-green-as-btc-soars-to-78k"
     }
   ],
   "selected": [
-    "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021",
-    "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://www.coindesk.com/markets/2026/08/24/ether-is-crushing-bitcoin-and-the-golden-cross-says-it-may-not-be-done-yet",
-    "https://www.coindesk.com/markets/2026/08/24/ethereum-lending-app-term-finance-loses-usd8-5-million-after-attacker-buys-voting-power"
+    "https://cryptoslate.com/bitcoin-price-gains-can-pull-new-investors-into-crypto-fed-experiment-shows/",
+    "https://u.today/whales-hedge-13-billion-in-bitcoin-and-xrp-while-gold-hits-fresh-august-highs-main-crypto-news-this",
+    "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
+    "https://cointelegraph.com/news/sbi-fasset-round-1b-valuation"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin ETF Girişleri Artarken Ethereum Teknik Sinyallerle Öne Çıkıyor",
-      "body": "Kripto para piyasaları, kurumsal ilgi ve teknik göstergelerin etkisiyle hareketli bir döneme girdi. Bitcoin, ABD spot ETF'lerine geçen hafta gerçekleşen 1,92 milyar dolarlık girişlerle birlikte güçlü bir ivme yakaladı. Bu rakam, Ekim 2025'ten bu yana görülen en yüksek haftalık giriş seviyesi olarak kayıtlara geçti. Hazine geri alımları ve zayıflayan dolar endeksiyle desteklenen $BTC, kısa süreliğine 78.000 dolar seviyesini aşarak piyasadaki yükseliş trendini pekiştirdi.\n\nSadece Bitcoin değil, Ethereum tarafında da dikkat çekici gelişmeler yaşanıyor. ETH/BTC paritesinde bullish bir altın kesişme (golden cross) oluşması, $ETH varlığının Bitcoin karşısında performansını artırabileceğine dair teknik bir sinyal olarak değerlendiriliyor. On-chain veriler ve işlem hacimleri, piyasanın odağının kademeli olarak Ethereum'a kayabileceğini gösteriyor.\n\nAncak yükseliş trendine rağmen DeFi ekosisteminde güvenlik riskleri devam ediyor. Ethereum tabanlı borç verme uygulaması Term Finance, bir saldırganın yönetişim tokenlarını satın alarak oy gücünü ele geçirmesi sonucu 8,5 milyon dolar kaybetti. Bu olay, düşük piyasa değerine sahip yönetişim tokenlarının, protokol kontrolünü ele geçirmek için bir araç olarak kullanılabileceği riskini bir kez daha ortaya koydu.\n\nGenel piyasa görünümünde, ETF girişlerinin sağladığı likidite artışı ve teknik kırılımlar ön planda yer alırken, akıllı sözleşme açıklarının yarattığı volatilite yatırımcılar tarafından takip ediliyor.\n\n#Bitcoin #Ethereum #Binance\n\nKaynaklar: CoinDesk, Cointelegraph\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$BTC sees $1.9B in weekly ETF inflows while $ETH forms a bullish golden cross. DeFi security remains a concern after Term Finance exploit. #Bitcoin #Ethereum #Binance"
+      "title": "Hafta Sonu Piyasası: Bitcoin Yeni Yatırımcıları Çekiyor, $1.3B Bahis Yapılıyor, HKD Stablecoin Geliyor",
+      "body": "Bitcoin fiyatındaki artış, Fed Cleveland şubesinin gerçekleştirdiği bir deneyle yeni yatırımcıları kripto sektörüne çekebiliyor. Araştırmacılar, Bitcoin'in önceki 12 aylık performansının gösterilmesiyle katılımcıların kripto para sahibi olma olasılığının yaklaşık 2.5 puan arttığını tespit etti. Bu psikolojik etki, günümüzde $BTC'nin 78.000 dolar civarındaki seviyelerde seyretmesiyle birlikte kaydedilen haftalık en büyük hacimli mumda da yansıdı.\n\nAynı dönemde, Hyperliquid'te piyasa yapıcılar $1.3 milyar değerinde BTC ve $XRP short pozisyonları açarak büyük miktarda riskten kaçındı. Gold ise 4.659 dolara yükselirken, ABD borç kriziyle ilgili endişeler devam ediyor. Büyük balinaların bu hamlesi, volatilitenin yüksek olduğu bir dönemde fiyat iniş çıkışlarına karşı korunma isteğini gösteriyor.\n\nStandard Chartered, Londra merkezli çok uluslu banka olarak, 850 milyar dolar varlık ile Anchorpoint'in HKDAP stablecoin'ini dağıtacak ilk banka oldu. Karar, Asya'da dijital para birimlerine olan talebi artıran düzenleyici ortamın bir sonucu olarak görülüyor.\n\nJaponya'nın SBI Group'u, Fasset'in 68 milyon dolarlık Seri C turuna liderlik ederek 1 milyar dolar değerlemeye ulaştı. Fon, Malezya'da bir dijital banka kurmayı ve stablecoin ödemelerini genişletmeyi planlıyor. Fasset'in ekibi, daha önce blockchain altyapı projelerinde deneyim sahibi olduğunu ve token dağıtımının şeffaflık prensipleriyle uyumlu olduğunu iddia ediyor; ancak bağımsız kod denetim raporları ve kurucu ortakların kimlik doğrulaması henüz kamuya açık değil.\n\nHaftalık genel seyir, ETH yönünde de hareketlilik gösterdi. Tom Lee'nin Bitmine fonu, Temmuz başından bu yana kaydedilen en büyük haftalık ETH alımını gerçekleştirerek 81 milyon dolar değerinde ETH satın aldı. Analistler, ETH'nin haftalık %30'luk yükselişinin daha büyük bir ralliye işaret edebileceğini belirtiyor.\n\nKaynaklar: CryptoSlate, U.Today, CoinDesk, Cointelegraph\n\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$BTC and $XRP see $1.3B in whale hedge as gold rises; market remains volatile #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "Bitcoin ETF Inflows Surge as Ethereum Shows Bullish Technical Signals",
-      "body": "The cryptocurrency market is experiencing a significant resurgence driven by institutional capital and favorable technical indicators. US spot Bitcoin ETFs recorded $1.92 billion in inflows last week, marking the strongest weekly performance since October 2025. This surge in liquidity, coupled with Treasury buybacks and a weaker US dollar, pushed $BTC briefly above the $78,000 mark, signaling strong buying pressure.\n\nWhile Bitcoin leads in inflows, Ethereum is showing signs of relative strength. The ETH/BTC ratio has recently formed a bullish golden cross, a technical indicator suggesting that $ETH may continue to outperform Bitcoin in the near term. Trading volume and price action indicate a potential shift in momentum as traders eye the recovery of the broader altcoin market.\n\nDespite the positive price action, the DeFi sector faced a setback with a security breach at Term Finance. The Ethereum-based lending protocol lost $8.5 million after an attacker acquired sufficient voting power to manipulate the system. This exploit highlights a critical vulnerability in protocols where the cost of acquiring governance control is lower than the value of the assets being governed.\n\nOverall, the market is currently balanced between strong institutional adoption via ETFs and the ongoing necessity for improved security frameworks within decentralized finance.\n\n#ETF #DeFi #Binance\n\nSources: CoinDesk, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Institutional demand pushes $BTC ETF inflows to $1.9B, while $ETH signals a potential breakout via a golden cross. #ETF #Ethereum #Binance"
+      "title": "Weekly Market Pulse: Bitcoin Attracts New Investors, $1.3B Whale Hedge, HKD Stablecoin Launch",
+      "body": "Bitcoin's recent price gains are pulling new investors into crypto, according to a Federal Reserve Bank of Cleveland experiment. Participants who viewed Bitcoin's prior 12‑month performance were about 2.5 percentage points more likely to own crypto in a follow‑up survey, highlighting the psychological impact of strong returns. This effect is evident in $BTC's latest weekly close, which marked the biggest notional candle on record near $78,000.\n\nMeanwhile, market makers on Hyperliquid have locked $1.3 billion in short hedges on $BTC and $XRP, while gold climbed to fresh August highs around $4,659 amid ongoing U.S. debt‑ceiling concerns. The large‑scale hedging suggests that whales are protecting portfolios against heightened volatility.\n\nStandard Chartered, the London‑based multinational with $850 billion in assets, announced it will distribute Anchorpoint's HKDAP stablecoin to eligible clients and partners. The move positions the bank as the first to offer a Hong Kong‑dollar‑pegged token, reflecting growing regulatory acceptance in the region.\n\nIn a separate fundraising development, Japan's SBI Group led a $68 million Series C round for Fasset, valuing the firm at $1 billion. Fasset plans to launch a digital bank in Malaysia and expand stablecoin payments. The project cites a team with prior blockchain infrastructure experience and claims transparent token distribution, though independent code audits and full investor verification have not yet been publicly released.\n\nTom Lee's treasury firm Bitmine also made waves, purchasing $81 million of ETH in its largest weekly buy since early July. The 30 % weekly rally in ETH has prompted Lee to suggest the asset could be setting up for a broader move higher.\n\nSources: CryptoSlate, U.Today, CoinDesk, Cointelegraph\n\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$BTC and $XRP see $1.3B in whale hedge as gold rises; market remains volatile #Bitcoin #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359119662990331,
-      "url": "https://www.binance.com/square/post/359119662990331",
+      "id": 359180419728394,
+      "url": "https://www.binance.com/square/post/359180419728394",
       "shortPost": {
-        "id": 359119665328432,
-        "url": "https://www.binance.com/square/post/359119665328432"
+        "id": 359180421484175,
+        "url": "https://www.binance.com/square/post/359180421484175"
       },
-      "title": "Bitcoin ETF Girişleri Artarken Ethereum Teknik Sinyallerle Öne Çıkıyor"
+      "title": "Hafta Sonu Piyasası: Bitcoin Yeni Yatırımcıları Çekiyor, $1.3B Bahis Yapılıyor, HKD Stablecoin Geliyor"
     },
     {
       "lang": "en",
-      "id": 359120036867730,
-      "url": "https://www.binance.com/square/post/359120036867730",
+      "id": 359180793747283,
+      "url": "https://www.binance.com/square/post/359180793747283",
       "shortPost": {
-        "id": 359120038661813,
-        "url": "https://www.binance.com/square/post/359120038661813"
+        "id": 359180795432517,
+        "url": "https://www.binance.com/square/post/359180795432517"
       },
-      "title": "Bitcoin ETF Inflows Surge as Ethereum Shows Bullish Technical Signals"
+      "title": "Weekly Market Pulse: Bitcoin Attracts New Investors, $1.3B Whale Hedge, HKD Stablecoin Launch"
     }
   ]
 }
