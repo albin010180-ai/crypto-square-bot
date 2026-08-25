@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-24T21:04:23.756Z",
-  "finishedAt": "2026-08-24T21:06:55.895Z",
+  "startedAt": "2026-08-25T03:15:25.392Z",
+  "finishedAt": "2026-08-25T03:24:10.681Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,75 +8,79 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin And Ethereum ETFs Add $492M As Inflow Streak Continues",
-      "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/bitcoin-and-ethereum-etfs-add-492m-as-inflow-streak-continues/"
+      "title": "Bitcoin roars back above $80K as ETF demand, Treasury buybacks fuel rally",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-80k-etf-demand-treasury-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Why the Bitcoin Rally Looks Like a Vote Against the Dollar",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar"
-    },
-    {
-      "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
+      "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key"
+      "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates"
     },
     {
-      "title": "Bitcoin Traders Watch Jackson Hole As Kevin Warsh Prepares First Fed Keynote",
-      "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/bitcoin-traders-watch-jackson-hole-as-kevin-warsh-prepares-first-fed-keynote/"
-    },
-    {
-      "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
+      "title": "Hugging Face Explores $13 Billion Sale a Month After a Rogue OpenAI Agent Hacked It",
       "source": "Decrypt",
-      "link": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum"
+      "link": "https://decrypt.co/376415/hugging-face-13-billion-sale-month-after-openai-hack"
     },
     {
-      "title": "CleanCore Dumps Dogecoin Treasury To Fund $100M AI Pivot",
-      "source": "NewsBTC",
-      "link": "https://www.newsbtc.com/news/cleancore-dumps-dogecoin-treasury-to-fund-100m-ai-pivot/"
+      "title": "Is Ethereum (ETH) $3,000 Target Possible? Bitcoin (BTC) May Revisit $70,000, Shiba Inu (SHIB) Wants More: Crypto Market Review",
+      "source": "U.Today",
+      "link": "https://u.today/is-ethereum-eth-3000-target-possible-bitcoin-btc-may-revisit-70000-shiba-inu-shib-wants-more-crypto"
+    },
+    {
+      "title": "AI scammers no longer need to hack your wallet if they can convince you to use it for them",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/ai-scammers-no-longer-need-to-hack-your-wallet-if-they-can-convince-you-to-use-it-for-them/"
+    },
+    {
+      "title": "FalconX asks SEC to bring single-stock perpetuals from DeFi under swap rules",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/falconx-asks-sec-to-bring-single-stock-perpetuals-from-defi-under-swap-rules/"
+    },
+    {
+      "title": "Korean bank taps Ripple for payments, Pakistan opens crypto licensing: Asia Express",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "selected": [
-    "https://www.newsbtc.com/news/bitcoin-and-ethereum-etfs-add-492m-as-inflow-streak-continues/",
-    "https://decrypt.co/376394/bitcoins-price-rally-trade-against-dollar",
-    "https://www.coindesk.com/markets/2026/08/24/bitcoin-nears-usd80-000-but-analysts-say-the-next-pullback-will-be-key",
-    "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
-    "https://www.newsbtc.com/news/cleancore-dumps-dogecoin-treasury-to-fund-100m-ai-pivot/"
+    "https://cointelegraph.com/markets/bitcoin-80k-etf-demand-treasury-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cryptoslate.com/falconx-asks-sec-to-bring-single-stock-perpetuals-from-defi-under-swap-rules/",
+    "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cryptoslate.com/ai-scammers-no-longer-need-to-hack-your-wallet-if-they-can-convince-you-to-use-it-for-them/"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor",
-      "body": "Güneş yüzünde $BTC, son 24 saatte 5 farklı önemli gelişmeyle piyasayı şekillendirdi. En çarpıcı gelişme, Bitcoin ve Ethereum ETF'lerinin $492 milyonluk bir giriş hacmi kaydetmesiydi ki bu, yatırımcıların kripto piyasasına olan güvenini yansıtan bir trend. CoinDesk'e göre, analistler $80.000 seviyesinin altında konSOLIDASYON beklerken, bu seviyenin üzerindeki ince likidite potansiyel olarak daha büyük fiyat hareketlerine işaret ediyor. Decrypt'in analizine göre ise Bitcoin'in dolara karşı yaptığı yükseliş, ABD reçete tahvillerinin genişletilmiş pazarlayıcıları sonrasında doların zayıflamasıyla paralel olarak gerçekleşti. Bu durum, kamu maliyesi politikaları endişelerini tümsek üzerinde yükselten bir oy olarak yorumlandı. Base tabanlı L2 çözümünde Coinbase, regülasyonlu bir mutlağın (Alpaca) aracılığıyla tokenize edilmiş his senetlerini tanıttı. Bu yenilikçi uygulama, DeFi ekosisteminin gelişimini hızlandırarak kullanıcıların geleneksel finansal ürünleri blockchain üzerinde erişebilmesini sağlıyor. En son gelişme ise CleanCore'un Dogecoin hazinesinden $100 milyonluğu bir AI yatırımı için çıkarılmasıydı. Bu karar, topluluk tarafından büyük merakla takip edilen Dogecoin'in değer kaybıyla ilişkilendiriliyor. Piyasa verileri, $BTC'nin 50 günlük ortalama fiyatının yükselmesi ve yükseliş momentumunun devam etme ihtimalini gösteriyor. #Binance #Bitcoin #ETF\nKaynaklar: NewsBTC, CoinDesk, Decrypt\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin 80.000 doların üstüne çıktı; Ripple ve DeFi düzenlemesi gündemde",
+      "body": "Bitcoin'in fiyatı, ABD Hazine'nin uzun vadeli borç geri alımını genişletmesi ve ETF talebindeki artış sayesinde 80.000 doların üstüne çıktı. Bu hareket, Haziran'daki düşüş sonrasında gözlemlenen 38% lik yükselişin devamını gösteriyor ve piyasaya yeni bir alıcı tabanı getiriyor.\n\n24 saatteki işlem hacmi yeniden ilgi gösterimini pekiştirirken, fiyat Mayıs'taki destek seviyesi olarak işlev gören 80.000 direncini test ediyor. On-chain verileri, ağ aktivitesinde bir artış gösteriyor ve büyük tutarlı adreslerin hareketlendiğini gösteriyor.\n\nRegülasyon frontında, FalconX, tek hisse sürekli sözleşmelerini DeFi ekosisteminden çıkarıp SEC'nin swap kuralları kapsamına almasını talep ediyor. Bu adım, daha fazla düzenlenmiş bir ortam sağlayarak kurumsal katılımı teşvik etmeyi amaçlıyor;SEC'nin yanıtı, DeFi türev ürünlerinin geleceği üzerindeki belirsizliği azaltabilir.\n\nBenimseme方面, Güney Kore'nin Jeonbuk Bankı, Ripple'in ödeme ağını kullanarak uluslararası transferleri hızlandırmaya başlıyor. Aynı anda Pakistan, kripto lisanslama sürecini açarak Asiya'daki farklı規制 yaklaşımlarını gösteriyor. Bu gelişmeler, blok zinciri teknolojisinin gerçek dünya finansına entegrasyonunun hızlandırıldığını işaret ediyor.\n\nGüvenlik açısından, yapay zeka destekli dolandırıcılar artık cüzdanı hacklemek zorunda kalmadan kullanıcıları işlemleri onaylamaya zorlayabiliyor. Bu sosyal mühendislik taktikleri, cüzdan adresi veya özel anahtarını ele geçirmeden varlık transferini sağlayabiliyor; bu durum, kullanıcı eğitimi ve çok faktörlü doğrulamanın önemini bir kez daha vurguluyor.\n\nÖzetle, fiyat hareketleri, düzenleyici adımlar, gerçek dünya kullanım case'leri ve güvenlik uyarıları birleşerek kripto ekosisteminin olgunlaştuğunu gösteriyor. Yatırımcılar, hem fiyat volatilitesini hem de yeni düzenlemeler ve operasyonel gelişmeleri izleyerek dengeli bir bakış açısı benimsemeli.\n#Bitcoin #CryptoNews #MarketUpdate",
+      "tweet": "$BTC rebounds above $80K as SEC eyes DeFi perpetuals and Ripple gains bank adoption #Bitcoin #Ripple #Binance"
     },
     "en": {
-      "title": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K",
-      "body": "The crypto market witnessed five significant developments in the last 24 hours, with $BTC leading the charge. The most notable event was the $492 million inflow into Bitcoin and Ethereum ETFs, signaling sustained investor confidence in the asset class. According to CoinDesk, analysts expect consolidation near the $80,000 mark, where thin trading volume could set up sharper price movements. Decrypt reports that Bitcoin's rally against the dollar coincided with weakening USD following expanded Treasury bond buybacks, suggesting a vote of no confidence in U.S. fiscal policy. Meanwhile, Coinbase launched tokenized stocks on the Base L2, using regulated custodian Alpaca to issue shares that can be traded or deployed in DeFi applications. The final headline shows CleanCore dumping its Dogecoin treasury to fund a $100 million AI pivot, drawing community attention. On-chain metrics reveal $BTC's 50-day moving average climbing higher, with bullish momentum building above key resistance levels. Trading volumes remain elevated, indicating strong market participation despite the upcoming Jackson Hole symposium. #Binance #Bitcoin #ETF\nSources: NewsBTC, CoinDesk, Decrypt\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin Breaks $80K as Ripple Gains Bank Deal and SEC Eyes DeFi Perpetuals",
+      "body": "Bitcoin's price climbed above $80,000 after the U.S. Treasury expanded long‑end debt buybacks and ETF demand strengthened, signaling a continuation of the 38% rebound seen since its June low and drawing fresh buyers into the market.\n\nTrading volume over the past 24 hours has risen, underscoring renewed interest, while the price tests the $80,000 level that previously acted as support in May. On‑chain data shows heightened network activity and increased movement among large holder addresses.\n\nOn the regulatory front, FalconX has asked the SEC to bring single‑stock perpetuals traded in DeFi under the swap rules framework. The move aims to create a clearer environment for institutional participation and could reduce uncertainty around the future of DeFi‑derived derivatives.\n\nIn adoption news, South Korea’s Jeonbuk Bank has begun using Ripple’s payment network to speed up cross‑border transfers, while Pakistan has opened a crypto licensing process, highlighting contrasting regulatory approaches across Asia. These steps point to a faster integration of blockchain technology into traditional finance.\n\nSecurity experts warn that AI‑driven scams no longer need to breach wallets; instead, they trick users into authorizing transactions themselves. This social engineering tactic can move funds without ever accessing private keys, reinforcing the importance of user education and multi‑factor authentication.\n\nTaken together, price action, regulatory initiatives, real‑world use cases and risk warnings illustrate a maturing crypto ecosystem. Investors should monitor both market volatility and evolving policy and operational developments to form a balanced outlook.\n#Bitcoin #CryptoNews #MarketUpdate",
+      "tweet": "$BTC rebounds above $80K as SEC eyes DeFi perpetuals and Ripple gains bank adoption #Bitcoin #Ripple #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359277872053879,
-      "url": "https://www.binance.com/square/post/359277872053879",
+      "id": 359370583348235,
+      "url": "https://www.binance.com/square/post/359370583348235",
       "shortPost": {
-        "id": 359277873701085,
-        "url": "https://www.binance.com/square/post/359277873701085"
+        "id": 359370585396004,
+        "url": "https://www.binance.com/square/post/359370585396004"
       },
-      "title": "Bitcoin ETF girişleri $492M, yakın gelecekteki dalgalanmalar dikkat çektiyor"
+      "title": "Bitcoin 80.000 doların üstüne çıktı; Ripple ve DeFi düzenlemesi gündemde"
     },
     {
       "lang": "en",
-      "id": 359278245267785,
-      "url": "https://www.binance.com/square/post/359278245267785",
+      "id": 359370957388134,
+      "url": "https://www.binance.com/square/post/359370957388134",
       "shortPost": {
-        "id": 359278247038903,
-        "url": "https://www.binance.com/square/post/359278247038903"
+        "id": 359370959103823,
+        "url": "https://www.binance.com/square/post/359370959103823"
       },
-      "title": "Bitcoin ETF Inflows Hit $492M as Analysts Watch Pullback at $80K"
+      "title": "Bitcoin Breaks $80K as Ripple Gains Bank Deal and SEC Eyes DeFi Perpetuals"
     }
   ]
 }
