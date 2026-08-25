@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-25T11:03:20.781Z",
-  "finishedAt": "2026-08-25T11:07:00.879Z",
+  "startedAt": "2026-08-25T16:04:23.466Z",
+  "finishedAt": "2026-08-25T16:07:31.035Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "A $215 billion altcoin rally rests on Bitcoin holding its reclaimed market structure",
+    "title": "US widens Iran crypto sanctions as dollar threat revives Bitcoin and gold debate",
     "source": "CryptoSlate",
-    "link": "https://cryptoslate.com/a-215-billion-altcoin-rally-rests-on-bitcoin-holding-its-reclaimed-market-structure/",
-    "usedLink": "https://cryptoslate.com/a-215-billion-altcoin-rally-rests-on-bitcoin-holding-its-reclaimed-market-structure/",
-    "usedTitleNorm": "a 215 billion altcoin rally rests on bitcoin holding its reclaimed market structure"
+    "link": "https://cryptoslate.com/us-widens-iran-crypto-sanctions-as-dollar-threat-revives-bitcoin-and-gold-debate/",
+    "usedLink": "https://cryptoslate.com/us-widens-iran-crypto-sanctions-as-dollar-threat-revives-bitcoin-and-gold-debate/",
+    "usedTitleNorm": "us widens iran crypto sanctions as dollar threat revives bitcoin and gold debate"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin'in yapıyı yeniden kazanmasıyla 215 milyar dolarlık altcoin rallisi",
+      "title": "ABD, Irak kripto yaptırımını genişletirken dolar tehdidini Bitcoin ve altını uyandırdı",
       "slides": [
-        "Altcoin piyasası dört günde 215 milyar dolar değer kazandı",
-        "Bitcoin pazar liderliğini sürdürürse altcoinler için kritik",
-        "Binance borsasındaki coinlerin yüzde 56'sı 200 günlük ortalamasını aştı",
-        "Toplam piyasa değeri tekrar 1 trilyon doların üzerine çıktı"
+        "ABD, Irak'ın kripto sektörüne yaptırım uygulamaya koydu",
+        "Scott Bessent, 'Operation Economic Outcast' başlattı",
+        "Nearly 60 kişi ve kurum yaptırım altına alındı",
+        "Dolar sistemi tehdidi, Bitcoin ve altın arasındaki tartışmayı canlandırdı"
       ],
-      "caption": "Kripto para piyasası 19-22 Ağustos arasında 215 milyar dolarlık değer kazandı. TOTAL2 endeksi yüzde 24 yükselerek 1 trilyon doları aştı. Bitcoin pazar yapısını koruması altcoin rallisi için belirleyici olacak. Kaynaklar: CryptoSlate $BTC $ETH $SOL #Bitcoin #Altcoin #KriptoPara Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "ABD, Irak'ın dış ticaret yaptırımlarını genişletirken kripto sektörüne yeni yaptırım uyguladı. Scott Bessent'in liderliğinde operasyon, dolar sistemi tehdidiyle birlikte geldi. Bitcoin ve altın değerlerinin tartışması bu gelişmelerle yeniden gündeme oturdu. Kaynaklar: CryptoSlate\n#BTC #ETH #SOL\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "$215 billion altcoin rally rests on Bitcoin holding reclaimed market structure",
+      "title": "US widens Iran crypto sanctions as dollar threat revives Bitcoin and gold debate",
       "slides": [
-        "Altcoin market gained $215 billion in just four days",
-        "Bitcoin dominance remains key for sustained altcoin growth",
-        "Over half of Binance-listed coins reclaimed their 200-day average",
-        "Combined market value returned above the $1 trillion level"
+        "US imposes new sanctions on Iran's crypto sector",
+        "Scott Bessent launches Operation Economic Outcast",
+        "Nearly 60 individuals and entities sanctioned",
+        "Dollar threat debate resurrects Bitcoin and gold narrative"
       ],
-      "caption": "The crypto market added $215 billion in value between Aug. 19 and 22. TOTAL2 surged 24% to reclaim the $1 trillion level. Bitcoin holding its market structure remains critical for the altcoin rally. Sources: CryptoSlate $BTC $ETH $SOL #Bitcoin #Altcoin #Crypto This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "The US has expanded Iran's trade sanctions while imposing new restrictions on its crypto sector. The operation led by Scott Bessent came with a threat to the dollar system. The debate over Bitcoin and gold values resurfaced with these developments. Sources: CryptoSlate\n#BTC #ETH #SOL\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359484232409206,
-      "url": "https://www.binance.com/square/post/359484232409206",
+      "id": 359558093956038,
+      "url": "https://www.binance.com/square/post/359558093956038",
       "note": null,
       "shortPost": {
-        "id": 359484234122221,
-        "url": "https://www.binance.com/square/post/359484234122221"
+        "id": 359558095510897,
+        "url": "https://www.binance.com/square/post/359558095510897"
       },
-      "title": "Bitcoin'in yapıyı yeniden kazanmasıyla 215 milyar dolarlık altcoin rallisi"
+      "title": "ABD, Irak kripto yaptırımını genişletirken dolar tehdidini Bitcoin ve altını uyandırdı"
     },
     {
       "lang": "en",
-      "id": 359484704185656,
-      "url": "https://www.binance.com/square/post/359484704185656",
+      "id": 359558555749014,
+      "url": "https://www.binance.com/square/post/359558555749014",
       "note": null,
       "shortPost": {
-        "id": 359484705954453,
-        "url": "https://www.binance.com/square/post/359484705954453"
+        "id": 359558557326225,
+        "url": "https://www.binance.com/square/post/359558557326225"
       },
-      "title": "$215 billion altcoin rally rests on Bitcoin holding reclaimed market structure"
+      "title": "US widens Iran crypto sanctions as dollar threat revives Bitcoin and gold debate"
     }
   ]
 }
