@@ -1,61 +1,57 @@
 {
-  "startedAt": "2026-08-24T22:49:27.968Z",
-  "finishedAt": "2026-08-24T22:54:56.885Z",
+  "startedAt": "2026-08-25T04:04:52.168Z",
+  "finishedAt": "2026-08-25T04:14:20.259Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Users warned to pull funds immediately as EU sanctions force crypto platform into withdrawal-only mode",
-    "source": "CryptoSlate",
-    "link": "https://cryptoslate.com/users-warned-to-pull-funds-immediately-as-eu-sanctions-force-crypto-platform-into-withdrawal-only-mode/",
-    "usedLink": "https://cryptoslate.com/users-warned-to-pull-funds-immediately-as-eu-sanctions-force-crypto-platform-into-withdrawal-only-mode/",
-    "usedTitleNorm": "users warned to pull funds immediately as eu sanctions force crypto platform into withdrawal only mode"
+    "type": "info",
+    "topicId": "halving-mantigi"
   },
   "script": {
     "tr": {
-      "title": "Kullanıcılar Farklılık Yapma Olarak Fundları Çekmek İsteyenin Uyarısı",
+      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence",
       "slides": [
-        "Kullanıcılar, EU yaptırımlarından dolayı fonlarını çekmelidir",
-        "Eski operatör henüz belirlenmemmektedir ve platform kaldırılmıştır",
-        "Bitcoin ve TRC-20 USDT çekimi hâlâ açık olup varış modunda",
-        "Gelir hedefleri veya yatırım tavsiyesi bu haberde yer almaz"
+        "Bitcoin halving blok ödülünü her 210000 blokta bir yarısına indirir",
+        "Protokol otomatik olarak madencilik ödülünü azaltır",
+        "Kullanıcılar özel anahtarlarını paylaşmamalı ve cüzdan güvenliğini kontrol etmeli",
+        "Halving fiyat hareketini garantilemez ve piyasa davranışı birçok faktöre bağlıdır"
       ],
-      "caption": "Platform kullanıcıları, EU yaptırımlarından dolayı fonlarını çekmelidir. Eski operatör henüz belirlenmemektedir ve platform kaldırılmıştır. $BTC $ETH $SOL\n#crypto #sanctions #eu\nBu video yapay zeka destekli olarak hazırlanmaktadır; yatırım tavsiyesi değildir. Kendi arastınız yapın (DYOR)."
+      "caption": "$BTC halving reduces the block reward by half every 210000 blocks.\nWhile $ETH is not directly affected market sentiment often follows Bitcoin events.\nUsers should keep their private keys secure and verify wallet safety.\n#Bitcoin #Halving #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)"
     },
     "en": {
-      "title": "Users Warned to Remove Funds Due to EU Sanctions Blocking Withdrawals",
+      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence",
       "slides": [
-        "Kullikers, EU sanctions are forcing the platform into withdrawal only mode.",
-        "No specific operator has been identified yet.",
-        "Bitcoin and TRC-20 USDT transfer remains open while waiting for resolution.",
-        "Profit targets or investment recommendations are not included in this report."
+        "Bitcoin halving cuts the block reward in half every 210000 blocks",
+        "The protocol automatically reduces miner rewards after each set of 210000 blocks",
+        "Users should keep their private keys secure and verify wallet safety during network events",
+        "Halving does not guarantee price movement and market behavior depends on many factors"
       ],
-      "caption": "EU sanctions are forcing the platform into withdrawal only mode. No specific operator has been identified yet. $BTC $ETH $SOL\n#crypto #sanctions #eu\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "$BTC halving reduces the block reward by half every 210000 blocks.\nWhile $ETH is not directly affected market sentiment often follows Bitcoin events.\nUsers should keep their private keys secure and verify wallet safety.\n#Bitcoin #Halving #LearnCrypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)"
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359304317706866,
-      "url": "https://www.binance.com/square/post/359304317706866",
+      "id": 359382816656894,
+      "url": "https://www.binance.com/square/post/359382816656894",
       "note": null,
       "shortPost": {
-        "id": 359304319065346,
-        "url": "https://www.binance.com/square/post/359304319065346"
+        "id": 359382819764242,
+        "url": "https://www.binance.com/square/post/359382819764242"
       },
-      "title": "Kullanıcılar Farklılık Yapma Olarak Fundları Çekmek İsteyenin Uyarısı"
+      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence"
     },
     {
       "lang": "en",
-      "id": 359304791917857,
-      "url": "https://www.binance.com/square/post/359304791917857",
+      "id": 359383284761423,
+      "url": "https://www.binance.com/square/post/359383284761423",
       "note": null,
       "shortPost": {
-        "id": 359304793258433,
-        "url": "https://www.binance.com/square/post/359304793258433"
+        "id": 359383286313760,
+        "url": "https://www.binance.com/square/post/359383286313760"
       },
-      "title": "Users Warned to Remove Funds Due to EU Sanctions Blocking Withdrawals"
+      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence"
     }
   ]
 }
