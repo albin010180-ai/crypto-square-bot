@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-25T03:15:25.392Z",
-  "finishedAt": "2026-08-25T03:24:10.681Z",
+  "startedAt": "2026-08-25T05:20:24.527Z",
+  "finishedAt": "2026-08-25T05:29:09.778Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,79 +8,46 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin roars back above $80K as ETF demand, Treasury buybacks fuel rally",
+      "title": "BNB Chain activates Pasteur hard fork to strengthen bridge security",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-80k-etf-demand-treasury-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates"
-    },
-    {
-      "title": "Hugging Face Explores $13 Billion Sale a Month After a Rogue OpenAI Agent Hacked It",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376415/hugging-face-13-billion-sale-month-after-openai-hack"
-    },
-    {
-      "title": "Is Ethereum (ETH) $3,000 Target Possible? Bitcoin (BTC) May Revisit $70,000, Shiba Inu (SHIB) Wants More: Crypto Market Review",
-      "source": "U.Today",
-      "link": "https://u.today/is-ethereum-eth-3000-target-possible-bitcoin-btc-may-revisit-70000-shiba-inu-shib-wants-more-crypto"
-    },
-    {
-      "title": "AI scammers no longer need to hack your wallet if they can convince you to use it for them",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/ai-scammers-no-longer-need-to-hack-your-wallet-if-they-can-convince-you-to-use-it-for-them/"
-    },
-    {
-      "title": "FalconX asks SEC to bring single-stock perpetuals from DeFi under swap rules",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/falconx-asks-sec-to-bring-single-stock-perpetuals-from-defi-under-swap-rules/"
-    },
-    {
-      "title": "Korean bank taps Ripple for payments, Pakistan opens crypto licensing: Asia Express",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/bnb-chain-pasteur-hard-fork-bridge-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/markets/bitcoin-80k-etf-demand-treasury-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://cryptoslate.com/falconx-asks-sec-to-bring-single-stock-perpetuals-from-defi-under-swap-rules/",
-    "https://cointelegraph.com/magazine/korean-bank-to-use-ripple-payments-japans-first-exchange-in-4-years-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://cryptoslate.com/ai-scammers-no-longer-need-to-hack-your-wallet-if-they-can-convince-you-to-use-it-for-them/"
+    "https://cointelegraph.com/news/bnb-chain-pasteur-hard-fork-bridge-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin 80.000 doların üstüne çıktı; Ripple ve DeFi düzenlemesi gündemde",
-      "body": "Bitcoin'in fiyatı, ABD Hazine'nin uzun vadeli borç geri alımını genişletmesi ve ETF talebindeki artış sayesinde 80.000 doların üstüne çıktı. Bu hareket, Haziran'daki düşüş sonrasında gözlemlenen 38% lik yükselişin devamını gösteriyor ve piyasaya yeni bir alıcı tabanı getiriyor.\n\n24 saatteki işlem hacmi yeniden ilgi gösterimini pekiştirirken, fiyat Mayıs'taki destek seviyesi olarak işlev gören 80.000 direncini test ediyor. On-chain verileri, ağ aktivitesinde bir artış gösteriyor ve büyük tutarlı adreslerin hareketlendiğini gösteriyor.\n\nRegülasyon frontında, FalconX, tek hisse sürekli sözleşmelerini DeFi ekosisteminden çıkarıp SEC'nin swap kuralları kapsamına almasını talep ediyor. Bu adım, daha fazla düzenlenmiş bir ortam sağlayarak kurumsal katılımı teşvik etmeyi amaçlıyor;SEC'nin yanıtı, DeFi türev ürünlerinin geleceği üzerindeki belirsizliği azaltabilir.\n\nBenimseme方面, Güney Kore'nin Jeonbuk Bankı, Ripple'in ödeme ağını kullanarak uluslararası transferleri hızlandırmaya başlıyor. Aynı anda Pakistan, kripto lisanslama sürecini açarak Asiya'daki farklı規制 yaklaşımlarını gösteriyor. Bu gelişmeler, blok zinciri teknolojisinin gerçek dünya finansına entegrasyonunun hızlandırıldığını işaret ediyor.\n\nGüvenlik açısından, yapay zeka destekli dolandırıcılar artık cüzdanı hacklemek zorunda kalmadan kullanıcıları işlemleri onaylamaya zorlayabiliyor. Bu sosyal mühendislik taktikleri, cüzdan adresi veya özel anahtarını ele geçirmeden varlık transferini sağlayabiliyor; bu durum, kullanıcı eğitimi ve çok faktörlü doğrulamanın önemini bir kez daha vurguluyor.\n\nÖzetle, fiyat hareketleri, düzenleyici adımlar, gerçek dünya kullanım case'leri ve güvenlik uyarıları birleşerek kripto ekosisteminin olgunlaştuğunu gösteriyor. Yatırımcılar, hem fiyat volatilitesini hem de yeni düzenlemeler ve operasyonel gelişmeleri izleyerek dengeli bir bakış açısı benimsemeli.\n#Bitcoin #CryptoNews #MarketUpdate",
-      "tweet": "$BTC rebounds above $80K as SEC eyes DeFi perpetuals and Ripple gains bank adoption #Bitcoin #Ripple #Binance"
+      "title": "BNB Chain, Pasteur sertli forkunu aktive etti: Köprü güvenliği güçlendirildi",
+      "body": "BNB Chain, Pasteur adli sertli forkunu aktive ettiğini duyurdu ve bu yükselişin köprü ve validator güvenliklerini güçlendirmesi beklendiğini belirtti. Fork, 25 Ağustos 2026'da gerçekleşirken, BSC ağındaki tüm köprüler geçici olarak kapatıldı ve daha sıkı doğrulama kurallarıyla yeniden açıldı. Geliştiriciler, bu adımın kötü niyetli aktörlerin köprü üzerinden varlık çalmasını zorlaştıracağını ve validator setindeki konsensüs mekanizmalarının daha fazla saldırıya dayanıklı hale getirildiğini vurguladı.\n\nForkun temel amoci, ağın işlem kapasitesini artırarak kullanıcı deneyimini iyileştirmektir. Pasteur güncellemesi, blok üretimi süresini optimize ederek saniye başına işlenebilecek transfer sayısını yükseltmeyi hedefliyor. Bu sayede ağ yoğunluk periodsunda da işlem gecikmeleri azalmak ve ücretlerin daha stabil kalması bekleniyor. Ek olarak, validator node'ları için gereklenen donanım gereksinimleri değiştirilmediği için mevcut katılımcılar ağa sorunsuzca bağlanabiliyor.\n\nGüvenlik iyileştirmeleri içinde, köprü kontraktlarında bulunan yeniden giriş (re‑entrancy) açığı ve yetkisiz yetki değiştirme açığı kapatıldı. Ayrıca, validatorların işaret etme (staking) süreçlerinde çift署名 (double‑sign) riskini azaltmak için yeni bir slashing mekanizması entegre edildi. Geliştirme ekibi, bu değişikliklerin ağın genel sağlık skorunu artırdığı ve uzun vadeli olarak daha fazla institutional katılım çekmesini sağlayacağını belirtti.\n\nPiyasadan bakıldığında, Pasteur forkunun $BNB üzerinde kısa vadeli bir etki olabileceği tartışılıyor. Analystler, işlem kapasitesinin artmasıyla on‑chain hacımın zamanla yükselmesi olasılığını gösteriyor ve bu durumun $BTC gibi diğer büyük varlıklarla kıyaslandığında ağ aktifliğini ölçümlebilecek bir fark yaratıp yaratmayacağını değerlendiriyorlar. Herhangi bir fiyat hareketi garantisi verilmese de, teknik göstergelerdeki dalgalanmaların ağ aktivitesiyle ilişkili olduğu gözlemleniyor.\n\nDaha geniş bağlamda, bu güncelleme BNB Chain'in güvenlik odaklı yol haritasının bir parçası olarak görülüyor ve benzeri yükseltmeler diğer L1 ağlarında da gündeme geliyor. Pasteur forkunun başarısı, gelecekteki planlanan optimizasyonların temelini oluşturabilir ve BNB ekosunun daha güvenli ve ölçeklenebilir bir hale gelmesini destekleyebilir.\n#Ethereum #Altcoins #Blockchain",
+      "tweet": "$BNB Chain activates Pasteur hard fork to boost bridge security #Binance #BNBChain #HardFork"
     },
     "en": {
-      "title": "Bitcoin Breaks $80K as Ripple Gains Bank Deal and SEC Eyes DeFi Perpetuals",
-      "body": "Bitcoin's price climbed above $80,000 after the U.S. Treasury expanded long‑end debt buybacks and ETF demand strengthened, signaling a continuation of the 38% rebound seen since its June low and drawing fresh buyers into the market.\n\nTrading volume over the past 24 hours has risen, underscoring renewed interest, while the price tests the $80,000 level that previously acted as support in May. On‑chain data shows heightened network activity and increased movement among large holder addresses.\n\nOn the regulatory front, FalconX has asked the SEC to bring single‑stock perpetuals traded in DeFi under the swap rules framework. The move aims to create a clearer environment for institutional participation and could reduce uncertainty around the future of DeFi‑derived derivatives.\n\nIn adoption news, South Korea’s Jeonbuk Bank has begun using Ripple’s payment network to speed up cross‑border transfers, while Pakistan has opened a crypto licensing process, highlighting contrasting regulatory approaches across Asia. These steps point to a faster integration of blockchain technology into traditional finance.\n\nSecurity experts warn that AI‑driven scams no longer need to breach wallets; instead, they trick users into authorizing transactions themselves. This social engineering tactic can move funds without ever accessing private keys, reinforcing the importance of user education and multi‑factor authentication.\n\nTaken together, price action, regulatory initiatives, real‑world use cases and risk warnings illustrate a maturing crypto ecosystem. Investors should monitor both market volatility and evolving policy and operational developments to form a balanced outlook.\n#Bitcoin #CryptoNews #MarketUpdate",
-      "tweet": "$BTC rebounds above $80K as SEC eyes DeFi perpetuals and Ripple gains bank adoption #Bitcoin #Ripple #Binance"
+      "title": "BNB Chain Activates Pasteur Hard Fork to Strengthen Bridge Security",
+      "body": "BNB Chain has activated the Pasteur hard fork, aiming to close bridge and validator security gaps while targeting higher transaction capacity. The fork went live on August 25, 2026, temporarily shutting down all bridges on the BSC network before reopening them with stricter validation rules. Developers said the move makes it harder for malicious actors to siphon assets via the bridge and strengthens the validator set’s resistance to attacks.\n\nThe update’s core goal is to increase the network’s transaction capacity to improve user experience. The Pasteur upgrade optimizes block production time to raise the number of transfers that can be processed per second. This should reduce transaction delays during periods of network congestion and help keep fees more stable. Additionally, the hardware requirements for validator nodes remain unchanged, allowing existing participants to stay connected without disruption.\n\nSecurity improvements include patching re‑entrancy and unauthorized privilege‑escalation flaws in bridge contracts and adding a new slashing mechanism to reduce double‑sign risks during validator staking. The team noted that these changes should improve the network’s overall health score and attract more institutional participation over time.\n\nFrom a market perspective, analysts suggest that the Pasteur fork’s capacity boost could lead to a gradual increase in $BNB’s on‑chain volume, potentially creating a measurable difference in network activity when compared with $BTC. While no price movement is guaranteed, fluctuations in technical indicators have been observed to correlate with changes in chain usage.\n\nIn a broader context, this update is part of BNB Chain’s security‑focused roadmap, and similar upgrades are being discussed across other Layer‑1 networks. A successful Pasteur fork could lay the groundwork for future optimizations, helping the BNB ecosystem become more secure and scalable.\n#Ethereum #Altcoins #Blockchain",
+      "tweet": "$BNB Chain activates Pasteur hard fork to boost bridge security #Binance #BNBChain #HardFork"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359370583348235,
-      "url": "https://www.binance.com/square/post/359370583348235",
+      "id": 359401299093844,
+      "url": "https://www.binance.com/square/post/359401299093844",
       "shortPost": {
-        "id": 359370585396004,
-        "url": "https://www.binance.com/square/post/359370585396004"
+        "id": 359401301167267,
+        "url": "https://www.binance.com/square/post/359401301167267"
       },
-      "title": "Bitcoin 80.000 doların üstüne çıktı; Ripple ve DeFi düzenlemesi gündemde"
+      "title": "BNB Chain, Pasteur sertli forkunu aktive etti: Köprü güvenliği güçlendirildi"
     },
     {
       "lang": "en",
-      "id": 359370957388134,
-      "url": "https://www.binance.com/square/post/359370957388134",
+      "id": 359401673591864,
+      "url": "https://www.binance.com/square/post/359401673591864",
       "shortPost": {
-        "id": 359370959103823,
-        "url": "https://www.binance.com/square/post/359370959103823"
+        "id": 359401675403614,
+        "url": "https://www.binance.com/square/post/359401675403614"
       },
-      "title": "Bitcoin Breaks $80K as Ripple Gains Bank Deal and SEC Eyes DeFi Perpetuals"
+      "title": "BNB Chain Activates Pasteur Hard Fork to Strengthen Bridge Security"
     }
   ]
 }
