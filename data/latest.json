@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-25T14:27:45.203Z",
-  "finishedAt": "2026-08-25T14:30:05.985Z",
+  "startedAt": "2026-08-25T17:19:29.873Z",
+  "finishedAt": "2026-08-25T17:24:53.356Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,85 +8,63 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Grayscale Launches Zcash ETF Following Critical Privacy Flaw That Rocked the Cryptocurrency",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376420/grayscale-launches-zcash-etf-following-critical-privacy-flaw-that-rocked-the-cryptocurrency"
-    },
-    {
-      "title": "Thailand moves closer to Bitcoin, Ether ETFs with draft rules",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/thailand-bitcoin-ether-etfs-draft-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Solana (SOL) Overtakes XRP With $20 Million Upside on ETF Market",
-      "source": "U.Today",
-      "link": "https://u.today/solana-sol-overtakes-xrp-with-20-million-upside-on-etf-market"
-    },
-    {
-      "title": "Grayscale debuts first Zcash ETF of its kind as privacy coin surges",
+      "title": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
       "source": "The Block",
-      "link": "https://www.theblock.co/news/regulation/2026-08-25-grayscale-debuts-zcash-etf-412654"
+      "link": "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718"
     },
     {
-      "title": "XRP Shatters 5-Year August Record: Bollinger Bands Highlight $1.14 as Ultimate Entry",
-      "source": "U.Today",
-      "link": "https://u.today/xrp-shatters-5-year-august-record-bollinger-bands-highlight-114-as-ultimate-entry"
-    },
-    {
-      "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase"
-    },
-    {
-      "title": "Hugging Face hack exposes the open-weight AI cybersecurity paradox",
+      "title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/features/hugging-face-hack-exposes-the-open-weight-ai-cybersecurity-paradox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "TAC Sidechain Halts After Supply Exploit As TON Mainnet Remains Separate",
-      "source": "Bitcoinist",
-      "link": "https://bitcoinist.com/tac-sidechain-halts-after-supply-exploit-as-ton-mainnet-remains-separate/"
+      "title": "XRP Leverage Hits Multi-Month High on World's Biggest Exchange",
+      "source": "U.Today",
+      "link": "https://u.today/xrp-leverage-hits-multi-month-high-on-worlds-biggest-exchange"
+    },
+    {
+      "title": "Veteran Trader Peter Brandt Questions Binance Over Bitcoin Price Anomaly",
+      "source": "U.Today",
+      "link": "https://u.today/veteran-trader-peter-brandt-questions-binance-over-bitcoin-price-anomaly"
     }
   ],
   "selected": [
-    "https://decrypt.co/376420/grayscale-launches-zcash-etf-following-critical-privacy-flaw-that-rocked-the-cryptocurrency",
-    "https://cointelegraph.com/news/thailand-bitcoin-ether-etfs-draft-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://u.today/xrp-shatters-5-year-august-record-bollinger-bands-highlight-114-as-ultimate-entry",
-    "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase",
-    "https://bitcoinist.com/tac-sidechain-halts-after-supply-exploit-as-ton-mainnet-remains-separate/"
+    "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718",
+    "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://u.today/xrp-leverage-hits-multi-month-high-on-worlds-biggest-exchange"
   ],
   "articles": {
     "tr": {
-      "title": "Kripto Dünyasında ETF Hareketliliği ve Güvenlik Operasyonları",
-      "body": "Kripto para piyasaları, kurumsal benimseme ve regülasyon tarafında önemli gelişmelerle hareketli bir gün geçiriyor. Grayscale, yatırımcılara Zcash üzerinden doğrudan maruziyet sağlayan ilk ETF'yi piyasaya sürerek Bitcoin ve Ethereum dışındaki varlıklara olan talebi karşılamayı hedeflediğini duyurdu.\n\nAsya pazarında ise Tayland Menkul Kıymetler ve Borsa Komisyonu, yerel Bitcoin ve Ether ETF'leri için taslak kurallar üzerinde çalışmaya başladı. Bu adım, bölgedeki kurumsal yatırımcıların $BTC ve $ETH gibi ana varlıklara erişimini kolaylaştırabilir.\n\nFiyat hareketleri tarafında XRP, 2021'den bu yana en iyi Ağustos ayını geçirerek 1,48 dolar seviyelerine yükseldi. Teknik analizlerde Bollinger Bantları, varlığın 1,14 dolar seviyesine doğru bir geri çekilme yapabileceğine işaret ederken, bu seviye kritik bir destek noktası olarak izleniyor.\n\nGüvenlik ve hukuk alanında ise Chainalysis liderliğindeki 'Operation Lighthouse' adlı operasyonla çocuk istismarı ağlarına karşı büyük bir darbe indirildi. Binance ve Coinbase'in destek verdiği bu çalışma sonucunda 14.000'den fazla soruşturma kanıtı toplandı.\n\nÖte yandan, TON ana ağından ayrı olan TAC Sidechain, bir arz açığı istismarı nedeniyle faaliyetlerini durdurdu. Bu durum, yan zincirlerin ana ağlardan bağımsız riskler taşıyabileceğini bir kez daha kanıtladı.\n\n#ETF #XRP #Binance\n\nKaynaklar: Decrypt, Cointelegraph, U.Today, CoinDesk, Bitcoinist\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Grayscale launches Zcash ETF as Thailand drafts rules for $BTC and $ETH funds. $XRP hits 5-year August record #ETF #CryptoNews #Binance"
+      "title": "Galaxy Kredi Baslatti, Strategy'nin 66 Milyar Dolarlik Bitcoin Plani Zorluyor",
+      "body": "Kripto para piyasasi bu hafta yeni urun lansmanlari, kurumsal yatirim stratejileri ve yuksek kaldirac riskleriyle dikkat cekiyor. Galaxy, perakende kripto kredisi alanini yeni bir uygulamayla genisleterek BTC, ETH ve SOL teminatlı kredi hatlari sunmaya basladi. GalaxyOne uyeligine uygun musteriler, varliklarini satmadan nakit borc alabilecek. Bu hamle, kurumsal yatirimcilerin kripto varliklarini Likidite saglamak icin kullandigi geleneksel yontemlere alternatif sunuyor.\n\nStrategy'nin 66 milyar dolarlik Bitcoin makinesi ise bu hafta farkli bir zorlukla karsi karsiya. Cointelegraph'in aktardigina gore, sirketin en buyuk riski bir BTC fiyat carpsisindan ziyade yillik 1.76 milyar dolarlik yukumluluklerini karsilamak icin kullandigi sermaye piyasalarina erisimi kaybetmek olabilir. Analistler, Strategy'nin modelinin dusunulenden daha kırılgan olabilecegini ve herhangi bir piyasa durgunlugu senaryosunda ciddi likidite sorunlariyla karsilabilecegini belirtiyor.\n\nPeter Brandt'in Binance uzerindeki Bitcoin fiyat anomalisi sorusturmasi ise piyasa guvenilirligi acisindan onemli bir konu. Bir kac dakika icinde BTC'nin 72.500 dolara dusmesiyle birlikte kucuk yatirimcilarin stop-loss emirleri tetiklendi ve bu durum ek sistemik satislara yol acti. Brandt, boyle izole fiyat hareketlerinin borsa icinden kaynaklanip kaynaklanmadigini sorguladi.\n\nAyni gun XRP tarafinda da gerilim artiyor. Binance uzerindeki kaldirac oranlari yedi ayin en yuksek seviyesine ulasarak volatilite riskini gundeme getirdi. On-chain verilere gore XRP'nin open interest de artarak yonu yukselise kirmis durumda. Piyasa analistleri, $0.58 desteinin kritik oldugunu ve bu seviyenin altinda kalici bir dususun teknik gorunumu bozabilecegini vurguluyor. $BTC $ETH $ETH gibi onemli varliklarin fiyat seviyeleri bu ortamda dikkatle izlenmeli.\n\nGenel olarak piyasa, kurumsal katilimin arttigi ancak kaldirac risklerinin de yuksek oldugu bir donemden geciyor. Yuksek volatilite ortamlarinda yatirimcilarin pozisyon boyutlarini dikkatli belirlemesi ve risk yonetimi kurallarina uymasi onem kazanıyor.\n\n#Bitcoin #KriptoPiyasasi #Binance\n\nKaynaklar: The Block, Cointelegraph, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Galaxy launches BTC-backed credit line as Strategy's $66B Bitcoin machine faces capital market test. XRP leverage hits 7-month high on Binance $BTC #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "ETF Expansion and Security Crackdowns Shape Today's Crypto Market",
-      "body": "The digital asset landscape is witnessing a significant shift toward diversified institutional products and tightened security enforcement. Grayscale has officially launched the first ETF providing direct exposure to Zcash, signaling a strategic bet on investor demand for assets beyond the traditional giants.\n\nSimultaneously, Thailand is moving closer to institutionalizing crypto access. The country's SEC has opened consultations on draft rules for Bitcoin and Ether ETFs, which could pave the way for regulated $BTC and $ETH investment vehicles in the region.\n\nIn terms of market performance, XRP has recorded its strongest August since 2021, surging to a peak of $1.48. Technical indicators, specifically Bollinger Bands, suggest a potential retest of the $1.14 level, which analysts view as a key support zone for current price action.\n\nOn the regulatory and safety front, 'Operation Lighthouse' represents a major win for law enforcement. Led by Chainalysis and supported by Binance and Coinbase, the sting operation targeted child exploitation networks, resulting in over 14,000 investigative leads.\n\nHowever, the market also faced a technical setback as the TAC Sidechain halted operations following a supply exploit. While the TON mainnet remained unaffected, the incident highlights the inherent vulnerabilities in sidechain architectures.\n\n#ETF #XRP #Binance\n\nSources: Decrypt, Cointelegraph, U.Today, CoinDesk, Bitcoinist\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Grayscale debuts Zcash ETF and Thailand drafts $BTC $ETH rules. Meanwhile, $XRP hits a 5-year August high #ETF #XRP #Binance"
+      "title": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test",
+      "body": "The crypto market is seeing a convergence of new product launches, institutional strategies, and leverage risks this week. Galaxy has expanded into retail crypto lending by introducing a portfolio line of credit backed by $BTC $ETH and $SOL. Eligible GalaxyOne clients can now borrow cash against their crypto holdings without selling them, offering a novel liquidity solution that appeals to investors seeking to maintain exposure while accessing capital.\n\nMeanwhile, Strategy's $66 billion Bitcoin machine is confronting a different kind of pressure. According to Cointelegraph, the company's biggest risk may not be a Bitcoin price crash but losing access to the capital markets that help service $1.76 billion in annual obligations. Analysts suggest the strategy's model could be more fragile than anticipated, with any prolonged market downturn potentially exposing significant liquidity challenges. The firm has been aggressively accumulating Bitcoin, but its debt servicing capabilities now depend heavily on favorable market conditions and continued access to funding.\n\nVeteran trader Peter Brandt has raised questions about Binance after an isolated Bitcoin price anomaly dropped to $72,500, triggering a cascade of retail stop-loss orders within minutes. The incident sparked debate about exchange price mechanisms and potential systemic risks when sudden movements activate algorithmic trading patterns. Brandt's analysis highlights how liquidity gaps on any major platform can disproportionately affect retail participants using standard risk management tools.\n\nOn the XRP front, leverage on Binance has surged to its highest level in more than seven months, signaling heightened volatility risk. On-chain data shows rising open interest as traders position for potential directional moves. Technical analysts point to $0.58 as a critical support level, with sustained breaks below potentially shifting the short-term outlook. Volume profiles suggest increased activity around current price ranges.\n\nThe broader market reflects an environment where institutional participation grows alongside elevated leverage risks. Trading volumes across major pairs have shown moderate increases, while funding rates remain mixed across perpetual futures markets. Market participants are advised to carefully consider position sizing and risk management protocols in this high-volatility environment.\n\n#Bitcoin #CryptoMarkets #Binance\n\nSources: The Block, Cointelegraph, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test #Bitcoin #CryptoNews #BinanceSquare"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359534240682305,
-      "url": "https://www.binance.com/square/post/359534240682305",
+      "id": 359577196130079,
+      "url": "https://www.binance.com/square/post/359577196130079",
       "shortPost": {
-        "id": 359534242519051,
-        "url": "https://www.binance.com/square/post/359534242519051"
+        "id": 359577197956953,
+        "url": "https://www.binance.com/square/post/359577197956953"
       },
-      "title": "Kripto Dünyasında ETF Hareketliliği ve Güvenlik Operasyonları"
+      "title": "Galaxy Kredi Baslatti, Strategy'nin 66 Milyar Dolarlik Bitcoin Plani Zorluyor"
     },
     {
       "lang": "en",
-      "id": 359534614256446,
-      "url": "https://www.binance.com/square/post/359534614256446",
+      "id": 359577570084678,
+      "url": "https://www.binance.com/square/post/359577570084678",
       "shortPost": {
-        "id": 359534616115672,
-        "url": "https://www.binance.com/square/post/359534616115672"
+        "id": 359577572294774,
+        "url": "https://www.binance.com/square/post/359577572294774"
       },
-      "title": "ETF Expansion and Security Crackdowns Shape Today's Crypto Market"
+      "title": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test"
     }
   ]
 }
