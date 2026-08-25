@@ -1,57 +1,61 @@
 {
-  "startedAt": "2026-08-25T04:04:52.168Z",
-  "finishedAt": "2026-08-25T04:14:20.259Z",
+  "startedAt": "2026-08-25T08:02:19.717Z",
+  "finishedAt": "2026-08-25T08:05:53.071Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "halving-mantigi"
+    "type": "news",
+    "title": "Bitcoin holds above $80,000 backed by ETF flows; bull market case ‘early but optimistic,’ analyst says",
+    "source": "The Block",
+    "link": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674",
+    "usedLink": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674",
+    "usedTitleNorm": "bitcoin holds above 80 000 backed by etf flows bull market case early but optimistic analyst says"
   },
   "script": {
     "tr": {
-      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence",
+      "title": "Bitcoin 80.000 dolar uzerinde; analistten yeni boğa piyasası yorumu",
       "slides": [
-        "Bitcoin halving blok ödülünü her 210000 blokta bir yarısına indirir",
-        "Protokol otomatik olarak madencilik ödülünü azaltır",
-        "Kullanıcılar özel anahtarlarını paylaşmamalı ve cüzdan güvenliğini kontrol etmeli",
-        "Halving fiyat hareketini garantilemez ve piyasa davranışı birçok faktöre bağlıdır"
+        "Bitcoin 80.000 dolar seviyesinin uzerinde kalıyor",
+        "ETF akışları yatırımcı ilgisini desteklemeye devam ediyor",
+        "Analistler boğa piyasası icin erken ama iyimser sinyaller goruyor",
+        "Enflasyon ve jeopolitik belirsizlik nedeniyle henuz kesin bir sonuc yok"
       ],
-      "caption": "$BTC halving reduces the block reward by half every 210000 blocks.\nWhile $ETH is not directly affected market sentiment often follows Bitcoin events.\nUsers should keep their private keys secure and verify wallet safety.\n#Bitcoin #Halving #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)"
+      "caption": "$BTC 80.000 dolar seviyesinin uzerinde kalarak ETF akışlarından destek buluyor. Analistler boğa piyasası icin erken ama iyimser bir tablo ciziyor. Yine de enflasyon ve jeopolitik belirsizlikler risk olarak duruyor. Kaynaklar: The Block #Bitcoin #ETF #Kripto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence",
+      "title": "Bitcoin holds above $80,000; analyst sees early but optimistic bull market case",
       "slides": [
-        "Bitcoin halving cuts the block reward in half every 210000 blocks",
-        "The protocol automatically reduces miner rewards after each set of 210000 blocks",
-        "Users should keep their private keys secure and verify wallet safety during network events",
-        "Halving does not guarantee price movement and market behavior depends on many factors"
+        "Bitcoin remains above the $80,000 level",
+        "ETF inflows continue supporting investor interest",
+        "Analysts see early but optimistic signals for a bull market",
+        "Inflation and geopolitical uncertainty remain key risks"
       ],
-      "caption": "$BTC halving reduces the block reward by half every 210000 blocks.\nWhile $ETH is not directly affected market sentiment often follows Bitcoin events.\nUsers should keep their private keys secure and verify wallet safety.\n#Bitcoin #Halving #LearnCrypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)"
+      "caption": "$BTC stays above $80,000 as ETF inflows provide ongoing support. Analysts describe the bull market case as early but optimistic. Inflation and geopolitical risks continue to cloud the outlook. Sources: The Block #Bitcoin #ETF #Crypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359382816656894,
-      "url": "https://www.binance.com/square/post/359382816656894",
+      "id": 359439743970544,
+      "url": "https://www.binance.com/square/post/359439743970544",
       "note": null,
       "shortPost": {
-        "id": 359382819764242,
-        "url": "https://www.binance.com/square/post/359382819764242"
+        "id": 359439745751319,
+        "url": "https://www.binance.com/square/post/359439745751319"
       },
-      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence"
+      "title": "Bitcoin 80.000 dolar uzerinde; analistten yeni boğa piyasası yorumu"
     },
     {
       "lang": "en",
-      "id": 359383284761423,
-      "url": "https://www.binance.com/square/post/359383284761423",
+      "id": 359440188240903,
+      "url": "https://www.binance.com/square/post/359440188240903",
       "note": null,
       "shortPost": {
-        "id": 359383286313760,
-        "url": "https://www.binance.com/square/post/359383286313760"
+        "id": 359440191364714,
+        "url": "https://www.binance.com/square/post/359440191364714"
       },
-      "title": "Understanding Bitcoin Halving and Its Programmed Occurrence"
+      "title": "Bitcoin holds above $80,000; analyst sees early but optimistic bull market case"
     }
   ]
 }
