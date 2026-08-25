@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-25T05:20:24.527Z",
-  "finishedAt": "2026-08-25T05:29:09.778Z",
+  "startedAt": "2026-08-25T09:55:07.513Z",
+  "finishedAt": "2026-08-25T09:59:29.867Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,46 +8,86 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "BNB Chain activates Pasteur hard fork to strengthen bridge security",
+      "title": "Tether’s $120 million Uruguay mining failure now shadows its next Bitcoin bet in Brazil",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/tethers-120-million-uruguay-mining-failure-now-shadows-its-next-bitcoin-bet-in-brazil/"
+    },
+    {
+      "title": "Galaxy puts Coldcard hack losses at 1,789 BTC, with 87% unmoved",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/bnb-chain-pasteur-hard-fork-bridge-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/coldcard-hack-galaxy-btc-lost-87-unmoved?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Live updates: Bitcoin ETFs draw a sixth straight day of inflows as the rally holds above $80,000",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
+    },
+    {
+      "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning"
+    },
+    {
+      "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks"
+    },
+    {
+      "title": "Bitcoin traders place $2.9 million bet on a rapid price jump above $82,000",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/25/bitcoin-traders-place-usd2-9-million-bet-on-a-rapid-price-jump-above-usd82-000"
+    },
+    {
+      "title": "AI Agents Move 3.3M USDC Through Solana x402 Payments",
+      "source": "Bitcoinist",
+      "link": "https://bitcoinist.com/ai-agents-move-3-3m-usdc-through-solana-x402-payments/"
+    },
+    {
+      "title": "Bitcoin tops $80,000 as Treasury weighs $950 billion cash pile for bond buybacks",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-tops-80000-as-treasury-weighs-950-billion-cash-pile-for-bond-buybacks/"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/news/bnb-chain-pasteur-hard-fork-bridge-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://cryptoslate.com/tethers-120-million-uruguay-mining-failure-now-shadows-its-next-bitcoin-bet-in-brazil/",
+    "https://cointelegraph.com/news/coldcard-hack-galaxy-btc-lost-87-unmoved?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000",
+    "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning",
+    "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks",
+    "https://bitcoinist.com/ai-agents-move-3-3m-usdc-through-solana-x402-payments/"
   ],
   "articles": {
     "tr": {
-      "title": "BNB Chain, Pasteur sertli forkunu aktive etti: Köprü güvenliği güçlendirildi",
-      "body": "BNB Chain, Pasteur adli sertli forkunu aktive ettiğini duyurdu ve bu yükselişin köprü ve validator güvenliklerini güçlendirmesi beklendiğini belirtti. Fork, 25 Ağustos 2026'da gerçekleşirken, BSC ağındaki tüm köprüler geçici olarak kapatıldı ve daha sıkı doğrulama kurallarıyla yeniden açıldı. Geliştiriciler, bu adımın kötü niyetli aktörlerin köprü üzerinden varlık çalmasını zorlaştıracağını ve validator setindeki konsensüs mekanizmalarının daha fazla saldırıya dayanıklı hale getirildiğini vurguladı.\n\nForkun temel amoci, ağın işlem kapasitesini artırarak kullanıcı deneyimini iyileştirmektir. Pasteur güncellemesi, blok üretimi süresini optimize ederek saniye başına işlenebilecek transfer sayısını yükseltmeyi hedefliyor. Bu sayede ağ yoğunluk periodsunda da işlem gecikmeleri azalmak ve ücretlerin daha stabil kalması bekleniyor. Ek olarak, validator node'ları için gereklenen donanım gereksinimleri değiştirilmediği için mevcut katılımcılar ağa sorunsuzca bağlanabiliyor.\n\nGüvenlik iyileştirmeleri içinde, köprü kontraktlarında bulunan yeniden giriş (re‑entrancy) açığı ve yetkisiz yetki değiştirme açığı kapatıldı. Ayrıca, validatorların işaret etme (staking) süreçlerinde çift署名 (double‑sign) riskini azaltmak için yeni bir slashing mekanizması entegre edildi. Geliştirme ekibi, bu değişikliklerin ağın genel sağlık skorunu artırdığı ve uzun vadeli olarak daha fazla institutional katılım çekmesini sağlayacağını belirtti.\n\nPiyasadan bakıldığında, Pasteur forkunun $BNB üzerinde kısa vadeli bir etki olabileceği tartışılıyor. Analystler, işlem kapasitesinin artmasıyla on‑chain hacımın zamanla yükselmesi olasılığını gösteriyor ve bu durumun $BTC gibi diğer büyük varlıklarla kıyaslandığında ağ aktifliğini ölçümlebilecek bir fark yaratıp yaratmayacağını değerlendiriyorlar. Herhangi bir fiyat hareketi garantisi verilmese de, teknik göstergelerdeki dalgalanmaların ağ aktivitesiyle ilişkili olduğu gözlemleniyor.\n\nDaha geniş bağlamda, bu güncelleme BNB Chain'in güvenlik odaklı yol haritasının bir parçası olarak görülüyor ve benzeri yükseltmeler diğer L1 ağlarında da gündeme geliyor. Pasteur forkunun başarısı, gelecekteki planlanan optimizasyonların temelini oluşturabilir ve BNB ekosunun daha güvenli ve ölçeklenebilir bir hale gelmesini destekleyebilir.\n#Ethereum #Altcoins #Blockchain",
-      "tweet": "$BNB Chain activates Pasteur hard fork to boost bridge security #Binance #BNBChain #HardFork"
+      "title": "Bitcoin, ETF Akışları, Coldcard Hack'i, Monad Yükseltmesi ve $SOL Ödemeleri",
+      "body": "Bitcoin, $80.000 seviyesinin üzerinde tutunmaya devam ederken, spot fonlara gelen akışlar yedinci gününe ulaştı. 24 Ağustos'ta $337,56 milyonluk giriş, kısa bazlı bir sıkıştırmanın ardından gerçek para akışını destekleyen trendi güçlendirdi. Bu gelişme, $BTC için önemli bir direnç noktası olan $80.000 seviyesinin yakınında seyretmeye devam etmesini sağladı.\n\nTether'in Uruguay'daki 120 milyon dolarlık madencilik girişimi, enerji tahsisi anlaşmazlığı nedeniyle iki tesisi kapattı. Şirketin Brezilya'daki Adecoagro pilot projesi, güvenilir enerji kaynaklarını uygun koşullarda elde etme konusunda kendisini kanıtlamaya hazırlanıyor.\n\nGalaxy Research, Coldcard hack'inden 1.789 Bitcoin kaybolduğunu ve kaybolan fonların %87'sinin hala hareketlenmediğini bildirdi. Kayıplar arasında 221'i, bireysel olarak 1 Bitcoin'i aşan zararlardan etkilendi.\n\nBTC, haftalık yüzde 25'lik artışla $80.000 seviyesini geçerken, Solana %8'lik bir sıçrama kaydetti. Validatörler, yeni SOL yaratımını yavaşlatmak ve günlük yakma oranlarını artırmak için oy kullandı, ancak bazı analistler $SOL'un aşırı alım bölgesine girdiğini belirtiyor.\n\nMonad, Ethereum uyumlu blockchaininde kullanıcılara, adreslerini değiştirmeden hesaplarını kontrol eden anahtarları değiştirebilme imkanı sunan bir cüzdan yükseltmesi önerdi. Bu, parola anahtarları, kurtarma araçları ve kuantum sonrası güvenlik için kapı aralıyor.\n\nAI ajanlar, Solana x402 ödeme protokolü üzerinden 3,3 milyon USDC'yi hızla transfer etti. Bu, yapay zeka destekli işlemlerin blockchain üzerinde gerçek dünya finansmanı için nasıl kullanılabileceğine dair somut bir örnek oluşturdu.\n\nBitcoin tüccarları, fiyatın hızlı bir şekilde $82.000 seviyesinin üzerine çıkması için 2,9 milyon dolarlık bir bahis oynadı. Pozisyonlar, $BTC'nin yakın vadede oynaklık gösterebileceğini gösteriyor, ancak piyasa katılımcıları, short pozisyonlara olan talebin yüksek kaldığını kaydediyor.\n\nBTC için $78.000 yakınında bir destek ve $82.000 civarında bir direnç seviyesi görülürken, $SOL'un %8'lik artışı, kısa vadeli yükseliş potansiyeli olduğunu gösteriyor. ETF akışları ve kurumsal ilgi, $BTC için fiyat hareketliliğini sürdürmeye yardımcı oluyor.\n\n#Crypto #DeFi #Web3\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$BTC $SOL ecosystem hit by Coldcard hack; 1,789 BTC lost, 87% still unmoved #Bitcoin #Security #Binance"
     },
     "en": {
-      "title": "BNB Chain Activates Pasteur Hard Fork to Strengthen Bridge Security",
-      "body": "BNB Chain has activated the Pasteur hard fork, aiming to close bridge and validator security gaps while targeting higher transaction capacity. The fork went live on August 25, 2026, temporarily shutting down all bridges on the BSC network before reopening them with stricter validation rules. Developers said the move makes it harder for malicious actors to siphon assets via the bridge and strengthens the validator set’s resistance to attacks.\n\nThe update’s core goal is to increase the network’s transaction capacity to improve user experience. The Pasteur upgrade optimizes block production time to raise the number of transfers that can be processed per second. This should reduce transaction delays during periods of network congestion and help keep fees more stable. Additionally, the hardware requirements for validator nodes remain unchanged, allowing existing participants to stay connected without disruption.\n\nSecurity improvements include patching re‑entrancy and unauthorized privilege‑escalation flaws in bridge contracts and adding a new slashing mechanism to reduce double‑sign risks during validator staking. The team noted that these changes should improve the network’s overall health score and attract more institutional participation over time.\n\nFrom a market perspective, analysts suggest that the Pasteur fork’s capacity boost could lead to a gradual increase in $BNB’s on‑chain volume, potentially creating a measurable difference in network activity when compared with $BTC. While no price movement is guaranteed, fluctuations in technical indicators have been observed to correlate with changes in chain usage.\n\nIn a broader context, this update is part of BNB Chain’s security‑focused roadmap, and similar upgrades are being discussed across other Layer‑1 networks. A successful Pasteur fork could lay the groundwork for future optimizations, helping the BNB ecosystem become more secure and scalable.\n#Ethereum #Altcoins #Blockchain",
-      "tweet": "$BNB Chain activates Pasteur hard fork to boost bridge security #Binance #BNBChain #HardFork"
+      "title": "Bitcoin, ETF Inflows, Coldcard Hack, Monad Upgrade, and $SOL Payments",
+      "body": "Bitcoin held above $80,000 as spot funds recorded a seventh straight day of inflows, with $337.56 million added on August 24. The sustained flow of capital supports a rally that began with a short squeeze and keeps $BTC near its key resistance level.\n\nTether’s $120 million mining venture in Uruguay collapsed after a power‑allocation dispute shut down two sites. The firm’s smaller Adecoagro pilot in Brazil now faces the challenge of securing reliable energy on workable terms.\n\nGalaxy Research reported that the Coldcard hack resulted in 1,789 BTC lost, with 87 % of the stolen funds still unmoved. More than half of the 221 reported incidents involved individual losses exceeding 1 BTC.\n\nBTC rose over 25 % this week, pushing past $80,000, while Solana jumped 8 % after validators voted to slow new SOL creation and increase daily burns. Some analysts warn that $SOL is entering overbought territory.\n\nMonad proposed a wallet upgrade for its Ethereum‑compatible blockchain that would let users replace account keys without changing the address. The move opens the door to passkeys, recovery tools, and post‑quantum security.\n\nAI agents moved 3.3 million USDC through Solana’s x402 payments, highlighting new use cases for automated actors on the blockchain. The transfer demonstrates how AI can facilitate real‑world financial flows.\n\nBitcoin traders placed a $2.9 million bet on a rapid price jump above $82,000, signaling optimism after the recent rally. Demand for downside protection, however, remains strong, according to Laevitas.\n\n$BTC currently finds support near $78,000 and resistance around $82,000, while $SOL’s 8 % surge suggests short‑term upside potential. ETF inflows and institutional interest continue to underpin $BTC’s price action.\n\n#Crypto #DeFi #Web3\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$BTC $SOL ecosystem hit by Coldcard hack; 1,789 BTC lost, 87% still unmoved #Bitcoin #Security #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359401299093844,
-      "url": "https://www.binance.com/square/post/359401299093844",
+      "id": 359467737160782,
+      "url": "https://www.binance.com/square/post/359467737160782",
       "shortPost": {
-        "id": 359401301167267,
-        "url": "https://www.binance.com/square/post/359401301167267"
+        "id": 359467739003790,
+        "url": "https://www.binance.com/square/post/359467739003790"
       },
-      "title": "BNB Chain, Pasteur sertli forkunu aktive etti: Köprü güvenliği güçlendirildi"
+      "title": "Bitcoin, ETF Akışları, Coldcard Hack'i, Monad Yükseltmesi ve $SOL Ödemeleri"
     },
     {
       "lang": "en",
-      "id": 359401673591864,
-      "url": "https://www.binance.com/square/post/359401673591864",
+      "id": 359468110821681,
+      "url": "https://www.binance.com/square/post/359468110821681",
       "shortPost": {
-        "id": 359401675403614,
-        "url": "https://www.binance.com/square/post/359401675403614"
+        "id": 359468112817219,
+        "url": "https://www.binance.com/square/post/359468112817219"
       },
-      "title": "BNB Chain Activates Pasteur Hard Fork to Strengthen Bridge Security"
+      "title": "Bitcoin, ETF Inflows, Coldcard Hack, Monad Upgrade, and $SOL Payments"
     }
   ]
 }
