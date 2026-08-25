@@ -1,57 +1,61 @@
 {
-  "startedAt": "2026-08-25T19:19:02.708Z",
-  "finishedAt": "2026-08-25T19:22:57.851Z",
+  "startedAt": "2026-08-25T22:52:37.307Z",
+  "finishedAt": "2026-08-25T22:55:48.152Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "likidite-kilitleri"
+    "type": "news",
+    "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
+    "source": "CoinDesk",
+    "link": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+    "usedLink": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+    "usedTitleNorm": "u s state banking associations plan to launch their own nationwide blockchain network"
   },
   "script": {
     "tr": {
-      "title": "Likidite Kilitleri ve Token Vestingi Nedir",
+      "title": "ABD bankalari kendi ulusal blockchain agini kuruyor",
       "slides": [
-        "Neden kripto projeleri likiditesini kilitler veya tokenları aşamalı olarak serbest bırakır",
-        "Kilitli likidite ekibin aniden varlık satmasını önler ve yatırımcıları korur",
-        "Tokenların aşamalı olarak serbest bırakılması ani büyük arz satışı önleyerek fiyata istikrar sağlar",
-        "Yatırımcılar kilit süresini ve serbest bırakma programlarını inceleyerek proje taahhütlerini değerlendirebilir"
+        "ABD eyalet banka birlikleri yeni bir blockchain agi kurmaya hazirlaniyor",
+        "Projenin adi BankChain Alliance ve hedef 2027 yilinda hizmete gecmek",
+        "Ag stabilkoinler, odemeler ve tokenize mevduatlara odaklanacak",
+        "Sistem bankacilik duzenleme cercevesi icinde kalacak"
       ],
-      "caption": "Likidite kilitleri ve token vesting programları, kripto projelerindeki önemli koruma mekanizmalardır. Bu yöntemler, yatırımcıları korur ve piyasa istikrarına katkı sağlar. $BTC ve $ETH piyasalarında risk yönetimi için bu kavramları anlamak faydalı olur. Yatırım yapmadan önce projelerin tokenonomiksini her zaman analiz edin.\n#Liquidity #Tokenomics #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "ABD eyalet banka birlikleri BankChain Alliance adiyla ulusal bir blockchain agi kurmaya hazirlaniyor. Proje 2027'de devreye girecek ve stabilkoin, odeme ile tokenize mevduat islemlerini bankacilik duzenlemeleri cercevesinde sunacak. Bu girisim geleneksel finans ile kriptoyu resmi sistem icinde bulusturmayi amacliyor.\n\n$BTC $ETH $SOL\n\n#Blockchain #Banking #Stablecoins\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Liquidity Locks and Token Vesting Explained",
+      "title": "US state banking groups to launch their own nationwide blockchain network",
       "slides": [
-        "Why do crypto projects lock liquidity or release tokens gradually",
-        "Locked liquidity prevents teams from abruptly selling pool assets and protects investors",
-        "Gradual token releases help stabilize prices by avoiding sudden large supply dumps on the market",
-        "Investors should verify lock durations and vesting schedules to assess project commitment"
+        "US state banking associations are preparing to launch a new blockchain network",
+        "The project is called BankChain Alliance and targets a 2027 launch",
+        "The network will focus on stablecoins, payments, and tokenized deposits",
+        "It will operate within the existing banking regulatory framework"
       ],
-      "caption": "Liquidity locks and token vesting schedules are key mechanisms in crypto project design. They help protect investors and maintain price stability over time. Understanding these concepts can improve your risk management in the $BTC and $ETH markets. Always evaluate project tokenomics before investing.\n#Liquidity #Tokenomics #LearnCrypto\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "US state banking associations are preparing to build a nationwide blockchain network called BankChain Alliance. The project is slated for a 2027 launch and will support stablecoins, payments, and tokenized deposits within existing banking rules. The initiative signals closer integration between traditional finance and digital assets.\n\n$BTC $ETH $SOL\n\n#Blockchain #Banking #Stablecoins\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359606118993974,
-      "url": "https://www.binance.com/square/post/359606118993974",
+      "id": 359658431962888,
+      "url": "https://www.binance.com/square/post/359658431962888",
       "note": null,
       "shortPost": {
-        "id": 359606120974904,
-        "url": "https://www.binance.com/square/post/359606120974904"
+        "id": 359658433866387,
+        "url": "https://www.binance.com/square/post/359658433866387"
       },
-      "title": "Likidite Kilitleri ve Token Vestingi Nedir"
+      "title": "ABD bankalari kendi ulusal blockchain agini kuruyor"
     },
     {
       "lang": "en",
-      "id": 359606588906180,
-      "url": "https://www.binance.com/square/post/359606588906180",
+      "id": 359658896031120,
+      "url": "https://www.binance.com/square/post/359658896031120",
       "note": null,
       "shortPost": {
-        "id": 359606590416644,
-        "url": "https://www.binance.com/square/post/359606590416644"
+        "id": 359658897511235,
+        "url": "https://www.binance.com/square/post/359658897511235"
       },
-      "title": "Liquidity Locks and Token Vesting Explained"
+      "title": "US state banking groups to launch their own nationwide blockchain network"
     }
   ]
 }
