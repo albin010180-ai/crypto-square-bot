@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-25T17:19:29.873Z",
-  "finishedAt": "2026-08-25T17:24:53.356Z",
+  "startedAt": "2026-08-25T21:00:54.141Z",
+  "finishedAt": "2026-08-25T21:04:01.165Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,63 +8,63 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Galaxy expands retail crypto lending with new BTC, ETH and SOL-backed credit line",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718"
-    },
-    {
-      "title": "Strategy’s $66B Bitcoin machine hinges on capital markets, not BTC price: Report",
+      "title": "World Liberty Financial launches USD1 natively on Canton Network",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "XRP Leverage Hits Multi-Month High on World's Biggest Exchange",
-      "source": "U.Today",
-      "link": "https://u.today/xrp-leverage-hits-multi-month-high-on-worlds-biggest-exchange"
+      "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Veteran Trader Peter Brandt Questions Binance Over Bitcoin Price Anomaly",
-      "source": "U.Today",
-      "link": "https://u.today/veteran-trader-peter-brandt-questions-binance-over-bitcoin-price-anomaly"
+      "title": "Solana transactions hit record 4.2B as SOL rallies 40%",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376516/nancy-pelosi-bloom-energy-stock-trade"
     }
   ],
   "selected": [
-    "https://www.theblock.co/news/business/2026-08-25-galaxy-expands-retail-crypto-lending-new-btc-eth-sol-backed-credit-line-412718",
-    "https://cointelegraph.com/news/strategy-financing-risk-not-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://u.today/xrp-leverage-hits-multi-month-high-on-worlds-biggest-exchange"
+    "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "tr": {
-      "title": "Galaxy Kredi Baslatti, Strategy'nin 66 Milyar Dolarlik Bitcoin Plani Zorluyor",
-      "body": "Kripto para piyasasi bu hafta yeni urun lansmanlari, kurumsal yatirim stratejileri ve yuksek kaldirac riskleriyle dikkat cekiyor. Galaxy, perakende kripto kredisi alanini yeni bir uygulamayla genisleterek BTC, ETH ve SOL teminatlı kredi hatlari sunmaya basladi. GalaxyOne uyeligine uygun musteriler, varliklarini satmadan nakit borc alabilecek. Bu hamle, kurumsal yatirimcilerin kripto varliklarini Likidite saglamak icin kullandigi geleneksel yontemlere alternatif sunuyor.\n\nStrategy'nin 66 milyar dolarlik Bitcoin makinesi ise bu hafta farkli bir zorlukla karsi karsiya. Cointelegraph'in aktardigina gore, sirketin en buyuk riski bir BTC fiyat carpsisindan ziyade yillik 1.76 milyar dolarlik yukumluluklerini karsilamak icin kullandigi sermaye piyasalarina erisimi kaybetmek olabilir. Analistler, Strategy'nin modelinin dusunulenden daha kırılgan olabilecegini ve herhangi bir piyasa durgunlugu senaryosunda ciddi likidite sorunlariyla karsilabilecegini belirtiyor.\n\nPeter Brandt'in Binance uzerindeki Bitcoin fiyat anomalisi sorusturmasi ise piyasa guvenilirligi acisindan onemli bir konu. Bir kac dakika icinde BTC'nin 72.500 dolara dusmesiyle birlikte kucuk yatirimcilarin stop-loss emirleri tetiklendi ve bu durum ek sistemik satislara yol acti. Brandt, boyle izole fiyat hareketlerinin borsa icinden kaynaklanip kaynaklanmadigini sorguladi.\n\nAyni gun XRP tarafinda da gerilim artiyor. Binance uzerindeki kaldirac oranlari yedi ayin en yuksek seviyesine ulasarak volatilite riskini gundeme getirdi. On-chain verilere gore XRP'nin open interest de artarak yonu yukselise kirmis durumda. Piyasa analistleri, $0.58 desteinin kritik oldugunu ve bu seviyenin altinda kalici bir dususun teknik gorunumu bozabilecegini vurguluyor. $BTC $ETH $ETH gibi onemli varliklarin fiyat seviyeleri bu ortamda dikkatle izlenmeli.\n\nGenel olarak piyasa, kurumsal katilimin arttigi ancak kaldirac risklerinin de yuksek oldugu bir donemden geciyor. Yuksek volatilite ortamlarinda yatirimcilarin pozisyon boyutlarini dikkatli belirlemesi ve risk yonetimi kurallarina uymasi onem kazanıyor.\n\n#Bitcoin #KriptoPiyasasi #Binance\n\nKaynaklar: The Block, Cointelegraph, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Galaxy launches BTC-backed credit line as Strategy's $66B Bitcoin machine faces capital market test. XRP leverage hits 7-month high on Binance $BTC #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin 83K test ediyor, Solana işlemleri rekor kırdı, USD1 Canton'a girdi",
+      "body": "Kripto piyasalarında üç büyük gelişme aynı gün dikkat çekti: Bitcoin'in yeni boğa piyasası sinyalleri, Solana ağındaki rekor işlem hacmi ve yeni bir stabilcoin lansmanı.\n\nCryptoQuant verilerine göre Bitcoin, son 24 saatte %24'lük bir raliyle 83.000 dolar seviyesini test ediyor. Analistler bu hareketin piyasa göstergelerini olumlu yönde çevirdiğini, ancak kâr satışlarının kısa vadeli dalgalanmalara yol açabileceğini belirtiyor. $BTC için 83.000 dolar hâlâ kritik bir direnç olarak kalıyor.\n\nSolana ağında günlük işlem sayısı 4,2 milyarı bulurken rekor kırdı. Tokenize edilen gerçek dünya varlıklarının (RWA) toplam değeri 4 milyar dolara yaklaşıyor. SOL fiyatı bu sürece paralel %40 civarında değer kazandı. $SOL için artan ağ aktivitesi temel destek sağlıyor.\n\nWorld Liberty Financial, USD1 stabilcoinini Canton Network üzerinde yerel olarak başlattı. 4 milyar dolarlık piyasa değeriyle altıncı en büyük stabilcoin konumunda olan USD1, kurumsal odaklı bir blok zinciri altyapısı olan Canton'a entegre edildi. Bu hamle, stabilcoin ekosisteminin kurumsal finansla daha da yakınlaşmasını gösteriyor.\n\nHacim verileri ve on-chain metrikler, hem Bitcoin hem de Solana için güçlü talep sinyalleri veriyor; ancak piyasa katılımcıları makroekonomik veriler ve getiri realizasyonları karşısında temkinli kalıyor.\n\n#Bitcoin #Solana #Binance\nKaynaklar: Cointelegraph\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$BTC nears $83K as bull market signals flash; Solana transactions hit 4.2B record #Bitcoin #Solana #Binance"
     },
     "en": {
-      "title": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test",
-      "body": "The crypto market is seeing a convergence of new product launches, institutional strategies, and leverage risks this week. Galaxy has expanded into retail crypto lending by introducing a portfolio line of credit backed by $BTC $ETH and $SOL. Eligible GalaxyOne clients can now borrow cash against their crypto holdings without selling them, offering a novel liquidity solution that appeals to investors seeking to maintain exposure while accessing capital.\n\nMeanwhile, Strategy's $66 billion Bitcoin machine is confronting a different kind of pressure. According to Cointelegraph, the company's biggest risk may not be a Bitcoin price crash but losing access to the capital markets that help service $1.76 billion in annual obligations. Analysts suggest the strategy's model could be more fragile than anticipated, with any prolonged market downturn potentially exposing significant liquidity challenges. The firm has been aggressively accumulating Bitcoin, but its debt servicing capabilities now depend heavily on favorable market conditions and continued access to funding.\n\nVeteran trader Peter Brandt has raised questions about Binance after an isolated Bitcoin price anomaly dropped to $72,500, triggering a cascade of retail stop-loss orders within minutes. The incident sparked debate about exchange price mechanisms and potential systemic risks when sudden movements activate algorithmic trading patterns. Brandt's analysis highlights how liquidity gaps on any major platform can disproportionately affect retail participants using standard risk management tools.\n\nOn the XRP front, leverage on Binance has surged to its highest level in more than seven months, signaling heightened volatility risk. On-chain data shows rising open interest as traders position for potential directional moves. Technical analysts point to $0.58 as a critical support level, with sustained breaks below potentially shifting the short-term outlook. Volume profiles suggest increased activity around current price ranges.\n\nThe broader market reflects an environment where institutional participation grows alongside elevated leverage risks. Trading volumes across major pairs have shown moderate increases, while funding rates remain mixed across perpetual futures markets. Market participants are advised to carefully consider position sizing and risk management protocols in this high-volatility environment.\n\n#Bitcoin #CryptoMarkets #Binance\n\nSources: The Block, Cointelegraph, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "Bitcoin Tests $83K, Solana Hits Record Transactions, USD1 Launches on Canton",
+      "body": "Three major developments grabbed attention across crypto markets today: Bitcoin flashing early bull-market signals, Solana setting a new transaction record, and a notable stablecoin launching on an enterprise-grade network.\n\nAccording to CryptoQuant, Bitcoin has rallied 24% in the past 24 hours and is testing the $83,000 level. Analysts say key market indicators have flipped bullish, though rising profit-taking could introduce near-term volatility. $BTC still faces critical resistance at $83,000.\n\nSolana's daily transaction count surged to a record 4.2 billion. The value of tokenized real-world assets on the network is approaching $4 billion, while SOL has gained roughly 40% during the broader recovery. $SOL benefits from the accelerating on-chain activity.\n\nWorld Liberty Financial debuted its USD1 stablecoin natively on Canton Network. With a market capitalization above $4 billion, USD1 ranks as the sixth-largest stablecoin. The integration with Canton, a blockchain built for institutional finance, signals deeper convergence between stablecoins and traditional financial infrastructure.\n\nVolume data and on-chain metrics point to strong demand for both Bitcoin and Solana, yet participants remain cautious amid macroeconomic uncertainty and profit realization.\n\n#Bitcoin #Solana #Binance\nSources: Cointelegraph\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$BTC nears $83K as bull market signals flash; Solana transactions hit 4.2B record #Bitcoin #Solana #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359577196130079,
-      "url": "https://www.binance.com/square/post/359577196130079",
+      "id": 359631050305305,
+      "url": "https://www.binance.com/square/post/359631050305305",
       "shortPost": {
-        "id": 359577197956953,
-        "url": "https://www.binance.com/square/post/359577197956953"
+        "id": 359631051911478,
+        "url": "https://www.binance.com/square/post/359631051911478"
       },
-      "title": "Galaxy Kredi Baslatti, Strategy'nin 66 Milyar Dolarlik Bitcoin Plani Zorluyor"
+      "title": "Bitcoin 83K test ediyor, Solana işlemleri rekor kırdı, USD1 Canton'a girdi"
     },
     {
       "lang": "en",
-      "id": 359577570084678,
-      "url": "https://www.binance.com/square/post/359577570084678",
+      "id": 359631423641631,
+      "url": "https://www.binance.com/square/post/359631423641631",
       "shortPost": {
-        "id": 359577572294774,
-        "url": "https://www.binance.com/square/post/359577572294774"
+        "id": 359631425690638,
+        "url": "https://www.binance.com/square/post/359631425690638"
       },
-      "title": "Galaxy Launches BTC-Backed Credit Line as Strategy's $66B Bitcoin Machine Faces Test"
+      "title": "Bitcoin Tests $83K, Solana Hits Record Transactions, USD1 Launches on Canton"
     }
   ]
 }
