@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-26T08:04:45.393Z",
-  "finishedAt": "2026-08-26T08:07:54.629Z",
+  "startedAt": "2026-08-26T11:04:49.822Z",
+  "finishedAt": "2026-08-26T11:08:28.950Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "BlackRock cuts bitcoin ETF swap minimum to $1 million: Report",
+    "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
     "source": "CoinDesk",
-    "link": "https://www.coindesk.com/markets/2026/08/26/E",
-    "usedLink": "https://www.coindesk.com/markets/2026/08/26/E",
-    "usedTitleNorm": "blackrock cuts bitcoin etf swap minimum to 1 million report"
+    "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
+    "usedLink": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
+    "usedTitleNorm": "bitcoin takes a breather after adding 23 in 7 days as etf demand holds steady"
   },
   "script": {
     "tr": {
-      "title": "BlackRock Bitcoin ETF Swap Limitini Düşürüyor",
+      "title": "Bitcoin 7 günde yuzde 23 yukseldi, ETF girisleri 3 milyar dolara ulasti",
       "slides": [
-        "BlackRock Bitcoin ETF swap limitini bir milyon dolara indirdi",
-        "ETF ihraççıları büyük yatırımcılar için giriş bariyerini düşürüyor",
-        "Bu hamle balinaların kendi saklama yöntemlerinden ETF paylarına geçişini kolaylaştıracak",
-        "Kurumsal yatırımcılar için Bitcoin ETF erişimi daha esnek hale geliyor"
+        "Bitcoin son bir haftada yuzde 23 deger kazandi",
+        "Fiyat bugun 79.000 dolara kadar geriledi",
+        "Agustos ayinda ETF fonlarina 3 milyar dolar giris oldu",
+        "ETF talebi yuksek seviyesini korumaya devam ediyor"
       ],
-      "caption": "BlackRock Bitcoin ETF swap minimum tutarını 1 milyon dolara çekerek bariyerleri düşürüyor. Büyük yatırımcılar için ETF paylarına geçiş artık daha kolay hale gelecek. $BTC $BLACKROCK\n#Bitcoin #ETF #BlackRock\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin bu hafta yuzde 23 yukseldikten sonra 79.000 dolara dustu. Ağustosta ETF fonlarina 3 milyar dolari asan girisler yasanirken, talep güclu kalmaya devam ediyor. $BTC $ETH #Bitcoin #Kripto #ETF\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "BlackRock Lowers Bitcoin ETF Swap Minimum",
+      "title": "Bitcoin surges 23% in 7 days, ETF inflows hit 3 billion dollars",
       "slides": [
-        "BlackRock cuts Bitcoin ETF swap minimum to one million dollars",
-        "ETF issuers are lowering barriers for large scale investors",
-        "Whales can now more easily swap self custody for ETF shares",
-        "Institutional access to Bitcoin ETFs is becoming more flexible"
+        "Bitcoin gained 23 percent in just one week",
+        "Price pulled back to 79,000 dollars on Wednesday",
+        "August saw over 3 billion dollars in ETF inflows",
+        "ETF demand remains steady at high levels"
       ],
-      "caption": "BlackRock is lowering the barrier for whales to trade self custody for ETF shares. The swap minimum has been reduced to one million dollars. $BTC $BLACKROCK\n#Bitcoin #ETF #BlackRock\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin dropped to 79,000 dollars after surging 23 percent this week. ETF inflows topped 3 billion dollars in August as demand stays strong. $BTC $ETH #Bitcoin #Crypto #ETF\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359794122513082,
-      "url": "https://www.binance.com/square/post/359794122513082",
+      "id": 359838498596671,
+      "url": "https://www.binance.com/square/post/359838498596671",
       "note": null,
       "shortPost": {
-        "id": 359794125089887,
-        "url": "https://www.binance.com/square/post/359794125089887"
+        "id": 359838500607558,
+        "url": "https://www.binance.com/square/post/359838500607558"
       },
-      "title": "BlackRock Bitcoin ETF Swap Limitini Düşürüyor"
+      "title": "Bitcoin 7 günde yuzde 23 yukseldi, ETF girisleri 3 milyar dolara ulasti"
     },
     {
       "lang": "en",
-      "id": 359794581376575,
-      "url": "https://www.binance.com/square/post/359794581376575",
+      "id": 359838959386232,
+      "url": "https://www.binance.com/square/post/359838959386232",
       "note": null,
       "shortPost": {
-        "id": 359794583661882,
-        "url": "https://www.binance.com/square/post/359794583661882"
+        "id": 359838960936490,
+        "url": "https://www.binance.com/square/post/359838960936490"
       },
-      "title": "BlackRock Lowers Bitcoin ETF Swap Minimum"
+      "title": "Bitcoin surges 23% in 7 days, ETF inflows hit 3 billion dollars"
     }
   ]
 }
