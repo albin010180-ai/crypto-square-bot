@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-26T03:34:30.409Z",
-  "finishedAt": "2026-08-26T03:39:44.006Z",
+  "startedAt": "2026-08-26T05:19:59.890Z",
+  "finishedAt": "2026-08-26T05:29:18.934Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,58 +8,58 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Soluna’s 1 billion-share proposal exposes the funding challenge behind its AI and Bitcoin expansion",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/solunas-1-billion-share-proposal-exposes-the-funding-challenge-behind-its-ai-and-bitcoin-expansion/"
+      "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains"
     },
     {
-      "title": "Bitcoin miner Sphere 3D faces $2.2M tariff claim equal to 77% of its cash",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-miner-sphere-3d-faces-2-2m-tariff-claim-equal-to-77-of-its-cash/"
+      "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback"
     },
     {
-      "title": "Near Protocol (NEAR), Dogecoin (DOGE), Solana (SOL) and XRP Price Analysis for August 26: Crypto Market Becomes Uneven",
-      "source": "U.Today",
-      "link": "https://u.today/near-protocol-near-dogecoin-doge-solana-sol-and-xrp-price-analysis-for-august-26-crypto-market"
+      "title": "Kalshi raised $1.12 billion via private equity offering since April, latest SEC filing shows",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/solunas-1-billion-share-proposal-exposes-the-funding-challenge-behind-its-ai-and-bitcoin-expansion/",
-    "https://cryptoslate.com/bitcoin-miner-sphere-3d-faces-2-2m-tariff-claim-equal-to-77-of-its-cash/",
-    "https://u.today/near-protocol-near-dogecoin-doge-solana-sol-and-xrp-price-analysis-for-august-26-crypto-market"
+    "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains",
+    "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback",
+    "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749"
   ],
   "articles": {
     "tr": {
-      "title": "Kripto Madencilik Sektörü Fonlama Zorluklarıyla Karşı Karşıya",
-      "body": "Kripto para madencilik sektörü bu hafta çifte baskı altında. Hem fonlama zorlukları hem de düzenleyici yükümlülükler şirket değerlemelerini olumsuz etkilerken, büyük tokenlarda fiyat hareketleri karışık bir görünüm sergiliyor.\n\nCryptoSlate'in bildirdiğine göre Soluna, yapay zeka ve Bitcoin genişlemesini finanse etmek için kritik bir oylamaya hazırlanıyor. Şirket 16 Ekim'de gerçekleşecek oylamada 625 milyon yeni hisse senedi çıkarılmasını onaylatmayı hedefliyor. Mevcut 1 milyar olan yetkilendirilmiş hisse sayısının bu hamleyle 1,625 milyara çıkması planlanıyor. Teklife göre şirket, Nasdaq'ın yüzde 20'lik üst sınırını aşan hisse satışlarını da tek başına gerçekleştirebilecek. Bu yapı, yatırımcıları endişelendiren bir hisse sulandırma riski taşıyor; zira şirketin AI ve Bitcoin operasyonlarına yönelik büyüme stratejisi ciddi sermaye gerektiriyor.\n\nAynı sektörden bir diğer kötü haber ise Sphere 3D'den geldi. Bitcoin madencisi, 2,2 milyon dolarlık tarife talebiyle karşı karşıya. Bu rakam şirketin mevcut nakit rezervlerinin yüzde 77'sine denk geliyor. Dava süreci devam ederken, faiz ve itiraz son tarihi henüz kamuoyuyla paylaşılmadı. Bu oran, sektörde faaliyet gösteren şirketlerin düzenleyici risklere karşı ne denli kırılgan olduğunu gözler önüne seriyor.\n\nPiyasa tarafında ise manzara farklı. U.Today'in analizine göre Dogecoin, Solana ve Near Protocol son dönemde görece güçlü kalmaya devam ediyor. Bitcoin kısa süreli bir düzeltme yaşasa da genel piyasa havası yükseliş yönünde. Solana $150 bölgesinde destek bulurken, Dogecoin 0,08 dolar seviyesinden itibaren alıcı ilgisi görüyor. $BTC'nin 58.000-60.000 dolar aralığı kritik direnç bölgesi olarak izleniyor.\n\nUzmanlar, madencilik şirketlerinin finansal yapılarındaki zayıflıkların kısa vadede fiyatlar üzerinde baskı yaratabileceğini, ancak kurumsal ilginin sürmesi halinde toparlanmanın kaçınılmaz olduğunu belirtiyor. Trading hacimleri son haftada yüzde 15 artış gösterirken, on-chain metrikler yatırımcı ilgisinin devam ettiğine işaret ediyor.\n\nBu gelişmeler, kripto piyasasının hem kurumsal yatırımcılar hem de alt segment oyuncular için volatilite ve fırsat barındırdığını bir kez daha hatırlatıyor.\n\n#Bitcoin #Madencilik #Binance\n\nKaynaklar: CryptoSlate, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Crypto miners face funding crunch: Soluna proposes 1B share dilution while Sphere 3D grapples with $2.2M tariff claim worth 77% of its cash. $BTC $SOL $DOGE #Bitcoin #Madencilik #Binance"
+      "title": "$BTC 79K’de Dururken XRP %44 Artıştı ve Kalshi 1,12 Milyar Dollar Topladı",
+      "body": "$BTC 79.000 dolara yakın seviyede dururken, çoğu büyük altcoin geriledi, hatta XRP %44’lik keskin bir artış gösterdi ve bir tahmin piyası platformu çok milyar dolarlık bir finansman turu sağladı.\n\nGeçmiş 24 saat içinde, $BTC civarında 79.000 dolarda kaldı, önceki ay boyunca bir haftalık kazanç elde eden traderlar sayesinde haftalık gaini yaklaşık %23 korudu. Bu fiyat seviyesi, yukarı yönlü momentumun ardından kısa vadeli bir referans noktası haline geldi. Aksine, $ETH ve solana geriledi, büyük tokenlerin genel düşüşüne katıldı; dönemin içinde sadece HYPE değerini artırarak trendi kırken, diğer tüm büyük tokenler düşüpte kaldı. XRP ise yaklaşık %45 artış göstererek yükseliş trendiyle devam etti ve haftalık kazancını yaklaşık %45 seviyesine getirdi, piyasa verilerine göre.\n\nXRP’nin artışı, Binance’de kaldıraç aktivitesini yeniden canlandırdı. CryptoQuant verileriによると, tokenin Binance üzerindeki tahmini kaldıraç oranı Ocak’undan bu yana en yüksek seviyede; uzun pozisyonlar kısa pozisyonları belirgin bir farkla geçiyor. XRP’nin futures hacmi, spot işlem hacminin beş katını aşan bir seviyede, traderların daha büyük notional pozisyonlar almaya yöneldiğini gösteriyor. Bu kaldıraçlı uzun pozisyonların yoğunlaşması, ani piyasa duyarlılığı değişişlerine karşı hassasiyeti artırıyor.\n\nGerçek dünya sonuçları üzerinde kullanıcılar tarafından işlem yapılabilecek olay‑sözleşme platformu Kalshi, geçen Nisan itibarıyla özel sermaye teklifiyle 1,12 milyar dolar toplamıştı, en son SEC dosyasına göre. Daha önceki raporlar, şirketin 750 milyon dolar aradığını ve yaklaşık 40 milyar dolar değerlendirmede olduğunu gösteriyordu. Temin edilen yeni sermaye, tarih boyunca bir tahmin piyası firması için yapılan en büyük özel sermaye tekliflerinden biri olacak ve ürün genişletmesi, personeel alımı ve düzenleyici çalışmalarını destekleyecek; sektör de düzeni kurumsal ilgi çekmeye devam ediyor.\n\nBu gelişmeler, piyasada bir bölünmüşlük gösteriyor: $BTC’nin relatif stabilitesi, riskten kaçınan yatırımcılar için bir denge noktası sunarken, XRP gibi altcoinler kaldıraçla güçlendirilmiş spekülasyon gösteriyor. Yatırımcılar, ani fiyat tersinelemelerini genellikle önceden gösteren hacim aniartmaları ve pozisyon verilerini izlemelidir. $BTC’nin durgun kalması ve XRP’nin yüksek kaldıraçlı rally’sinin bir arada olması, kripto ekosistéminde dikkatli ve spekülatif stratejilerin birlikte bulunduğunu vurguluyor.\n\nKaynaklar: CoinDesk, The Block\n#Bitcoin #ETF #Markets\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "XRP jumps 44% as Binance leverage hits yearly high, while Kalshi secures $1.1B funding $XRP $BTC #XRP #Kalshi #Binance"
     },
     "en": {
-      "title": "Crypto Mining Sector Battles Funding Headwinds as Bitcoin Tests Key Support",
-      "body": "The cryptocurrency mining sector is navigating a challenging landscape this week, as funding constraints and regulatory pressures weigh on company valuations while major tokens display uneven price action across the board.\n\nAccording to CryptoSlate, Soluna is preparing for a critical shareholder vote on October 16 that could fundamentally reshape its capital structure. The proposal seeks approval to add 625 million authorized shares, raising the total authorized share count from 1 billion to 1.625 billion. Additionally, the measure would permit share sales exceeding Nasdaq's 20 percent discount cap without additional shareholder consent. The company is pursuing an expansion strategy that combines artificial intelligence infrastructure with Bitcoin mining operations, a capital-intensive approach that has drawn scrutiny from investors concerned about potential share dilution.\n\nIn a separate development, Bitcoin miner Sphere 3D is facing a 2.2 million dollar tariff claim that represents a staggering 77 percent of the company's available cash reserves. The charge, which excludes statutory interest, comes as the miner navigates undisclosed protest deadlines and maintains that its current liquidity position remains operative. This case highlights the regulatory vulnerabilities that mining operations face in an increasingly complex compliance environment.\n\nOn the market front, the picture remains nuanced despite underlying bullish sentiment. Analysis from U.Today indicates that Dogecoin, Solana, and Near Protocol have shown relative strength despite a brief correction affecting larger assets. $BTC trades near the 58,000-60,000 dollar resistance zone, while $SOL has found support around the 150 dollar level. Dogecoin continues attracting buyers above the 0.08 dollar mark. Trading volumes have risen approximately 15 percent over the past week, with on-chain metrics suggesting sustained investor interest in major cryptocurrencies.\n\nMarket observers note that the financial vulnerabilities of mining companies could create short-term price pressure, though institutional engagement remains robust. The divergence between mining-sector challenges and broader market strength underscores the complex dynamics currently at play in cryptocurrency markets.\n\n#Bitcoin #Mining #Binance\n\nSources: CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Soluna eyes 1B share dilution to fund AI-Bitcoin push while Sphere 3D fights $2.2M tariff claim equal to 77% of its cash. $BTC $SOL #Bitcoin #Mining #Binance"
+      "title": "Bitcoin Steady at $79K as XRP Surges and Kalshi Raises $1.1B",
+      "body": "$BTC steadied near $79,000 while most major altcoins retreated, even as XRP posted a sharp 44% gain and a prediction‑market platform secured a multi‑billion‑dollar funding round.\n\nOver the past 24 hours, $BTC held its ground at around $79,000, maintaining a weekly gain of about 23% as traders banked a week of gains from earlier in the month. The price level has acted as a short‑term reference point after a period of upward momentum. In contrast, $ETH and solana slipped, joining the broader decline of major tokens; every major token fell over the period except HYPE, which bucked the trend with a modest increase. XRP, however, surged nearly 45%, extending its recent upward momentum and bringing its weekly advance close to 45%, according to market data.\n\nThe rally in XRP has revived leverage activity on Binance. CryptoQuant data show the token’s estimated leverage ratio on the exchange at its highest level since January, with long positions outnumbering shorts by a noticeable margin. Futures volume on XRP now runs more than five times spot trading, indicating that traders are taking on larger notional exposure. This concentration of leveraged longs increases sensitivity to sudden shifts in market sentiment.\n\nMeanwhile, Kalshi, the event‑contracts platform that allows users to trade on real‑world outcomes, announced that it has raised $1.12 billion through a private equity offering since April, according to its latest SEC filing. Earlier reports had indicated the company was seeking $750 million at a valuation of roughly $40 billion. The fresh capital represents one of the largest private‑equity raises for a prediction‑market firm to date and will likely support product expansion, hiring, and regulatory efforts as the sector continues to attract institutional interest.\n\nThese developments illustrate a divided market: $BTC’s relative stability offers an anchor for risk‑averse investors, while altcoins such as XRP exhibit speculative fervor amplified by leverage. Traders should monitor volume spikes and positioning data, as they often precede sudden price reversals. The juxtaposition of a steady‑holding bitcoin and a highly leveraged xrp rally underscores the varied strategies playing out across the crypto ecosystem, where caution and speculation coexist.\n\nSources: CoinDesk, The Block\n#Bitcoin #ETF #Markets\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "XRP jumps 44% as Binance leverage hits yearly high, while Kalshi secures $1.1B funding $XRP $BTC #XRP #Kalshi #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359728301390551,
-      "url": "https://www.binance.com/square/post/359728301390551",
+      "id": 359755231195258,
+      "url": "https://www.binance.com/square/post/359755231195258",
       "shortPost": {
-        "id": 359728303156629,
-        "url": "https://www.binance.com/square/post/359728303156629"
+        "id": 359755232877585,
+        "url": "https://www.binance.com/square/post/359755232877585"
       },
-      "title": "Kripto Madencilik Sektörü Fonlama Zorluklarıyla Karşı Karşıya"
+      "title": "$BTC 79K’de Dururken XRP %44 Artıştı ve Kalshi 1,12 Milyar Dollar Topladı"
     },
     {
       "lang": "en",
-      "id": 359728675009833,
-      "url": "https://www.binance.com/square/post/359728675009833",
+      "id": 359755605588480,
+      "url": "https://www.binance.com/square/post/359755605588480",
       "shortPost": {
-        "id": 359728676455918,
-        "url": "https://www.binance.com/square/post/359728676455918"
+        "id": 359755607317527,
+        "url": "https://www.binance.com/square/post/359755607317527"
       },
-      "title": "Crypto Mining Sector Battles Funding Headwinds as Bitcoin Tests Key Support"
+      "title": "Bitcoin Steady at $79K as XRP Surges and Kalshi Raises $1.1B"
     }
   ]
 }
