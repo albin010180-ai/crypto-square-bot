@@ -1,61 +1,61 @@
 {
-  "startedAt": "2026-08-26T11:04:49.822Z",
-  "finishedAt": "2026-08-26T11:08:28.950Z",
+  "startedAt": "2026-08-26T16:39:07.914Z",
+  "finishedAt": "2026-08-26T16:45:57.733Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-    "source": "CoinDesk",
-    "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
-    "usedLink": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
-    "usedTitleNorm": "bitcoin takes a breather after adding 23 in 7 days as etf demand holds steady"
+    "title": "Ripple's RLUSD Surpasses $2 Billion Milestone Amid XRP Buzz",
+    "source": "U.Today",
+    "link": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
+    "usedLink": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
+    "usedTitleNorm": "ripple s rlusd surpasses 2 billion milestone amid xrp buzz"
   },
   "script": {
     "tr": {
-      "title": "Bitcoin 7 günde yuzde 23 yukseldi, ETF girisleri 3 milyar dolara ulasti",
+      "title": "Ripple's stablecoin exceeds two billion dollar market cap",
       "slides": [
-        "Bitcoin son bir haftada yuzde 23 deger kazandi",
-        "Fiyat bugun 79.000 dolara kadar geriledi",
-        "Agustos ayinda ETF fonlarina 3 milyar dolar giris oldu",
-        "ETF talebi yuksek seviyesini korumaya devam ediyor"
+        "Ripple's stablecoin RLUSD has crossed the two billion dollar milestone.",
+        "It reached this level within two years after its launch.",
+        "Nearly half of the market cap is now on the XRP Ledger.",
+        "The growth highlights increasing demand for stablecoins on the XRP ecosystem."
       ],
-      "caption": "Bitcoin bu hafta yuzde 23 yukseldikten sonra 79.000 dolara dustu. Ağustosta ETF fonlarina 3 milyar dolari asan girisler yasanirken, talep güclu kalmaya devam ediyor. $BTC $ETH #Bitcoin #Kripto #ETF\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Ripple's stablecoin has surpassed a two billion dollar market cap.\nThe token is now available on the XRP Ledger for almost half of its supply.\n$XRP $BTC $ETH\n#Crypto #Stablecoin #XRP\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Bitcoin surges 23% in 7 days, ETF inflows hit 3 billion dollars",
+      "title": "Ripple's stablecoin exceeds two billion dollar market cap",
       "slides": [
-        "Bitcoin gained 23 percent in just one week",
-        "Price pulled back to 79,000 dollars on Wednesday",
-        "August saw over 3 billion dollars in ETF inflows",
-        "ETF demand remains steady at high levels"
+        "Ripple's stablecoin RLUSD has crossed the two billion dollar milestone.",
+        "It reached this level within two years after its launch.",
+        "Nearly half of the market cap is now on the XRP Ledger.",
+        "The growth highlights increasing demand for stablecoins on the XRP ecosystem."
       ],
-      "caption": "Bitcoin dropped to 79,000 dollars after surging 23 percent this week. ETF inflows topped 3 billion dollars in August as demand stays strong. $BTC $ETH #Bitcoin #Crypto #ETF\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Ripple's stablecoin has surpassed a two billion dollar market cap.\nThe token is now available on the XRP Ledger for almost half of its supply.\n$XRP $BTC $ETH\n#Crypto #Stablecoin #XRP\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359838498596671,
-      "url": "https://www.binance.com/square/post/359838498596671",
+      "id": 359921436685541,
+      "url": "https://www.binance.com/square/post/359921436685541",
       "note": null,
       "shortPost": {
-        "id": 359838500607558,
-        "url": "https://www.binance.com/square/post/359838500607558"
+        "id": 359921438187387,
+        "url": "https://www.binance.com/square/post/359921438187387"
       },
-      "title": "Bitcoin 7 günde yuzde 23 yukseldi, ETF girisleri 3 milyar dolara ulasti"
+      "title": "Ripple's stablecoin exceeds two billion dollar market cap"
     },
     {
       "lang": "en",
-      "id": 359838959386232,
-      "url": "https://www.binance.com/square/post/359838959386232",
+      "id": 359921898210324,
+      "url": "https://www.binance.com/square/post/359921898210324",
       "note": null,
       "shortPost": {
-        "id": 359838960936490,
-        "url": "https://www.binance.com/square/post/359838960936490"
+        "id": 359921900062591,
+        "url": "https://www.binance.com/square/post/359921900062591"
       },
-      "title": "Bitcoin surges 23% in 7 days, ETF inflows hit 3 billion dollars"
+      "title": "Ripple's stablecoin exceeds two billion dollar market cap"
     }
   ]
 }
