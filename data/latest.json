@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-26T05:19:59.890Z",
-  "finishedAt": "2026-08-26T05:29:18.934Z",
+  "startedAt": "2026-08-26T10:04:33.560Z",
+  "finishedAt": "2026-08-26T10:08:24.279Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,58 +8,85 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin holds $79,000, ether, solana slip as traders bank a week of gains",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains"
+      "title": "Ripple to Release More XRP? Intriguing Detail Found in New SEC Filing",
+      "source": "U.Today",
+      "link": "https://u.today/ripple-to-release-more-xrp-intriguing-detail-found-in-new-sec-filing"
     },
     {
-      "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
+      "title": "A massive $6.4 billion bitcoin options expiry on Friday could amplify volatility",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback"
+      "link": "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility"
     },
     {
-      "title": "Kalshi raised $1.12 billion via private equity offering since April, latest SEC filing shows",
+      "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally"
+    },
+    {
+      "title": "XRP ETFs Hit Ninth Consecutive Day of Net Inflows",
+      "source": "U.Today",
+      "link": "https://u.today/xrp-etfs-hit-ninth-consecutive-day-of-net-inflows"
+    },
+    {
+      "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
+    },
+    {
+      "title": "US bank lobby wants stablecoin holders to open an account before cashing out",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/us-bank-lobby-wants-stablecoin-holders-to-open-an-account-before-cashing-out/"
+    },
+    {
+      "title": "Bitcoin ETFs tear through 2026 outflows in 7-day hot streak",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/bitcoin-etf-august-inflows-surge-past-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "South Korea’s Shinhan to use Visa’s stablecoin platform for ‘future finance’ initiatives",
       "source": "The Block",
-      "link": "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749"
+      "link": "https://www.theblock.co/news/web3/2026-08-26-south-koreas-shinhan-visa-stablecoin-412765"
     }
   ],
   "selected": [
-    "https://www.coindesk.com/markets/2026/08/26/bitcoin-holds-usd79-000-ether-solana-slip-4-as-traders-bank-a-week-of-gains",
-    "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback",
-    "https://www.theblock.co/news/web3/2026-08-26-kalshi-latest-form-d-412749"
+    "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility",
+    "https://u.today/xrp-etfs-hit-ninth-consecutive-day-of-net-inflows",
+    "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds",
+    "https://cryptoslate.com/us-bank-lobby-wants-stablecoin-holders-to-open-an-account-before-cashing-out/",
+    "https://www.theblock.co/news/web3/2026-08-26-south-koreas-shinhan-visa-stablecoin-412765"
   ],
   "articles": {
     "tr": {
-      "title": "$BTC 79K’de Dururken XRP %44 Artıştı ve Kalshi 1,12 Milyar Dollar Topladı",
-      "body": "$BTC 79.000 dolara yakın seviyede dururken, çoğu büyük altcoin geriledi, hatta XRP %44’lik keskin bir artış gösterdi ve bir tahmin piyası platformu çok milyar dolarlık bir finansman turu sağladı.\n\nGeçmiş 24 saat içinde, $BTC civarında 79.000 dolarda kaldı, önceki ay boyunca bir haftalık kazanç elde eden traderlar sayesinde haftalık gaini yaklaşık %23 korudu. Bu fiyat seviyesi, yukarı yönlü momentumun ardından kısa vadeli bir referans noktası haline geldi. Aksine, $ETH ve solana geriledi, büyük tokenlerin genel düşüşüne katıldı; dönemin içinde sadece HYPE değerini artırarak trendi kırken, diğer tüm büyük tokenler düşüpte kaldı. XRP ise yaklaşık %45 artış göstererek yükseliş trendiyle devam etti ve haftalık kazancını yaklaşık %45 seviyesine getirdi, piyasa verilerine göre.\n\nXRP’nin artışı, Binance’de kaldıraç aktivitesini yeniden canlandırdı. CryptoQuant verileriによると, tokenin Binance üzerindeki tahmini kaldıraç oranı Ocak’undan bu yana en yüksek seviyede; uzun pozisyonlar kısa pozisyonları belirgin bir farkla geçiyor. XRP’nin futures hacmi, spot işlem hacminin beş katını aşan bir seviyede, traderların daha büyük notional pozisyonlar almaya yöneldiğini gösteriyor. Bu kaldıraçlı uzun pozisyonların yoğunlaşması, ani piyasa duyarlılığı değişişlerine karşı hassasiyeti artırıyor.\n\nGerçek dünya sonuçları üzerinde kullanıcılar tarafından işlem yapılabilecek olay‑sözleşme platformu Kalshi, geçen Nisan itibarıyla özel sermaye teklifiyle 1,12 milyar dolar toplamıştı, en son SEC dosyasına göre. Daha önceki raporlar, şirketin 750 milyon dolar aradığını ve yaklaşık 40 milyar dolar değerlendirmede olduğunu gösteriyordu. Temin edilen yeni sermaye, tarih boyunca bir tahmin piyası firması için yapılan en büyük özel sermaye tekliflerinden biri olacak ve ürün genişletmesi, personeel alımı ve düzenleyici çalışmalarını destekleyecek; sektör de düzeni kurumsal ilgi çekmeye devam ediyor.\n\nBu gelişmeler, piyasada bir bölünmüşlük gösteriyor: $BTC’nin relatif stabilitesi, riskten kaçınan yatırımcılar için bir denge noktası sunarken, XRP gibi altcoinler kaldıraçla güçlendirilmiş spekülasyon gösteriyor. Yatırımcılar, ani fiyat tersinelemelerini genellikle önceden gösteren hacim aniartmaları ve pozisyon verilerini izlemelidir. $BTC’nin durgun kalması ve XRP’nin yüksek kaldıraçlı rally’sinin bir arada olması, kripto ekosistéminde dikkatli ve spekülatif stratejilerin birlikte bulunduğunu vurguluyor.\n\nKaynaklar: CoinDesk, The Block\n#Bitcoin #ETF #Markets\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "XRP jumps 44% as Binance leverage hits yearly high, while Kalshi secures $1.1B funding $XRP $BTC #XRP #Kalshi #Binance"
+      "title": "Bitcoin Opsiyonları Sonuçlanıyor, XRP ETFleri Alım Artıyor",
+      "body": "Bitcoin piyasalari, bu Cuma gerceklesecek 6,4 milyar dolar degerinde opsiyon sona erme olayina yaklasiyor. CoinDesk'in raporuna gore, bu surec bitcoin’in 62.000 dolardan 80.000 dolara yukselisi sonrasi piyasa yapicilarinin riskini artirabilir.\n\nBu hafta kripto piyasalarinda farkli gelismeler birlesiyor: Bitcoin’in buyuk opsiyon sona ermesi, XRP bazli yatirim fonlarininalim akisinin devamini, Japonya’nin blok zincir tabanli menkul kimmet tasfiye sistem plani, stablecoin çekimiyle ilgili yeni duzenleme önerisi ve Güney Kore’deki Shinhan Bankasi’nin Visa ile iş birligi.\n\nCoinDesk'in verisine gore, Cuma gunu 6,4 milyar dolar degerinde bitcoin opsiyonu sona erecek. Bu surec, varligin 62.000 dolardan 80.000 dolara tirmanisi sonrasi piyasa yapicilarinin pozisyonlarini yönetmesi gerektigini anlatiyor. Analistler, bu tip buyuk sona ermelerin kisa vadeli volatiliteyi artirabilecegini belirtiyor.\n\nU.Today'nin haberine gore, ABD’nin spot XRP ETF’leri 25 Agustos’taki is gununde 23,87 milyon dolar netto alim gostererek ardışik gun sayisini dokuza cikardi. Toplam netto alim artık 1,59 milyar dolara ulasmis ve daha genis kripto piyasasında gorulen satis baskisina ragmen bu trend devam ediyor.\n\nCoinDesk’in baska bir raporu, Japonya duzenleyicilerinin erken 2030’li yillarinda hisse senedi ve devlet tahvilleri icin blok zincir tabanli bir tasfiye agini devreye sokmayi planladigini gosteriyor. Amac, yerel ve yabanci sermayenin uluslararas platformlara kaymasini onlemek ve mevcut finansal altyapiyi modernize etmek.\n\nCryptoSlate tarafindan yayinlanan bir yaziya gore, Amerika’nin banka lobisi, stablecoin sahiplerinin nakit yapmadan once bir hesap acmasini zorunlu kılmak istiyor. Blockchain Association bu teklifle, tek islem veya ara yonlendirilmiş nakit cikislari kapsam disi birakip, duzenleyicilere kendi kendine tutulan varliklarin issuer musterisi olarak sayilip sayilmayacagini belirletmeyi amacliyor.\n\nThe Block’in haberine gore, Guney Kore’nin Shinhan Bankasi, Visa’nin stablecoin platformunu gelecek finans projeleri icinde kullanacak. Ikisi de stablecoinlerin kart odemeleri, yapay zeka destekli odeeme modelleri ve B2B ile B2C islemlerinde denenecegini acikliyor.\n\nPiyasa verileri gostereki, opsiyon sona erme tarihine yaklasirken bitcoin is hacmi genellikle artar ve bu durum fiyat dalgalanmalarini tetikleyebilir; ayni anda XRP’nin alim akisi devam ettigi surede tokenin fiyatı goreceli olarak dengeli seyrediyor.\n\n\n#Bitcoin #XRP #Binance\nSources: CoinDesk, U.Today, CoinDesk, CryptoSlate, The Block\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)",
+      "tweet": "$BTC faces $6.4B options expiry Friday, volatility may rise #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "Bitcoin Steady at $79K as XRP Surges and Kalshi Raises $1.1B",
-      "body": "$BTC steadied near $79,000 while most major altcoins retreated, even as XRP posted a sharp 44% gain and a prediction‑market platform secured a multi‑billion‑dollar funding round.\n\nOver the past 24 hours, $BTC held its ground at around $79,000, maintaining a weekly gain of about 23% as traders banked a week of gains from earlier in the month. The price level has acted as a short‑term reference point after a period of upward momentum. In contrast, $ETH and solana slipped, joining the broader decline of major tokens; every major token fell over the period except HYPE, which bucked the trend with a modest increase. XRP, however, surged nearly 45%, extending its recent upward momentum and bringing its weekly advance close to 45%, according to market data.\n\nThe rally in XRP has revived leverage activity on Binance. CryptoQuant data show the token’s estimated leverage ratio on the exchange at its highest level since January, with long positions outnumbering shorts by a noticeable margin. Futures volume on XRP now runs more than five times spot trading, indicating that traders are taking on larger notional exposure. This concentration of leveraged longs increases sensitivity to sudden shifts in market sentiment.\n\nMeanwhile, Kalshi, the event‑contracts platform that allows users to trade on real‑world outcomes, announced that it has raised $1.12 billion through a private equity offering since April, according to its latest SEC filing. Earlier reports had indicated the company was seeking $750 million at a valuation of roughly $40 billion. The fresh capital represents one of the largest private‑equity raises for a prediction‑market firm to date and will likely support product expansion, hiring, and regulatory efforts as the sector continues to attract institutional interest.\n\nThese developments illustrate a divided market: $BTC’s relative stability offers an anchor for risk‑averse investors, while altcoins such as XRP exhibit speculative fervor amplified by leverage. Traders should monitor volume spikes and positioning data, as they often precede sudden price reversals. The juxtaposition of a steady‑holding bitcoin and a highly leveraged xrp rally underscores the varied strategies playing out across the crypto ecosystem, where caution and speculation coexist.\n\nSources: CoinDesk, The Block\n#Bitcoin #ETF #Markets\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "XRP jumps 44% as Binance leverage hits yearly high, while Kalshi secures $1.1B funding $XRP $BTC #XRP #Kalshi #Binance"
+      "title": "Bitcoin Options Expiry Nears as XRP ETFs See Steady Inflows",
+      "body": "Bitcoin markets are approaching this Friday’s $6.4 billion options expiry event. According to CoinDesk, this follows bitcoin’s rise from $62,000 to $80,000, which could increase market makers’ exposure.\n\nThis week crypto markets see a mix of developments: a large Bitcoin options expiry, continued inflows into XRP‑based ETFs, Japan’s plan for a blockchain‑based stock and bond settlement system, new stablecoin cash‑out rules proposed by US bank lobbies, and Shinhan Bank’s partnership with Visa on a stablecoin platform.\n\nCoinDesk reports that on Friday $6.4 billion worth of bitcoin options will expire. After the asset’s climb from $62,000 to $80,000, market makers will need to manage their positions, and analysts say such large expiries can boost short‑term volatility.\n\nU.Today notes that U.S. spot XRP ETFs recorded $23.87 million in net inflows on August 25, marking the ninth consecutive day of inflows. Total net inflows now stand at $1.59 billion, a trend that persists despite a broader crypto market sell‑off.\n\nAnother CoinDesk piece says Japanese regulators aim to launch a blockchain settlement network for stocks and government bonds in the early 2030s, seeking to keep domestic and foreign capital from moving offshore and to modernize the national settlement infrastructure.\n\nCryptoSlate reports that the US bank lobby, represented by the Blockchain Association, wants stablecoin holders to open an account before cashing out, seeking to exclude one‑off and intermediary‑routed redemptions and to clarify when self‑custody users become issuer customers.\n\nThe Block writes that South Korea’s Shinhan Bank will use Visa’s stablecoin platform for “future finance” initiatives, testing stablecoins in card payments, AI‑driven payment models, and B2B as well as B2C transactions.\n\nMarket data show that bitcoin trading volume tends to rise as an options expiry approaches, which can trigger price swings; meanwhile, XRP’s price has remained relatively steady during its inflow streak.\n\n\n#Bitcoin #XRP #Binance\nSources: CoinDesk, U.Today, CoinDesk, CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR)",
+      "tweet": "$BTC faces $6.4B options expiry Friday, volatility may rise #Bitcoin #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359755231195258,
-      "url": "https://www.binance.com/square/post/359755231195258",
+      "id": 359823821519960,
+      "url": "https://www.binance.com/square/post/359823821519960",
       "shortPost": {
-        "id": 359755232877585,
-        "url": "https://www.binance.com/square/post/359755232877585"
+        "id": 359823823080149,
+        "url": "https://www.binance.com/square/post/359823823080149"
       },
-      "title": "$BTC 79K’de Dururken XRP %44 Artıştı ve Kalshi 1,12 Milyar Dollar Topladı"
+      "title": "Bitcoin Opsiyonları Sonuçlanıyor, XRP ETFleri Alım Artıyor"
     },
     {
       "lang": "en",
-      "id": 359755605588480,
-      "url": "https://www.binance.com/square/post/359755605588480",
+      "id": 359824194689427,
+      "url": "https://www.binance.com/square/post/359824194689427",
       "shortPost": {
-        "id": 359755607317527,
-        "url": "https://www.binance.com/square/post/359755607317527"
+        "id": 359824196283727,
+        "url": "https://www.binance.com/square/post/359824196283727"
       },
-      "title": "Bitcoin Steady at $79K as XRP Surges and Kalshi Raises $1.1B"
+      "title": "Bitcoin Options Expiry Nears as XRP ETFs See Steady Inflows"
     }
   ]
 }
