@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-25T21:00:54.141Z",
-  "finishedAt": "2026-08-25T21:04:01.165Z",
+  "startedAt": "2026-08-26T03:34:30.409Z",
+  "finishedAt": "2026-08-26T03:39:44.006Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,63 +8,58 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "World Liberty Financial launches USD1 natively on Canton Network",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Soluna’s 1 billion-share proposal exposes the funding challenge behind its AI and Bitcoin expansion",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/solunas-1-billion-share-proposal-exposes-the-funding-challenge-behind-its-ai-and-bitcoin-expansion/"
     },
     {
-      "title": "Bitcoin enters ‘initial phase’ of new bull market, but $83K remains key: CryptoQuant",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Bitcoin miner Sphere 3D faces $2.2M tariff claim equal to 77% of its cash",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-miner-sphere-3d-faces-2-2m-tariff-claim-equal-to-77-of-its-cash/"
     },
     {
-      "title": "Solana transactions hit record 4.2B as SOL rallies 40%",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376516/nancy-pelosi-bloom-energy-stock-trade"
+      "title": "Near Protocol (NEAR), Dogecoin (DOGE), Solana (SOL) and XRP Price Analysis for August 26: Crypto Market Becomes Uneven",
+      "source": "U.Today",
+      "link": "https://u.today/near-protocol-near-dogecoin-doge-solana-sol-and-xrp-price-analysis-for-august-26-crypto-market"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/news/world-liberty-financial-launches-usd1-natively-on-canton-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://cointelegraph.com/markets/bitcoin-enters-initial-phase-of-new-bull-market-but-83k-remains-key-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://cointelegraph.com/news/solana-record-transactions-rwa-sol-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://cryptoslate.com/solunas-1-billion-share-proposal-exposes-the-funding-challenge-behind-its-ai-and-bitcoin-expansion/",
+    "https://cryptoslate.com/bitcoin-miner-sphere-3d-faces-2-2m-tariff-claim-equal-to-77-of-its-cash/",
+    "https://u.today/near-protocol-near-dogecoin-doge-solana-sol-and-xrp-price-analysis-for-august-26-crypto-market"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin 83K test ediyor, Solana işlemleri rekor kırdı, USD1 Canton'a girdi",
-      "body": "Kripto piyasalarında üç büyük gelişme aynı gün dikkat çekti: Bitcoin'in yeni boğa piyasası sinyalleri, Solana ağındaki rekor işlem hacmi ve yeni bir stabilcoin lansmanı.\n\nCryptoQuant verilerine göre Bitcoin, son 24 saatte %24'lük bir raliyle 83.000 dolar seviyesini test ediyor. Analistler bu hareketin piyasa göstergelerini olumlu yönde çevirdiğini, ancak kâr satışlarının kısa vadeli dalgalanmalara yol açabileceğini belirtiyor. $BTC için 83.000 dolar hâlâ kritik bir direnç olarak kalıyor.\n\nSolana ağında günlük işlem sayısı 4,2 milyarı bulurken rekor kırdı. Tokenize edilen gerçek dünya varlıklarının (RWA) toplam değeri 4 milyar dolara yaklaşıyor. SOL fiyatı bu sürece paralel %40 civarında değer kazandı. $SOL için artan ağ aktivitesi temel destek sağlıyor.\n\nWorld Liberty Financial, USD1 stabilcoinini Canton Network üzerinde yerel olarak başlattı. 4 milyar dolarlık piyasa değeriyle altıncı en büyük stabilcoin konumunda olan USD1, kurumsal odaklı bir blok zinciri altyapısı olan Canton'a entegre edildi. Bu hamle, stabilcoin ekosisteminin kurumsal finansla daha da yakınlaşmasını gösteriyor.\n\nHacim verileri ve on-chain metrikler, hem Bitcoin hem de Solana için güçlü talep sinyalleri veriyor; ancak piyasa katılımcıları makroekonomik veriler ve getiri realizasyonları karşısında temkinli kalıyor.\n\n#Bitcoin #Solana #Binance\nKaynaklar: Cointelegraph\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$BTC nears $83K as bull market signals flash; Solana transactions hit 4.2B record #Bitcoin #Solana #Binance"
+      "title": "Kripto Madencilik Sektörü Fonlama Zorluklarıyla Karşı Karşıya",
+      "body": "Kripto para madencilik sektörü bu hafta çifte baskı altında. Hem fonlama zorlukları hem de düzenleyici yükümlülükler şirket değerlemelerini olumsuz etkilerken, büyük tokenlarda fiyat hareketleri karışık bir görünüm sergiliyor.\n\nCryptoSlate'in bildirdiğine göre Soluna, yapay zeka ve Bitcoin genişlemesini finanse etmek için kritik bir oylamaya hazırlanıyor. Şirket 16 Ekim'de gerçekleşecek oylamada 625 milyon yeni hisse senedi çıkarılmasını onaylatmayı hedefliyor. Mevcut 1 milyar olan yetkilendirilmiş hisse sayısının bu hamleyle 1,625 milyara çıkması planlanıyor. Teklife göre şirket, Nasdaq'ın yüzde 20'lik üst sınırını aşan hisse satışlarını da tek başına gerçekleştirebilecek. Bu yapı, yatırımcıları endişelendiren bir hisse sulandırma riski taşıyor; zira şirketin AI ve Bitcoin operasyonlarına yönelik büyüme stratejisi ciddi sermaye gerektiriyor.\n\nAynı sektörden bir diğer kötü haber ise Sphere 3D'den geldi. Bitcoin madencisi, 2,2 milyon dolarlık tarife talebiyle karşı karşıya. Bu rakam şirketin mevcut nakit rezervlerinin yüzde 77'sine denk geliyor. Dava süreci devam ederken, faiz ve itiraz son tarihi henüz kamuoyuyla paylaşılmadı. Bu oran, sektörde faaliyet gösteren şirketlerin düzenleyici risklere karşı ne denli kırılgan olduğunu gözler önüne seriyor.\n\nPiyasa tarafında ise manzara farklı. U.Today'in analizine göre Dogecoin, Solana ve Near Protocol son dönemde görece güçlü kalmaya devam ediyor. Bitcoin kısa süreli bir düzeltme yaşasa da genel piyasa havası yükseliş yönünde. Solana $150 bölgesinde destek bulurken, Dogecoin 0,08 dolar seviyesinden itibaren alıcı ilgisi görüyor. $BTC'nin 58.000-60.000 dolar aralığı kritik direnç bölgesi olarak izleniyor.\n\nUzmanlar, madencilik şirketlerinin finansal yapılarındaki zayıflıkların kısa vadede fiyatlar üzerinde baskı yaratabileceğini, ancak kurumsal ilginin sürmesi halinde toparlanmanın kaçınılmaz olduğunu belirtiyor. Trading hacimleri son haftada yüzde 15 artış gösterirken, on-chain metrikler yatırımcı ilgisinin devam ettiğine işaret ediyor.\n\nBu gelişmeler, kripto piyasasının hem kurumsal yatırımcılar hem de alt segment oyuncular için volatilite ve fırsat barındırdığını bir kez daha hatırlatıyor.\n\n#Bitcoin #Madencilik #Binance\n\nKaynaklar: CryptoSlate, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Crypto miners face funding crunch: Soluna proposes 1B share dilution while Sphere 3D grapples with $2.2M tariff claim worth 77% of its cash. $BTC $SOL $DOGE #Bitcoin #Madencilik #Binance"
     },
     "en": {
-      "title": "Bitcoin Tests $83K, Solana Hits Record Transactions, USD1 Launches on Canton",
-      "body": "Three major developments grabbed attention across crypto markets today: Bitcoin flashing early bull-market signals, Solana setting a new transaction record, and a notable stablecoin launching on an enterprise-grade network.\n\nAccording to CryptoQuant, Bitcoin has rallied 24% in the past 24 hours and is testing the $83,000 level. Analysts say key market indicators have flipped bullish, though rising profit-taking could introduce near-term volatility. $BTC still faces critical resistance at $83,000.\n\nSolana's daily transaction count surged to a record 4.2 billion. The value of tokenized real-world assets on the network is approaching $4 billion, while SOL has gained roughly 40% during the broader recovery. $SOL benefits from the accelerating on-chain activity.\n\nWorld Liberty Financial debuted its USD1 stablecoin natively on Canton Network. With a market capitalization above $4 billion, USD1 ranks as the sixth-largest stablecoin. The integration with Canton, a blockchain built for institutional finance, signals deeper convergence between stablecoins and traditional financial infrastructure.\n\nVolume data and on-chain metrics point to strong demand for both Bitcoin and Solana, yet participants remain cautious amid macroeconomic uncertainty and profit realization.\n\n#Bitcoin #Solana #Binance\nSources: Cointelegraph\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "$BTC nears $83K as bull market signals flash; Solana transactions hit 4.2B record #Bitcoin #Solana #Binance"
+      "title": "Crypto Mining Sector Battles Funding Headwinds as Bitcoin Tests Key Support",
+      "body": "The cryptocurrency mining sector is navigating a challenging landscape this week, as funding constraints and regulatory pressures weigh on company valuations while major tokens display uneven price action across the board.\n\nAccording to CryptoSlate, Soluna is preparing for a critical shareholder vote on October 16 that could fundamentally reshape its capital structure. The proposal seeks approval to add 625 million authorized shares, raising the total authorized share count from 1 billion to 1.625 billion. Additionally, the measure would permit share sales exceeding Nasdaq's 20 percent discount cap without additional shareholder consent. The company is pursuing an expansion strategy that combines artificial intelligence infrastructure with Bitcoin mining operations, a capital-intensive approach that has drawn scrutiny from investors concerned about potential share dilution.\n\nIn a separate development, Bitcoin miner Sphere 3D is facing a 2.2 million dollar tariff claim that represents a staggering 77 percent of the company's available cash reserves. The charge, which excludes statutory interest, comes as the miner navigates undisclosed protest deadlines and maintains that its current liquidity position remains operative. This case highlights the regulatory vulnerabilities that mining operations face in an increasingly complex compliance environment.\n\nOn the market front, the picture remains nuanced despite underlying bullish sentiment. Analysis from U.Today indicates that Dogecoin, Solana, and Near Protocol have shown relative strength despite a brief correction affecting larger assets. $BTC trades near the 58,000-60,000 dollar resistance zone, while $SOL has found support around the 150 dollar level. Dogecoin continues attracting buyers above the 0.08 dollar mark. Trading volumes have risen approximately 15 percent over the past week, with on-chain metrics suggesting sustained investor interest in major cryptocurrencies.\n\nMarket observers note that the financial vulnerabilities of mining companies could create short-term price pressure, though institutional engagement remains robust. The divergence between mining-sector challenges and broader market strength underscores the complex dynamics currently at play in cryptocurrency markets.\n\n#Bitcoin #Mining #Binance\n\nSources: CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Soluna eyes 1B share dilution to fund AI-Bitcoin push while Sphere 3D fights $2.2M tariff claim equal to 77% of its cash. $BTC $SOL #Bitcoin #Mining #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359631050305305,
-      "url": "https://www.binance.com/square/post/359631050305305",
+      "id": 359728301390551,
+      "url": "https://www.binance.com/square/post/359728301390551",
       "shortPost": {
-        "id": 359631051911478,
-        "url": "https://www.binance.com/square/post/359631051911478"
+        "id": 359728303156629,
+        "url": "https://www.binance.com/square/post/359728303156629"
       },
-      "title": "Bitcoin 83K test ediyor, Solana işlemleri rekor kırdı, USD1 Canton'a girdi"
+      "title": "Kripto Madencilik Sektörü Fonlama Zorluklarıyla Karşı Karşıya"
     },
     {
       "lang": "en",
-      "id": 359631423641631,
-      "url": "https://www.binance.com/square/post/359631423641631",
+      "id": 359728675009833,
+      "url": "https://www.binance.com/square/post/359728675009833",
       "shortPost": {
-        "id": 359631425690638,
-        "url": "https://www.binance.com/square/post/359631425690638"
+        "id": 359728676455918,
+        "url": "https://www.binance.com/square/post/359728676455918"
       },
-      "title": "Bitcoin Tests $83K, Solana Hits Record Transactions, USD1 Launches on Canton"
+      "title": "Crypto Mining Sector Battles Funding Headwinds as Bitcoin Tests Key Support"
     }
   ]
 }
