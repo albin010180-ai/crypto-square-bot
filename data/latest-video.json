@@ -1,61 +1,57 @@
 {
-  "startedAt": "2026-08-25T22:52:37.307Z",
-  "finishedAt": "2026-08-25T22:55:48.152Z",
+  "startedAt": "2026-08-26T04:08:08.450Z",
+  "finishedAt": "2026-08-26T04:11:17.942Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
-    "source": "CoinDesk",
-    "link": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
-    "usedLink": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
-    "usedTitleNorm": "u s state banking associations plan to launch their own nationwide blockchain network"
+    "type": "info",
+    "topicId": "delist-isaretleri"
   },
   "script": {
     "tr": {
-      "title": "ABD bankalari kendi ulusal blockchain agini kuruyor",
+      "title": "Borsa Hisse Senedi Listesinden Cikar Ilanlarini Nasil Okunacagi",
       "slides": [
-        "ABD eyalet banka birlikleri yeni bir blockchain agi kurmaya hazirlaniyor",
-        "Projenin adi BankChain Alliance ve hedef 2027 yilinda hizmete gecmek",
-        "Ag stabilkoinler, odemeler ve tokenize mevduatlara odaklanacak",
-        "Sistem bankacilik duzenleme cercevesi icinde kalacak"
+        "Hisse senedi borsalarinda hisse senedi listesinden cikarma duyurulari ne sorun",
+        "Duyurular genellikle resmi kanallar ve saatlerle yayinlanir",
+        "Isaretler arasi likvet artisi, islem ücreti artışi ve olmayan haberler",
+        "Resmi kaynaklardan kontrol yapin ve her zaman kendinize özgü arastırma yapin"
       ],
-      "caption": "ABD eyalet banka birlikleri BankChain Alliance adiyla ulusal bir blockchain agi kurmaya hazirlaniyor. Proje 2027'de devreye girecek ve stabilkoin, odeme ile tokenize mevduat islemlerini bankacilik duzenlemeleri cercevesinde sunacak. Bu girisim geleneksel finans ile kriptoyu resmi sistem icinde bulusturmayi amacliyor.\n\n$BTC $ETH $SOL\n\n#Blockchain #Banking #Stablecoins\nKaynaklar: CoinDesk\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Hisse senedi borsalarinda listesinden cikarma duyurulari okuma pratiği önemlidir. $BTC $ETH $SOL gibi varlıkları takip ederken dikkatli olun. #Delisting #Exchange #LearnCrypto\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "US state banking groups to launch their own nationwide blockchain network",
+      "title": "How to Read Exchange Delisting Announcements and Their Warning Signs",
       "slides": [
-        "US state banking associations are preparing to launch a new blockchain network",
-        "The project is called BankChain Alliance and targets a 2027 launch",
-        "The network will focus on stablecoins, payments, and tokenized deposits",
-        "It will operate within the existing banking regulatory framework"
+        "Exchange delisting announcements signal asset removal from trading platforms",
+        "Announcements are typically posted on official channels with specific dates",
+        "Warning signs include reduced liquidity, fee changes, and unexplained news",
+        "Always verify through official sources and practice due diligence (DYOR)"
       ],
-      "caption": "US state banking associations are preparing to build a nationwide blockchain network called BankChain Alliance. The project is slated for a 2027 launch and will support stablecoins, payments, and tokenized deposits within existing banking rules. The initiative signals closer integration between traditional finance and digital assets.\n\n$BTC $ETH $SOL\n\n#Blockchain #Banking #Stablecoins\nSources: CoinDesk\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Understanding exchange delisting announcements helps protect your investments. Track assets like $BTC $ETH $SOL carefully. #Delisting #Exchange #Binance\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359658431962888,
-      "url": "https://www.binance.com/square/post/359658431962888",
+      "id": 359735967127337,
+      "url": "https://www.binance.com/square/post/359735967127337",
       "note": null,
       "shortPost": {
-        "id": 359658433866387,
-        "url": "https://www.binance.com/square/post/359658433866387"
+        "id": 359735968497733,
+        "url": "https://www.binance.com/square/post/359735968497733"
       },
-      "title": "ABD bankalari kendi ulusal blockchain agini kuruyor"
+      "title": "Borsa Hisse Senedi Listesinden Cikar Ilanlarini Nasil Okunacagi"
     },
     {
       "lang": "en",
-      "id": 359658896031120,
-      "url": "https://www.binance.com/square/post/359658896031120",
+      "id": 359736432345705,
+      "url": "https://www.binance.com/square/post/359736432345705",
       "note": null,
       "shortPost": {
-        "id": 359658897511235,
-        "url": "https://www.binance.com/square/post/359658897511235"
+        "id": 359736434041712,
+        "url": "https://www.binance.com/square/post/359736434041712"
       },
-      "title": "US state banking groups to launch their own nationwide blockchain network"
+      "title": "How to Read Exchange Delisting Announcements and Their Warning Signs"
     }
   ]
 }
