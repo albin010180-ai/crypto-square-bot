@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-27T06:27:51.199Z",
-  "finishedAt": "2026-08-27T06:33:10.290Z",
+  "startedAt": "2026-08-27T09:41:29.926Z",
+  "finishedAt": "2026-08-27T09:44:40.052Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -13,9 +13,39 @@
       "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike"
     },
     {
+      "title": "BlackRock's Mitchnick says macro case for bitcoin is strengthening after record trading in positive week",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/27/blackrock-s-mitchnick-says-macro-case-for-bitcoin-is-strengthening-after-record-trading-in-positive-week"
+    },
+    {
+      "title": "Bitcoin ETF inflows slow to $232M as BTC holds under $80K",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders",
       "source": "CryptoSlate",
       "link": "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/"
+    },
+    {
+      "title": "'Highly Risky': ETF Expert Breaks Down BlackRock's Decision to Leave XRP Behind",
+      "source": "U.Today",
+      "link": "https://u.today/highly-risky-etf-expert-breaks-down-blackrocks-decision-to-leave-xrp-behind"
+    },
+    {
+      "title": "Live updates: Bitcoin climbs above $80,000 as ETF inflows hit eight straight days",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion"
+    },
+    {
+      "title": "Bithumb wins lawsuit over proceeds from 620,000 BTC fat-finger error: report",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/regulation/2026-08-27-bithumb-wins-lawsuit-btc-412893"
+    },
+    {
+      "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/27/nvidia-shares-surge-8-on-earnings-beat-lifting-technology-stocks-and-bitcoin"
     },
     {
       "title": "Ripple's RLUSD Surpasses $2 Billion Milestone Amid XRP Buzz",
@@ -33,93 +63,62 @@
       "link": "https://cointelegraph.com/magazine/shrincs-bip-is-published-quantum-secure-bitcoin-comes-with-a-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
       "title": "StarkWare tests quantum-resistant Bitcoin transaction on mainnet",
       "source": "Cointelegraph",
       "link": "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/27/lesser-tracked-bitcoin-market-dynamic-lends-credibility-to-august-surge-to-usd80-000"
-    },
-    {
-      "title": "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana"
-    },
-    {
-      "title": "Big XRP Imbalance: Why 72% ETF Inflow Spike Fails to Lift Price",
+      "title": "Bitcoin Lightning Users Face Urgent Warning Over Core Flaw",
       "source": "U.Today",
-      "link": "https://u.today/big-xrp-imbalance-why-72-etf-inflow-spike-fails-to-lift-price"
-    },
-    {
-      "title": "Smart AI deposits could soon force banks to raise loan rates for everyday borrowers",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/smart-ai-deposits-could-soon-force-banks-to-raise-loan-rates-for-everyday-borrowers/"
-    },
-    {
-      "title": "Whales Take Over $614 Million Profit in Bitcoin, XRP Amid Record BlackRock Demand: Main Crypto News This Morning",
-      "source": "U.Today",
-      "link": "https://u.today/whales-take-over-614-million-profit-in-bitcoin-xrp-amid-record-blackrock-demand-main-crypto-news"
-    },
-    {
-      "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
-    },
-    {
-      "title": "Nvidia Shares Surge in After-Hours Trading After Record $96.2 Billion Revenue",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376664/nvidia-shares-surge-record-q2-revenue"
-    },
-    {
-      "title": "US Government Moves Bitcoin Again",
-      "source": "U.Today",
-      "link": "https://u.today/us-government-moves-bitcoin-again"
+      "link": "https://u.today/bitcoin-lightning-users-face-urgent-warning-over-core-lightning-flaw"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion",
     "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/",
-    "https://u.today/whales-take-over-614-million-profit-in-bitcoin-xrp-amid-record-blackrock-demand-main-crypto-news",
-    "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
-    "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana",
-    "https://decrypt.co/376609/tokenized-deposits-bank-lending-dallas-fed"
+    "https://www.coindesk.com/markets/2026/08/27/blackrock-s-mitchnick-says-macro-case-for-bitcoin-is-strengthening-after-record-trading-in-positive-week",
+    "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin'de Kuantumlu İşlem, Tayland ETF Kuralları, 614 Mln. $ kazanç, 2 Mld. RLUSD, Kredi Hatları ve Fed Uyarısı",
-      "body": "Bu hafta kripto piyasası, teknoloji, regülasyon ve makroekonomik gelişmelerin bir karışımını yaşadı. StarkWare, Bitcoin ağında ilk kez kuantum dayanıklı bir işlem gerçekleştirdiğini duyurdu. Deney, $200'e mal oldu ve madencilerin doğrudan katılımını gerektirdi; şirket, bununla birlikte Bitcoin's tam koruma için protokol seviyesinde bir güncellemeye ihtiyaç olduğunu belirtti.\n\nTayland, Bitcoin ve Ethereum ETF'lerini sınırlamak için borsa kurallarını yeniden yazıyor. CryptoSlate'ın bildirdiğine göre, öneri yalnızca SET'te işlem gören, Tayland'ın denetimindeki varlık saklama hizmetleri sunacak ve yorumlara 20 Eylül'e kadar açık olacak. Bu adım, büyük miktarlardaki Bitcoin ETF varlıklarının ülke sınırları içinde tutulmasını amaçlıyor.\n\nBüyük yatırımcılar, $614 milyonluk bir kâr elde etti. U.Today'a göre, BTC $78.400 civarında seyrederken XRP ise $1.41 seviyesine yükseldi ve yatırımcılar kazançlarını realize etti. BlackRock'un devam eden talebi, piyasanın hareketliliğini artırdı.\n\nRipple'ın stablecoin projesi RLUSD, iki yıl içinde $2 milyarlık piyasa değerine ulaştı. U.Today'ın bildirdiğine göre, token'ın yaklaşık yarısı XRP Ledger üzerinde bulunuyor.\n\nGalaxyOne, Bitcoin, Ethereum ve staked Solana karşılığında nakit kredi sunmaya başladı. Decrypt'e göre, müşteriler $BTC, $ETH ve $SOL ile %8,99 faiz oranıyla borç alabiliyor ve varlıklarını satmadan faydalanabiliyor.\n\nDallas Fed, tokenized mevduatların bankacılık sistemini sarsabileceğini uyarıyor. Decrypt'in aktardığına göre, daha hızlı ve faiz oranına duyarlı mevduatlar, bankaları güvenli varlıklara yönlendirebilir, kredileri kısıtlayabilir ve borçlanma maliyetlerini artırabilir.\n\nBTC, $78k-$80k direnç bandında seyrederken, XRP $1.4-$1.5 aralığında destek gördü. $BTC hacmi, büyük yatırımcı hareketleriyle birlikte artarken, $ETH ve $SOL ise Galaxy'nin yeni kredi hatlarıyla birlikte işlem gören varlık sayısında yükseliş kaydetti.\n\nKaynaklar: CryptoSlate, Decrypt, U.Today, Cointelegraph, The Block\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "$BTC $ETH $SOL test edilen kuantum dayanıklı işlem ve Tayland'ın yeni ETF kuralları; Galaxy kredi hatları ve Fed tokenized uyarısı piyasayı şekillendiriyor #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin Fiyatı 80.000 Dolara Çıkıyor, ETF Gelirleri Yüksek Seviyede",
+      "body": "Bitcoin fiyatının 2026 yılbaşında 80 binlerce doların altında kaldığı ve etiketlerin büyük bir kısmı düz ya da daha düşük yönvererek, 24 saatlik dönemde Bitcoin 14% seyreltmiş, XRP ise %28 artışı yakaladı. Bu dönemde ABD sıvarı fonlarında yıllık rekor hacimler elde edildi. Spot Bitcoin ETF'ların akımları 232 milion dolara kadar yavaşlamıştı ve sekiz günlük ömende 28 milyar dolara ulaşıştı. Yani yatırımcılar hem Bitcoin hem de ETF ekosisteminde güçlü bir trend görüyor. Bangkok'da ise vadeli Bitcoin ve ETH işlemleri için yeni düzenlemeler çıkarılıyor; bu progelerle para harcamaları yasal olarak sınırlanacak ve kaynaklar Türkiye içine tutulmaya çalışılıyor. Bu düzenlemeyi karşılayan görüşler, dolar federal kesimi hakkında güçlü bir makro analiz yapmayı hedefliyor. BlackRock'un başkanı Mitchnick, Bitcoin'in makro ekonomik potansiyeli güçlendihçe açıklıyor; spot BTC ETF'larının rekor hacimlerle pozitif bir hafta gerçekleştirmişti. Nvidia'nın gelir raporunda bir ödemeyi performans gösterdi ve teknoloji stokları ile Bitcoin arasında etkileşim oluşturdu. StarkWare'ın quantum-resistant Bitcoin işlemi mainnet üzerinde test edilmesi, teknoloji altyapısına yeni bir adım kazandığı görülmektedir. Bitcoin fiyatı 80K seviyesini aşarsa, yatırımcuların dikkat etmesi gereken kritik nokta olduğunu belirten raporlar öne çıkıyor. Düşük volatilite dönemi boyunca yatırımcı, etiket girişimlerini ve crypto para borsalarını dikkatle takip etmesi gerektiği unutulmamalı. Şu anki senaryoda, Bitcoin fiyatı 80.000 dolara yaklaşmakta olup, bu seviye geçişi markettaki en önemli olumlu gelişmelerden biri olarak öne çıkmaktadır. ETF akımlarının yavaşlaması ve Bitcoin'in fiyatını desteklediği gözlemlenebildiği bu konudan, makro ekonomik koşullar ve fon girişimi ilişkisinin neden böyle bir dönüşümü yarattığını sorgulamanın zeminini hazırladığı anlaşılmaktadır.\n#Crypto #DeFi #Web3",
+      "tweet": "Bitcoin surpasses $80K barrier as ETF inflows reach record levels; Thailand tightens crypto regulations. #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "Quantum Bitcoin Test, Thai ETF Rules, $614M Whale Profits, $2B RLUSD, Credit Lines, Fed Warning",
-      "body": "The crypto market saw a mix of technology, regulation and macro news this week. StarkWare announced the first quantum‑resistant Bitcoin transaction on mainnet. The experiment cost up to $200 and required direct miner submission, though the firm warned a protocol‑level upgrade is still needed for full protection.\n\nThailand is rewriting its stock‑exchange rules to keep Bitcoin and Ethereum ETF wealth inside its borders. CryptoSlate reports the proposal will restrict trading to SET only, use Thai‑regulated custody, and open a comment period until Sept. 20.\n\nWhales cashed in $614 million in profits. U.Today says BTC held around $78,400 and XRP climbed to $1.41 as large investors took gains amid continued demand from BlackRock.\n\nRipple’s RLUSD stablecoin hit a $2 billion market cap. U.Today notes that nearly half of the supply now circulates on the XRP Ledger, two years after launch.\n\nGalaxyOne launched retail crypto‑backed credit lines for Bitcoin, Ethereum and staked Solana. Decrypt reports clients can borrow cash against $BTC, $ETH and $SOL at an 8.99% APR without selling the underlying assets.\n\nA Dallas Fed warning highlighted the risk that tokenized deposits could drain $700 billion from bank lending. Decrypt says faster, rate‑sensitive deposits may push banks toward safer assets, constrain credit and raise borrowing costs.\n\nBTC trades near the $78k‑$80k resistance zone, while XRP found support around $1.4‑$1.5. $BTC volume rose with large‑holder activity, and $ETH and $SOL saw increased on‑chain activity linked to Galaxy’s new credit products.\n\nSources: CryptoSlate, Decrypt, U.Today, Cointelegraph, The Block\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "$BTC $ETH $SOL quantum‑resistant Bitcoin test and Thai ETF rules; Galaxy credit lines and Fed tokenized warning shape the market #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin Rebounds Above $80K as ETF Inflows Hit Record Levels; Thailand Regulates ETFs",
+      "body": "Bitcoin fiyatı 80.000 dolara geçmiş, etiketlerin rekor akımlarıyla yükselme hareketi yaşanıyor. Spot Bitcoin ETF'lerdeki 232 milyon dolarlık akıntı, son haftalarda 28 milyar dolara ulaşan satışlarıyla bir olgunluk oluşturuyor. Bangkok'da yeni vadeli Bitcoin ve ETH uygulamaları için düzenlemeler ilerleyiş gösteriyor; bu regülasyonlar, para harcamalarının yasal sınırlandırılması sağlayarak kaynakları Türkiye içine çekmeye çalışıyor. BlackRock'un Mitchnick, makro ekonomik bağlamda Bitcoin'in önemini vurgularken, spot BTC ETF'lerinin rekor hacmiyle pozitif bir trend yaratıyor. Nvidia'nın gelir raporunda giden performans, teknoloji sermayesi ile Bitcoin arasındaki bağlantıyı güçlendiriyor. StarkWare'ın mainnet üzerinde test edilen quantum-resistant Bitcoin işlemi, altyapida yeni güvenlik adımlarını sergiliyor. Fiyatın 80K seviyesini aşması, yatırımcının dikkati alan en kritik noktadır. Volatilite düşüşü döneminde, etiket projeleri ve crypto borsalarına olan ihtiyaca uygun yatırım stratejileri yeniden değerlendirilmelidir.\n#Crypto #DeFi #Web3",
+      "tweet": "Bitcoin breaks $80K barrier amid strong ETF inflows; Thailand implements stricter crypto rules. #Bitcoin #ETF #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 360124818363900,
-      "url": "https://www.binance.com/square/post/360124818363900",
-      "xError": "X API HTTP 403: {\"detail\":\"Posts are limited to a maximum of one cashtag ($SYMBOL). Please remove additional cashtags and try again.\",\"status\":403,\"title\":\"Authorization Error\",\"type\":\"https://api.x.com/2/problems/not-authorized-for-resource\"}",
+      "id": 360171879192589,
+      "url": "https://www.binance.com/square/post/360171879192589",
+      "xUrl": "https://x.com/i/web/status/2092910775857717705",
       "shortPost": {
-        "id": 360124820292160,
-        "url": "https://www.binance.com/square/post/360124820292160"
+        "id": 360171882344441,
+        "url": "https://www.binance.com/square/post/360171882344441"
       },
-      "title": "Bitcoin'de Kuantumlu İşlem, Tayland ETF Kuralları, 614 Mln. $ kazanç, 2 Mld. RLUSD, Kredi Hatları ve Fed Uyarısı"
+      "title": "Bitcoin Fiyatı 80.000 Dolara Çıkıyor, ETF Gelirleri Yüksek Seviyede"
     },
     {
       "lang": "en",
-      "id": 360125192806855,
-      "url": "https://www.binance.com/square/post/360125192806855",
-      "xError": "X API HTTP 403: {\"detail\":\"Posts are limited to a maximum of one cashtag ($SYMBOL). Please remove additional cashtags and try again.\",\"status\":403,\"title\":\"Authorization Error\",\"type\":\"https://api.x.com/2/problems/not-authorized-for-resource\"}",
+      "id": 360172254392721,
+      "url": "https://www.binance.com/square/post/360172254392721",
+      "xUrl": "https://x.com/i/web/status/2092911159678484790",
       "shortPost": {
-        "id": 360125194987249,
-        "url": "https://www.binance.com/square/post/360125194987249"
+        "id": 360172257042847,
+        "url": "https://www.binance.com/square/post/360172257042847"
       },
-      "title": "Quantum Bitcoin Test, Thai ETF Rules, $614M Whale Profits, $2B RLUSD, Credit Lines, Fed Warning"
+      "title": "Bitcoin Rebounds Above $80K as ETF Inflows Hit Record Levels; Thailand Regulates ETFs"
     }
   ]
 }
