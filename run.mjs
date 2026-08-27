@@ -65,6 +65,10 @@ function limitCashtags(text, max = 3) {
   });
 }
 
+function limitTweetCashtags(text) {
+  return limitCashtags(text, 1);
+}
+
 function sanitizeAll(title, body) {
   return {
     title: limitHashtags(limitCashtags(title)).trim(),
@@ -251,7 +255,7 @@ async function main() {
 
     if (okResult) {
       if (okResult.url) {
-        const xText = `${art.tweet}\n\nReferral kod: ${cfg.referralCode}`;
+        const xText = `${limitTweetCashtags(art.tweet)}\n\nReferral kod: ${cfg.referralCode}`;
         
         if (xEnabled) {
           try {

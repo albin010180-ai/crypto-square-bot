@@ -62,6 +62,17 @@ const CAPTION_VARIANTS = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+function limitTweetCashtags(text) {
+  const seen = new Set();
+  return text.replace(/\$([A-Z][A-Z0-9]{1,9})\b/g, (match, sym) => {
+    if (seen.size < 1 || seen.has(sym)) {
+      seen.add(sym);
+      return match;
+    }
+    return sym;
+  });
+}
+
 function ensureCashtagsInShortPost(shortText, caption) {
   const captionCashtags = [...caption.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
   const textCashtags = [...shortText.matchAll(/\$([A-Z][A-Z0-9]{1,9})\b/g)].map(m => m[0]);
@@ -275,7 +286,7 @@ async function main() {
 
       if (res.url) {
         const xEnabled = Object.values(cfg.x).every(Boolean);
-        const xText = `${script.en.title}\n\nReferral kod: ${cfg.referralCode}`;
+        const xText = `${limitTweetCashtags(script.en.title)}\n\nReferral kod: ${cfg.referralCode}`;
         
         if (xEnabled) {
           try {

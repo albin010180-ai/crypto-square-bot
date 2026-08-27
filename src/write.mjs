@@ -64,10 +64,10 @@ STRUCTURE ORDER (both languages)
 TWEET RULES (for each language's "tweet" field)
 - ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
 - A short X/Twitter post: 1-2 factual sentences teasing the most striking story, ending with exactly 3 hashtags related to the stories.
-- Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
+- Include EXACTLY 1 cashtag ($BTC or $ETH, etc.) for Write to Earn tracking. X limits tweets to maximum 1 cashtag.
 - Always include #Binance as one of the 3 hashtags.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
-- Example: "$BTC tests 80K level; CFTC announces crypto regulation timeline #Bitcoin #Regulation #Binance"`;
+- Example: "Bitcoin tests 80K level; CFTC announces crypto regulation timeline #Bitcoin #Regulation #Binance"`;
 }
 
 const FALLBACK_TAG_SETS = [
@@ -199,7 +199,7 @@ STRUCTURE ORDER (both languages)
 TWEET RULES (for each language's "tweet" field)
 - ALL tweets MUST BE IN ENGLISH ONLY, regardless of the article language.
 - A short X/Twitter post: 1-2 factual sentences teasing the topic, ending with exactly 3 hashtags.
-- Include 1-2 cashtags ($BTC, $ETH, etc.) for Write to Earn tracking.
+- Include EXACTLY 1 cashtag ($BTC or $ETH, etc.) for Write to Earn tracking. X limits tweets to maximum 1 cashtag.
 - Always include #Binance as one of the 3 hashtags.
 - MAXIMUM 180 characters. No URLs, no mentions, plain text only.
 
