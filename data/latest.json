@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-26T10:04:33.560Z",
-  "finishedAt": "2026-08-26T10:08:24.279Z",
+  "startedAt": "2026-08-27T06:27:51.199Z",
+  "finishedAt": "2026-08-27T06:33:10.290Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,85 +8,118 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Ripple to Release More XRP? Intriguing Detail Found in New SEC Filing",
-      "source": "U.Today",
-      "link": "https://u.today/ripple-to-release-more-xrp-intriguing-detail-found-in-new-sec-filing"
-    },
-    {
-      "title": "A massive $6.4 billion bitcoin options expiry on Friday could amplify volatility",
+      "title": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility"
+      "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike"
     },
     {
-      "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally"
-    },
-    {
-      "title": "XRP ETFs Hit Ninth Consecutive Day of Net Inflows",
-      "source": "U.Today",
-      "link": "https://u.today/xrp-etfs-hit-ninth-consecutive-day-of-net-inflows"
-    },
-    {
-      "title": "Japan targets early 2030s launch for blockchain-based stock and bond settlement system",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds"
-    },
-    {
-      "title": "US bank lobby wants stablecoin holders to open an account before cashing out",
+      "title": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/us-bank-lobby-wants-stablecoin-holders-to-open-an-account-before-cashing-out/"
+      "link": "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/"
     },
     {
-      "title": "Bitcoin ETFs tear through 2026 outflows in 7-day hot streak",
+      "title": "Ripple's RLUSD Surpasses $2 Billion Milestone Amid XRP Buzz",
+      "source": "U.Today",
+      "link": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz"
+    },
+    {
+      "title": "Tokenized Deposits Could Drain $700 Billion From Bank Lending, Dallas Fed Warns",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376609/tokenized-deposits-bank-lending-dallas-fed"
+    },
+    {
+      "title": "SHRINCS BIP published: Quantum-secure Bitcoin comes with a catch",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/bitcoin-etf-august-inflows-surge-past-3-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/magazine/shrincs-bip-is-published-quantum-secure-bitcoin-comes-with-a-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "South Korea’s Shinhan to use Visa’s stablecoin platform for ‘future finance’ initiatives",
+      "title": "StarkWare tests quantum-resistant Bitcoin transaction on mainnet",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Lesser-tracked bitcoin market dynamic lends credibility to August surge to $80,000",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/27/lesser-tracked-bitcoin-market-dynamic-lends-credibility-to-august-surge-to-usd80-000"
+    },
+    {
+      "title": "Galaxy Opens Retail Crypto-Backed Credit Lines on Bitcoin, Ethereum and Solana",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana"
+    },
+    {
+      "title": "Big XRP Imbalance: Why 72% ETF Inflow Spike Fails to Lift Price",
+      "source": "U.Today",
+      "link": "https://u.today/big-xrp-imbalance-why-72-etf-inflow-spike-fails-to-lift-price"
+    },
+    {
+      "title": "Smart AI deposits could soon force banks to raise loan rates for everyday borrowers",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/smart-ai-deposits-could-soon-force-banks-to-raise-loan-rates-for-everyday-borrowers/"
+    },
+    {
+      "title": "Whales Take Over $614 Million Profit in Bitcoin, XRP Amid Record BlackRock Demand: Main Crypto News This Morning",
+      "source": "U.Today",
+      "link": "https://u.today/whales-take-over-614-million-profit-in-bitcoin-xrp-amid-record-blackrock-demand-main-crypto-news"
+    },
+    {
+      "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
       "source": "The Block",
-      "link": "https://www.theblock.co/news/web3/2026-08-26-south-koreas-shinhan-visa-stablecoin-412765"
+      "link": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
+    },
+    {
+      "title": "Nvidia Shares Surge in After-Hours Trading After Record $96.2 Billion Revenue",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376664/nvidia-shares-surge-record-q2-revenue"
+    },
+    {
+      "title": "US Government Moves Bitcoin Again",
+      "source": "U.Today",
+      "link": "https://u.today/us-government-moves-bitcoin-again"
     }
   ],
   "selected": [
-    "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility",
-    "https://u.today/xrp-etfs-hit-ninth-consecutive-day-of-net-inflows",
-    "https://www.coindesk.com/business/2026/08/26/japan-plans-blockchain-settlement-network-for-stocks-and-government-bonds",
-    "https://cryptoslate.com/us-bank-lobby-wants-stablecoin-holders-to-open-an-account-before-cashing-out/",
-    "https://www.theblock.co/news/web3/2026-08-26-south-koreas-shinhan-visa-stablecoin-412765"
+    "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/",
+    "https://u.today/whales-take-over-614-million-profit-in-bitcoin-xrp-amid-record-blackrock-demand-main-crypto-news",
+    "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
+    "https://decrypt.co/376646/galaxy-crypto-credit-lines-bitcoin-ethereum-solana",
+    "https://decrypt.co/376609/tokenized-deposits-bank-lending-dallas-fed"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin Opsiyonları Sonuçlanıyor, XRP ETFleri Alım Artıyor",
-      "body": "Bitcoin piyasalari, bu Cuma gerceklesecek 6,4 milyar dolar degerinde opsiyon sona erme olayina yaklasiyor. CoinDesk'in raporuna gore, bu surec bitcoin’in 62.000 dolardan 80.000 dolara yukselisi sonrasi piyasa yapicilarinin riskini artirabilir.\n\nBu hafta kripto piyasalarinda farkli gelismeler birlesiyor: Bitcoin’in buyuk opsiyon sona ermesi, XRP bazli yatirim fonlarininalim akisinin devamini, Japonya’nin blok zincir tabanli menkul kimmet tasfiye sistem plani, stablecoin çekimiyle ilgili yeni duzenleme önerisi ve Güney Kore’deki Shinhan Bankasi’nin Visa ile iş birligi.\n\nCoinDesk'in verisine gore, Cuma gunu 6,4 milyar dolar degerinde bitcoin opsiyonu sona erecek. Bu surec, varligin 62.000 dolardan 80.000 dolara tirmanisi sonrasi piyasa yapicilarinin pozisyonlarini yönetmesi gerektigini anlatiyor. Analistler, bu tip buyuk sona ermelerin kisa vadeli volatiliteyi artirabilecegini belirtiyor.\n\nU.Today'nin haberine gore, ABD’nin spot XRP ETF’leri 25 Agustos’taki is gununde 23,87 milyon dolar netto alim gostererek ardışik gun sayisini dokuza cikardi. Toplam netto alim artık 1,59 milyar dolara ulasmis ve daha genis kripto piyasasında gorulen satis baskisina ragmen bu trend devam ediyor.\n\nCoinDesk’in baska bir raporu, Japonya duzenleyicilerinin erken 2030’li yillarinda hisse senedi ve devlet tahvilleri icin blok zincir tabanli bir tasfiye agini devreye sokmayi planladigini gosteriyor. Amac, yerel ve yabanci sermayenin uluslararas platformlara kaymasini onlemek ve mevcut finansal altyapiyi modernize etmek.\n\nCryptoSlate tarafindan yayinlanan bir yaziya gore, Amerika’nin banka lobisi, stablecoin sahiplerinin nakit yapmadan once bir hesap acmasini zorunlu kılmak istiyor. Blockchain Association bu teklifle, tek islem veya ara yonlendirilmiş nakit cikislari kapsam disi birakip, duzenleyicilere kendi kendine tutulan varliklarin issuer musterisi olarak sayilip sayilmayacagini belirletmeyi amacliyor.\n\nThe Block’in haberine gore, Guney Kore’nin Shinhan Bankasi, Visa’nin stablecoin platformunu gelecek finans projeleri icinde kullanacak. Ikisi de stablecoinlerin kart odemeleri, yapay zeka destekli odeeme modelleri ve B2B ile B2C islemlerinde denenecegini acikliyor.\n\nPiyasa verileri gostereki, opsiyon sona erme tarihine yaklasirken bitcoin is hacmi genellikle artar ve bu durum fiyat dalgalanmalarini tetikleyebilir; ayni anda XRP’nin alim akisi devam ettigi surede tokenin fiyatı goreceli olarak dengeli seyrediyor.\n\n\n#Bitcoin #XRP #Binance\nSources: CoinDesk, U.Today, CoinDesk, CryptoSlate, The Block\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)",
-      "tweet": "$BTC faces $6.4B options expiry Friday, volatility may rise #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin'de Kuantumlu İşlem, Tayland ETF Kuralları, 614 Mln. $ kazanç, 2 Mld. RLUSD, Kredi Hatları ve Fed Uyarısı",
+      "body": "Bu hafta kripto piyasası, teknoloji, regülasyon ve makroekonomik gelişmelerin bir karışımını yaşadı. StarkWare, Bitcoin ağında ilk kez kuantum dayanıklı bir işlem gerçekleştirdiğini duyurdu. Deney, $200'e mal oldu ve madencilerin doğrudan katılımını gerektirdi; şirket, bununla birlikte Bitcoin's tam koruma için protokol seviyesinde bir güncellemeye ihtiyaç olduğunu belirtti.\n\nTayland, Bitcoin ve Ethereum ETF'lerini sınırlamak için borsa kurallarını yeniden yazıyor. CryptoSlate'ın bildirdiğine göre, öneri yalnızca SET'te işlem gören, Tayland'ın denetimindeki varlık saklama hizmetleri sunacak ve yorumlara 20 Eylül'e kadar açık olacak. Bu adım, büyük miktarlardaki Bitcoin ETF varlıklarının ülke sınırları içinde tutulmasını amaçlıyor.\n\nBüyük yatırımcılar, $614 milyonluk bir kâr elde etti. U.Today'a göre, BTC $78.400 civarında seyrederken XRP ise $1.41 seviyesine yükseldi ve yatırımcılar kazançlarını realize etti. BlackRock'un devam eden talebi, piyasanın hareketliliğini artırdı.\n\nRipple'ın stablecoin projesi RLUSD, iki yıl içinde $2 milyarlık piyasa değerine ulaştı. U.Today'ın bildirdiğine göre, token'ın yaklaşık yarısı XRP Ledger üzerinde bulunuyor.\n\nGalaxyOne, Bitcoin, Ethereum ve staked Solana karşılığında nakit kredi sunmaya başladı. Decrypt'e göre, müşteriler $BTC, $ETH ve $SOL ile %8,99 faiz oranıyla borç alabiliyor ve varlıklarını satmadan faydalanabiliyor.\n\nDallas Fed, tokenized mevduatların bankacılık sistemini sarsabileceğini uyarıyor. Decrypt'in aktardığına göre, daha hızlı ve faiz oranına duyarlı mevduatlar, bankaları güvenli varlıklara yönlendirebilir, kredileri kısıtlayabilir ve borçlanma maliyetlerini artırabilir.\n\nBTC, $78k-$80k direnç bandında seyrederken, XRP $1.4-$1.5 aralığında destek gördü. $BTC hacmi, büyük yatırımcı hareketleriyle birlikte artarken, $ETH ve $SOL ise Galaxy'nin yeni kredi hatlarıyla birlikte işlem gören varlık sayısında yükseliş kaydetti.\n\nKaynaklar: CryptoSlate, Decrypt, U.Today, Cointelegraph, The Block\n#Ethereum #Altcoins #Blockchain\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "$BTC $ETH $SOL test edilen kuantum dayanıklı işlem ve Tayland'ın yeni ETF kuralları; Galaxy kredi hatları ve Fed tokenized uyarısı piyasayı şekillendiriyor #Bitcoin #Regulation #Binance"
     },
     "en": {
-      "title": "Bitcoin Options Expiry Nears as XRP ETFs See Steady Inflows",
-      "body": "Bitcoin markets are approaching this Friday’s $6.4 billion options expiry event. According to CoinDesk, this follows bitcoin’s rise from $62,000 to $80,000, which could increase market makers’ exposure.\n\nThis week crypto markets see a mix of developments: a large Bitcoin options expiry, continued inflows into XRP‑based ETFs, Japan’s plan for a blockchain‑based stock and bond settlement system, new stablecoin cash‑out rules proposed by US bank lobbies, and Shinhan Bank’s partnership with Visa on a stablecoin platform.\n\nCoinDesk reports that on Friday $6.4 billion worth of bitcoin options will expire. After the asset’s climb from $62,000 to $80,000, market makers will need to manage their positions, and analysts say such large expiries can boost short‑term volatility.\n\nU.Today notes that U.S. spot XRP ETFs recorded $23.87 million in net inflows on August 25, marking the ninth consecutive day of inflows. Total net inflows now stand at $1.59 billion, a trend that persists despite a broader crypto market sell‑off.\n\nAnother CoinDesk piece says Japanese regulators aim to launch a blockchain settlement network for stocks and government bonds in the early 2030s, seeking to keep domestic and foreign capital from moving offshore and to modernize the national settlement infrastructure.\n\nCryptoSlate reports that the US bank lobby, represented by the Blockchain Association, wants stablecoin holders to open an account before cashing out, seeking to exclude one‑off and intermediary‑routed redemptions and to clarify when self‑custody users become issuer customers.\n\nThe Block writes that South Korea’s Shinhan Bank will use Visa’s stablecoin platform for “future finance” initiatives, testing stablecoins in card payments, AI‑driven payment models, and B2B as well as B2C transactions.\n\nMarket data show that bitcoin trading volume tends to rise as an options expiry approaches, which can trigger price swings; meanwhile, XRP’s price has remained relatively steady during its inflow streak.\n\n\n#Bitcoin #XRP #Binance\nSources: CoinDesk, U.Today, CoinDesk, CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR)",
-      "tweet": "$BTC faces $6.4B options expiry Friday, volatility may rise #Bitcoin #Regulation #Binance"
+      "title": "Quantum Bitcoin Test, Thai ETF Rules, $614M Whale Profits, $2B RLUSD, Credit Lines, Fed Warning",
+      "body": "The crypto market saw a mix of technology, regulation and macro news this week. StarkWare announced the first quantum‑resistant Bitcoin transaction on mainnet. The experiment cost up to $200 and required direct miner submission, though the firm warned a protocol‑level upgrade is still needed for full protection.\n\nThailand is rewriting its stock‑exchange rules to keep Bitcoin and Ethereum ETF wealth inside its borders. CryptoSlate reports the proposal will restrict trading to SET only, use Thai‑regulated custody, and open a comment period until Sept. 20.\n\nWhales cashed in $614 million in profits. U.Today says BTC held around $78,400 and XRP climbed to $1.41 as large investors took gains amid continued demand from BlackRock.\n\nRipple’s RLUSD stablecoin hit a $2 billion market cap. U.Today notes that nearly half of the supply now circulates on the XRP Ledger, two years after launch.\n\nGalaxyOne launched retail crypto‑backed credit lines for Bitcoin, Ethereum and staked Solana. Decrypt reports clients can borrow cash against $BTC, $ETH and $SOL at an 8.99% APR without selling the underlying assets.\n\nA Dallas Fed warning highlighted the risk that tokenized deposits could drain $700 billion from bank lending. Decrypt says faster, rate‑sensitive deposits may push banks toward safer assets, constrain credit and raise borrowing costs.\n\nBTC trades near the $78k‑$80k resistance zone, while XRP found support around $1.4‑$1.5. $BTC volume rose with large‑holder activity, and $ETH and $SOL saw increased on‑chain activity linked to Galaxy’s new credit products.\n\nSources: CryptoSlate, Decrypt, U.Today, Cointelegraph, The Block\n#Ethereum #Altcoins #Blockchain\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "$BTC $ETH $SOL quantum‑resistant Bitcoin test and Thai ETF rules; Galaxy credit lines and Fed tokenized warning shape the market #Bitcoin #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 359823821519960,
-      "url": "https://www.binance.com/square/post/359823821519960",
+      "id": 360124818363900,
+      "url": "https://www.binance.com/square/post/360124818363900",
+      "xError": "X API HTTP 403: {\"detail\":\"Posts are limited to a maximum of one cashtag ($SYMBOL). Please remove additional cashtags and try again.\",\"status\":403,\"title\":\"Authorization Error\",\"type\":\"https://api.x.com/2/problems/not-authorized-for-resource\"}",
       "shortPost": {
-        "id": 359823823080149,
-        "url": "https://www.binance.com/square/post/359823823080149"
+        "id": 360124820292160,
+        "url": "https://www.binance.com/square/post/360124820292160"
       },
-      "title": "Bitcoin Opsiyonları Sonuçlanıyor, XRP ETFleri Alım Artıyor"
+      "title": "Bitcoin'de Kuantumlu İşlem, Tayland ETF Kuralları, 614 Mln. $ kazanç, 2 Mld. RLUSD, Kredi Hatları ve Fed Uyarısı"
     },
     {
       "lang": "en",
-      "id": 359824194689427,
-      "url": "https://www.binance.com/square/post/359824194689427",
+      "id": 360125192806855,
+      "url": "https://www.binance.com/square/post/360125192806855",
+      "xError": "X API HTTP 403: {\"detail\":\"Posts are limited to a maximum of one cashtag ($SYMBOL). Please remove additional cashtags and try again.\",\"status\":403,\"title\":\"Authorization Error\",\"type\":\"https://api.x.com/2/problems/not-authorized-for-resource\"}",
       "shortPost": {
-        "id": 359824196283727,
-        "url": "https://www.binance.com/square/post/359824196283727"
+        "id": 360125194987249,
+        "url": "https://www.binance.com/square/post/360125194987249"
       },
-      "title": "Bitcoin Options Expiry Nears as XRP ETFs See Steady Inflows"
+      "title": "Quantum Bitcoin Test, Thai ETF Rules, $614M Whale Profits, $2B RLUSD, Credit Lines, Fed Warning"
     }
   ]
 }
