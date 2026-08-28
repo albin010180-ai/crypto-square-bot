@@ -1,63 +1,63 @@
 {
-  "startedAt": "2026-08-28T10:21:00.468Z",
-  "finishedAt": "2026-08-28T10:23:30.411Z",
+  "startedAt": "2026-08-28T21:59:38.661Z",
+  "finishedAt": "2026-08-28T22:03:29.214Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Ripple's 'North Star' XRP Hits Nasdaq: SEC Greenlights Evernorth's Billion-Dollar Merger",
+    "title": "North Korea Hackers Break Silence With $19.4 Million Bitcoin (BTC) Move: Time to Worry?",
     "source": "U.Today",
-    "link": "https://u.today/ripples-north-star-xrp-hits-nasdaq-sec-greenlights-evernorths-billion-dollar-merger",
-    "usedLink": "https://u.today/ripples-north-star-xrp-hits-nasdaq-sec-greenlights-evernorths-billion-dollar-merger",
-    "usedTitleNorm": "ripple s north star xrp hits nasdaq sec greenlights evernorth s billion dollar merger"
+    "link": "https://u.today/north-korea-hackers-break-silence-with-194-million-bitcoin-btc-move-time-to-worry",
+    "usedLink": "https://u.today/north-korea-hackers-break-silence-with-194-million-bitcoin-btc-move-time-to-worry",
+    "usedTitleNorm": "north korea hackers break silence with 19 4 million bitcoin btc move time to worry"
   },
   "script": {
     "tr": {
-      "title": "Evernorth Nasdaq Listelemesi ve XRPN Gelişmeleri",
+      "title": "Kuzey Kore Hackerlari 19.4 Milyon Dolar Bitcoin Hareketti",
       "slides": [
-        "Evernorth Nasdaq borsasında XRPN sembolü ile listelenmeye hazırlanıyor",
-        "SEC milyar dolarlık bu birleşme sürecine resmi onay verdi",
-        "Şirket piyasa düşüşü nedeniyle iki yüz otuz üç milyon dolar zarar açıkladı",
-        "Bu gelişme Ripple ekosistemi ve kurumsal benimseme için kritik bir adım"
+        "Kuzey Kore hackerlari on dokuz milyon dolarlik uykuyu Bitcoin transfer etti",
+        "Lazarus Grubu uzun sure inaktif kalmaktan sonra fonlari tasti",
+        "Pazar Bitcoin fiyat istikrarina olasi etkileri yakininden izliyor",
+        "Analistler bu durumun daha buyuk satis baskisi sinyali verip vermedigini degerlendiriyor"
       ],
-      "caption": "SEC Evernorth şirketinin XRPN sembolü ile Nasdaq borsasında listelenmesini onayladı. Şirket piyasa dalgalanmaları nedeniyle finansal kayıplar bildirdi. $XRP $BNB $BTC\n#Ripple #Nasdaq #KriptoHaber\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Lazarus Grubu uzun suredir hareketsiz kalan 19.4 milyon dolarlik Bitcoin transferini gerceklestirdi. Pazar bu hareketin fiyat uzerindeki etkisini degerlendiriyor. $BTC $ETH\n#KuzeyKore #LazarusGrubu #BitcoinHareketi\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Evernorth Nasdaq Listing and XRPN Updates",
+      "title": "North Korea Hackers Move 19.4 Million Dollars in Bitcoin",
       "slides": [
-        "Evernorth is preparing to list on Nasdaq under the symbol XRPN",
-        "The SEC has officially greenlit the billion dollar merger",
-        "The company reported a two hundred thirty three million dollar impairment hit",
-        "This move marks a significant step for institutional adoption in the ecosystem"
+        "North Korea hackers move nineteen million dollars in dormant Bitcoin",
+        "Lazarus Group transfers funds after long period of inactivity",
+        "Market watches for potential impact on Bitcoin price stability",
+        "Analysts assess whether this signals larger selling pressure ahead"
       ],
-      "caption": "The SEC has approved Evernorth's listing on Nasdaq under the XRPN symbol. The company reported financial impairments following recent market volatility. $XRP $BNB $BTC\n#Ripple #Nasdaq #CryptoNews\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "The Lazarus Group executed a 19.4 million dollar transfer of long dormant Bitcoin. Markets are evaluating the potential price impact of this movement. $BTC $ETH\n#NorthKorea #LazarusGroup #BitcoinMove\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 360535231311880,
-      "url": "https://www.binance.com/square/post/360535231311880",
+      "id": 360707252975591,
+      "url": "https://www.binance.com/square/post/360707252975591",
       "note": null,
       "shortPost": {
-        "id": 360535232619073,
-        "url": "https://www.binance.com/square/post/360535232619073"
+        "id": 360707254504012,
+        "url": "https://www.binance.com/square/post/360707254504012"
       },
-      "xUrl": "https://x.com/i/web/status/2093282849327821085",
-      "title": "Evernorth Nasdaq Listelemesi ve XRPN Gelişmeleri"
+      "xUrl": "https://x.com/i/web/status/2093458999756685637",
+      "title": "Kuzey Kore Hackerlari 19.4 Milyon Dolar Bitcoin Hareketti"
     },
     {
       "lang": "en",
-      "id": 360535694932497,
-      "url": "https://www.binance.com/square/post/360535694932497",
+      "id": 360707721608244,
+      "url": "https://www.binance.com/square/post/360707721608244",
       "note": null,
       "shortPost": {
-        "id": 360535696269358,
-        "url": "https://www.binance.com/square/post/360535696269358"
+        "id": 360707723130420,
+        "url": "https://www.binance.com/square/post/360707723130420"
       },
       "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
-      "title": "Evernorth Nasdaq Listing and XRPN Updates"
+      "title": "North Korea Hackers Move 19.4 Million Dollars in Bitcoin"
     }
   ]
 }
