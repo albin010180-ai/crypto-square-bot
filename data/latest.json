@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-28T10:28:14.173Z",
-  "finishedAt": "2026-08-28T10:31:00.915Z",
+  "startedAt": "2026-08-28T16:56:44.086Z",
+  "finishedAt": "2026-08-28T17:00:21.525Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,9 +8,49 @@
   "sourceErrors": [],
   "candidates": [
     {
+      "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Charles Schwab Expands Crypto Trading Beyond Bitcoin and Ethereum",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana"
+    },
+    {
+      "title": "Binance Opens Trading for Bitcoin Mining Giant MARA and Four Other TradFi Assets",
+      "source": "U.Today",
+      "link": "https://u.today/binance-opens-trading-for-bitcoin-mining-giant-mara-and-four-other-tradfi-assets"
+    },
+    {
+      "title": "BlackRock’s Bitcoin ETF regains key weekly options expiries after rule overhaul",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/blackrocks-bitcoin-etf-regains-key-weekly-options-expiries-after-rule-overhaul/"
+    },
+    {
+      "title": "Bitwise fund is first Solana ETF to hit $1 billion AUM",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035"
+    },
+    {
       "title": "Ripple's 'North Star' XRP Hits Nasdaq: SEC Greenlights Evernorth's Billion-Dollar Merger",
       "source": "U.Today",
       "link": "https://u.today/ripples-north-star-xrp-hits-nasdaq-sec-greenlights-evernorths-billion-dollar-merger"
+    },
+    {
+      "title": "BlackRock just pulled in 115% of all Bitcoin ETF inflows in a single day as rival funds bleed cash",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/blackrock-just-pulled-in-115-of-all-bitcoin-etf-inflows-in-a-single-day-as-rival-funds-bleed-cash/"
+    },
+    {
+      "title": "Bitcoin Miner IREN Shares Fall as AI Conversion Costs Mount",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376816/bitcoin-miner-iren-shares-drop-ai-costs"
+    },
+    {
+      "title": "Ethereum ETFs Take $226M in a Day, Almost Matching Bitcoin's Haul",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376810/ethereum-etfs-take-226m-in-a-day-almost-matching-bitcoins-haul"
     },
     {
       "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
@@ -18,108 +58,67 @@
       "link": "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq"
-    },
-    {
-      "title": "Live updates: Bitcoin options worth $6.4 billion just expired as prices hover near $80,000",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000"
-    },
-    {
-      "title": "IREN shares fall 8% as costly AI transition weighs on earnings",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/28/iren-shares-fall-8-as-costly-ai-transition-weighs-on-earnings"
-    },
-    {
-      "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981"
-    },
-    {
-      "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Binance co-founder Changpeng ‘CZ’ Zhao says bitcoin could surpass gold in next bull market",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-27-binance-co-founder-changpeng-cz-zhao-says-bitcoin-could-surpass-gold-in-next-bull-market-412904"
-    },
-    {
-      "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut"
-    },
-    {
-      "title": "Crypto startups have 54 days left to shape the SEC’s proposed $75 million fundraising cap",
+      "title": "JPMorgan’s IBIT Bitcoin ETF bet just missed its escape hatch to avoid 6% deduction",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/secs-75-million-crypto-proposal-has-31-comments-and-54-days-left-to-reshape-it/"
+      "link": "https://cryptoslate.com/jpmorgans-21-million-ibit-bitcoin-etf-bet-just-missed-its-escape-hatch-the-next-wave-adds-a-6-cost/"
     },
     {
-      "title": "Up 103%: AI Agents Opt for Ripple USD Stablecoin as XRP Price Surges to $1.5",
+      "title": "Bitcoin dips to $78.4K as Fed’s Warsh downplays softer inflation prints",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/bitcoin-dips-fed-warsh-dismisses-recent-low-inflation-prints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Bitcoin Traders Watch Fed Chair Warsh for Clues—And Get Nothing",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376813/bitcoin-traders-watch-fed-chair-warsh-for-clues-and-get-nothing"
+    },
+    {
+      "title": "Solana (SOL) Governance Voting Goes Wild: Kraken Changes Vote to Save $1.5 Billion Inflation Plan",
       "source": "U.Today",
-      "link": "https://u.today/up-103-ai-agents-opt-for-ripple-usd-stablecoin-as-xrp-price-surges-to-15"
+      "link": "https://u.today/solana-sol-governance-voting-goes-wild-kraken-changes-vote-to-save-15-billion-inflation-plan"
     }
   ],
   "selected": [
-    "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
-    "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_partner_inbound",
-    "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
-    "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://www.theblock.co/news/markets/2026-08-27-binance-co-founder-changpeng-cz-zhao-says-bitcoin-could-surpass-gold-in-next-bull-market-412904",
-    "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://cryptoslate.com/blackrocks-bitcoin-etf-regains-key-weekly-options-expiries-after-rule-overhaul/",
+    "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035",
+    "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://decrypt.co/376819/charles-schwab-crypto-trading-bitcoin-ethereum-solana"
   ],
   "articles": {
     "tr": {
-      "title": "XRP Nasdaq Yolunda, Madenciler Rallide: Kripto Piyasasinda Son 24 Saat",
-      "body": "Evernorth, Ripple destekli XRP hazine sirketi olarak SPAC Armada ile birlesme yolunda son engeli asti. ABD Menkul Kiymetler ve Borsa Komisyonu (SEC) S-4 kayit beyanini onayladi; hisse sahipleri 30 Eylul'de oy kullanacak ve sirket XRPN ticker'i ile Nasdaq'ta islem gormeye baslayacak. Yatirimcilarin onaylamasi durumunda Evernorth, halka acik bir XRP hazine aracina donusecek ve $XRP piyasasinda yeni bir kurumsal talep kanali olusacak. Sirkete 233 milyon dolarlik bir deger dusuklugu kaydedildigi, ancak bunun yapisal bir sorun olarak degerlendirilmedigi bildirildi.\n\nMadencilik sektorunde ise sert bir ralli yasandi. Bitcoin'in 62 bin dolardan 80 bin dolara yukselisi, sektor hisselerini asiri reaktif hale getirdi. Canaan, American Bitcoin ve Cango uc ayda yuzde 67'ye varan oranlarda deger kazandi. Bitcoin'in 23%'luk hareketi madencileri yil basindaki AI odakli kayiplardan sonra toparladi ve BTC pozisyonunun AI hikayesine ragmen hâlâ birincil kaldirac oldugunu gosterdi. $BTC hacim endeksi, opsiyon vadesi sonrasi yeniden pozisyonlanma isareti veriyor.\n\nGvenlik cephesinde The Sandbox, 700 bin dolarlik kopru acigini 1:1 olarak telafi edecegini duyurdu. Base ve BNB Chain uzerindeki uygun SAND sahipleri, projenin hazinesinden Ethereum tabanli SAND alacak; talep surreci iki hafta icinde acilacak. Ayni saatlerde OneKey, eski surum Ledger Ethereum uygulamasinda bir islem degistirme saldirisini laboratuvar ortaminda yeniden urettigini acikladi. Ledger, aciklamaya gore hatayi 1.22.2 surumunde coktan duzeltmisti ve herhangi bir kullanici fonu kaybi yasanmadi.\n\nMakro tarafta Kevin Warsh'in Jackson Hole konusmasi, Treasury geri alim programi ve Fed politikasina iliskin sinyaller nedeniyle Bitcoin ve altin yatirimcilarinin radarinda. Warsh'in aciklamalari, uzun vadeli ABD getirileri ve risk varliklari icin yon gosterici olarak okunuyor. $ETH ve SOL da gun icinde minor primle islem gorurken piyasa genelinde hacim artti.\n\nBinance kurucusu Changpeng Zhao, Bitcoin Asia 2026'da yaptigi konusmada Bitcoin'in bir sonraki yuksek volatil doneminde altini gecebilecegini soyledi ve stabil kointlerin yapay zeka entegrasyonunda onde gelen arac oldugunu vurguladi. Bu acidan bakildiginda, XRP hazine sirketinin kurumsal yatirimci kapsamini genisletme potansiyeli, madencilik hisselerinin yeni bir fiyat kesfi icin zemini hazirlamasi ve Jackson Hole sonrasi makro yonun yakindan takip edilmesi onceki onemli katalizorler olarak one cikiyor.\n\n#XRP #Mining #Binance\n\nKaynaklar: CoinDesk, Cointelegraph, The Block, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "Ripple-backed Evernorth moves one step closer to a Nasdaq listing under ticker XRPN $XRP #XRP #Regulation #Binance"
+      "title": "Bitcoin Rallisı, ETF Değişimleri, Solana Yükselişi, Binance Listeleri, Sandbox Hack Tazminatı",
+      "body": "Bu hafta kripto piyasasında $BTC 80.000 doların üzerine çıkarak dikkat çekerken, kurumsal ürünler ve platform genişlemeleri piyasa dinamiklerini değiştirdi. Bitcoin'in 80.000 dolar seviyesine ulaşan ralli, Circle, Strategy ve Solana gibi kripto hisselerinin yükselişiyle desteklendi ve toplam piyasa hareketliliğini artırdı. İşlem hacimleri yükseldi, $BTC için 78.000 dolar yakınında destek ve 82.000 dolar civarında direnç gözlendi.\n\nBlackRock'un IBIT fonu, yeni Tier 2 çerçevesi ile haftalık seçenekleri yeniden kazanmaya başladı. Kuralların revize edilmesiyle birlikte, AUM için 25 milyar dolar ve aylık seçenekler için 5 milyon adet olan nitelikli eşikler düşürüldü ve IBIT fonu Q3'te geri döndü. Bu gelişme, kurumsal güvenin artmasının olası olduğunu gösteriyor.\n\nSolana ekosistemi, hem ETF hem de yönetişim açısından hareketli bir hafta geçirdi. Bitwise Solana Staking ETF'si (BSOL), lansmanından az bir süre sonra 1 milyar dolar AUM barrierını aşan ilk Solana ETF oldu. Aynı dönemde, Solana yönetişim oylamaları da gerginlik yaşadı; Kraken, $1,5 milyarlık enflasyon planına yönelik oyesini topluluk baskısı altında değiştirdi.\n\nThe Sandbox, 700.000 dolarlık köprü saldırısı mağdurlarına 1:1 tazminat ödemeyi duyurdu. Platform, Base ve BNB Chain üzerindeki hak sahiplerine, projenin hazinesinden Ethereum tabanlı SAND token'ları ile ödeme yapılacağını açıkladı. Taleplerin iki hafta içinde başlatılması bekleniyor. Bu hızlı tepki, proje ekiplerinin güvenlik önlemlerine odaklandığını gösteriyor.\n\nBüyük bir broker-dealer olan Charles Schwab, kripto varant ticaretini Bitcoin ve Ethereum'un ötesine taşıyarak Solana, Avalanche ve Chainlink'i de platformuna ekledi. Yeni token'ların piyasaya sürülme tarihi henüz açıklanmadı. Bu genişleme, geleneksel finans kurumlarının kripto varlıklara olan ilgisinin artmasının bir göstergesi olarak görülüyor.\n\n#Bitcoin #ETF #Binance\n\nKaynaklar: Cointelegraph, CryptoSlate, The Block, Decrypt\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "The Sandbox to repay $700K bridge exploit victims 1:1 #Binance #Hack #DeFi $ETH"
     },
     "en": {
-      "title": "XRP Heads to Nasdaq, Miners Rebound: 24 Hours in Crypto",
-      "body": "Evernorth, the Ripple-backed XRP treasury company, cleared the final regulatory hurdle in its merger with SPAC Armada. The SEC declared its S-4 registration statement effective, setting up a shareholder vote on September 30. If approved, the company will list on Nasdaq under the ticker XRPN, giving $XRP a new institutional access point. Reports note a 233 million dollar impairment charge on the firm's books, though structural concerns have not been raised.\n\nIn the mining sector, a powerful rebound played out. Bitcoin's advance from roughly 62,000 to 80,000 dollars supercharged equity exposure. Canaan, American Bitcoin, and Cango posted gains of up to 67% over the quarter, according to Cointelegraph. The 23% move higher in $BTC lifted mining stocks out of a long stretch of underperformance versus AI-linked peers, reinforcing that direct BTC exposure remains a primary lever for the industry. Options expiry data shows 6.4 billion dollars in contracts cleared around the 80,000 dollar level, with traders rebuilding positioning at a noticeably higher range.\n\nOn the security front, The Sandbox announced it will fully compensate users for a 700,000 dollar bridge exploit, pledging 1:1 repayment from its treasury. Eligible holders on Base and BNB Chain will receive Ethereum-based SAND, with claims expected to open within two weeks. Separately, OneKey disclosed that it reproduced a transaction replacement attack against an older version of the Ledger Ethereum app in a controlled lab environment. Ledger reportedly patched the flaw in Ethereum app 1.22.2 and no user funds were affected. The episode highlights how critical it is for hardware wallet users to keep firmware and companion apps current.\n\nThe macro calendar is also drawing attention. Kevin Warsh's Jackson Hole remarks are being closely watched for signals on Fed policy and Treasury repurchase operations, with direct implications for long-end US yields, gold, and risk assets including Bitcoin. Markets responded modestly: $ETH and SOL posted minor gains in 24 hours, while $BTC consolidated just below 80,000 dollars after the options expiry flush. Trading volumes across major venues ticked up, indicating fresh engagement rather than thin holiday conditions.\n\nSpeaking at Bitcoin Asia 2026, Binance co-founder Changpeng Zhao said Bitcoin could surpass gold in the next high-volatility cycle and that stablecoins are positioned to lead AI-driven payment integration. Taken together, the Evernorth listing path, the mining equity rebound, the resolution of the Sandbox incident, and the Jackson Hole backdrop frame a market digest that bridges institutional plumbing, security discipline, and macro inflection in a single session.\n\n#XRP #Mining #Binance\n\nSources: CoinDesk, Cointelegraph, The Block, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Ripple-backed Evernorth moves one step closer to a Nasdaq listing under ticker XRPN $XRP #XRP #Regulation #Binance"
+      "title": "Bitcoin Rally, ETF Shifts, Solana Surge, Binance Listings, Sandbox Hack Repayment",
+      "body": "A busy week in crypto saw $BTC surge past $80,000, while major institutional products and platform expansions reshaped market dynamics. Bitcoin’s rebound lifted crypto stocks such as Circle, Strategy and Solana, driving a broader recovery. Trading volume rose, with $BTC finding support near $78,000 and resistance around $82,000.\n\nBlackRock’s IBIT fund regained key weekly options expiries after a rule overhaul. A new Tier 2 framework lowered qualifying gates to $25 billion in AUM and 5 million monthly options sides, bringing IBIT back during Q3. The change signals renewed institutional confidence in Bitcoin options markets.\n\nSolana saw momentum on both the ETF and governance fronts. The Bitwise Solana Staking ETF (BSOL) became the first Solana ETF to reach $1 billion in AUM, less than a year after launch. Meanwhile, Solana governance voting grew volatile as Kraken flipped its vote on the $1.5 billion inflation plan under intense retail pressure, highlighting community influence.\n\nThe Sandbox pledged a 1:1 repayment of $700 K lost in a bridge exploit. Eligible holders on Base and BNB Chain will receive Ethereum‑based SAND from the project’s treasury, with claims expected to open within two weeks. The swift compensation response underscores the importance of security measures in DeFi.\n\nBroker‑dealer Charles Schwab will expand crypto trading beyond BTC and ETH to include SOL, AVAX and LINK, though no launch date has been provided. The move reflects broader TradFi adoption of digital assets.\n\n#Bitcoin #ETF #Binance\n\nSources: Cointelegraph, CryptoSlate, The Block, Decrypt\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "The Sandbox to repay $700K bridge exploit victims 1:1 #Binance #Hack #DeFi $ETH"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 360537164899432,
-      "url": "https://www.binance.com/square/post/360537164899432",
-      "xUrl": "https://x.com/i/web/status/2093284828065972655",
+      "id": 360632848194283,
+      "url": "https://www.binance.com/square/post/360632848194283",
+      "xUrl": "https://x.com/i/web/status/2093382807582027969",
       "shortPost": {
-        "id": 360537167995244,
-        "url": "https://www.binance.com/square/post/360537167995244"
+        "id": 360632851683650,
+        "url": "https://www.binance.com/square/post/360632851683650"
       },
-      "title": "XRP Nasdaq Yolunda, Madenciler Rallide: Kripto Piyasasinda Son 24 Saat"
+      "title": "Bitcoin Rallisı, ETF Değişimleri, Solana Yükselişi, Binance Listeleri, Sandbox Hack Tazminatı"
     },
     {
       "lang": "en",
-      "id": 360537539753471,
-      "url": "https://www.binance.com/square/post/360537539753471",
+      "id": 360633224659178,
+      "url": "https://www.binance.com/square/post/360633224659178",
       "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
       "shortPost": {
-        "id": 360537541825606,
-        "url": "https://www.binance.com/square/post/360537541825606"
+        "id": 360633226913559,
+        "url": "https://www.binance.com/square/post/360633226913559"
       },
-      "title": "XRP Heads to Nasdaq, Miners Rebound: 24 Hours in Crypto"
+      "title": "Bitcoin Rally, ETF Shifts, Solana Surge, Binance Listings, Sandbox Hack Repayment"
     }
   ]
 }
