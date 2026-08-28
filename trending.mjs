@@ -5,8 +5,7 @@ import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, appendPublished, saveRunLog } from "./src/store.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
-import { uploadImageAsset, publishVideoPost } from "./src/video-publish.mjs";
-import { tweet } from "./src/x.mjs";
+import { uploadImageAsset } from "./src/video-publish.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -48,13 +47,6 @@ function buildCfg() {
     model: process.env.OPENROUTER_MODEL?.trim() || "google/gemma-4-31b-it:free",
     minWords: 350,
     maxWords: 600,
-    referralCode: process.env.X_REFERRAL_CODE?.trim() || "CPA_001D41FKZ1",
-    x: {
-      apiKey: process.env.X_API_KEY?.trim() || "",
-      apiSecret: process.env.X_API_SECRET?.trim() || "",
-      accessToken: process.env.X_ACCESS_TOKEN?.trim() || "",
-      accessSecret: process.env.X_ACCESS_SECRET?.trim() || "",
-    },
   };
 }
 
@@ -231,23 +223,6 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
         console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
 
         if (okResult && okResult.url) {
-          // Tweet (sadece EN)
-          const xEnabled = Object.values(cfg.x).every(Boolean);
-          let tweetText = art.tweet;
-          if (coinData && lang === "en") {
-            tweetText = `${coinData.symbol} is trending! Price: $${coinData.price?.toFixed(2)} | ${coinData.change24h?.toFixed(2)}%\n\n${art.tweet}`;
-          }
-          const xText = `${tweetText}\n\nReferral kod: ${cfg.referralCode}`;
-          
-          if (xEnabled && lang === "en") {
-            try {
-              const x = await tweet({ ...cfg.x, text: xText });
-              console.log(`    X: ${x.url}`);
-            } catch (err) {
-              console.warn(`    X hatasi: ${err.message}`);
-            }
-          }
-
           // Kisa post
           console.log(`  ${lang.toUpperCase()} kisa post yayinlaniyor...`);
           try {

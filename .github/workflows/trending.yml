@@ -33,11 +33,6 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-          X_REFERRAL_CODE: ${{ vars.X_REFERRAL_CODE || 'CPA_001D41FKZ1' }}
         run: node trending.mjs --once $(if [ "${{ inputs.dryRun }}" = "true" ]; then echo "--dry-run"; fi)
 
       - name: Durumu repoya kaydet
