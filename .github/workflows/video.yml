@@ -68,6 +68,11 @@ jobs:
           FORCE_PUBLISH: ${{ github.event.inputs.force == 'true' && 'true' || 'false' }}
           VIDEO_MODE: ${{ github.event.inputs.mode }}
           PUBLISH_ENABLED: ${{ vars.PUBLISH_ENABLED || 'true' }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          X_REFERRAL_CODE: ${{ vars.X_REFERRAL_CODE || 'CPA_001D41FKZ1' }}
         run: node video.mjs
 
       - name: Durum dosyalarini kaydet
