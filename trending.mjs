@@ -259,7 +259,7 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
         }
 
         if (okResult) {
-          appendPublished({ lang, ...okResult, title: art.title, topic: topic.name });
+          appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name }]);
         }
       } catch (err) {
         console.error(`  HATA (${lang}): ${err.message}`);
