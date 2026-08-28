@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-27T09:41:29.926Z",
-  "finishedAt": "2026-08-27T09:44:40.052Z",
+  "startedAt": "2026-08-28T01:10:01.111Z",
+  "finishedAt": "2026-08-28T01:12:39.672Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,117 +8,97 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike"
-    },
-    {
-      "title": "BlackRock's Mitchnick says macro case for bitcoin is strengthening after record trading in positive week",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/27/blackrock-s-mitchnick-says-macro-case-for-bitcoin-is-strengthening-after-record-trading-in-positive-week"
-    },
-    {
-      "title": "Bitcoin ETF inflows slow to $232M as BTC holds under $80K",
+      "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Thailand is rewriting its stock exchange rules to trap billions in Bitcoin ETF wealth strictly inside its own borders",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/"
-    },
-    {
-      "title": "'Highly Risky': ETF Expert Breaks Down BlackRock's Decision to Leave XRP Behind",
-      "source": "U.Today",
-      "link": "https://u.today/highly-risky-etf-expert-breaks-down-blackrocks-decision-to-leave-xrp-behind"
-    },
-    {
-      "title": "Live updates: Bitcoin climbs above $80,000 as ETF inflows hit eight straight days",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion"
-    },
-    {
-      "title": "Bithumb wins lawsuit over proceeds from 620,000 BTC fat-finger error: report",
+      "title": "Binance co-founder Changpeng ‘CZ’ Zhao says bitcoin could surpass gold in next bull market",
       "source": "The Block",
-      "link": "https://www.theblock.co/news/regulation/2026-08-27-bithumb-wins-lawsuit-btc-412893"
+      "link": "https://www.theblock.co/news/markets/2026-08-27-binance-co-founder-changpeng-cz-zhao-says-bitcoin-could-surpass-gold-in-next-bull-market-412904"
     },
     {
-      "title": "Nvidia shares surge 8% on earnings beat, lifting technology stocks and bitcoin",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/27/nvidia-shares-surge-8-on-earnings-beat-lifting-technology-stocks-and-bitcoin"
+      "title": "Onslaught of AI-found bugs forces Bitcoin’s Core Lightning into a secret 14-day emergency lockdown",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/onslaught-of-ai-found-bugs-forces-bitcoins-core-lightning-into-a-secret-14-day-emergency-lockdown/"
     },
     {
-      "title": "Ripple's RLUSD Surpasses $2 Billion Milestone Amid XRP Buzz",
+      "title": "Up 103%: AI Agents Opt for Ripple USD Stablecoin as XRP Price Surges to $1.5",
       "source": "U.Today",
-      "link": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz"
+      "link": "https://u.today/up-103-ai-agents-opt-for-ripple-usd-stablecoin-as-xrp-price-surges-to-15"
     },
     {
-      "title": "Tokenized Deposits Could Drain $700 Billion From Bank Lending, Dallas Fed Warns",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376609/tokenized-deposits-bank-lending-dallas-fed"
+      "title": "Investors just moved $7 billion into Bitcoin and gold in five days to escape an accelerating dollar crisis",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/investors-just-moved-7-billion-into-bitcoin-and-gold-in-five-days-to-escape-an-accelerating-dollar-crisis/"
     },
     {
-      "title": "SHRINCS BIP published: Quantum-secure Bitcoin comes with a catch",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/shrincs-bip-is-published-quantum-secure-bitcoin-comes-with-a-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Bitcoin now has a quantum computing escape route, but 7 million BTC may still be exposed",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-now-has-a-quantum-computing-escape-route-but-7-million-btc-may-still-be-exposed/"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "BlackRock’s Mitchnick says bitcoin’s risk-off narrative is ‘the one to bet on’ long term as rally consolidates near $80,000",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/markets/2026-08-27-blackrocks-mitchnick-says-bitcoins-risk-off-narrative-is-the-one-to-bet-on-long-term-as-rally-consolidates-near-80000-412897"
     },
     {
-      "title": "StarkWare tests quantum-resistant Bitcoin transaction on mainnet",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Bitcoin Lightning Users Face Urgent Warning Over Core Flaw",
+      "title": "XRP, Binance Coin (BNB), Hyperliquid (HYPE) and Dogecoin (DOGE) Price Analysis for August 28: Rekindling the Momentum",
       "source": "U.Today",
-      "link": "https://u.today/bitcoin-lightning-users-face-urgent-warning-over-core-lightning-flaw"
+      "link": "https://u.today/price-analysis/xrp-binance-coin-bnb-hyperliquid-hype-and-dogecoin-doge-price-analysis-for-august-28-rekindling-the"
+    },
+    {
+      "title": "The next currency crisis may be harder to contain because of stablecoins, New York Fed report shows",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/the-next-currency-crisis-may-be-harder-to-contain-because-of-stablecoins-new-york-fed-report-shows/"
+    },
+    {
+      "title": "Moonwell investigates lending market issue on Base as security firms flag multimillion-dollar exploit",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/markets/bitcoin-etf-inflows-slow-232-million-btc-under-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion",
-    "https://cryptoslate.com/thailand-is-rewriting-its-stock-exchange-rules-to-trap-billions-in-bitcoin-etf-wealth-strictly-inside-its-own-borders/",
-    "https://www.coindesk.com/markets/2026/08/27/blackrock-s-mitchnick-says-macro-case-for-bitcoin-is-strengthening-after-record-trading-in-positive-week",
-    "https://cointelegraph.com/news/starkware-quantum-resistant-bitcoin-transaction-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://cryptoslate.com/investors-just-moved-7-billion-into-bitcoin-and-gold-in-five-days-to-escape-an-accelerating-dollar-crisis/",
+    "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913",
+    "https://cryptoslate.com/the-next-currency-crisis-may-be-harder-to-contain-because-of-stablecoins-new-york-fed-report-shows/",
+    "https://www.theblock.co/news/markets/2026-08-27-blackrocks-mitchnick-says-bitcoins-risk-off-narrative-is-the-one-to-bet-on-long-term-as-rally-consolidates-near-80000-412897",
+    "https://cryptoslate.com/onslaught-of-ai-found-bugs-forces-bitcoins-core-lightning-into-a-secret-14-day-emergency-lockdown/"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin Fiyatı 80.000 Dolara Çıkıyor, ETF Gelirleri Yüksek Seviyede",
-      "body": "Bitcoin fiyatının 2026 yılbaşında 80 binlerce doların altında kaldığı ve etiketlerin büyük bir kısmı düz ya da daha düşük yönvererek, 24 saatlik dönemde Bitcoin 14% seyreltmiş, XRP ise %28 artışı yakaladı. Bu dönemde ABD sıvarı fonlarında yıllık rekor hacimler elde edildi. Spot Bitcoin ETF'ların akımları 232 milion dolara kadar yavaşlamıştı ve sekiz günlük ömende 28 milyar dolara ulaşıştı. Yani yatırımcılar hem Bitcoin hem de ETF ekosisteminde güçlü bir trend görüyor. Bangkok'da ise vadeli Bitcoin ve ETH işlemleri için yeni düzenlemeler çıkarılıyor; bu progelerle para harcamaları yasal olarak sınırlanacak ve kaynaklar Türkiye içine tutulmaya çalışılıyor. Bu düzenlemeyi karşılayan görüşler, dolar federal kesimi hakkında güçlü bir makro analiz yapmayı hedefliyor. BlackRock'un başkanı Mitchnick, Bitcoin'in makro ekonomik potansiyeli güçlendihçe açıklıyor; spot BTC ETF'larının rekor hacimlerle pozitif bir hafta gerçekleştirmişti. Nvidia'nın gelir raporunda bir ödemeyi performans gösterdi ve teknoloji stokları ile Bitcoin arasında etkileşim oluşturdu. StarkWare'ın quantum-resistant Bitcoin işlemi mainnet üzerinde test edilmesi, teknoloji altyapısına yeni bir adım kazandığı görülmektedir. Bitcoin fiyatı 80K seviyesini aşarsa, yatırımcuların dikkat etmesi gereken kritik nokta olduğunu belirten raporlar öne çıkıyor. Düşük volatilite dönemi boyunca yatırımcı, etiket girişimlerini ve crypto para borsalarını dikkatle takip etmesi gerektiği unutulmamalı. Şu anki senaryoda, Bitcoin fiyatı 80.000 dolara yaklaşmakta olup, bu seviye geçişi markettaki en önemli olumlu gelişmelerden biri olarak öne çıkmaktadır. ETF akımlarının yavaşlaması ve Bitcoin'in fiyatını desteklediği gözlemlenebildiği bu konudan, makro ekonomik koşullar ve fon girişimi ilişkisinin neden böyle bir dönüşümü yarattığını sorgulamanın zeminini hazırladığı anlaşılmaktadır.\n#Crypto #DeFi #Web3",
-      "tweet": "Bitcoin surpasses $80K barrier as ETF inflows reach record levels; Thailand tightens crypto regulations. #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor",
+      "body": "Güney Asya'da yatırımcılar, dolar krizinin ivmesini kontrol etmek için altın ve $BTC arasında toplam 7 milyar dolarlık bir akış kaydetti. Bu kayıp, IBIT ve GLD fonlarından yaklaşık 70'ini oluşturarak kısa sürede tarihi bir düzeyde geri dönüş sağladı. Yüksek getirilerin ve dolar endeksinin dinlenmesi, Bitcoin'in uzun vadeli koruma teması üzerindeki baskıyı azalttı.\n\nBase blokzincirinde Moonwell kredi pazarında yaşanan güvenlik saldırısı ise DeFi dünyasını tehdit etti. CertiK ve PeckShield, saldırganların MAMO kolateral fiyatını manipüle ederek yaklaşık 8,7 milyon dolar kaybettirdiğini değerlendirdi. Moonwell ise saldırıyı soruştururken, etkisiz hava kartları ve likidite havuzu dengesini kontrol ettiğini açıkladı.\n\nNew York Fed'nin yayınladığğı rapor, next-generation sabit tokenların döviz krizlerini kontrol etmede daha zor bir engel haline geldiğini gösterdi. 4,5 milyon gözlemle yapılan bir olay çalışması, ENS etiketli cüzdanlarda kriz haftasında anlık nakit girişlerinin yüksek olduğunu belirtti. Model çalışması, sabit tokenların sermaye kontrol mekanizmalarını zorlamada oynayan kritik bir rol oynadığını ortaya koydu.\n\nBlackRock'in analisti Mitchnick, Bitcoin'in risk-off anlatısının uzun vadeli yatırım için en doğru temsil olduğunu vurguladı. Yakın zamanda 80.000 dolar civarında sabitlenen fiyat, spot ETF girişimlerinin yeniden canlanmasıyla desteklendi. Bitcoin, eşit değerlerle korelasyonunun azalması, geleneksel piyasalara karşı bir avantaj sağladı.\n\nAyrıca, Bitcoin ağı için yapay zeka destekli güvenlik tehditleri ortaya çıktı. Core Lightning geliştirici ekibi, AI tarafından tespit edilen çok sayıda açık vardır ve bu nedenle 14 günlük bir acil kilitleme uyguladı. Node operatörlerine, güvenlik risklerini değerlendirmek için yeni ikilileri yükleme kararı vermeleri isteniyor.\n\n#Bitcoin #DeFi #Binance\nKaynaklar: CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor #Bitcoin #CryptoNews #BinanceSquare"
     },
     "en": {
-      "title": "Bitcoin Rebounds Above $80K as ETF Inflows Hit Record Levels; Thailand Regulates ETFs",
-      "body": "Bitcoin fiyatı 80.000 dolara geçmiş, etiketlerin rekor akımlarıyla yükselme hareketi yaşanıyor. Spot Bitcoin ETF'lerdeki 232 milyon dolarlık akıntı, son haftalarda 28 milyar dolara ulaşan satışlarıyla bir olgunluk oluşturuyor. Bangkok'da yeni vadeli Bitcoin ve ETH uygulamaları için düzenlemeler ilerleyiş gösteriyor; bu regülasyonlar, para harcamalarının yasal sınırlandırılması sağlayarak kaynakları Türkiye içine çekmeye çalışıyor. BlackRock'un Mitchnick, makro ekonomik bağlamda Bitcoin'in önemini vurgularken, spot BTC ETF'lerinin rekor hacmiyle pozitif bir trend yaratıyor. Nvidia'nın gelir raporunda giden performans, teknoloji sermayesi ile Bitcoin arasındaki bağlantıyı güçlendiriyor. StarkWare'ın mainnet üzerinde test edilen quantum-resistant Bitcoin işlemi, altyapida yeni güvenlik adımlarını sergiliyor. Fiyatın 80K seviyesini aşması, yatırımcının dikkati alan en kritik noktadır. Volatilite düşüşü döneminde, etiket projeleri ve crypto borsalarına olan ihtiyaca uygun yatırım stratejileri yeniden değerlendirilmelidir.\n#Crypto #DeFi #Web3",
-      "tweet": "Bitcoin breaks $80K barrier amid strong ETF inflows; Thailand implements stricter crypto rules. #Bitcoin #ETF #Binance"
+      "title": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns",
+      "body": "Investors moved a staggering 7 billion dollars into Bitcoin and gold over five days to escape an accelerating dollar crisis, according to CryptoSlate. This inflow represented approximately 70 percent of the total from IBIT and GLD funds, marking a historic five-session record. As yields and the dollar eased, the hedge thesis under pressure found unexpected support, driving renewed interest in $BTC as a risk-off asset.\n\nMeanwhile, a security breach on the Base blockchain's Moonwell lending market has raised alarm in the DeFi sector. Security firms CertiK and PeckShield estimate losses of around 8.7 million dollars after attackers manipulated the MAMO collateral price. Moonwell is investigating the incident while assessing the impact on liquidity pools and frozen assets, highlighting the persistent vulnerabilities in decentralized finance protocols.\n\nA New York Fed report revealed that next-generation stablecoins may make future currency crises harder to contain. The study, based on 4.5 million observations, found significant inflows into ENS-tagged wallets during crisis weeks. The model indicates that stablecoin adoption can strain traditional capital controls, suggesting that while they provide utility, they also introduce new systemic risks to monetary policy transmission.\n\nBlackRock analyst Mitchnick stated that Bitcoin's risk-off narrative remains the most compelling long-term investment thesis, as the cryptocurrency consolidates near the 80,000-dollar level. Renewed spot ETF inflows and declining correlation with equities have provided constructive signals. According to recent data, Bitcoin's correlation with traditional markets has dropped to levels not seen since 2020, reinforcing its safe-haven characteristics during market stress.\n\nAdding to the security concerns, Bitcoin's Lightning Network faced an unexpected challenge when Core Lightning developers announced a secret 14-day emergency lockdown. Multiple AI-discovered vulnerabilities required immediate attention, prompting node operators to make security decisions before fully assessing the threat. The incident underscores growing concerns about AI's dual role in both discovering and potentially exploiting protocol weaknesses.\n\n#Bitcoin #ETF #Binance\nSources: CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns #Bitcoin #CryptoNews #BinanceSquare"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 360171879192589,
-      "url": "https://www.binance.com/square/post/360171879192589",
-      "xUrl": "https://x.com/i/web/status/2092910775857717705",
+      "id": 360399942750436,
+      "url": "https://www.binance.com/square/post/360399942750436",
+      "xUrl": "https://x.com/i/web/status/2093144312447950860",
       "shortPost": {
-        "id": 360171882344441,
-        "url": "https://www.binance.com/square/post/360171882344441"
+        "id": 360399945688857,
+        "url": "https://www.binance.com/square/post/360399945688857"
       },
-      "title": "Bitcoin Fiyatı 80.000 Dolara Çıkıyor, ETF Gelirleri Yüksek Seviyede"
+      "title": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor"
     },
     {
       "lang": "en",
-      "id": 360172254392721,
-      "url": "https://www.binance.com/square/post/360172254392721",
-      "xUrl": "https://x.com/i/web/status/2092911159678484790",
+      "id": 360400318322591,
+      "url": "https://www.binance.com/square/post/360400318322591",
+      "xUrl": "https://x.com/i/web/status/2093144697032019978",
       "shortPost": {
-        "id": 360172257042847,
-        "url": "https://www.binance.com/square/post/360172257042847"
+        "id": 360400320762388,
+        "url": "https://www.binance.com/square/post/360400320762388"
       },
-      "title": "Bitcoin Rebounds Above $80K as ETF Inflows Hit Record Levels; Thailand Regulates ETFs"
+      "title": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns"
     }
   ]
 }
