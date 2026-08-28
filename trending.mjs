@@ -138,7 +138,7 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
         });
         console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
 
-        if (okResult.url) {
+        if (okResult && okResult.url) {
           const xEnabled = Object.values(cfg.x).every(Boolean);
           const xText = `${art.tweet}\n\nReferral kod: ${cfg.referralCode}`;
           
@@ -160,7 +160,9 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
           }
         }
 
-        appendPublished({ lang, ...okResult, title: art.title, topic: topic.name });
+        if (okResult) {
+          appendPublished({ lang, ...okResult, title: art.title, topic: topic.name });
+        }
       } catch (err) {
         console.error(`  HATA (${lang}): ${err.message}`);
       }
