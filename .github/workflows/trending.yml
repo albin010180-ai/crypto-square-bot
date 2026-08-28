@@ -9,13 +9,9 @@ on:
         description: "Dry-run modu (sadece goster, yayinlama)"
         type: boolean
         default: false
-  workflow_run:
-    workflows: ["Trending Topics Monitor"]
-    types: [completed]
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: trending-monitor
@@ -25,11 +21,6 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    # Sadece basarili veya schedule/dispatch ile tetiklenen run'larda calis
-    if: >-
-      github.event_name != 'workflow_run' || 
-      (github.event.workflow_run.conclusion != 'success' && 
-       github.event.workflow_run.conclusion != 'in_progress')
     steps:
       - uses: actions/checkout@v4
 
@@ -57,28 +48,3 @@ jobs:
             git pull --rebase || true
             git push
           fi
-
-      - name: Basarisiz run varsa yeniden tetikle
-        if: failure() || cancelled()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const runs = await github.rest.actions.listWorkflowRuns({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'trending.yml',
-              per_page: 3,
-              event: 'schedule'
-            });
-            
-            const lastRun = runs.data.workflow_runs[0];
-            if (lastRun && lastRun.conclusion === 'cancelled') {
-              console.log(`Son run iptal edilmis, yeniden tetikleniyor...`);
-              await github.rest.actions.createWorkflowDispatch({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                workflow_id: 'trending.yml',
-                ref: 'main',
-                inputs: { dryRun: 'false' }
-              });
-            }

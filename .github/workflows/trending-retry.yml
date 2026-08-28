@@ -1,0 +1,52 @@
+name: Trending Monitor Retry
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # Her 5 dakikada bir kontrol et
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  check-and-retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Son trending run'lari kontrol et
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runs = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'trending.yml',
+              per_page: 5,
+              event: 'schedule'
+            });
+            
+            const now = new Date();
+            const fiveMinAgo = new Date(now.getTime() - 5 * 60 * 1000);
+            
+            // Son 5 dakikada iptal edilmis run var mi?
+            const cancelledRuns = runs.data.workflow_runs.filter(run => {
+              const runTime = new Date(run.created_at);
+              return run.conclusion === 'cancelled' && runTime > fiveMinAgo;
+            });
+            
+            if (cancelledRuns.length > 0) {
+              console.log(`${cancelledRuns.length} iptal edilmis run bulundu, yeniden tetikleniyor...`);
+              
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'trending.yml',
+                ref: 'main',
+                inputs: { dryRun: 'false' }
+              });
+              
+              console.log('Yeni run baslatildi!');
+            } else {
+              console.log('Iptal edilmis run yok, her sey normal.');
+            }
