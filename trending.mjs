@@ -139,10 +139,11 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
         console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
 
         if (okResult && okResult.url) {
+          // Sadece EN dilinde tweet gonder (duplicate onlem)
           const xEnabled = Object.values(cfg.x).every(Boolean);
           const xText = `${art.tweet}\n\nReferral kod: ${cfg.referralCode}`;
           
-          if (xEnabled) {
+          if (xEnabled && lang === "en") {
             try {
               const x = await tweet({ ...cfg.x, text: xText });
               console.log(`    X: ${x.url}`);
