@@ -5,12 +5,14 @@ import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, appendPublished, saveRunLog } from "./src/store.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
+import { uploadImageAsset, publishVideoPost } from "./src/video-publish.mjs";
 import { tweet } from "./src/x.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
-const CHECK_INTERVAL_MS = 2 * 60 * 1000; // 2 dakika
+const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
+const CHECK_INTERVAL_MS = 2 * 60 * 1000;
 
 function loadSeen() {
   try { return JSON.parse(fs.readFileSync(SEEN_FILE, "utf8")); } catch { return { topics: [], lastCheck: null }; }
@@ -18,6 +20,18 @@ function loadSeen() {
 
 function saveSeen(seen) {
   fs.writeFileSync(SEEN_FILE, JSON.stringify(seen, null, 2));
+}
+
+function loadPublished() {
+  try { return JSON.parse(fs.readFileSync(PUBLISHED_FILE, "utf8")); } catch { return []; }
+}
+
+function isAlreadyPublished(topicName) {
+  const published = loadPublished();
+  const nameLower = topicName.toLowerCase();
+  return published.some(p => 
+    p.title && p.title.toLowerCase().includes(nameLower)
+  );
 }
 
 function parseArgs() {
@@ -44,6 +58,41 @@ function buildCfg() {
   };
 }
 
+async function fetchCoinData(symbol) {
+  try {
+    const res = await fetch(
+      `https://api.coingecko.com/api/v3/coins/${symbol.toLowerCase()}?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false`,
+      { signal: AbortSignal.timeout(10000) }
+    );
+    const data = await res.json();
+    return {
+      name: data.name,
+      symbol: data.symbol.toUpperCase(),
+      price: data.market_data?.current_price?.usd,
+      change24h: data.market_data?.price_change_percentage_24h,
+      marketCap: data.market_data?.market_cap?.usd,
+      volume: data.market_data?.total_volume?.usd,
+      sparkline: `https://www.coingecko.com/coins/${data.id}/sparkline.svg`,
+    };
+  } catch (e) {
+    console.warn(`  Coin verisi alinamadi (${symbol}):`, e.message);
+    return null;
+  }
+}
+
+async function downloadImage(url, filePath) {
+  try {
+    const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const buffer = Buffer.from(await res.arrayBuffer());
+    fs.writeFileSync(filePath, buffer);
+    return true;
+  } catch (e) {
+    console.warn(`  Image indirilemedi:`, e.message);
+    return false;
+  }
+}
+
 async function fetchTrendingTopics() {
   const topics = [];
 
@@ -61,6 +110,7 @@ async function fetchTrendingTopics() {
           sentiment: t.sentiment,
           headlines: t.recentHeadlines || [],
           count: t.count || 0,
+          type: "topic",
         });
       }
     }
@@ -77,11 +127,13 @@ async function fetchTrendingTopics() {
     if (data.coins) {
       for (const c of data.coins.slice(0, 10)) {
         topics.push({
-          name: `${c.item.name} (${c.item.symbol})`,
+          name: c.item.name,
+          symbol: c.item.symbol,
+          coinId: c.item.id,
           source: "coingecko",
-          priceBtc: c.item.price_btc,
           marketCapRank: c.item.market_cap_rank,
           score: c.item.score || 0,
+          type: "coin",
         });
       }
     }
@@ -94,12 +146,23 @@ async function fetchTrendingTopics() {
 
 function isNewTopic(topic, seen) {
   const key = topic.name.toLowerCase().trim();
-  return !seen.topics.some((t) => t.toLowerCase().trim() === key);
+  if (seen.topics.some((t) => t.toLowerCase().trim() === key)) return false;
+  if (isAlreadyPublished(topic.name)) return false;
+  return true;
 }
 
 async function generateAndPublishTopic(topic, cfg, dryRun) {
   console.log(`\n=== Yeni trend konu: ${topic.name} ===`);
-  console.log(`  Kaynak: ${topic.source}`);
+  console.log(`  Kaynak: ${topic.source}, Tip: ${topic.type}`);
+
+  // Coin verisi al
+  let coinData = null;
+  if (topic.type === "coin" && topic.symbol) {
+    coinData = await fetchCoinData(topic.symbol);
+    if (coinData) {
+      console.log(`  Fiyat: $${coinData.price} | 24s: %${coinData.change24h?.toFixed(2)}`);
+    }
+  }
 
   // Haber basligi olarak kullan
   const headlines = topic.headlines || [];
@@ -121,7 +184,27 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
     if (dryRun) {
       console.log(`  [DRY-RUN] TR: ${article.tr.title}`);
       console.log(`  [DRY-RUN] EN: ${article.en.title}`);
+      if (coinData) console.log(`  [DRY-RUN] Chart: ${coinData.sparkline}`);
       return true;
+    }
+
+    // Chart image indir
+    let imageUrl = null;
+    if (coinData && coinData.sparkline) {
+      const tmpDir = path.join(__dirname, "tmp");
+      if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir, { recursive: true });
+      const imagePath = path.join(tmpDir, `${topic.symbol || topic.name}_chart.png`);
+      
+      if (await downloadImage(coinData.sparkline, imagePath)) {
+        try {
+          imageUrl = await uploadImageAsset(cfg.binanceKey, imagePath);
+          console.log(`  Chart yuklendi: ${imageUrl}`);
+        } catch (e) {
+          console.warn(`  Chart yukleme hatasi:`, e.message);
+        }
+        // Temp dosyayi temizle
+        try { fs.unlinkSync(imagePath); } catch {}
+      }
     }
 
     // Yayinla
@@ -132,16 +215,29 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
 
       try {
         console.log(`  ${lang.toUpperCase()} makalesi yayinlaniyor...`);
+        
+        // Makale icerigine coin bilgisi ekle
+        let body = art.body;
+        if (coinData && lang === "en") {
+          body = `${coinData.name} (${coinData.symbol}) Current Price: $${coinData.price?.toFixed(2)} | 24h Change: ${coinData.change24h?.toFixed(2)}%\n\n${body}`;
+        } else if (coinData && lang === "tr") {
+          body = `${coinData.name} (${coinData.symbol}) Guncel Fiyat: $${coinData.price?.toFixed(2)} | 24s Degisim: %${coinData.change24h?.toFixed(2)}\n\n${body}`;
+        }
+
         const okResult = await publishArticle(cfg.binanceKey, {
           title: art.title,
-          body: art.body,
+          body,
         });
         console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
 
         if (okResult && okResult.url) {
-          // Sadece EN dilinde tweet gonder (duplicate onlem)
+          // Tweet (sadece EN)
           const xEnabled = Object.values(cfg.x).every(Boolean);
-          const xText = `${art.tweet}\n\nReferral kod: ${cfg.referralCode}`;
+          let tweetText = art.tweet;
+          if (coinData && lang === "en") {
+            tweetText = `${coinData.symbol} is trending! Price: $${coinData.price?.toFixed(2)} | ${coinData.change24h?.toFixed(2)}%\n\n${art.tweet}`;
+          }
+          const xText = `${tweetText}\n\nReferral kod: ${cfg.referralCode}`;
           
           if (xEnabled && lang === "en") {
             try {
@@ -152,6 +248,7 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
             }
           }
 
+          // Kisa post
           console.log(`  ${lang.toUpperCase()} kisa post yayinlaniyor...`);
           try {
             await publishShortPostSafe(cfg.binanceKey, { text: art.tweet });
@@ -193,7 +290,7 @@ async function checkAndPublish(cfg, dryRun) {
   }
 
   // Her yeni konu icin makale uret ve yayinla
-  for (const topic of newTopics.slice(0, 2)) { // Max 2 konu per check
+  for (const topic of newTopics.slice(0, 2)) {
     const success = await generateAndPublishTopic(topic, cfg, dryRun);
     if (success) {
       seen.topics.push(topic.name);
@@ -219,7 +316,6 @@ async function main() {
     return;
   }
 
-  // Surekli dongu
   while (true) {
     try {
       await checkAndPublish(cfg, dryRun);
