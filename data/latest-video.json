@@ -1,61 +1,57 @@
 {
-  "startedAt": "2026-08-26T16:39:07.914Z",
-  "finishedAt": "2026-08-26T16:45:57.733Z",
+  "startedAt": "2026-08-28T01:36:36.384Z",
+  "finishedAt": "2026-08-28T01:39:44.815Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Ripple's RLUSD Surpasses $2 Billion Milestone Amid XRP Buzz",
-    "source": "U.Today",
-    "link": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
-    "usedLink": "https://u.today/ripples-rlusd-surpasses-2-billion-milestone-amid-xrp-buzz",
-    "usedTitleNorm": "ripple s rlusd surpasses 2 billion milestone amid xrp buzz"
+    "type": "info",
+    "topicId": "cuzdan-guvenligi"
   },
   "script": {
     "tr": {
-      "title": "Ripple's stablecoin exceeds two billion dollar market cap",
+      "title": "Kripto Vezetmede Temel Güvenlik Prensipleri",
       "slides": [
-        "Ripple's stablecoin RLUSD has crossed the two billion dollar milestone.",
-        "It reached this level within two years after its launch.",
-        "Nearly half of the market cap is now on the XRP Ledger.",
-        "The growth highlights increasing demand for stablecoins on the XRP ecosystem."
+        "Hesap kayduyorsa ilk adım güvenli bir veritabanı kurmak.",
+        "Gecikmeli ayar mekanizmaları doğrudan bir tuzak oluşturur.",
+        "Hot ve cold wallet uzaklık her zaman avantajdır.",
+        "Açık kayıtler ve şifrelemiyimi olmayan portallar risktir."
       ],
-      "caption": "Ripple's stablecoin has surpassed a two billion dollar market cap.\nThe token is now available on the XRP Ledger for almost half of its supply.\n$XRP $BTC $ETH\n#Crypto #Stablecoin #XRP\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Buna BTC ve ETH kripto para ile fonunuzu koruyun.\n$SOL depozite yaparken iyi koruma sağın.\n#Security #Wallets #Binance\nBu video yapay zeka destekli olarak hazirlanmstir; yatirim tavsiyesi degildir. Kendi arastarmanızı yapınız (DYOR).\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     },
     "en": {
-      "title": "Ripple's stablecoin exceeds two billion dollar market cap",
+      "title": "Essential Security Practices for Crypto Wallets",
       "slides": [
-        "Ripple's stablecoin RLUSD has crossed the two billion dollar milestone.",
-        "It reached this level within two years after its launch.",
-        "Nearly half of the market cap is now on the XRP Ledger.",
-        "The growth highlights increasing demand for stablecoins on the XRP ecosystem."
+        "Secure your digital assets before accepting any transaction.",
+        "Never store private keys on public or cloud devices.",
+        "Use hardware wallets for long term cold storage solutions.",
+        "Regular backups and multi signature setups prevent loss."
       ],
-      "caption": "Ripple's stablecoin has surpassed a two billion dollar market cap.\nThe token is now available on the XRP Ledger for almost half of its supply.\n$XRP $BTC $ETH\n#Crypto #Stablecoin #XRP\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Secure your funds with BTC and ETH cryptocurrency.\n$SOL deposit requires proper protection.\n#Security #Wallets #Binance\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 359921436685541,
-      "url": "https://www.binance.com/square/post/359921436685541",
+      "id": 360406512951774,
+      "url": "https://www.binance.com/square/post/360406512951774",
       "note": null,
       "shortPost": {
-        "id": 359921438187387,
-        "url": "https://www.binance.com/square/post/359921438187387"
+        "id": 360406514439702,
+        "url": "https://www.binance.com/square/post/360406514439702"
       },
-      "title": "Ripple's stablecoin exceeds two billion dollar market cap"
+      "title": "Kripto Vezetmede Temel Güvenlik Prensipleri"
     },
     {
       "lang": "en",
-      "id": 359921898210324,
-      "url": "https://www.binance.com/square/post/359921898210324",
+      "id": 360406975751019,
+      "url": "https://www.binance.com/square/post/360406975751019",
       "note": null,
       "shortPost": {
-        "id": 359921900062591,
-        "url": "https://www.binance.com/square/post/359921900062591"
+        "id": 360406977294913,
+        "url": "https://www.binance.com/square/post/360406977294913"
       },
-      "title": "Ripple's stablecoin exceeds two billion dollar market cap"
+      "title": "Essential Security Practices for Crypto Wallets"
     }
   ]
 }
