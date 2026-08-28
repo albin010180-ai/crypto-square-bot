@@ -1,12 +1,57 @@
 {
-  "startedAt": "2026-08-28T01:10:01.111Z",
-  "finishedAt": "2026-08-28T01:12:39.672Z",
+  "startedAt": "2026-08-28T10:28:14.173Z",
+  "finishedAt": "2026-08-28T10:31:00.915Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "contentTopic": null,
   "sourceErrors": [],
   "candidates": [
+    {
+      "title": "Ripple's 'North Star' XRP Hits Nasdaq: SEC Greenlights Evernorth's Billion-Dollar Merger",
+      "source": "U.Today",
+      "link": "https://u.today/ripples-north-star-xrp-hits-nasdaq-sec-greenlights-evernorths-billion-dollar-merger"
+    },
+    {
+      "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Here’s why Warsh’s Jackson Hole speech is a major event for bitcoin and gold",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "An XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq"
+    },
+    {
+      "title": "Live updates: Bitcoin options worth $6.4 billion just expired as prices hover near $80,000",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000"
+    },
+    {
+      "title": "IREN shares fall 8% as costly AI transition weighs on earnings",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/28/iren-shares-fall-8-as-costly-ai-transition-weighs-on-earnings"
+    },
+    {
+      "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981"
+    },
     {
       "title": "Bitcoin’s 23% rally sends beaten-down miners soaring past AI stocks",
       "source": "Cointelegraph",
@@ -18,87 +63,63 @@
       "link": "https://www.theblock.co/news/markets/2026-08-27-binance-co-founder-changpeng-cz-zhao-says-bitcoin-could-surpass-gold-in-next-bull-market-412904"
     },
     {
-      "title": "Onslaught of AI-found bugs forces Bitcoin’s Core Lightning into a secret 14-day emergency lockdown",
+      "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-holds-usd80-000-solana-leads-majors-higher-before-warsh-s-jackson-hole-debut"
+    },
+    {
+      "title": "Crypto startups have 54 days left to shape the SEC’s proposed $75 million fundraising cap",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/onslaught-of-ai-found-bugs-forces-bitcoins-core-lightning-into-a-secret-14-day-emergency-lockdown/"
+      "link": "https://cryptoslate.com/secs-75-million-crypto-proposal-has-31-comments-and-54-days-left-to-reshape-it/"
     },
     {
       "title": "Up 103%: AI Agents Opt for Ripple USD Stablecoin as XRP Price Surges to $1.5",
       "source": "U.Today",
       "link": "https://u.today/up-103-ai-agents-opt-for-ripple-usd-stablecoin-as-xrp-price-surges-to-15"
-    },
-    {
-      "title": "Investors just moved $7 billion into Bitcoin and gold in five days to escape an accelerating dollar crisis",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/investors-just-moved-7-billion-into-bitcoin-and-gold-in-five-days-to-escape-an-accelerating-dollar-crisis/"
-    },
-    {
-      "title": "Bitcoin now has a quantum computing escape route, but 7 million BTC may still be exposed",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-now-has-a-quantum-computing-escape-route-but-7-million-btc-may-still-be-exposed/"
-    },
-    {
-      "title": "BlackRock’s Mitchnick says bitcoin’s risk-off narrative is ‘the one to bet on’ long term as rally consolidates near $80,000",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/markets/2026-08-27-blackrocks-mitchnick-says-bitcoins-risk-off-narrative-is-the-one-to-bet-on-long-term-as-rally-consolidates-near-80000-412897"
-    },
-    {
-      "title": "XRP, Binance Coin (BNB), Hyperliquid (HYPE) and Dogecoin (DOGE) Price Analysis for August 28: Rekindling the Momentum",
-      "source": "U.Today",
-      "link": "https://u.today/price-analysis/xrp-binance-coin-bnb-hyperliquid-hype-and-dogecoin-doge-price-analysis-for-august-28-rekindling-the"
-    },
-    {
-      "title": "The next currency crisis may be harder to contain because of stablecoins, New York Fed report shows",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/the-next-currency-crisis-may-be-harder-to-contain-because-of-stablecoins-new-york-fed-report-shows/"
-    },
-    {
-      "title": "Moonwell investigates lending market issue on Base as security firms flag multimillion-dollar exploit",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/investors-just-moved-7-billion-into-bitcoin-and-gold-in-five-days-to-escape-an-accelerating-dollar-crisis/",
-    "https://www.theblock.co/news/defi/2026-08-27-moonwell-investigates-base-lending-market-issue-412913",
-    "https://cryptoslate.com/the-next-currency-crisis-may-be-harder-to-contain-because-of-stablecoins-new-york-fed-report-shows/",
-    "https://www.theblock.co/news/markets/2026-08-27-blackrocks-mitchnick-says-bitcoins-risk-off-narrative-is-the-one-to-bet-on-long-term-as-rally-consolidates-near-80000-412897",
-    "https://cryptoslate.com/onslaught-of-ai-found-bugs-forces-bitcoins-core-lightning-into-a-secret-14-day-emergency-lockdown/"
+    "https://www.coindesk.com/markets/2026/08/28/an-xrp-treasury-company-backed-by-ripple-is-a-shareholder-vote-away-from-nasdaq",
+    "https://cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_partner_inbound",
+    "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
+    "https://cointelegraph.com/markets/bitcoin-miner-stocks-rally-crypto-demand-ai-hpc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://www.theblock.co/news/markets/2026-08-27-binance-co-founder-changpeng-cz-zhao-says-bitcoin-could-surpass-gold-in-next-bull-market-412904",
+    "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "tr": {
-      "title": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor",
-      "body": "Güney Asya'da yatırımcılar, dolar krizinin ivmesini kontrol etmek için altın ve $BTC arasında toplam 7 milyar dolarlık bir akış kaydetti. Bu kayıp, IBIT ve GLD fonlarından yaklaşık 70'ini oluşturarak kısa sürede tarihi bir düzeyde geri dönüş sağladı. Yüksek getirilerin ve dolar endeksinin dinlenmesi, Bitcoin'in uzun vadeli koruma teması üzerindeki baskıyı azalttı.\n\nBase blokzincirinde Moonwell kredi pazarında yaşanan güvenlik saldırısı ise DeFi dünyasını tehdit etti. CertiK ve PeckShield, saldırganların MAMO kolateral fiyatını manipüle ederek yaklaşık 8,7 milyon dolar kaybettirdiğini değerlendirdi. Moonwell ise saldırıyı soruştururken, etkisiz hava kartları ve likidite havuzu dengesini kontrol ettiğini açıkladı.\n\nNew York Fed'nin yayınladığğı rapor, next-generation sabit tokenların döviz krizlerini kontrol etmede daha zor bir engel haline geldiğini gösterdi. 4,5 milyon gözlemle yapılan bir olay çalışması, ENS etiketli cüzdanlarda kriz haftasında anlık nakit girişlerinin yüksek olduğunu belirtti. Model çalışması, sabit tokenların sermaye kontrol mekanizmalarını zorlamada oynayan kritik bir rol oynadığını ortaya koydu.\n\nBlackRock'in analisti Mitchnick, Bitcoin'in risk-off anlatısının uzun vadeli yatırım için en doğru temsil olduğunu vurguladı. Yakın zamanda 80.000 dolar civarında sabitlenen fiyat, spot ETF girişimlerinin yeniden canlanmasıyla desteklendi. Bitcoin, eşit değerlerle korelasyonunun azalması, geleneksel piyasalara karşı bir avantaj sağladı.\n\nAyrıca, Bitcoin ağı için yapay zeka destekli güvenlik tehditleri ortaya çıktı. Core Lightning geliştirici ekibi, AI tarafından tespit edilen çok sayıda açık vardır ve bu nedenle 14 günlük bir acil kilitleme uyguladı. Node operatörlerine, güvenlik risklerini değerlendirmek için yeni ikilileri yükleme kararı vermeleri isteniyor.\n\n#Bitcoin #DeFi #Binance\nKaynaklar: CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "XRP Nasdaq Yolunda, Madenciler Rallide: Kripto Piyasasinda Son 24 Saat",
+      "body": "Evernorth, Ripple destekli XRP hazine sirketi olarak SPAC Armada ile birlesme yolunda son engeli asti. ABD Menkul Kiymetler ve Borsa Komisyonu (SEC) S-4 kayit beyanini onayladi; hisse sahipleri 30 Eylul'de oy kullanacak ve sirket XRPN ticker'i ile Nasdaq'ta islem gormeye baslayacak. Yatirimcilarin onaylamasi durumunda Evernorth, halka acik bir XRP hazine aracina donusecek ve $XRP piyasasinda yeni bir kurumsal talep kanali olusacak. Sirkete 233 milyon dolarlik bir deger dusuklugu kaydedildigi, ancak bunun yapisal bir sorun olarak degerlendirilmedigi bildirildi.\n\nMadencilik sektorunde ise sert bir ralli yasandi. Bitcoin'in 62 bin dolardan 80 bin dolara yukselisi, sektor hisselerini asiri reaktif hale getirdi. Canaan, American Bitcoin ve Cango uc ayda yuzde 67'ye varan oranlarda deger kazandi. Bitcoin'in 23%'luk hareketi madencileri yil basindaki AI odakli kayiplardan sonra toparladi ve BTC pozisyonunun AI hikayesine ragmen hâlâ birincil kaldirac oldugunu gosterdi. $BTC hacim endeksi, opsiyon vadesi sonrasi yeniden pozisyonlanma isareti veriyor.\n\nGvenlik cephesinde The Sandbox, 700 bin dolarlik kopru acigini 1:1 olarak telafi edecegini duyurdu. Base ve BNB Chain uzerindeki uygun SAND sahipleri, projenin hazinesinden Ethereum tabanli SAND alacak; talep surreci iki hafta icinde acilacak. Ayni saatlerde OneKey, eski surum Ledger Ethereum uygulamasinda bir islem degistirme saldirisini laboratuvar ortaminda yeniden urettigini acikladi. Ledger, aciklamaya gore hatayi 1.22.2 surumunde coktan duzeltmisti ve herhangi bir kullanici fonu kaybi yasanmadi.\n\nMakro tarafta Kevin Warsh'in Jackson Hole konusmasi, Treasury geri alim programi ve Fed politikasina iliskin sinyaller nedeniyle Bitcoin ve altin yatirimcilarinin radarinda. Warsh'in aciklamalari, uzun vadeli ABD getirileri ve risk varliklari icin yon gosterici olarak okunuyor. $ETH ve SOL da gun icinde minor primle islem gorurken piyasa genelinde hacim artti.\n\nBinance kurucusu Changpeng Zhao, Bitcoin Asia 2026'da yaptigi konusmada Bitcoin'in bir sonraki yuksek volatil doneminde altini gecebilecegini soyledi ve stabil kointlerin yapay zeka entegrasyonunda onde gelen arac oldugunu vurguladi. Bu acidan bakildiginda, XRP hazine sirketinin kurumsal yatirimci kapsamini genisletme potansiyeli, madencilik hisselerinin yeni bir fiyat kesfi icin zemini hazirlamasi ve Jackson Hole sonrasi makro yonun yakindan takip edilmesi onceki onemli katalizorler olarak one cikiyor.\n\n#XRP #Mining #Binance\n\nKaynaklar: CoinDesk, Cointelegraph, The Block, U.Today\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
+      "tweet": "Ripple-backed Evernorth moves one step closer to a Nasdaq listing under ticker XRPN $XRP #XRP #Regulation #Binance"
     },
     "en": {
-      "title": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns",
-      "body": "Investors moved a staggering 7 billion dollars into Bitcoin and gold over five days to escape an accelerating dollar crisis, according to CryptoSlate. This inflow represented approximately 70 percent of the total from IBIT and GLD funds, marking a historic five-session record. As yields and the dollar eased, the hedge thesis under pressure found unexpected support, driving renewed interest in $BTC as a risk-off asset.\n\nMeanwhile, a security breach on the Base blockchain's Moonwell lending market has raised alarm in the DeFi sector. Security firms CertiK and PeckShield estimate losses of around 8.7 million dollars after attackers manipulated the MAMO collateral price. Moonwell is investigating the incident while assessing the impact on liquidity pools and frozen assets, highlighting the persistent vulnerabilities in decentralized finance protocols.\n\nA New York Fed report revealed that next-generation stablecoins may make future currency crises harder to contain. The study, based on 4.5 million observations, found significant inflows into ENS-tagged wallets during crisis weeks. The model indicates that stablecoin adoption can strain traditional capital controls, suggesting that while they provide utility, they also introduce new systemic risks to monetary policy transmission.\n\nBlackRock analyst Mitchnick stated that Bitcoin's risk-off narrative remains the most compelling long-term investment thesis, as the cryptocurrency consolidates near the 80,000-dollar level. Renewed spot ETF inflows and declining correlation with equities have provided constructive signals. According to recent data, Bitcoin's correlation with traditional markets has dropped to levels not seen since 2020, reinforcing its safe-haven characteristics during market stress.\n\nAdding to the security concerns, Bitcoin's Lightning Network faced an unexpected challenge when Core Lightning developers announced a secret 14-day emergency lockdown. Multiple AI-discovered vulnerabilities required immediate attention, prompting node operators to make security decisions before fully assessing the threat. The incident underscores growing concerns about AI's dual role in both discovering and potentially exploiting protocol weaknesses.\n\n#Bitcoin #ETF #Binance\nSources: CryptoSlate, The Block\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns #Bitcoin #CryptoNews #BinanceSquare"
+      "title": "XRP Heads to Nasdaq, Miners Rebound: 24 Hours in Crypto",
+      "body": "Evernorth, the Ripple-backed XRP treasury company, cleared the final regulatory hurdle in its merger with SPAC Armada. The SEC declared its S-4 registration statement effective, setting up a shareholder vote on September 30. If approved, the company will list on Nasdaq under the ticker XRPN, giving $XRP a new institutional access point. Reports note a 233 million dollar impairment charge on the firm's books, though structural concerns have not been raised.\n\nIn the mining sector, a powerful rebound played out. Bitcoin's advance from roughly 62,000 to 80,000 dollars supercharged equity exposure. Canaan, American Bitcoin, and Cango posted gains of up to 67% over the quarter, according to Cointelegraph. The 23% move higher in $BTC lifted mining stocks out of a long stretch of underperformance versus AI-linked peers, reinforcing that direct BTC exposure remains a primary lever for the industry. Options expiry data shows 6.4 billion dollars in contracts cleared around the 80,000 dollar level, with traders rebuilding positioning at a noticeably higher range.\n\nOn the security front, The Sandbox announced it will fully compensate users for a 700,000 dollar bridge exploit, pledging 1:1 repayment from its treasury. Eligible holders on Base and BNB Chain will receive Ethereum-based SAND, with claims expected to open within two weeks. Separately, OneKey disclosed that it reproduced a transaction replacement attack against an older version of the Ledger Ethereum app in a controlled lab environment. Ledger reportedly patched the flaw in Ethereum app 1.22.2 and no user funds were affected. The episode highlights how critical it is for hardware wallet users to keep firmware and companion apps current.\n\nThe macro calendar is also drawing attention. Kevin Warsh's Jackson Hole remarks are being closely watched for signals on Fed policy and Treasury repurchase operations, with direct implications for long-end US yields, gold, and risk assets including Bitcoin. Markets responded modestly: $ETH and SOL posted minor gains in 24 hours, while $BTC consolidated just below 80,000 dollars after the options expiry flush. Trading volumes across major venues ticked up, indicating fresh engagement rather than thin holiday conditions.\n\nSpeaking at Bitcoin Asia 2026, Binance co-founder Changpeng Zhao said Bitcoin could surpass gold in the next high-volatility cycle and that stablecoins are positioned to lead AI-driven payment integration. Taken together, the Evernorth listing path, the mining equity rebound, the resolution of the Sandbox incident, and the Jackson Hole backdrop frame a market digest that bridges institutional plumbing, security discipline, and macro inflection in a single session.\n\n#XRP #Mining #Binance\n\nSources: CoinDesk, Cointelegraph, The Block, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Ripple-backed Evernorth moves one step closer to a Nasdaq listing under ticker XRPN $XRP #XRP #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "tr",
-      "id": 360399942750436,
-      "url": "https://www.binance.com/square/post/360399942750436",
-      "xUrl": "https://x.com/i/web/status/2093144312447950860",
+      "id": 360537164899432,
+      "url": "https://www.binance.com/square/post/360537164899432",
+      "xUrl": "https://x.com/i/web/status/2093284828065972655",
       "shortPost": {
-        "id": 360399945688857,
-        "url": "https://www.binance.com/square/post/360399945688857"
+        "id": 360537167995244,
+        "url": "https://www.binance.com/square/post/360537167995244"
       },
-      "title": "Bitcoin 7 milyar dolarlık saldırıya rayılıyor; DeFi kazaları ve merkez bankası raporu dikkat çekiyor"
+      "title": "XRP Nasdaq Yolunda, Madenciler Rallide: Kripto Piyasasinda Son 24 Saat"
     },
     {
       "lang": "en",
-      "id": 360400318322591,
-      "url": "https://www.binance.com/square/post/360400318322591",
-      "xUrl": "https://x.com/i/web/status/2093144697032019978",
+      "id": 360537539753471,
+      "url": "https://www.binance.com/square/post/360537539753471",
+      "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
       "shortPost": {
-        "id": 360400320762388,
-        "url": "https://www.binance.com/square/post/360400320762388"
+        "id": 360537541825606,
+        "url": "https://www.binance.com/square/post/360537541825606"
       },
-      "title": "Bitcoin faces $7B whale surge; DeFi exploits and Fed report raise concerns"
+      "title": "XRP Heads to Nasdaq, Miners Rebound: 24 Hours in Crypto"
     }
   ]
 }
