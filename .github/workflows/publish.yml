@@ -57,7 +57,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Degisiklik yok, commit atlanıyor."
           else
-            git commit -m "bot: durum guncellemesi [skip ci]"
-            git pull --rebase || true
-            git push
+            git commit -m "bot: durum guncellemesi [skip ci]" || true
+            git pull --rebase || git pull --no-rebase || true
+            git push || (git push --force-with-lease || true)
           fi
