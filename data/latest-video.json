@@ -1,63 +1,63 @@
 {
-  "startedAt": "2026-08-28T21:59:38.661Z",
-  "finishedAt": "2026-08-28T22:03:29.214Z",
+  "startedAt": "2026-08-29T01:39:25.257Z",
+  "finishedAt": "2026-08-29T01:43:01.182Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "North Korea Hackers Break Silence With $19.4 Million Bitcoin (BTC) Move: Time to Worry?",
+    "title": "XRP, Shiba Inu (SHIB), Stellar (XLM) and Bitcoin (BTC) Price Analysis for August 28: Moment Where Bulls Should Take the Lead",
     "source": "U.Today",
-    "link": "https://u.today/north-korea-hackers-break-silence-with-194-million-bitcoin-btc-move-time-to-worry",
-    "usedLink": "https://u.today/north-korea-hackers-break-silence-with-194-million-bitcoin-btc-move-time-to-worry",
-    "usedTitleNorm": "north korea hackers break silence with 19 4 million bitcoin btc move time to worry"
+    "link": "https://u.today/price-analysis/xrp-shiba-inu-shib-stellar-xlm-and-bitcoin-btc-price-analysis-for-august-28-moment-where-bulls",
+    "usedLink": "https://u.today/price-analysis/xrp-shiba-inu-shib-stellar-xlm-and-bitcoin-btc-price-analysis-for-august-28-moment-where-bulls",
+    "usedTitleNorm": "xrp shiba inu shib stellar xlm and bitcoin btc price analysis for august 28 moment where bulls should take the lead"
   },
   "script": {
     "tr": {
-      "title": "Kuzey Kore Hackerlari 19.4 Milyon Dolar Bitcoin Hareketti",
+      "title": "Piyasa Bosluk Aninda XRP SHIB XLM BTC Analizi",
       "slides": [
-        "Kuzey Kore hackerlari on dokuz milyon dolarlik uykuyu Bitcoin transfer etti",
-        "Lazarus Grubu uzun sure inaktif kalmaktan sonra fonlari tasti",
-        "Pazar Bitcoin fiyat istikrarina olasi etkileri yakininden izliyor",
-        "Analistler bu durumun daha buyuk satis baskisi sinyali verip vermedigini degerlendiriyor"
+        "Piyasa son iki haftalik toparlamaya bosluk aninda",
+        "XRP ve SHIB fiyat hareketlerinde yonelime dikkat edilmeli",
+        "XLM ve BTC destek ve direncleri dikkatle izleniyor",
+        "Yatirmacilar piyasa sinyallerini cumle icin takip etmeli"
       ],
-      "caption": "Lazarus Grubu uzun suredir hareketsiz kalan 19.4 milyon dolarlik Bitcoin transferini gerceklestirdi. Pazar bu hareketin fiyat uzerindeki etkisini degerlendiriyor. $BTC $ETH\n#KuzeyKore #LazarusGrubu #BitcoinHareketi\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "XRP, SHIB, XLM ve BTC fiyat analizi guncel durumu kapsiyor. Piyasa surse sonrasi bir duraklama bekleniyor. $BTC $XRP $XLM\n#KriptoPara #FiyatAnalizi #Piyasa\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "North Korea Hackers Move 19.4 Million Dollars in Bitcoin",
+      "title": "Market Pause Moment XRP SHIB XLM BTC Analysis",
       "slides": [
-        "North Korea hackers move nineteen million dollars in dormant Bitcoin",
-        "Lazarus Group transfers funds after long period of inactivity",
-        "Market watches for potential impact on Bitcoin price stability",
-        "Analysts assess whether this signals larger selling pressure ahead"
+        "The market may be pausing after a two week surge",
+        "XRP and SHIB price action shows a potential shift ahead",
+        "XLM and BTC key support and resistance levels monitored",
+        "Traders should track market signals before taking positions"
       ],
-      "caption": "The Lazarus Group executed a 19.4 million dollar transfer of long dormant Bitcoin. Markets are evaluating the potential price impact of this movement. $BTC $ETH\n#NorthKorea #LazarusGroup #BitcoinMove\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "This video covers the latest price analysis for XRP, SHIB, XLM and BTC. A market pause is expected after recent surges. $BTC $XRP $XLM\n#CryptoNews #PriceAnalysis #Market\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 360707252975591,
-      "url": "https://www.binance.com/square/post/360707252975591",
+      "id": 360761207774927,
+      "url": "https://www.binance.com/square/post/360761207774927",
       "note": null,
       "shortPost": {
-        "id": 360707254504012,
-        "url": "https://www.binance.com/square/post/360707254504012"
+        "id": 360761209359965,
+        "url": "https://www.binance.com/square/post/360761209359965"
       },
-      "xUrl": "https://x.com/i/web/status/2093458999756685637",
-      "title": "Kuzey Kore Hackerlari 19.4 Milyon Dolar Bitcoin Hareketti"
+      "xUrl": "https://x.com/i/web/status/2093514249519632420",
+      "title": "Piyasa Bosluk Aninda XRP SHIB XLM BTC Analizi"
     },
     {
       "lang": "en",
-      "id": 360707721608244,
-      "url": "https://www.binance.com/square/post/360707721608244",
+      "id": 360761674055261,
+      "url": "https://www.binance.com/square/post/360761674055261",
       "note": null,
       "shortPost": {
-        "id": 360707723130420,
-        "url": "https://www.binance.com/square/post/360707723130420"
+        "id": 360761675567104,
+        "url": "https://www.binance.com/square/post/360761675567104"
       },
       "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
-      "title": "North Korea Hackers Move 19.4 Million Dollars in Bitcoin"
+      "title": "Market Pause Moment XRP SHIB XLM BTC Analysis"
     }
   ]
 }
