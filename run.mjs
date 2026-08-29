@@ -8,6 +8,7 @@ import { tweet } from "./src/x.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { getRemainingQuota } from "./src/llm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -134,6 +135,13 @@ async function main() {
 
   if (!dryRun && (process.env.PUBLISH_ENABLED ?? "true") === "false") {
     console.log("Yayinler duraklatilmis (PUBLISH_ENABLED=false). Bu tur atlandi.");
+    return;
+  }
+
+  const quota = getRemainingQuota();
+  console.log(`OpenRouter quota: ${quota}/45 kalan`);
+  if (quota < 10) {
+    console.log(`Quota cok dusuk (${quota}). Publish atlandi.`);
     return;
   }
 

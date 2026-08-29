@@ -6,13 +6,14 @@ import { ensureDirs, appendPublished, saveRunLog } from "./src/store.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
 import { uploadImageAsset } from "./src/video-publish.mjs";
+import { getRemainingQuota } from "./src/llm.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
 const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
 const CHECK_INTERVAL_MS = 15 * 60 * 1000; // 15 dakika
-const MAX_TOPICS_PER_DAY = 3; // Gunluk max 3 konu
+const MAX_TOPICS_PER_DAY = 2; // Gunluk max 2 konu (quota tasarrufu)
 const LLM_CALLS_PER_RUN = 2; // Her run'da max 2 LLM cagrisi (1 makale = 2 dil)
 
 function loadSeen() {
@@ -251,8 +252,16 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
 }
 
 async function checkAndPublish(cfg, dryRun) {
-  const seen = loadSeen();
+  const quota = getRemainingQuota();
   console.log(`\n[${new Date().toISOString()}] Trending konular kontrol ediliyor...`);
+  console.log(`  OpenRouter quota: ${quota}/45 kalan`);
+  
+  if (quota < 5) {
+    console.log(`  Quota cok dusuk (${quota}). Trending atlandi.`);
+    return;
+  }
+
+  const seen = loadSeen();
   console.log(`  Daha once yapilan: ${seen.topics.length} konu`);
 
   const topics = await fetchTrendingTopics();

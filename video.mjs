@@ -2,6 +2,7 @@
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { getRemainingQuota } from "./src/llm.mjs";
 import { loadEnv } from "./src/env.mjs";
 import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
@@ -161,6 +162,13 @@ async function main() {
 
   if (!dryRun && (process.env.PUBLISH_ENABLED ?? "true") === "false") {
     console.log("Yayinler duraklatilmis (PUBLISH_ENABLED=false). Bu tur atlandi.");
+    return;
+  }
+
+  const quota = getRemainingQuota();
+  console.log(`OpenRouter quota: ${quota}/45 kalan`);
+  if (quota < 10) {
+    console.log(`Quota cok dusuk (${quota}). Video atlandi.`);
     return;
   }
 
