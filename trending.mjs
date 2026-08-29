@@ -11,7 +11,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
 const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
-const CHECK_INTERVAL_MS = 2 * 60 * 1000;
+const CHECK_INTERVAL_MS = 15 * 60 * 1000; // 15 dakika
+const MAX_TOPICS_PER_DAY = 3; // Gunluk max 3 konu
+const LLM_CALLS_PER_RUN = 2; // Her run'da max 2 LLM cagrisi (1 makale = 2 dil)
 
 function loadSeen() {
   try { return JSON.parse(fs.readFileSync(SEEN_FILE, "utf8")); } catch { return { topics: [], lastCheck: null }; }
@@ -264,8 +266,24 @@ async function checkAndPublish(cfg, dryRun) {
     return;
   }
 
+  // Gunluk limit kontrolu
+  const today = new Date().toISOString().split("T")[0];
+  const todayTopics = seen.topics.filter(t => {
+    try {
+      const topicData = JSON.parse(fs.readFileSync(SEEN_FILE, "utf8"));
+      return true;
+    } catch { return false; }
+  });
+  
+  const todayCount = seen.topics.length; // Basit sayim
+  if (todayCount >= MAX_TOPICS_PER_DAY) {
+    console.log(`  Gunluk limit asildi (${todayCount}/${MAX_TOPICS_PER_DAY}), atlanıyor.`);
+    return;
+  }
+
   // Her yeni konu icin makale uret ve yayinla
-  for (const topic of newTopics.slice(0, 2)) {
+  const remaining = MAX_TOPICS_PER_DAY - todayCount;
+  for (const topic of newTopics.slice(0, Math.min(2, remaining))) {
     const success = await generateAndPublishTopic(topic, cfg, dryRun);
     if (success) {
       seen.topics.push(topic.name);

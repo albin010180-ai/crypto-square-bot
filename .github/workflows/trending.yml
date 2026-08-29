@@ -2,7 +2,7 @@ name: Trending Topics Monitor
 
 on:
   schedule:
-    - cron: "1-59/2 * * * *" # Her 2 dakikada bir - offset baslangici
+    - cron: "1-59/15 * * * *" # Her 15 dakikada bir
   workflow_dispatch:
     inputs:
       dryRun:

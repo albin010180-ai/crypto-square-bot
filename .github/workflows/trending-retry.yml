@@ -2,7 +2,7 @@ name: Trending Monitor Retry
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # Her 5 dakikada bir kontrol et
+    - cron: "*/20 * * * *" # Her 20 dakikada bir kontrol et
   workflow_dispatch:
 
 permissions:
