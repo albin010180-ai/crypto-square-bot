@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-29T14:53:18.514Z",
-  "finishedAt": "2026-08-29T14:56:04.155Z",
+  "startedAt": "2026-08-29T16:12:42.818Z",
+  "finishedAt": "2026-08-29T16:13:20.726Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,57 +8,42 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitwise Solana ETF Crosses $1 Billion as SOL Price Rally Draws Institutional Demand",
-      "source": "U.Today",
-      "link": "https://u.today/bitwise-solana-etf-crosses-1-billion-as-sol-price-rally-draws-institutional-demand"
-    },
-    {
-      "title": "BlackRock Records $1 Billion Ethereum Inflow",
-      "source": "U.Today",
-      "link": "https://u.today/blackrock-records-1-billion-ethereum-inflow"
-    },
-    {
-      "title": "Bitcoin miners are no longer pure crypto proxies and are morphing into high-performance computing hubs",
+      "title": "The SEC is reviewing automatic filing pathways after exotic crypto and event-linked ETF proposals flooded the market",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-miners-are-no-longer-pure-crypto-proxies-and-are-morphing-into-high-performance-computing-hubs/"
+      "link": "https://cryptoslate.com/the-sec-is-reviewing-automatic-filing-pathways-after-exotic-crypto-and-event-linked-etf-proposals-flooded-the-market/"
     },
     {
-      "title": "Saylor Takes Down ETH Bull Tom Lee (Literally)",
+      "title": "Leading Asset Manager Bitwise Moves $15.4 Million of XRP Off Supply",
       "source": "U.Today",
-      "link": "https://u.today/saylor-takes-down-eth-bull-tom-lee-literally"
+      "link": "https://u.today/leading-asset-manager-bitwise-moves-154-million-of-xrp-off-supply"
     },
     {
-      "title": "Crypto ETFs appeared to hit $10B in hours, but filing data exposes where that money really came from",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/crypto-etfs-appeared-to-hit-10b-in-hours-but-filing-data-exposes-where-that-money-really-came-from/"
+      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet"
     },
     {
-      "title": "Bitcoin’s failed $81,000 breakout just put $75,000 back on the table",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoins-failed-81000-breakout-just-put-75000-back-on-the-table/"
+      "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026"
     },
     {
-      "title": "Former White House teleprompter operator ordered to pay $172,000 for Kalshi trades on mention markets",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/regulation/2026-08-29-former-white-house-teleprompter-operator-ordered-to-pay-172000-for-kalshi-trades-on-mention-markets-413058"
+      "title": "'This Seems Incorrect': Ripple CTO Emeritus Slams Kalshi CFTC Argument",
+      "source": "U.Today",
+      "link": "https://u.today/this-seems-incorrect-ripple-cto-emeritus-slams-kalshi-cftc-argument"
     }
   ],
   "selected": [
-    "https://u.today/blackrock-records-1-billion-ethereum-inflow",
-    "https://cryptoslate.com/bitcoins-failed-81000-breakout-just-put-75000-back-on-the-table/",
-    "https://www.theblock.co/news/regulation/2026-08-29-former-white-house-teleprompter-operator-ordered-to-pay-172000-for-kalshi-trades-on-mention-markets-413058",
-    "https://cryptoslate.com/bitcoin-miners-are-no-longer-pure-crypto-proxies-and-are-morphing-into-high-performance-computing-hubs/"
+    "https://cryptoslate.com/the-sec-is-reviewing-automatic-filing-pathways-after-exotic-crypto-and-event-linked-etf-proposals-flooded-the-market/",
+    "https://u.today/leading-asset-manager-bitwise-moves-154-million-of-xrp-off-supply",
+    "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026",
+    "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet"
   ],
   "articles": {
-    "tr": {
-      "title": "Kurumsal Yatırımcılar ETH ETF'lerine $1 Milyar Aktardı, Bitcoin $80 Bin Direncinde Zorlanıyor",
-      "body": "Kripto piyasasında kurumsal sermaye akışı hız kesmeden devam ediyor. BlackRock'un ETHA borsa yatırım fonu dokuz ardışık işlem gününde 1 milyar doları aşan net giriş kaydetti ve ABD spot Ethereum ETF'leri arasında lider konumunu pekiştirdi. Bu veriler, geleneksel finans devlerinin Ethereum'a olan güveninin somut bir göstergesi olarak değerlendiriliyor.\n\nBitcoin ise kritik bir fiyat seviyesinde kararsız bir seyir izliyor. BTC, 28 Ağustos'ta 81.300 doları aşma girişiminin ardından sert bir reddedilmeyeyle karşılaştı ve hafta sonuna doğru 78.000 dolar civarında işlem görmeye başladı. Mevcut durumda 77.000 dolar destek, 80.000 dolar direnç olarak öne çıkıyor. Analistler, 77.000 doların altında kalıcı bir kırılmanın BTC'yi 75.000 dolarların ortasına taşıyabileceğini belirtiyor. Öte yandan, 80.000 doların üzerinde tutunma başarılırsa 81.300-83.000 dolar bandı yeniden gündeme gelebilir.\n\nPiyasa genelinde yaşanan bu hareketlilik, madencilik sektöründe de yeni bir dönüşümü beraberinde getiriyor. Büyük ABD'li Bitcoin madencileri artık salt kripto madencisi olmaktan çıkarak yüksek performanslı bilgi işlem merkezlerine dönüşüyor. MARA Holdings, Cipher Digital, TeraWulf ve Hut 8 gibi şirketler, yapay zeka ve bulut bilişim altyapısı yatırımlarına yönelerek gelir çeşitlendirmesine gidiyor. Bitcoin fiyatının son haftalarda yüzde 21,5 yükselmesine rağmen bu madencilik hisselerinin çoğunun düşük kalması, sektörde yaşanan yapısal değişimi gözler önüne seriyor.\n\nDüzenleyici cephede ise ABD Emtia Vadeli İşlemler Komisyonu (CFTC) dikkat çekici bir adım attı. Eski Beyaz Saray prompter operatörü, Kalshi'nin mention piyasalarında işlem yaptığı gerekçesiyle 172.000 dolar para cezasına çarptırıldı. Bu karar, CFTC'nin kripto türev piyasalarında görev suistimaliyle ilgili dördüncü haftasındaki ikinci enforcement eylemi olma özelliği taşıyor.\n\n$ETH $BTC\n\n#Bitcoin #Ethereum #Binance\n\nKaynaklar: U.Today, CryptoSlate, The Block\n\nBu haber yapay zeka destekli olarak derlenmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR).",
-      "tweet": "BlackRock's ETHA ETF hits $1B inflows; Bitcoin struggles near $80K resistance after $81K rejection #Bitcoin #Ethereum #Binance"
-    },
     "en": {
-      "title": "BlackRock's ETH ETF Hits $1B Inflows as Bitcoin Fights $80K Resistance",
-      "body": "Institutional capital continues pouring into the crypto market at a remarkable pace. BlackRock's ETHA exchange-traded fund has surpassed $1 billion in net inflows across nine consecutive trading sessions, solidifying its position as the leading U.S. spot Ethereum ETF. This sustained buying pressure reflects growing confidence among traditional finance giants in Ethereum's long-term prospects.\n\nBitcoin, meanwhile, faces headwinds at a critical juncture. After attempting to break above $81,300 on August 28, BTC encountered sharp rejection and retreated toward the $78,000 level as the week concluded. Current technical levels show $77,000 as key support and $80,000 as immediate resistance. Analysts suggest that a confirmed break below $77,000 could open the mid-$75,000s, while reclaiming $80,000 would put the August 28 high and the $82,000-$83,000 zone back in play. Trading volume has remained elevated throughout this consolidation phase, indicating active positioning by both retail and institutional participants.\n\nThe broader market movements coincide with a structural transformation in the mining sector. Major U.S.-listed Bitcoin miners are diversifying beyond pure crypto mining into high-performance computing infrastructure. MARA Holdings, Cipher Digital, TeraWulf, and Hut 8 have all signaled investments in AI and cloud computing capabilities. Despite Bitcoin gaining 21.5 percent from August 17 through August 21, most mining stocks underperformed the underlying asset, with Cipher Digital falling 14.8 percent and TeraWulf losing 11.2 percent during the same period.\n\nOn the regulatory front, the Commodity Futures Trading Commission imposed a $172,000 fine on a former White House teleprompter operator for trading Kalshi mention markets. This marks the CFTC's second insider trading case against a federal employee in four weeks, signaling continued enforcement activity in the crypto derivatives space.\n\n$BTC $ETH\n\n#Bitcoin #Regulation #Binance\n\nSources: U.Today, CryptoSlate, The Block\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "BlackRock's ETHA ETF hits $1B inflows; Bitcoin struggles near $80K resistance after $81K rejection #Bitcoin #Ethereum #Binance"
+      "title": "SEC Reviews ETF Filing Rules as Old Bitcoin Awakens and Bitwise Boosts XRP Holdings",
+      "body": "The U.S. Securities and Exchange Commission is re-examining its automated filing pathways for exchange-traded funds after asset managers flooded regulators with proposals for exotic crypto products and event-linked contracts. Wall Street firms have sought approval for funds tied to leveraged returns, election outcomes, and economic indicators, pushing the boundaries of what qualifies as an investable product. The SEC must now determine whether existing processes can handle this surge in creative structuring while maintaining investor protections.\n\nThe filing surge coincides with notable whale activity across multiple blockchains. Galaxy Research reported that Bitcoin coins dormant for more than a decade moved at an unusually high pace in 2026, with six ancient wallets shifting approximately $40 million in a single 10-day stretch this month. While such movements often attract speculation about potential selling pressure, the volumes remain a fraction of daily Bitcoin trading volume, which typically exceeds $30 billion across major exchanges.\n\nIn the altcoin space, Bitwise continues to demonstrate conviction in XRP despite a pullback from recent highs. The asset manager moved $15.4 million worth of XRP off exchange supply, a maneuver interpreted by analysts as accumulation. The token trades near the $0.55 support level after failing to sustain momentum above $0.65 earlier this month, with the Relative Strength Index hovering around 48, suggesting neither overbought nor oversold conditions.\n\nSeparately, crypto executives are grappling with a novel question: what currency will power transactions between AI agents? Industry leaders interviewed by CoinDesk acknowledged widespread agreement that autonomous AI systems will require native payment rails, but consensus on implementation remains elusive. Some argue existing stablecoins could scale to meet demand, while others contend that entirely new protocols better suited for machine-to-machine settlements have not yet been developed.\n\nThe convergence of regulatory scrutiny, evolving on-chain behavior, and emerging use cases underscores a market in transition. Institutional players are hedging their positions while regulators attempt to establish guardrails for increasingly complex financial instruments.\n\nSources: CryptoSlate, Decrypt, U.Today, CoinDesk\n\n#Bitcoin #CryptoNews #MarketUpdate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "SEC reviews ETF filing rules as old Bitcoin wallets stir and Bitwise adds $15.4M XRP off supply #Bitcoin #Regulation #Binance"
     }
   },
   "published": []
