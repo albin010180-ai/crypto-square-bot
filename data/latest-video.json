@@ -1,63 +1,47 @@
 {
-  "startedAt": "2026-08-29T05:39:32.175Z",
-  "finishedAt": "2026-08-29T05:46:16.484Z",
+  "startedAt": "2026-08-29T09:39:13.328Z",
+  "finishedAt": "2026-08-29T09:42:37.487Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
-    "source": "CoinDesk",
-    "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
-    "usedLink": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
-    "usedTitleNorm": "ripple is preparing xrp ledger for quantum computers before q day arrives"
+    "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
+    "source": "Decrypt",
+    "link": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
+    "usedLink": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
+    "usedTitleNorm": "bitcoin rally stalls but long term sentiment remains bullish"
   },
   "script": {
     "tr": {
-      "title": "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor",
+      "title": "Bitcoin Rally Geriledi, Uzun Vadeli Duygu Hala Boşverme",
       "slides": [
-        "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor",
-        "Anthropic modeli bir post kuantum imzanın kırmayı 67 milyon kez daha kolaylaştırdı",
-        "Bitcoin ve Ethereum de bu hafta kendi kuantum direnci geçiş planlarını yayınladı",
-        "XRP Ledger güncellemesi kullanıcı varlıklarını kuantum risklerinden korumayı hedefliyor"
+        "Bitcoin fiyatı Fed'in sıkı para politikası açıklamaları sonrası geriledi.",
+        "Fed Başkanı Kevin Warsh enflasyonla mücadele konusunda sert mesaj verdi.",
+        "Yatırımcılar kısa vadeli dalgınıp sarsılma yaşadı ancak uzun vadeli bakış açısı değişmedi.",
+        "Tahmin piyasatı işlemcileri Bitcoin için hâlâ uzun pozisyonlar alıyor."
       ],
-      "caption": "Ripple, XRP Ledger'ini kuantum bilgisayarlarına karşı koruyacak şekilde güncelliyor. Bu ay Anthropic'in bir yapay zeka modeli, bir önde gelen post kuantum imza adayının kırmak için gereken işi 67 milyon kez azalttı. Bitcoin ve Ethereum de bu hafta kendi kuantum direnci geçiş planlarını yayınlandı $BTC $ETH $XRP\n#KuantumGüvenliği #KriptoHaberleri #XRP\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Bitcoin Fed açıklamalarının ardından kısa vadeli geri çekilme yaşadı. $BTC, $ETH ve $SOL fiyatları hafif düşüş gösterdi. Uzun vadeli yatırımcılar ise stratejilerini sürdürdü. #Bitcoin #Fed #Borsa\nKaynaklar: Decrypt\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Ripple Prepares XRP Ledger for Quantum Computer Threats",
+      "title": "Bitcoin Rally Stalls, Long-Term Sentiment Still Bullish",
       "slides": [
-        "Ripple is preparing the XRP Ledger for future quantum computer threats",
-        "Last month an Anthropic AI model reduced the work to break a top post quantum signature by 67 million times",
-        "Bitcoin and Ethereum each released their own plans to move to quantum resistant signatures this week",
-        "The XRP Ledger upgrade aims to protect user assets before quantum computers become practical"
+        "Bitcoin price retreated after Fed officials signaled a tougher stance on inflation.",
+        "Former Fed Chair Kevin Warsh warned that inflation remains a key policy concern.",
+        "Traders gave back some intraday gains but long-term conviction stayed intact.",
+        "Prediction market participants are still placing bullish bets on Bitcoin."
       ],
-      "caption": "Ripple is updating the XRP Ledger to defend against future quantum computer attacks. Last month an Anthropic AI model reduced the work to break a top post quantum signature by 67 million times. Bitcoin and Ethereum also published their own quantum-resistant migration plans this week $BTC $ETH $XRP\n#QuantumSecurity #CryptoNews #XRP\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin pulled back briefly following hawkish Fed comments this week. $BTC, $ETH and $SOL all saw minor declines. Long-term holders maintained their positions despite short-term volatility. #Bitcoin #FederalReserve #Markets\nSources: Decrypt\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 360821002449919,
-      "url": "https://www.binance.com/square/post/360821002449919",
-      "note": null,
-      "shortPost": {
-        "id": 360821003846936,
-        "url": "https://www.binance.com/square/post/360821003846936"
-      },
-      "xUrl": "https://x.com/i/web/status/2093575479077081183",
-      "title": "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor"
+      "error": "Binance API hatasi [220009]: Daily post limit exceeded for OpenAPI"
     },
     {
       "lang": "en",
-      "id": 360821456534213,
-      "url": "https://www.binance.com/square/post/360821456534213",
-      "note": null,
-      "shortPost": {
-        "id": 360821457878778,
-        "url": "https://www.binance.com/square/post/360821457878778"
-      },
-      "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
-      "title": "Ripple Prepares XRP Ledger for Quantum Computer Threats"
+      "error": "Binance API hatasi [220009]: Daily post limit exceeded for OpenAPI"
     }
   ]
 }
