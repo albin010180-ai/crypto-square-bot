@@ -5,7 +5,6 @@ function baseRules() {
   return `OUTPUT FORMAT
 Respond with ONLY valid JSON (no markdown fences, no commentary), exactly this shape:
 {
-  "tr": { "title": "...", "slides": ["...","...","...","..."], "caption": "..." },
   "en": { "title": "...", "slides": ["...","...","...","..."], "caption": "..." }
 }
 
@@ -19,7 +18,7 @@ CAPTION RULES (posted as the video's text on Binance Square)
 - 2-4 short factual sentences.
 - Include 2-3 cashtags ($BTC, $ETH, $SOL, etc.) for Write to Earn commission tracking.
 - Then a NEW LINE with EXACTLY 3 topical hashtags.
-- Then a NEW LINE: transparency/disclaimer line - TR: "Bu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)." / EN: "This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+- Then a NEW LINE: transparency/disclaimer line - "This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
 - ABSOLUTELY NO URLs and NO @mentions anywhere.
 
 TITLE RULES
@@ -29,7 +28,7 @@ TONE
 - Strictly neutral reporting/teaching of verified facts only.
 - FORBIDDEN: price predictions/targets, buy/sell suggestions, hype words (moon, massive pump, guaranteed), speculation presented as fact.
 - You are a NEWS REPORTER / EDUCATOR, never an advisor.
-- Write flawless natural Turkish and English.
+- Write flawless natural English.
 
 ${SAFETY_RULES}`;
 }
@@ -48,8 +47,8 @@ Today's story to cover:
 
 ${JSON.stringify(story, null, 2)}
 
-Create the video content in TURKISH and ENGLISH (same content, two languages).
-Caption must include one line citing the source outlet by NAME ONLY (e.g. "Kaynaklar: NewsBTC" / "Sources: NewsBTC") placed right before the final disclaimer line.
+Create the video content in ENGLISH only.
+Caption must include one line citing the source outlet by NAME ONLY (e.g. "Sources: NewsBTC") placed right before the final disclaimer line.
 
 ${baseRules()}`;
 }
@@ -58,11 +57,10 @@ function buildInfoPrompt(topic) {
   return `You are a crypto educator producing a short FACELESS informational video for Binance Square.
 
 INFORMATIONAL TOPIC (no breaking news involved):
-TR: ${topic.tr}
-EN: ${topic.en}
+${topic.en}
 Suggested hashtag themes: ${topic.tags.join(" ")}
 
-Create the educational video content in TURKISH and ENGLISH (same content, two languages).
+Create the educational video content in ENGLISH only.
 Explain the topic clearly for everyday crypto users: what it is, how it works, and practical warning signs or best practices.
 Do NOT cite news outlets (this is not news). Do NOT invent specific dates, numbers or project names that you cannot verify.
 The caption's hashtag line should use exactly these 3 hashtags: ${topic.tags.slice(0, 2).join(" ")} plus ONE more fitting tag such as #Binance #CryptoTips or #LearnCrypto.
@@ -91,32 +89,31 @@ function repairHashtags(caption, fallbackTags = []) {
 
 function makeValidate(fallbackTags = []) {
   return function validate(result) {
-    for (const lang of ["tr", "en"]) {
-      const part = result?.[lang];
-      if (!part || typeof part.title !== "string" || typeof part.caption !== "string") {
-        throw new Error(`${lang} video icerigi eksik`);
-      }
-      if (!Array.isArray(part.slides) || part.slides.length < 3 || part.slides.length > 5) {
-        throw new Error(`${lang} slayt sayisi hatali`);
-      }
-      part.slides = part.slides.map((s) => String(s).trim()).filter(Boolean);
-      if (part.slides.length < 3) throw new Error(`${lang} gecerli slayt kalmadi`);
-      const joined = `${part.title}\n${part.slides.join("\n")}\n${part.caption}`;
-      assertSafe(joined, `${lang} videosu`);
-      for (const s of part.slides) {
-        if (s.length > 160) throw new Error(`${lang} slayt cok uzun`);
-        if (/https?:\/\/|@[A-Za-z0-9_]/.test(s)) throw new Error(`${lang} slaytta URL/mention var`);
-      }
-      part.caption = repairHashtags(part.caption.trim(), fallbackTags);
-      const tags = part.caption.match(/#[A-Za-z0-9_]+/g) || [];
-      if (tags.length < 3 || tags.length > 5) {
-        throw new Error(`${lang} caption hashtag sayisi hatali (${tags.length})`);
-      }
-      if (/https?:\/\//.test(part.caption)) throw new Error(`${lang} caption icinde URL var`);
-      if (/@[A-Za-z0-9_]/.test(part.caption)) throw new Error(`${lang} caption icinde mention var`);
-      part.title = part.title.trim().slice(0, 90);
-      part.caption = part.caption.trim();
+    const part = result?.en;
+    if (!part || typeof part.title !== "string" || typeof part.caption !== "string") {
+      throw new Error("EN video content missing");
     }
+    if (!Array.isArray(part.slides) || part.slides.length < 3 || part.slides.length > 5) {
+      throw new Error("EN slide count wrong");
+    }
+    part.slides = part.slides.map((s) => String(s).trim()).filter(Boolean);
+    if (part.slides.length < 3) throw new Error("EN valid slides too few");
+    const joined = `${part.title}\n${part.slides.join("\n")}\n${part.caption}`;
+    assertSafe(joined, "EN video");
+    for (const s of part.slides) {
+      if (s.length > 160) throw new Error("EN slide too long");
+      if (/https?:\/\/|@[A-Za-z0-9_]/.test(s)) throw new Error("EN slide has URL/mention");
+    }
+    part.caption = repairHashtags(part.caption.trim(), fallbackTags);
+    const tags = part.caption.match(/#[A-Za-z0-9_]+/g) || [];
+    if (tags.length < 3 || tags.length > 5) {
+      throw new Error(`EN caption hashtag count wrong (${tags.length})`);
+    }
+    if (/https?:\/\//.test(part.caption)) throw new Error("EN caption has URL");
+    if (/@[A-Za-z0-9_]/.test(part.caption)) throw new Error("EN caption has mention");
+    part.title = part.title.trim().slice(0, 90);
+    part.caption = part.caption.trim();
+    result.tr = undefined;
     return result;
   };
 }

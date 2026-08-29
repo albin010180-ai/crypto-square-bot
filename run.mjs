@@ -185,13 +185,12 @@ async function main() {
   if (useInfo && !article) {
     contentType = "info";
     const topic = pickInfoTopic(new Date(), 1);
-    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.tr}`);
+    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.en}`);
     article = await generateInfoArticles(topic, cfg);
     record_topic = topic.id;
   }
 
-  console.log(`\n=== TR: ${article.tr.title}`);
-  console.log(`=== EN: ${article.en.title}\n`);
+  console.log(`\n=== EN: ${article.en.title}\n`);
 
   const record = {
     startedAt,
@@ -203,13 +202,12 @@ async function main() {
     sourceErrors,
     candidates: usedCandidates.map((c) => ({ title: c.title, source: c.source, link: c.link })),
     selected: article.selected,
-    articles: { tr: article.tr, en: article.en },
+    articles: { en: article.en },
     published: [],
   };
 
   if (dryRun) {
     console.log("--- DRY-RUN: yayin yapilmadi ---");
-    console.log(`\n[TURKCE]\nBaslik: ${article.tr.title}\n\n${article.tr.body}`);
     console.log(`\n[ENGLISH]\nTitle: ${article.en.title}\n\n${article.en.body}`);
     record.finishedAt = new Date().toISOString();
     saveLatest(record);
@@ -221,21 +219,17 @@ async function main() {
   if (!xEnabled) console.log("X entegrasyonu kapali (API anahtarlari tanimli degil).");
 
   const staggerMs = Number.parseInt(process.env.POST_STAGGER_MS ?? "90000", 10) || 90000;
-  let firstLang = true;
 
-  for (const [lang, art] of [["tr", article.tr], ["en", article.en]]) {
-    if (!firstLang && !dryRun) {
-      console.log(`spam-onleme: sonraki dil icin ${staggerMs / 1000}sn bekleniyor...`);
-      await new Promise((r) => setTimeout(r, staggerMs));
-    }
-    firstLang = false;
+  {
+    const lang = "en";
+    const art = article.en;
     art.body = enforceCashtagLimit(art.body);
     art.title = enforceCashtagLimit(art.title);
     let body = art.body;
     let okResult = null;
     for (let attempt = 1; attempt <= 4; attempt++) {
       try {
-        console.log(`${lang.toUpperCase()} makalesi yayinlaniyor...`);
+        console.log(`EN makalesi yayinlaniyor...`);
         okResult = await publishArticle(cfg.binanceKey, {
           title: art.title,
           body,
@@ -256,7 +250,7 @@ async function main() {
           body = clean.body;
           continue;
         }
-        console.error(`  HATA (${lang}): ${err.message}`);
+        console.error(`  HATA (en): ${err.message}`);
         break;
       }
     }
@@ -280,7 +274,7 @@ async function main() {
         }
       }
 
-      console.log(`${lang.toUpperCase()} kisa post yayinlaniyor...`);
+      console.log(`EN kisa post yayinlaniyor...`);
       try {
         const shortText = ensureCashtagsInShortPost(art.tweet, body);
         const sp = await publishShortPostSafe(cfg.binanceKey, { text: shortText });

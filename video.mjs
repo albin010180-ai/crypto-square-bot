@@ -38,10 +38,10 @@ function buildCfg() {
     binanceKey: process.env.BINANCE_SQUARE_OPENAPI_KEY?.trim() || "",
     model: process.env.OPENROUTER_MODEL?.trim() || DEFAULT_MODEL,
     maxCandidates: Number.parseInt(process.env.MAX_CANDIDATES ?? "8", 10) || 8,
-    langs: (process.env.VIDEO_LANGS?.trim() || "tr,en")
-      .split(",")
-      .map((s) => s.trim().toLowerCase())
-      .filter(Boolean),
+  langs: (process.env.VIDEO_LANGS?.trim() || "en")
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean),
     footer: process.env.VIDEO_FOOTER?.trim() || "@Mr_Emanetson | Binance Square",
     referralLink: process.env.X_REFERRAL_LINK?.trim() || "https://me-l.co/b6iygwwa",
     referralCode: process.env.X_REFERRAL_CODE?.trim() || "CPA_001D41FKZ1",

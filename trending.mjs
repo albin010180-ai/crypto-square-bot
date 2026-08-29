@@ -177,7 +177,6 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
     }
 
     if (dryRun) {
-      console.log(`  [DRY-RUN] TR: ${article.tr.title}`);
       console.log(`  [DRY-RUN] EN: ${article.en.title}`);
       if (coinData) console.log(`  [DRY-RUN] Chart: ${coinData.sparkline}`);
       return true;
@@ -202,46 +201,43 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
       }
     }
 
-    // Yayinla
-    const langs = ["tr", "en"];
-    for (const lang of langs) {
-      const art = article[lang];
-      if (!art) continue;
-
-      try {
-        console.log(`  ${lang.toUpperCase()} makalesi yayinlaniyor...`);
-        
-        // Makale icerigine coin bilgisi ekle
-        let body = art.body;
-        if (coinData && lang === "en") {
-          body = `${coinData.name} (${coinData.symbol}) Current Price: $${coinData.price?.toFixed(2)} | 24h Change: ${coinData.change24h?.toFixed(2)}%\n\n${body}`;
-        } else if (coinData && lang === "tr") {
-          body = `${coinData.name} (${coinData.symbol}) Guncel Fiyat: $${coinData.price?.toFixed(2)} | 24s Degisim: %${coinData.change24h?.toFixed(2)}\n\n${body}`;
-        }
-
-        const okResult = await publishArticle(cfg.binanceKey, {
-          title: art.title,
-          body,
-        });
-        console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
-
-        if (okResult && okResult.url) {
-          // Kisa post
-          console.log(`  ${lang.toUpperCase()} kisa post yayinlaniyor...`);
-          try {
-            await publishShortPostSafe(cfg.binanceKey, { text: art.tweet });
-            console.log(`    Kisa post OK`);
-          } catch (err) {
-            console.warn(`    Kisa post hatasi: ${err.message}`);
+    // Yayinla - EN only
+    {
+      const lang = "en";
+      const art = article.en;
+      if (art) {
+        try {
+          console.log(`  EN makalesi yayinlaniyor...`);
+          
+          // Makale icerigine coin bilgisi ekle
+          let body = art.body;
+          if (coinData) {
+            body = `${coinData.name} (${coinData.symbol}) Current Price: $${coinData.price?.toFixed(2)} | 24h Change: ${coinData.change24h?.toFixed(2)}%\n\n${body}`;
           }
-        }
 
-        if (okResult) {
-          appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name }]);
+          const okResult = await publishArticle(cfg.binanceKey, {
+            title: art.title,
+            body,
+          });
+          console.log(`    OK: ${okResult.url ?? "(id alinamadi)"}`);
+
+          if (okResult && okResult.url) {
+            // Kisa post
+            console.log(`  EN kisa post yayinlaniyor...`);
+            try {
+              await publishShortPostSafe(cfg.binanceKey, { text: art.tweet });
+              console.log(`    Kisa post OK`);
+            } catch (err) {
+              console.warn(`    Kisa post hatasi: ${err.message}`);
+            }
+          }
+
+          if (okResult) {
+            appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name }]);
+          }
+        } catch (err) {
+          console.error(`  HATA (en): ${err.message}`);
         }
-      } catch (err) {
-        console.error(`  HATA (${lang}): ${err.message}`);
-      }
     }
 
     return true;

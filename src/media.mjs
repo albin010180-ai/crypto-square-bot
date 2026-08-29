@@ -8,7 +8,6 @@ const run = promisify(execFile);
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
 const VOICES = {
-  tr: "tr-TR-AhmetNeural",
   en: "en-US-ChristopherNeural",
 };
 
@@ -37,7 +36,7 @@ export async function speak(text, lang, outFile) {
   try {
     await run("python3", [
       "-c",
-      `from gtts import gTTS; gTTS(${JSON.stringify(text)}, lang='${lang === "tr" ? "tr" : "en"}').save(r'${outFile}')`,
+      `from gtts import gTTS; gTTS(${JSON.stringify(text)}, lang='en').save(r'${outFile}')`,
     ]);
     if (await fileNonEmpty(outFile)) return "gtts";
   } catch (err) {
