@@ -1,63 +1,63 @@
 {
-  "startedAt": "2026-08-29T01:39:25.257Z",
-  "finishedAt": "2026-08-29T01:43:01.182Z",
+  "startedAt": "2026-08-29T05:39:32.175Z",
+  "finishedAt": "2026-08-29T05:46:16.484Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "XRP, Shiba Inu (SHIB), Stellar (XLM) and Bitcoin (BTC) Price Analysis for August 28: Moment Where Bulls Should Take the Lead",
-    "source": "U.Today",
-    "link": "https://u.today/price-analysis/xrp-shiba-inu-shib-stellar-xlm-and-bitcoin-btc-price-analysis-for-august-28-moment-where-bulls",
-    "usedLink": "https://u.today/price-analysis/xrp-shiba-inu-shib-stellar-xlm-and-bitcoin-btc-price-analysis-for-august-28-moment-where-bulls",
-    "usedTitleNorm": "xrp shiba inu shib stellar xlm and bitcoin btc price analysis for august 28 moment where bulls should take the lead"
+    "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
+    "source": "CoinDesk",
+    "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+    "usedLink": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+    "usedTitleNorm": "ripple is preparing xrp ledger for quantum computers before q day arrives"
   },
   "script": {
     "tr": {
-      "title": "Piyasa Bosluk Aninda XRP SHIB XLM BTC Analizi",
+      "title": "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor",
       "slides": [
-        "Piyasa son iki haftalik toparlamaya bosluk aninda",
-        "XRP ve SHIB fiyat hareketlerinde yonelime dikkat edilmeli",
-        "XLM ve BTC destek ve direncleri dikkatle izleniyor",
-        "Yatirmacilar piyasa sinyallerini cumle icin takip etmeli"
+        "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor",
+        "Anthropic modeli bir post kuantum imzanın kırmayı 67 milyon kez daha kolaylaştırdı",
+        "Bitcoin ve Ethereum de bu hafta kendi kuantum direnci geçiş planlarını yayınladı",
+        "XRP Ledger güncellemesi kullanıcı varlıklarını kuantum risklerinden korumayı hedefliyor"
       ],
-      "caption": "XRP, SHIB, XLM ve BTC fiyat analizi guncel durumu kapsiyor. Piyasa surse sonrasi bir duraklama bekleniyor. $BTC $XRP $XLM\n#KriptoPara #FiyatAnalizi #Piyasa\nKaynaklar: U.Today\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
+      "caption": "Ripple, XRP Ledger'ini kuantum bilgisayarlarına karşı koruyacak şekilde güncelliyor. Bu ay Anthropic'in bir yapay zeka modeli, bir önde gelen post kuantum imza adayının kırmak için gereken işi 67 milyon kez azalttı. Bitcoin ve Ethereum de bu hafta kendi kuantum direnci geçiş planlarını yayınlandı $BTC $ETH $XRP\n#KuantumGüvenliği #KriptoHaberleri #XRP\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
     },
     "en": {
-      "title": "Market Pause Moment XRP SHIB XLM BTC Analysis",
+      "title": "Ripple Prepares XRP Ledger for Quantum Computer Threats",
       "slides": [
-        "The market may be pausing after a two week surge",
-        "XRP and SHIB price action shows a potential shift ahead",
-        "XLM and BTC key support and resistance levels monitored",
-        "Traders should track market signals before taking positions"
+        "Ripple is preparing the XRP Ledger for future quantum computer threats",
+        "Last month an Anthropic AI model reduced the work to break a top post quantum signature by 67 million times",
+        "Bitcoin and Ethereum each released their own plans to move to quantum resistant signatures this week",
+        "The XRP Ledger upgrade aims to protect user assets before quantum computers become practical"
       ],
-      "caption": "This video covers the latest price analysis for XRP, SHIB, XLM and BTC. A market pause is expected after recent surges. $BTC $XRP $XLM\n#CryptoNews #PriceAnalysis #Market\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Ripple is updating the XRP Ledger to defend against future quantum computer attacks. Last month an Anthropic AI model reduced the work to break a top post quantum signature by 67 million times. Bitcoin and Ethereum also published their own quantum-resistant migration plans this week $BTC $ETH $XRP\n#QuantumSecurity #CryptoNews #XRP\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "tr",
-      "id": 360761207774927,
-      "url": "https://www.binance.com/square/post/360761207774927",
+      "id": 360821002449919,
+      "url": "https://www.binance.com/square/post/360821002449919",
       "note": null,
       "shortPost": {
-        "id": 360761209359965,
-        "url": "https://www.binance.com/square/post/360761209359965"
+        "id": 360821003846936,
+        "url": "https://www.binance.com/square/post/360821003846936"
       },
-      "xUrl": "https://x.com/i/web/status/2093514249519632420",
-      "title": "Piyasa Bosluk Aninda XRP SHIB XLM BTC Analizi"
+      "xUrl": "https://x.com/i/web/status/2093575479077081183",
+      "title": "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor"
     },
     {
       "lang": "en",
-      "id": 360761674055261,
-      "url": "https://www.binance.com/square/post/360761674055261",
+      "id": 360821456534213,
+      "url": "https://www.binance.com/square/post/360821456534213",
       "note": null,
       "shortPost": {
-        "id": 360761675567104,
-        "url": "https://www.binance.com/square/post/360761675567104"
+        "id": 360821457878778,
+        "url": "https://www.binance.com/square/post/360821457878778"
       },
       "xError": "X API HTTP 403: {\"detail\":\"You are not allowed to create a Tweet with duplicate content.\",\"status\":403,\"title\":\"Forbidden\",\"type\":\"about:blank\"}",
-      "title": "Market Pause Moment XRP SHIB XLM BTC Analysis"
+      "title": "Ripple Prepares XRP Ledger for Quantum Computer Threats"
     }
   ]
 }

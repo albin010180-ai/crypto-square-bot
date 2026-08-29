@@ -1539,5 +1539,23 @@
     "url": "https://www.binance.com/square/post/360816529655870",
     "title": "ICP Trends in the Market; Price Action and Key Levels",
     "topic": "Internet Computer"
+  },
+  {
+    "type": "video",
+    "contentType": "news",
+    "lang": "tr",
+    "id": 360821002449919,
+    "url": "https://www.binance.com/square/post/360821002449919",
+    "title": "Ripple XRP Ledger'ini Kuantum Bilgisayarlarına Hazırlıyor",
+    "at": "2026-08-29T05:46:16.483Z"
+  },
+  {
+    "type": "video",
+    "contentType": "news",
+    "lang": "en",
+    "id": 360821456534213,
+    "url": "https://www.binance.com/square/post/360821456534213",
+    "title": "Ripple Prepares XRP Ledger for Quantum Computer Threats",
+    "at": "2026-08-29T05:46:16.483Z"
   }
 ]
