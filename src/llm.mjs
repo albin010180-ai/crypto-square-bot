@@ -1,6 +1,6 @@
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const fs = require("node:fs");
-const path = require("node:path");
+import fs from "node:fs";
+import path from "node:path";
 
 const QUOTA_FILE = path.join(process.cwd(), "data", "llm-quota.json");
 const DAILY_LIMIT = 45; // 50 limit'ten 5 guvenlik payi
