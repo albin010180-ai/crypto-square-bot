@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-29T16:12:42.818Z",
-  "finishedAt": "2026-08-29T16:13:20.726Z",
+  "startedAt": "2026-08-29T20:12:44.340Z",
+  "finishedAt": "2026-08-29T20:13:05.352Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,42 +8,42 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "The SEC is reviewing automatic filing pathways after exotic crypto and event-linked ETF proposals flooded the market",
+      "title": "Bitcoin ETF inflows snap after $3 billion streak as ETH, XRP and Solana keep buying",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/the-sec-is-reviewing-automatic-filing-pathways-after-exotic-crypto-and-event-linked-etf-proposals-flooded-the-market/"
+      "link": "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/"
     },
     {
-      "title": "Leading Asset Manager Bitwise Moves $15.4 Million of XRP Off Supply",
+      "title": "Bitcoin faces a new macro test as Fed Chair Kevin Warsh highlights sticky inflation metrics",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-faces-a-new-macro-test-as-fed-chair-kevin-warsh-highlights-sticky-inflation-metrics/"
+    },
+    {
+      "title": "Metaplanet Offloads Bitcoin in Latest $237 Million Move",
       "source": "U.Today",
-      "link": "https://u.today/leading-asset-manager-bitwise-moves-154-million-of-xrp-off-supply"
+      "link": "https://u.today/metaplanet-offloads-bitcoin-in-latest-237-million-move"
     },
     {
-      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet"
+      "title": "Bitcoin Knots is trying to fork Bitcoin again after its last chain died in two blocks",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/bitcoin-knots-is-trying-to-fork-bitcoin-again-after-its-last-chain-died-in-two-blocks/"
     },
     {
-      "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026"
-    },
-    {
-      "title": "'This Seems Incorrect': Ripple CTO Emeritus Slams Kalshi CFTC Argument",
+      "title": "145 Billion SHIB Ready for Sale: Shiba Inu Netflow Turns Bearish",
       "source": "U.Today",
-      "link": "https://u.today/this-seems-incorrect-ripple-cto-emeritus-slams-kalshi-cftc-argument"
+      "link": "https://u.today/145-billion-shib-ready-for-sale-shiba-inu-netflow-turns-bearish"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/the-sec-is-reviewing-automatic-filing-pathways-after-exotic-crypto-and-event-linked-etf-proposals-flooded-the-market/",
-    "https://u.today/leading-asset-manager-bitwise-moves-154-million-of-xrp-off-supply",
-    "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026",
-    "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet"
+    "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/",
+    "https://cryptoslate.com/bitcoin-faces-a-new-macro-test-as-fed-chair-kevin-warsh-highlights-sticky-inflation-metrics/",
+    "https://u.today/metaplanet-offloads-bitcoin-in-latest-237-million-move",
+    "https://u.today/145-billion-shib-ready-for-sale-shiba-inu-netflow-turns-bearish"
   ],
   "articles": {
     "en": {
-      "title": "SEC Reviews ETF Filing Rules as Old Bitcoin Awakens and Bitwise Boosts XRP Holdings",
-      "body": "The U.S. Securities and Exchange Commission is re-examining its automated filing pathways for exchange-traded funds after asset managers flooded regulators with proposals for exotic crypto products and event-linked contracts. Wall Street firms have sought approval for funds tied to leveraged returns, election outcomes, and economic indicators, pushing the boundaries of what qualifies as an investable product. The SEC must now determine whether existing processes can handle this surge in creative structuring while maintaining investor protections.\n\nThe filing surge coincides with notable whale activity across multiple blockchains. Galaxy Research reported that Bitcoin coins dormant for more than a decade moved at an unusually high pace in 2026, with six ancient wallets shifting approximately $40 million in a single 10-day stretch this month. While such movements often attract speculation about potential selling pressure, the volumes remain a fraction of daily Bitcoin trading volume, which typically exceeds $30 billion across major exchanges.\n\nIn the altcoin space, Bitwise continues to demonstrate conviction in XRP despite a pullback from recent highs. The asset manager moved $15.4 million worth of XRP off exchange supply, a maneuver interpreted by analysts as accumulation. The token trades near the $0.55 support level after failing to sustain momentum above $0.65 earlier this month, with the Relative Strength Index hovering around 48, suggesting neither overbought nor oversold conditions.\n\nSeparately, crypto executives are grappling with a novel question: what currency will power transactions between AI agents? Industry leaders interviewed by CoinDesk acknowledged widespread agreement that autonomous AI systems will require native payment rails, but consensus on implementation remains elusive. Some argue existing stablecoins could scale to meet demand, while others contend that entirely new protocols better suited for machine-to-machine settlements have not yet been developed.\n\nThe convergence of regulatory scrutiny, evolving on-chain behavior, and emerging use cases underscores a market in transition. Institutional players are hedging their positions while regulators attempt to establish guardrails for increasingly complex financial instruments.\n\nSources: CryptoSlate, Decrypt, U.Today, CoinDesk\n\n#Bitcoin #CryptoNews #MarketUpdate\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "SEC reviews ETF filing rules as old Bitcoin wallets stir and Bitwise adds $15.4M XRP off supply #Bitcoin #Regulation #Binance"
+      "title": "Bitcoin ETFs Cool After $3B Streak While Fed Tensions and Whale Moves Reshape the Market",
+      "body": "Spot Bitcoin ETF flows reversed sharply this week, snapping a $3 billion streak with a $201.9 million outflow in a single session, according to CryptoSlate. Despite the pullback, the week remained net positive for $BTC, suggesting institutional appetite is cooling rather than collapsing. While Bitcoin funds bled capital, altcoin-focused products kept gathering inflows, with ETH, XRP and $SOL vehicles recording steady buying interest. The divergence hints at a rotation trade, with traders reallocating exposure across the top of the market rather than exiting crypto entirely.\n\nThe macro backdrop is doing little to ease uncertainty. CryptoSlate reports that newly appointed Fed Chair Kevin Warsh has flagged persistent inflation metrics, framing them as a meaningful hurdle for risk assets. Warsh acknowledged that ETF inflows and expanded Treasury buybacks can dampen volatility, but stressed that neither tool replaces genuine disinflation. His remarks arrive as traders reassess rate-cut expectations, keeping the dollar and yields in focus for every major asset class.\n\nOn-chain activity added another layer of caution. Japanese Bitcoin miner and treasury holder Metaplanet deposited roughly $237 million worth of $BTC, trimming its reserves during the recent price reversal, per U.Today. Mining firms selling into strength is a familiar pattern, but the size of the move drew attention from analysts tracking treasury balances as a proxy for long-term conviction.\n\nMeme-coin flows told a similar cautionary story. U.Today reported that 145 billion $SHIB moved onto exchanges, pushing netflows into bearish territory after a recent breakout. The surge in sell-side deposits suggests short-term holders are using the rally to reduce exposure rather than accumulate, a classic distribution signal that often precedes range-bound action.\n\nTogether, the data paints a market in transition: institutional flows are rotating, macro headwinds are reasserting themselves, and both corporate treasuries and retail-heavy tokens are showing profit-taking behavior. Traders watching $BTC will likely keep an eye on the prior breakout zone as immediate support, while resistance near recent highs could cap upside until inflation prints soften.\n\n#ETF #Macro #Binance\n\nSources: CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Spot $BTC ETF inflows snap after a $3B streak as Fed Chair Warsh flags sticky inflation and Metaplanet moves $237M in BTC #ETF #Macro #Binance"
     }
   },
   "published": []
