@@ -16,6 +16,11 @@ on:
         options:
           - auto
           - info
+  push:
+    paths:
+      - "data/heartbeat.json"
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -35,7 +40,24 @@ jobs:
         with:
           node-version: 22
 
+      - name: Zaman kontrolu - son calismadan 4 saat gecmeli
+        if: github.event_name == 'push'
+        id: timecheck
+        run: |
+          NOW=$(date +%s)
+          LAST=$(cat data/heartbeat.json 2>/dev/null | node -pe "JSON.parse(require('fs').readFileSync('/dev/stdin','utf8')).lastRun || 0" 2>/dev/null || echo "0")
+          DIFF=$(( NOW - LAST ))
+          echo "Son calismadan bu yana: ${DIFF} saniye"
+          if [ "$DIFF" -lt 14000 ]; then
+            echo "Henuz 4 saat gecmedi, atlaniyor."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "4 saatten fazla gecti, devam ediliyor."
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Haber topla, makale yaz ve yayinla
+        if: github.event_name != 'push' || steps.timecheck.outputs.skip != 'true'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           BINANCE_SQUARE_OPENAPI_KEY: ${{ secrets.BINANCE_SQUARE_OPENAPI_KEY }}
@@ -49,8 +71,11 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: node run.mjs
 
-      - name: Durumu (history.json) repoya kaydet
+      - name: Heartbeat ve durum kaydet
+        if: always()
         run: |
+          NOW=$(date +%s)
+          echo "{\"lastRun\": $NOW}" > data/heartbeat.json
           git config user.name "crypto-square-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/
