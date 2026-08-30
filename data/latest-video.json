@@ -1,37 +1,41 @@
 {
-  "startedAt": "2026-08-30T05:39:25.102Z",
-  "finishedAt": "2026-08-30T05:40:11.366Z",
+  "startedAt": "2026-08-30T09:39:08.892Z",
+  "finishedAt": "2026-08-30T09:40:13.655Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
+  "contentType": "news",
   "story": {
-    "type": "info",
-    "topicId": "staking-temelleri"
+    "type": "news",
+    "title": "Popular Bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices",
+    "source": "CryptoSlate",
+    "link": "https://cryptoslate.com/popular-bitcoin-wallets-risk-losing-support-for-new-hardware-devices-as-critical-security-bridge-stops-accepting-new-devices/",
+    "usedLink": "https://cryptoslate.com/popular-bitcoin-wallets-risk-losing-support-for-new-hardware-devices-as-critical-security-bridge-stops-accepting-new-devices/",
+    "usedTitleNorm": "popular bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices"
   },
   "script": {
     "en": {
-      "title": "Staking Basics: How It Works and Key Risks to Watch",
+      "title": "Bitcoin Wallets May Drop New Hardware Support as Security Bridge Halts",
       "slides": [
-        "Staking lets you earn rewards for helping secure a blockchain network.",
-        "You lock up crypto to support validation and receive periodic rewards.",
-        "Higher rewards often mean higher risk so check the network before staking.",
-        "Use trusted platforms verify lockup terms and keep keys safe."
+        "Popular Bitcoin wallets could stop supporting new hardware devices soon",
+        "A critical security bridge has stopped accepting new hardware devices",
+        "BHWI published parity tests but downstream wallets still need to complete integration work",
+        "Users may need to verify wallet compatibility before purchasing new hardware devices"
       ],
-      "caption": "Staking can generate rewards but comes with risks like lockups and market volatility. Always verify the network and platform before committing funds.\n$ETH $SOL $ADA\n#Staking #CryptoEducation #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "A critical security bridge has stopped accepting new Bitcoin hardware devices. Popular Bitcoin wallets face potential support gaps as downstream integration work remains incomplete. Users should verify their wallet compatibility before purchasing new hardware devices. Sources: CryptoSlate $BTC #Bitcoin #HardwareWallet #CryptoSecurity This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "en",
-      "id": 361173854403711,
-      "url": "https://www.binance.com/square/post/361173854403711",
+      "id": 361232845321038,
+      "url": "https://www.binance.com/square/post/361232845321038",
       "note": null,
       "shortPost": {
-        "id": 361173856355565,
-        "url": "https://www.binance.com/square/post/361173856355565"
+        "id": 361232847738289,
+        "url": "https://www.binance.com/square/post/361232847738289"
       },
-      "xUrl": "https://x.com/i/web/status/2093936800024740006",
-      "title": "Staking Basics: How It Works and Key Risks to Watch"
+      "xUrl": "https://x.com/i/web/status/2093997207355564138",
+      "title": "Bitcoin Wallets May Drop New Hardware Support as Security Bridge Halts"
     }
   ]
 }
