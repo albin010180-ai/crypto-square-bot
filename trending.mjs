@@ -62,7 +62,7 @@ async function fetchCoinData(symbol) {
     const data = await res.json();
     return {
       name: data.name,
-      symbol: data.symbol.toUpperCase(),
+      symbol: (data.symbol ?? symbol).toUpperCase(),
       price: data.market_data?.current_price?.usd,
       change24h: data.market_data?.price_change_percentage_24h,
       marketCap: data.market_data?.market_cap?.usd,
@@ -238,6 +238,7 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
         } catch (err) {
           console.error(`  HATA (en): ${err.message}`);
         }
+      }
     }
 
     return true;
@@ -271,16 +272,11 @@ async function checkAndPublish(cfg, dryRun) {
     return;
   }
 
-  // Gunluk limit kontrolu
+  // Gunluk limit kontrolu - published.json'dan bugunku konulari say
   const today = new Date().toISOString().split("T")[0];
-  const todayTopics = seen.topics.filter(t => {
-    try {
-      const topicData = JSON.parse(fs.readFileSync(SEEN_FILE, "utf8"));
-      return true;
-    } catch { return false; }
-  });
-  
-  const todayCount = seen.topics.length; // Basit sayim
+  const published = loadPublished();
+  const todayPublished = published.filter(p => p.at && p.at.startsWith(today));
+  const todayCount = todayPublished.length;
   if (todayCount >= MAX_TOPICS_PER_DAY) {
     console.log(`  Gunluk limit asildi (${todayCount}/${MAX_TOPICS_PER_DAY}), atlanıyor.`);
     return;

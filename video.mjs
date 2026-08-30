@@ -210,12 +210,11 @@ async function main() {
 
   if (useInfo && !script) {
     const topic = pickInfoTopic(new Date(), 0);
-    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.tr}`);
+    console.log(`Bilgilendirme konusu: ${topic.id} - ${topic.en}`);
     storyMeta = { type: "info", topicId: topic.id };
     script = await generateInfoVideoScript(topic, cfg);
   }
 
-  console.log(`TR: ${script.tr.title}`);
   console.log(`EN: ${script.en.title}\n`);
 
   const tmpBase = fs.mkdtempSync(path.join(os.tmpdir(), "sqvideo-"));
