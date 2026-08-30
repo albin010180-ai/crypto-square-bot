@@ -1,62 +1,31 @@
 {
-  "startedAt": "2026-08-30T00:12:38.199Z",
-  "finishedAt": "2026-08-30T00:14:40.306Z",
+  "startedAt": "2026-08-30T04:12:57.520Z",
+  "finishedAt": "2026-08-30T04:14:59.360Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
-  "contentTopic": null,
+  "contentType": "info",
+  "contentTopic": "gas-ucretleri",
   "sourceErrors": [],
-  "candidates": [
-    {
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
-    },
-    {
-      "title": "Bitcoin miner IREN still gets 82% of revenue from BTC after clearing room for Microsoft AI cloud",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/iren-ai-cloud-revenue-639m-impairment-bitcoin-82-revenue/"
-    },
-    {
-      "title": "Coinbase’s $104M US500 trading spike hits an early reality check",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/"
-    },
-    {
-      "title": "Cosmos Labs says it wrongly cleared the bug behind a $5.7 million six-chain hack",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061"
-    },
-    {
-      "title": "Polygon discloses security flaws fixed in recent hard forks",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    }
-  ],
-  "selected": [
-    "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-    "https://cryptoslate.com/iren-ai-cloud-revenue-639m-impairment-bitcoin-82-revenue/",
-    "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/",
-    "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061"
-  ],
+  "candidates": [],
+  "selected": [],
   "articles": {
     "en": {
-      "title": "Crypto Mix: Hacks, Miner Steadiness, Exchange Surge and Cross‑Chain Alert",
-      "body": "Over the past 24 hours, the cryptocurrency landscape has been shaped by contrasting forces: security incidents that shook confidence, steady revenue streams for Bitcoin miners, and a notable spike in futures trading on a major exchange.\n\nA exploit targeting a crypto-card service resulted in the theft of roughly $1.1 million, causing the neobank’s AVICI token to plunge 49% from its 24‑hour high before recovering part of the loss. The incident underscores how vulnerabilities in payment‑linked products can quickly translate into sharp price moves for associated tokens. (Source: CoinDesk)\n\nBitcoin miner IREN reported that, even after allocating resources to support a Microsoft AI cloud initiative, roughly 82% of its revenue continues to come from $BTC holdings. The company’s $4 billion contracted AI run‑rate target remains far above current operating levels, indicating that core mining operations still dominate its earnings mix. (Source: CryptoSlate)\n\nOn the trading front, Coinbase recorded a surge of $104 million in turnover for its US500 futures product during the launch week. While the initial burst highlighted strong demand for leveraged exposure to traditional‑index products, later snapshots showed a tapering of open interest, suggesting the enthusiasm may be short‑lived. (Source: CryptoSlate)\n\nCosmos Labs disclosed that a patch it believed had resolved a critical vulnerability was actually issued only twenty hours before a six‑chain attack that extracted about $5.7 million. The affected networks, which include the Cosmos hub and its associated $ATOM token, claimed the fix did not address the flaw that was ultimately exploited, raising questions about the timing and efficacy of security updates in interconnected ecosystems. (Source: The Block)\n\nDespite the security setbacks affecting payment cards and cross‑chain bridges, Bitcoin‑focused miners like IREN continue to rely on the flagship cryptocurrency for the bulk of their income, while exchange‑traded products show that traders are still willing to take on leveraged positions. The juxtaposition of exploit‑driven token declines and steady miner revenue highlights how different segments of the crypto ecosystem can react independently to the same news cycle.\n#Crypto #DeFi #Web3",
-      "tweet": "Neobank's AVICI token plunges 49% after a $1.1M crypto card exploit $AVICI #Security #Exploit #Binance"
+      "title": "Why Gas Fees on Blockchain Networks Rise and Fall",
+      "body": "Gas fees are the cost users pay to have their transactions included in a blockchain block. They compensate the network for the computational resources required to validate and store the data. Most networks set a base fee per unit of work, often called gas, and add a tip to encourage quick inclusion. When many participants are competing for limited block space, the price of each unit rises; when activity subsides, the price falls.\n\nTransaction complexity matters: a simple transfer uses less gas than a smart‑contract interaction, so larger scripts can increase the total fee. Network congestion is a primary driver. During periods of high trading volume on $ETH, for example, demand for block space spikes and fees climb. Conversely, during quieter intervals the same network may see lower costs. On $BTC, the fee market is influenced by block size and transaction weight, while networks such as $SOL may experience different fee patterns due to their consensus design.\n\nBlock size limits and the algorithm that adjusts difficulty also influence fee dynamics. Some chains employ a market‑based mechanism where users bid for priority, while others rely on a fixed schedule that changes based on usage. Practical steps for managing fees include checking real‑time estimators, batching multiple operations into a single transaction, and timing submissions when the network is less busy.\n\nWarning signs to watch for include sudden fee jumps, long pending periods, and estimates that exceed typical ranges, which may indicate an upcoming congestion event. Balanced view: while fees reflect the cost of securing the network, they can also create barriers for small participants. Understanding the underlying supply‑and‑demand forces helps users plan interactions more predictably.\n\nIn practice, traders often monitor congestion dashboards and may delay transactions until after peak periods. Developers sometimes implement adaptive fee logic that selects an appropriate gas price based on current network conditions.\n\n#GasFees #Blockchain #CryptoEducation\nThis article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Network congestion can cause gas fees to rise, impacting transaction costs. $ETH #Binance #GasFees #CryptoEducation"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361093854695489,
-      "url": "https://www.binance.com/square/post/361093854695489",
-      "xUrl": "https://x.com/i/web/status/2093854878330204245",
+      "id": 361152915384303,
+      "url": "https://www.binance.com/square/post/361152915384303",
+      "xUrl": "https://x.com/i/web/status/2093915356540661912",
       "shortPost": {
-        "id": 361093858034763,
-        "url": "https://www.binance.com/square/post/361093858034763"
+        "id": 361152918527741,
+        "url": "https://www.binance.com/square/post/361152918527741"
       },
-      "title": "Crypto Mix: Hacks, Miner Steadiness, Exchange Surge and Cross‑Chain Alert"
+      "title": "Why Gas Fees on Blockchain Networks Rise and Fall"
     }
   ]
 }
