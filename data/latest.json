@@ -1,31 +1,50 @@
 {
-  "startedAt": "2026-08-30T04:12:57.520Z",
-  "finishedAt": "2026-08-30T04:14:59.360Z",
+  "startedAt": "2026-08-30T08:12:58.270Z",
+  "finishedAt": "2026-08-30T08:13:54.058Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "info",
-  "contentTopic": "gas-ucretleri",
+  "contentType": "news",
+  "contentTopic": null,
   "sourceErrors": [],
-  "candidates": [],
-  "selected": [],
+  "candidates": [
+    {
+      "title": "503,364% Gain: BTC From 2011 Moves After 15 Years",
+      "source": "U.Today",
+      "link": "https://u.today/503364-gain-btc-from-2011-moves-after-15-years"
+    },
+    {
+      "title": "Borrowers can now use $250k in Bitcoin for a house down payment without margin calls, but one trap remains",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/borrowers-can-now-use-250k-in-bitcoin-for-a-house-down-payment-without-margin-calls-but-one-trap-remains/"
+    },
+    {
+      "title": "Ripple Pledges Significant Donation to Nepal",
+      "source": "U.Today",
+      "link": "https://u.today/ripple-pledges-significant-donation-to-nepal"
+    }
+  ],
+  "selected": [
+    "https://u.today/503364-gain-btc-from-2011-moves-after-15-years",
+    "https://cryptoslate.com/borrowers-can-now-use-250k-in-bitcoin-for-a-house-down-payment-without-margin-calls-but-one-trap-remains/"
+  ],
   "articles": {
     "en": {
-      "title": "Why Gas Fees on Blockchain Networks Rise and Fall",
-      "body": "Gas fees are the cost users pay to have their transactions included in a blockchain block. They compensate the network for the computational resources required to validate and store the data. Most networks set a base fee per unit of work, often called gas, and add a tip to encourage quick inclusion. When many participants are competing for limited block space, the price of each unit rises; when activity subsides, the price falls.\n\nTransaction complexity matters: a simple transfer uses less gas than a smart‑contract interaction, so larger scripts can increase the total fee. Network congestion is a primary driver. During periods of high trading volume on $ETH, for example, demand for block space spikes and fees climb. Conversely, during quieter intervals the same network may see lower costs. On $BTC, the fee market is influenced by block size and transaction weight, while networks such as $SOL may experience different fee patterns due to their consensus design.\n\nBlock size limits and the algorithm that adjusts difficulty also influence fee dynamics. Some chains employ a market‑based mechanism where users bid for priority, while others rely on a fixed schedule that changes based on usage. Practical steps for managing fees include checking real‑time estimators, batching multiple operations into a single transaction, and timing submissions when the network is less busy.\n\nWarning signs to watch for include sudden fee jumps, long pending periods, and estimates that exceed typical ranges, which may indicate an upcoming congestion event. Balanced view: while fees reflect the cost of securing the network, they can also create barriers for small participants. Understanding the underlying supply‑and‑demand forces helps users plan interactions more predictably.\n\nIn practice, traders often monitor congestion dashboards and may delay transactions until after peak periods. Developers sometimes implement adaptive fee logic that selects an appropriate gas price based on current network conditions.\n\n#GasFees #Blockchain #CryptoEducation\nThis article was produced with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Network congestion can cause gas fees to rise, impacting transaction costs. $ETH #Binance #GasFees #CryptoEducation"
+      "title": "Bitcoin Whales Stir as 2011 BTC Awakens; Crypto-Backed Real Estate Products Expand",
+      "body": "Bitcoin's oldest holders are sending ripples through the market, with another long-dormant wallet stirring after more than a decade of silence. A wallet containing 10 $BTC that had remained untouched since 2011 has finally moved, representing a staggering 503,364% gain from its original acquisition price. While such awakenings are not uncommon during periods of elevated prices, on-chain analysts are watching these movements closely as potential indicators of distribution pressure from early adopters taking profits.\n\nIn a separate but related development, the intersection of cryptocurrency and traditional finance continues to deepen. A new lending product announced today allows borrowers to leverage up to $250,000 in Bitcoin as collateral for house down payments without triggering margin calls based on short-term price volatility. The product represents an innovative step toward integrating $BTC into everyday financial decisions, though borrowers should note that extended delinquency, defined as 60 days past due, could still result in the pledged Bitcoin being liquidated.\n\nThe timing of renewed whale activity comes as Bitcoin trades comfortably above key psychological support levels, with trading volumes indicating sustained institutional interest. Market participants report that the 200-day moving average has acted as a reliable floor in recent weeks, while open interest in Bitcoin futures remains elevated, suggesting neither bulls nor bears have gained decisive control. Analysts note that the activation of coins held for extended periods can sometimes precede periods of increased volatility, though such movements alone do not constitute directional market signals.\n\nThe expansion of crypto-backed lending products into real estate marks another milestone in the maturation of digital asset markets. These developments allow Bitcoin holders to access the utility of their holdings without liquidating positions, potentially deferring capital gains tax obligations while maintaining exposure to further price appreciation. The structural innovations emerging in the sector reflect growing demand from holders seeking to put their assets to work within legitimate financial frameworks.\n\nTogether, these developments paint a picture of a market where long-term holders remain active, institutional-grade financial products are expanding, and the boundary between crypto and traditional finance continues to blur. Traders are advised to monitor volume trends and key technical levels as these stories develop.\n\n#Bitcoin #CryptoFinance #Binance\n\nSources: U.Today, CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin whale activity resurfaces as decade-old coins move; crypto-backed mortgage products expand institutional access #Bitcoin #CryptoFinance #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361152915384303,
-      "url": "https://www.binance.com/square/post/361152915384303",
-      "xUrl": "https://x.com/i/web/status/2093915356540661912",
+      "id": 361211630272340,
+      "url": "https://www.binance.com/square/post/361211630272340",
+      "xUrl": "https://x.com/i/web/status/2093975480793784515",
       "shortPost": {
-        "id": 361152918527741,
-        "url": "https://www.binance.com/square/post/361152918527741"
+        "id": 361211633452401,
+        "url": "https://www.binance.com/square/post/361211633452401"
       },
-      "title": "Why Gas Fees on Blockchain Networks Rise and Fall"
+      "title": "Bitcoin Whales Stir as 2011 BTC Awakens; Crypto-Backed Real Estate Products Expand"
     }
   ]
 }
