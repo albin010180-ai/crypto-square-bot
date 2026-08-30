@@ -2,7 +2,7 @@ name: Trending Topics Monitor
 
 on:
   schedule:
-    - cron: "1-59/15 * * * *" # Her 15 dakikada bir
+    - cron: "*/5 * * * *" # Her 5 dakikada bir
   workflow_dispatch:
     inputs:
       dryRun:
@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: trending-monitor
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   monitor:

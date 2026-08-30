@@ -17,7 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
 const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
 const CHECK_INTERVAL_MS = 15 * 60 * 1000; // 15 dakika
-const MAX_TOPICS_PER_DAY = 2; // Gunluk max 2 konu (quota tasarrufu)
+const MAX_TOPICS_PER_DAY = 6; // Gunluk max 6 konu (trending icin daha yuksek limit)
 const LLM_CALLS_PER_RUN = 2; // Her run'da max 2 LLM cagrisi (1 makale = 2 dil)
 
 function loadSeen() {
