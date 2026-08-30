@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-08-30T13:39:03.606Z",
-  "finishedAt": "2026-08-30T13:39:33.275Z",
+  "startedAt": "2026-08-30T21:39:13.978Z",
+  "finishedAt": "2026-08-30T21:40:11.390Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Bitwise CEO Drops Crucial XRP Reality Check as Solana Fund Crosses $1 Billion Threshold",
-    "source": "U.Today",
-    "link": "https://u.today/bitwise-ceo-drops-crucial-xrp-reality-check-as-solana-fund-crosses-1-billion-threshold",
-    "usedLink": "https://u.today/bitwise-ceo-drops-crucial-xrp-reality-check-as-solana-fund-crosses-1-billion-threshold",
-    "usedTitleNorm": "bitwise ceo drops crucial xrp reality check as solana fund crosses 1 billion threshold"
+    "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+    "source": "Decrypt",
+    "link": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+    "usedLink": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+    "usedTitleNorm": "bitcoin etfs snap nine day inflow streak as ethereum funds extend their run"
   },
   "script": {
     "en": {
-      "title": "Bitwise CEO Discusses Solana Fund Milestone and XRP Challenges",
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
       "slides": [
-        "A Solana ETF fund has officially crossed the one billion dollar threshold",
-        "Bitwise CEO highlighted a structural bottleneck affecting XRP funds",
-        "The gap reveals differences in how institutional assets are managed",
-        "Market dynamics continue to shape which assets reach the billion dollar elite"
+        "Bitcoin ETFs just ended their longest inflow streak of the year.",
+        "Spot Bitcoin funds shed 201.9 million dollars on August 28th alone.",
+        "Meanwhile Ethereum ETFs quietly extended their own streak to ten days.",
+        "The divergence suggests institutional appetite is shifting between crypto assets."
       ],
-      "caption": "A Solana fund has reached a one billion dollar milestone. The Bitwise CEO noted structural issues that currently limit XRP funds. $SOL $XRP $BTC\n#CryptoNews #ETF #InstitutionalInvesting\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Bitcoin ETF inflows snapped a nine-day streak while Ethereum funds hit a ten-day run. Spot Bitcoin funds saw outflows of $201.9M on August 28th. Institutional capital is showing distinct preferences between Bitcoin and Ethereum.\n\n$BTC $ETH #BitcoinETF #EthereumETF #CryptoMarkets\n\nSources: Decrypt\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "en",
-      "id": 361291663604791,
-      "url": "https://www.binance.com/square/post/361291663604791",
+      "id": 361409783532586,
+      "url": "https://www.binance.com/square/post/361409783532586",
       "note": null,
       "shortPost": {
-        "id": 361291665129850,
-        "url": "https://www.binance.com/square/post/361291665129850"
+        "id": 361409785624410,
+        "url": "https://www.binance.com/square/post/361409785624410"
       },
-      "xUrl": "https://x.com/i/web/status/2094057436206301455",
-      "title": "Bitwise CEO Discusses Solana Fund Milestone and XRP Challenges"
+      "xUrl": "https://x.com/i/web/status/2094178391960199676",
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run"
     }
   ]
 }
