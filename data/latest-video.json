@@ -1,47 +1,37 @@
 {
-  "startedAt": "2026-08-29T09:39:13.328Z",
-  "finishedAt": "2026-08-29T09:42:37.487Z",
+  "startedAt": "2026-08-30T05:39:25.102Z",
+  "finishedAt": "2026-08-30T05:40:11.366Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
-  "contentType": "news",
+  "contentType": "info",
   "story": {
-    "type": "news",
-    "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
-    "source": "Decrypt",
-    "link": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
-    "usedLink": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
-    "usedTitleNorm": "bitcoin rally stalls but long term sentiment remains bullish"
+    "type": "info",
+    "topicId": "staking-temelleri"
   },
   "script": {
-    "tr": {
-      "title": "Bitcoin Rally Geriledi, Uzun Vadeli Duygu Hala Boşverme",
-      "slides": [
-        "Bitcoin fiyatı Fed'in sıkı para politikası açıklamaları sonrası geriledi.",
-        "Fed Başkanı Kevin Warsh enflasyonla mücadele konusunda sert mesaj verdi.",
-        "Yatırımcılar kısa vadeli dalgınıp sarsılma yaşadı ancak uzun vadeli bakış açısı değişmedi.",
-        "Tahmin piyasatı işlemcileri Bitcoin için hâlâ uzun pozisyonlar alıyor."
-      ],
-      "caption": "Bitcoin Fed açıklamalarının ardından kısa vadeli geri çekilme yaşadı. $BTC, $ETH ve $SOL fiyatları hafif düşüş gösterdi. Uzun vadeli yatırımcılar ise stratejilerini sürdürdü. #Bitcoin #Fed #Borsa\nKaynaklar: Decrypt\nBu video yapay zeka destekli olarak hazirlanmistir; yatirim tavsiyesi degildir. Kendi arastirmanizi yapiniz (DYOR)."
-    },
     "en": {
-      "title": "Bitcoin Rally Stalls, Long-Term Sentiment Still Bullish",
+      "title": "Staking Basics: How It Works and Key Risks to Watch",
       "slides": [
-        "Bitcoin price retreated after Fed officials signaled a tougher stance on inflation.",
-        "Former Fed Chair Kevin Warsh warned that inflation remains a key policy concern.",
-        "Traders gave back some intraday gains but long-term conviction stayed intact.",
-        "Prediction market participants are still placing bullish bets on Bitcoin."
+        "Staking lets you earn rewards for helping secure a blockchain network.",
+        "You lock up crypto to support validation and receive periodic rewards.",
+        "Higher rewards often mean higher risk so check the network before staking.",
+        "Use trusted platforms verify lockup terms and keep keys safe."
       ],
-      "caption": "Bitcoin pulled back briefly following hawkish Fed comments this week. $BTC, $ETH and $SOL all saw minor declines. Long-term holders maintained their positions despite short-term volatility. #Bitcoin #FederalReserve #Markets\nSources: Decrypt\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Staking can generate rewards but comes with risks like lockups and market volatility. Always verify the network and platform before committing funds.\n$ETH $SOL $ADA\n#Staking #CryptoEducation #CryptoTips\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
-      "lang": "tr",
-      "error": "Binance API hatasi [220009]: Daily post limit exceeded for OpenAPI"
-    },
-    {
       "lang": "en",
-      "error": "Binance API hatasi [220009]: Daily post limit exceeded for OpenAPI"
+      "id": 361173854403711,
+      "url": "https://www.binance.com/square/post/361173854403711",
+      "note": null,
+      "shortPost": {
+        "id": 361173856355565,
+        "url": "https://www.binance.com/square/post/361173856355565"
+      },
+      "xUrl": "https://x.com/i/web/status/2093936800024740006",
+      "title": "Staking Basics: How It Works and Key Risks to Watch"
     }
   ]
 }
