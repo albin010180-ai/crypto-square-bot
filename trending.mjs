@@ -291,10 +291,10 @@ async function checkAndPublish(cfg, dryRun) {
     return;
   }
 
-  // Gunluk limit kontrolu - published.json'dan bugunku konulari say
+  // Gunluk limit kontrolu - sadece trending kaynakli postlari say
   const today = new Date().toISOString().split("T")[0];
   const published = loadPublished();
-  const todayPublished = published.filter(p => p.at && p.at.startsWith(today));
+  const todayPublished = published.filter(p => p.at && p.at.startsWith(today) && p.topic);
   const todayCount = todayPublished.length;
   if (todayCount >= MAX_TOPICS_PER_DAY) {
     console.log(`  Gunluk limit asildi (${todayCount}/${MAX_TOPICS_PER_DAY}), atlanıyor.`);

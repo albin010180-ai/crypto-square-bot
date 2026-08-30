@@ -1,9 +1,32 @@
 #!/usr/bin/env node
 // Scrape Binance Square trending topics page using Playwright
-// Output: JSON array of topic strings to stdout
+// Output: JSON array of clean topic strings to stdout
 import { chromium } from "playwright";
 
 const TRENDS_URL = "https://www.binance.com/en/square/trends";
+
+function cleanTopic(text) {
+  return text
+    .replace(/^\d+\s*/, "")           // leading numbers "1 ", "2 "
+    .replace(/^#\s*/, "")             // leading "# "
+    .replace(/\d+\s*views?\s*/gi, "") // "2630 views"
+    .replace(/\d+\s*Discussing\s*/gi, "") // "233 Discussing"
+    .replace(/\d+\s*comments?\s*/gi, "") // "122 comments"
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isValidTopic(text) {
+  if (!text || text.length < 3 || text.length > 80) return false;
+  // Must start with a letter
+  if (!/^[A-Za-z]/.test(text)) return false;
+  // Reject pure numbers or numbers+noise
+  if (/^\d+\s*$/.test(text)) return false;
+  // Reject common non-topic strings
+  const reject = /^(discussing|views|comments|trending|hot|popular|share|save|follow|login|sign up|join|home|explore|feed|search)$/i;
+  if (reject.test(text)) return false;
+  return true;
+}
 
 async function scrape() {
   let browser;
@@ -39,18 +62,15 @@ async function scrape() {
         waitUntil: "domcontentloaded",
         timeout: 25000,
       });
-      // Wait for WAF JS challenge to complete and page to reload
       await page.waitForTimeout(10000);
 
       const title = await page.title();
-      const url = page.url();
-      process.stderr.write("Title: " + title + " URL: " + url + "\n");
+      process.stderr.write("Title: " + title + "\n");
 
       if (!title.includes("ERROR") && !title.includes("challenge") && !title.includes("Just a moment")) {
         loaded = true;
         break;
       }
-      // WAF still blocking, retry
       await page.waitForTimeout(5000);
     }
 
@@ -60,32 +80,28 @@ async function scrape() {
       return;
     }
 
-    // Wait for SPA content to render
     await page.waitForTimeout(5000);
 
-    // Try to find trending topic elements
+    // Extract trending topics - try structured selectors first
     const topics = await page.evaluate(() => {
       const results = [];
       const selectors = [
         'a[href*="/square/hashtag/"]',
         'a[href*="/square/trends/"]',
-        '[class*="trendItem"]',
-        '[class*="trend-item"]',
-        '[class*="topicItem"]',
-        '[class*="topic-item"]',
-        '[class*="hot"] a',
-        '[class*="Hot"] a',
-        '[data-testid*="trend"]',
-        '[data-testid*="topic"]',
-        // Binance Square specific patterns
         'a[href*="/en/feed/topic/"]',
         'a[href*="/en/feed/hashtag/"]',
+        '[class*="trendItem"] a',
+        '[class*="trend-item"] a',
+        '[class*="topicItem"] a',
+        '[class*="topic-item"] a',
+        '[data-testid*="trend"] a',
+        '[data-testid*="topic"] a',
       ];
       for (const sel of selectors) {
         document.querySelectorAll(sel).forEach((el) => {
           const text = el.textContent?.trim();
-          if (text && text.length > 1 && text.length < 100) {
-            results.push(text.replace(/^#/, ""));
+          if (text && text.length > 2 && text.length < 80) {
+            results.push(text.replace(/^#/, "").trim());
           }
         });
       }
@@ -93,37 +109,35 @@ async function scrape() {
     });
 
     if (topics.length > 0) {
-      process.stdout.write(JSON.stringify(topics));
+      const cleaned = topics.map(cleanTopic).filter(isValidTopic);
+      process.stderr.write("Found " + cleaned.length + " clean topics\n");
+      process.stdout.write(JSON.stringify(cleaned));
       return;
     }
 
-    // Fallback: get all links and text that look like trending topics
+    // Fallback: extract from page body with strict filtering
     const fallback = await page.evaluate(() => {
       const results = [];
-      // Get all links on the page
+      // Get all links
       document.querySelectorAll("a").forEach((a) => {
         const href = a.getAttribute("href") || "";
         const text = a.textContent?.trim();
         if (
           text &&
-          text.length > 2 &&
-          text.length < 80 &&
+          text.length > 3 &&
+          text.length < 60 &&
+          /^[A-Z]/.test(text) &&
           (href.includes("hashtag") || href.includes("trend") || href.includes("topic"))
         ) {
-          results.push(text.replace(/^#/, ""));
-        }
-      });
-      // Also look for numbered list items (trending lists)
-      document.querySelectorAll("li, [class*='item']").forEach((el) => {
-        const text = el.textContent?.trim();
-        if (text && text.length > 2 && text.length < 60 && /^[A-Z]/.test(text)) {
-          results.push(text);
+          results.push(text.replace(/^#/, "").trim());
         }
       });
       return [...new Set(results)].slice(0, 20);
     });
 
-    process.stdout.write(JSON.stringify(fallback));
+    const cleaned = fallback.map(cleanTopic).filter(isValidTopic);
+    process.stderr.write("Fallback found " + cleaned.length + " clean topics\n");
+    process.stdout.write(JSON.stringify(cleaned));
   } catch (err) {
     process.stderr.write("Error: " + err.message + "\n");
     process.stdout.write("[]");
