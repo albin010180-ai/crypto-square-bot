@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-08-30T09:39:08.892Z",
-  "finishedAt": "2026-08-30T09:40:13.655Z",
+  "startedAt": "2026-08-30T13:39:03.606Z",
+  "finishedAt": "2026-08-30T13:39:33.275Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Popular Bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices",
-    "source": "CryptoSlate",
-    "link": "https://cryptoslate.com/popular-bitcoin-wallets-risk-losing-support-for-new-hardware-devices-as-critical-security-bridge-stops-accepting-new-devices/",
-    "usedLink": "https://cryptoslate.com/popular-bitcoin-wallets-risk-losing-support-for-new-hardware-devices-as-critical-security-bridge-stops-accepting-new-devices/",
-    "usedTitleNorm": "popular bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices"
+    "title": "Bitwise CEO Drops Crucial XRP Reality Check as Solana Fund Crosses $1 Billion Threshold",
+    "source": "U.Today",
+    "link": "https://u.today/bitwise-ceo-drops-crucial-xrp-reality-check-as-solana-fund-crosses-1-billion-threshold",
+    "usedLink": "https://u.today/bitwise-ceo-drops-crucial-xrp-reality-check-as-solana-fund-crosses-1-billion-threshold",
+    "usedTitleNorm": "bitwise ceo drops crucial xrp reality check as solana fund crosses 1 billion threshold"
   },
   "script": {
     "en": {
-      "title": "Bitcoin Wallets May Drop New Hardware Support as Security Bridge Halts",
+      "title": "Bitwise CEO Discusses Solana Fund Milestone and XRP Challenges",
       "slides": [
-        "Popular Bitcoin wallets could stop supporting new hardware devices soon",
-        "A critical security bridge has stopped accepting new hardware devices",
-        "BHWI published parity tests but downstream wallets still need to complete integration work",
-        "Users may need to verify wallet compatibility before purchasing new hardware devices"
+        "A Solana ETF fund has officially crossed the one billion dollar threshold",
+        "Bitwise CEO highlighted a structural bottleneck affecting XRP funds",
+        "The gap reveals differences in how institutional assets are managed",
+        "Market dynamics continue to shape which assets reach the billion dollar elite"
       ],
-      "caption": "A critical security bridge has stopped accepting new Bitcoin hardware devices. Popular Bitcoin wallets face potential support gaps as downstream integration work remains incomplete. Users should verify their wallet compatibility before purchasing new hardware devices. Sources: CryptoSlate $BTC #Bitcoin #HardwareWallet #CryptoSecurity This video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "A Solana fund has reached a one billion dollar milestone. The Bitwise CEO noted structural issues that currently limit XRP funds. $SOL $XRP $BTC\n#CryptoNews #ETF #InstitutionalInvesting\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "en",
-      "id": 361232845321038,
-      "url": "https://www.binance.com/square/post/361232845321038",
+      "id": 361291663604791,
+      "url": "https://www.binance.com/square/post/361291663604791",
       "note": null,
       "shortPost": {
-        "id": 361232847738289,
-        "url": "https://www.binance.com/square/post/361232847738289"
+        "id": 361291665129850,
+        "url": "https://www.binance.com/square/post/361291665129850"
       },
-      "xUrl": "https://x.com/i/web/status/2093997207355564138",
-      "title": "Bitcoin Wallets May Drop New Hardware Support as Security Bridge Halts"
+      "xUrl": "https://x.com/i/web/status/2094057436206301455",
+      "title": "Bitwise CEO Discusses Solana Fund Milestone and XRP Challenges"
     }
   ]
 }
