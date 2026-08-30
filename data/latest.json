@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-30T08:12:58.270Z",
-  "finishedAt": "2026-08-30T08:13:54.058Z",
+  "startedAt": "2026-08-30T20:12:44.509Z",
+  "finishedAt": "2026-08-30T20:13:44.853Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,43 +8,86 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "503,364% Gain: BTC From 2011 Moves After 15 Years",
-      "source": "U.Today",
-      "link": "https://u.today/503364-gain-btc-from-2011-moves-after-15-years"
+      "title": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy"
     },
     {
-      "title": "Borrowers can now use $250k in Bitcoin for a house down payment without margin calls, but one trap remains",
+      "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses"
+    },
+    {
+      "title": "Russia’s Sber eyes USDT loans, questions digital ruble demand",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
+    },
+    {
+      "title": "105% Imbalance: Higher XRP Prices Push AI Wallets Deeper Into RLUSD",
+      "source": "U.Today",
+      "link": "https://u.today/105-imbalance-higher-xrp-prices-push-ai-wallets-deeper-into-rlusd"
+    },
+    {
+      "title": "Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/borrowers-can-now-use-250k-in-bitcoin-for-a-house-down-payment-without-margin-calls-but-one-trap-remains/"
+      "link": "https://cryptoslate.com/bitgos-nydig-deal-sets-up-bitcoin-infrastructures-next-margin-test/"
     },
     {
-      "title": "Ripple Pledges Significant Donation to Nepal",
+      "title": "XRP Tests 3.2 Billion Support After 71% Surge: 3 Scenarios to Watch",
       "source": "U.Today",
-      "link": "https://u.today/ripple-pledges-significant-donation-to-nepal"
+      "link": "https://u.today/xrp-tests-32-billion-support-after-71-surge-3-scenarios-to-watch"
+    },
+    {
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction"
+    },
+    {
+      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/"
+    },
+    {
+      "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
+    },
+    {
+      "title": "Author of Legendary XRP Prediction Spots 'Cleanest Chart in Crypto Right Now'",
+      "source": "U.Today",
+      "link": "https://u.today/author-of-legendary-xrp-prediction-spots-cleanest-chart-in-crypto-right-now"
     }
   ],
   "selected": [
-    "https://u.today/503364-gain-btc-from-2011-moves-after-15-years",
-    "https://cryptoslate.com/borrowers-can-now-use-250k-in-bitcoin-for-a-house-down-payment-without-margin-calls-but-one-trap-remains/"
+    "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+    "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069",
+    "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+    "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
   ],
   "articles": {
     "en": {
-      "title": "Bitcoin Whales Stir as 2011 BTC Awakens; Crypto-Backed Real Estate Products Expand",
-      "body": "Bitcoin's oldest holders are sending ripples through the market, with another long-dormant wallet stirring after more than a decade of silence. A wallet containing 10 $BTC that had remained untouched since 2011 has finally moved, representing a staggering 503,364% gain from its original acquisition price. While such awakenings are not uncommon during periods of elevated prices, on-chain analysts are watching these movements closely as potential indicators of distribution pressure from early adopters taking profits.\n\nIn a separate but related development, the intersection of cryptocurrency and traditional finance continues to deepen. A new lending product announced today allows borrowers to leverage up to $250,000 in Bitcoin as collateral for house down payments without triggering margin calls based on short-term price volatility. The product represents an innovative step toward integrating $BTC into everyday financial decisions, though borrowers should note that extended delinquency, defined as 60 days past due, could still result in the pledged Bitcoin being liquidated.\n\nThe timing of renewed whale activity comes as Bitcoin trades comfortably above key psychological support levels, with trading volumes indicating sustained institutional interest. Market participants report that the 200-day moving average has acted as a reliable floor in recent weeks, while open interest in Bitcoin futures remains elevated, suggesting neither bulls nor bears have gained decisive control. Analysts note that the activation of coins held for extended periods can sometimes precede periods of increased volatility, though such movements alone do not constitute directional market signals.\n\nThe expansion of crypto-backed lending products into real estate marks another milestone in the maturation of digital asset markets. These developments allow Bitcoin holders to access the utility of their holdings without liquidating positions, potentially deferring capital gains tax obligations while maintaining exposure to further price appreciation. The structural innovations emerging in the sector reflect growing demand from holders seeking to put their assets to work within legitimate financial frameworks.\n\nTogether, these developments paint a picture of a market where long-term holders remain active, institutional-grade financial products are expanding, and the boundary between crypto and traditional finance continues to blur. Traders are advised to monitor volume trends and key technical levels as these stories develop.\n\n#Bitcoin #CryptoFinance #Binance\n\nSources: U.Today, CryptoSlate\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Bitcoin whale activity resurfaces as decade-old coins move; crypto-backed mortgage products expand institutional access #Bitcoin #CryptoFinance #Binance"
+      "title": "Bitcoin Gains, Regulation Moves, and DeFi Shake Crypto Markets",
+      "body": "On August 30, 2026, Bitcoin’s renewed strength set the tone for a day of contrasting developments across the crypto ecosystem. The cryptocurrency’s climb back above $80,000 lifted the holdings of Strategy, whose 840,447 BTC are now roughly $2.8 billion above cost basis, according to Decrypt. CEO Michael Saylor’s “We’re Back” post sparked speculation that the firm may resume buying, underscoring how price appreciation directly impacts corporate balance sheets.\n\nThis bullish backdrop also benefited market makers. CoinDesk reported that sophisticated trading firms are collecting yield on Bitcoin’s rally without taking directional bets, as spot trading volume rose alongside the price move. The increased activity shows how institutional participants are adapting to a market where returns come from fees and funding rather than pure speculation.\n\nRegulatory news emerged from Russia, where Cointelegraph noted that Sber, the nation’s largest bank, plans to accept USDT, Ether, and Bitcoin as loan collateral under a new law that introduces regulated crypto trading. The move signals a cautious embrace of digital assets by traditional finance, even as authorities debate the future of a central bank digital ruble.\n\nSecurity concerns surfaced on the Cronos network. The Block detailed a $75 million exploit targeting Tectonic, in which an attacker manipulated the price of the illiquid TONIC token before borrowing against inflated collateral, reminiscent of the Mango Markets incident. The halt underscores the ongoing risks in DeFi protocols that rely on thinly traded assets for lending.\n\nLegal challenges added another layer of complexity. The Block also covered a lawsuit filed by Chainalysis accusing ICE of unfairly steering a $95 million blockchain contract to TRM Labs, requesting a court block on the award and a demand for a full, open competition. The case highlights growing scrutiny over how public sector contracts are awarded in the fast‑moving blockchain services sector.\n\nTogether, these stories illustrate a market where Bitcoin’s price strength fuels profit and yield, regulators test frameworks for crypto‑backed lending, DeFi platforms grapple with vulnerabilities, and legal disputes shape the contours of institutional adoption. The interplay of these forces will likely define the next phase of crypto’s evolution.\n\n#Bitcoin #ETF #Markets\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Cronos network halts after $75M Tectonic exploit raises DeFi security concerns $CRO #DeFi #Security #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361211630272340,
-      "url": "https://www.binance.com/square/post/361211630272340",
-      "xUrl": "https://x.com/i/web/status/2093975480793784515",
+      "id": 361388540398648,
+      "url": "https://www.binance.com/square/post/361388540398648",
+      "xUrl": "https://x.com/i/web/status/2094156636508102662",
       "shortPost": {
-        "id": 361211633452401,
-        "url": "https://www.binance.com/square/post/361211633452401"
+        "id": 361388542925415,
+        "url": "https://www.binance.com/square/post/361388542925415"
       },
-      "title": "Bitcoin Whales Stir as 2011 BTC Awakens; Crypto-Backed Real Estate Products Expand"
+      "title": "Bitcoin Gains, Regulation Moves, and DeFi Shake Crypto Markets"
     }
   ]
 }
