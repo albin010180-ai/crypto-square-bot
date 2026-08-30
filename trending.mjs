@@ -7,6 +7,10 @@ import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
 import { uploadImageAsset } from "./src/video-publish.mjs";
 import { getRemainingQuota } from "./src/llm.mjs";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -90,6 +94,21 @@ async function downloadImage(url, filePath) {
 
 async function fetchTrendingTopics() {
   const topics = [];
+
+  // Kaynak 0: Binance Square trending page (Playwright scrape)
+  try {
+    const { stdout } = await execFileAsync("node", ["tools/scrape-trends.mjs"], {
+      timeout: 50000,
+      cwd: __dirname,
+    });
+    const binanceTopics = JSON.parse(stdout.trim() || "[]");
+    console.log("  Binance Square trending:", binanceTopics.length, "topic");
+    for (const name of binanceTopics) {
+      topics.push({ name, source: "binance-square", type: "topic" });
+    }
+  } catch (e) {
+    console.warn("  binance-square scrape hatasi:", e.message);
+  }
 
   // Kaynak 1: Cryptocurrency.cv trending
   try {
