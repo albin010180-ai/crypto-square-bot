@@ -12,6 +12,15 @@ function cleanTopic(text) {
     .replace(/\d+\s*views?\s*/gi, "") // "2630 views"
     .replace(/\d+\s*Discussing\s*/gi, "") // "233 Discussing"
     .replace(/\d+\s*comments?\s*/gi, "") // "122 comments"
+    // Split camelCase and consecutive uppercase: "ICBAOpposes" -> "ICBA Opposes"
+    .replace(/([a-z\d])([A-Z])/g, "$1 $2")
+    // Split acronym followed by word: "CLARITYAct" -> "CLARITY Act"
+    .replace(/([A-Z]{2,})([A-Z][a-z])/g, "$1 $2")
+    // Split letter/number边界: "ETFs2026" -> "ETFs 2026"
+    .replace(/([a-zA-Z])(\d)/g, "$1 $2")
+    .replace(/(\d)([a-zA-Z])/g, "$1 $2")
+    // Split % followed by uppercase: "3.24%This" -> "3.24% This"
+    .replace(/(%)([A-Z])/g, "$1 $2")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -99,7 +108,8 @@ async function scrape() {
       ];
       for (const sel of selectors) {
         document.querySelectorAll(sel).forEach((el) => {
-          const text = el.textContent?.trim();
+          // Use innerText to preserve spaces between elements
+          const text = (el.innerText || el.textContent || "").trim();
           if (text && text.length > 2 && text.length < 80) {
             results.push(text.replace(/^#/, "").trim());
           }
