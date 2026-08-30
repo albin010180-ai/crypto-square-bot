@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-29T20:12:44.340Z",
-  "finishedAt": "2026-08-29T20:13:05.352Z",
+  "startedAt": "2026-08-30T00:12:38.199Z",
+  "finishedAt": "2026-08-30T00:14:40.306Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,43 +8,55 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Bitcoin ETF inflows snap after $3 billion streak as ETH, XRP and Solana keep buying",
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
+    },
+    {
+      "title": "Bitcoin miner IREN still gets 82% of revenue from BTC after clearing room for Microsoft AI cloud",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/"
+      "link": "https://cryptoslate.com/iren-ai-cloud-revenue-639m-impairment-bitcoin-82-revenue/"
     },
     {
-      "title": "Bitcoin faces a new macro test as Fed Chair Kevin Warsh highlights sticky inflation metrics",
+      "title": "Coinbase’s $104M US500 trading spike hits an early reality check",
       "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-faces-a-new-macro-test-as-fed-chair-kevin-warsh-highlights-sticky-inflation-metrics/"
+      "link": "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/"
     },
     {
-      "title": "Metaplanet Offloads Bitcoin in Latest $237 Million Move",
-      "source": "U.Today",
-      "link": "https://u.today/metaplanet-offloads-bitcoin-in-latest-237-million-move"
+      "title": "Cosmos Labs says it wrongly cleared the bug behind a $5.7 million six-chain hack",
+      "source": "The Block",
+      "link": "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061"
     },
     {
-      "title": "Bitcoin Knots is trying to fork Bitcoin again after its last chain died in two blocks",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitcoin-knots-is-trying-to-fork-bitcoin-again-after-its-last-chain-died-in-two-blocks/"
-    },
-    {
-      "title": "145 Billion SHIB Ready for Sale: Shiba Inu Netflow Turns Bearish",
-      "source": "U.Today",
-      "link": "https://u.today/145-billion-shib-ready-for-sale-shiba-inu-netflow-turns-bearish"
+      "title": "Polygon discloses security flaws fixed in recent hard forks",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/bitcoin-etf-inflows-snap-after-3-billion-streak-as-eth-xrp-and-solana-keep-buying/",
-    "https://cryptoslate.com/bitcoin-faces-a-new-macro-test-as-fed-chair-kevin-warsh-highlights-sticky-inflation-metrics/",
-    "https://u.today/metaplanet-offloads-bitcoin-in-latest-237-million-move",
-    "https://u.today/145-billion-shib-ready-for-sale-shiba-inu-netflow-turns-bearish"
+    "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+    "https://cryptoslate.com/iren-ai-cloud-revenue-639m-impairment-bitcoin-82-revenue/",
+    "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/",
+    "https://www.theblock.co/news/defi/2026-08-29-cosmos-labs-says-it-wrongly-cleared-the-bug-behind-a-5-7-million-six-chain-hack-413061"
   ],
   "articles": {
     "en": {
-      "title": "Bitcoin ETFs Cool After $3B Streak While Fed Tensions and Whale Moves Reshape the Market",
-      "body": "Spot Bitcoin ETF flows reversed sharply this week, snapping a $3 billion streak with a $201.9 million outflow in a single session, according to CryptoSlate. Despite the pullback, the week remained net positive for $BTC, suggesting institutional appetite is cooling rather than collapsing. While Bitcoin funds bled capital, altcoin-focused products kept gathering inflows, with ETH, XRP and $SOL vehicles recording steady buying interest. The divergence hints at a rotation trade, with traders reallocating exposure across the top of the market rather than exiting crypto entirely.\n\nThe macro backdrop is doing little to ease uncertainty. CryptoSlate reports that newly appointed Fed Chair Kevin Warsh has flagged persistent inflation metrics, framing them as a meaningful hurdle for risk assets. Warsh acknowledged that ETF inflows and expanded Treasury buybacks can dampen volatility, but stressed that neither tool replaces genuine disinflation. His remarks arrive as traders reassess rate-cut expectations, keeping the dollar and yields in focus for every major asset class.\n\nOn-chain activity added another layer of caution. Japanese Bitcoin miner and treasury holder Metaplanet deposited roughly $237 million worth of $BTC, trimming its reserves during the recent price reversal, per U.Today. Mining firms selling into strength is a familiar pattern, but the size of the move drew attention from analysts tracking treasury balances as a proxy for long-term conviction.\n\nMeme-coin flows told a similar cautionary story. U.Today reported that 145 billion $SHIB moved onto exchanges, pushing netflows into bearish territory after a recent breakout. The surge in sell-side deposits suggests short-term holders are using the rally to reduce exposure rather than accumulate, a classic distribution signal that often precedes range-bound action.\n\nTogether, the data paints a market in transition: institutional flows are rotating, macro headwinds are reasserting themselves, and both corporate treasuries and retail-heavy tokens are showing profit-taking behavior. Traders watching $BTC will likely keep an eye on the prior breakout zone as immediate support, while resistance near recent highs could cap upside until inflation prints soften.\n\n#ETF #Macro #Binance\n\nSources: CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Spot $BTC ETF inflows snap after a $3B streak as Fed Chair Warsh flags sticky inflation and Metaplanet moves $237M in BTC #ETF #Macro #Binance"
+      "title": "Crypto Mix: Hacks, Miner Steadiness, Exchange Surge and Cross‑Chain Alert",
+      "body": "Over the past 24 hours, the cryptocurrency landscape has been shaped by contrasting forces: security incidents that shook confidence, steady revenue streams for Bitcoin miners, and a notable spike in futures trading on a major exchange.\n\nA exploit targeting a crypto-card service resulted in the theft of roughly $1.1 million, causing the neobank’s AVICI token to plunge 49% from its 24‑hour high before recovering part of the loss. The incident underscores how vulnerabilities in payment‑linked products can quickly translate into sharp price moves for associated tokens. (Source: CoinDesk)\n\nBitcoin miner IREN reported that, even after allocating resources to support a Microsoft AI cloud initiative, roughly 82% of its revenue continues to come from $BTC holdings. The company’s $4 billion contracted AI run‑rate target remains far above current operating levels, indicating that core mining operations still dominate its earnings mix. (Source: CryptoSlate)\n\nOn the trading front, Coinbase recorded a surge of $104 million in turnover for its US500 futures product during the launch week. While the initial burst highlighted strong demand for leveraged exposure to traditional‑index products, later snapshots showed a tapering of open interest, suggesting the enthusiasm may be short‑lived. (Source: CryptoSlate)\n\nCosmos Labs disclosed that a patch it believed had resolved a critical vulnerability was actually issued only twenty hours before a six‑chain attack that extracted about $5.7 million. The affected networks, which include the Cosmos hub and its associated $ATOM token, claimed the fix did not address the flaw that was ultimately exploited, raising questions about the timing and efficacy of security updates in interconnected ecosystems. (Source: The Block)\n\nDespite the security setbacks affecting payment cards and cross‑chain bridges, Bitcoin‑focused miners like IREN continue to rely on the flagship cryptocurrency for the bulk of their income, while exchange‑traded products show that traders are still willing to take on leveraged positions. The juxtaposition of exploit‑driven token declines and steady miner revenue highlights how different segments of the crypto ecosystem can react independently to the same news cycle.\n#Crypto #DeFi #Web3",
+      "tweet": "Neobank's AVICI token plunges 49% after a $1.1M crypto card exploit $AVICI #Security #Exploit #Binance"
     }
   },
-  "published": []
+  "published": [
+    {
+      "lang": "en",
+      "id": 361093854695489,
+      "url": "https://www.binance.com/square/post/361093854695489",
+      "xUrl": "https://x.com/i/web/status/2093854878330204245",
+      "shortPost": {
+        "id": 361093858034763,
+        "url": "https://www.binance.com/square/post/361093858034763"
+      },
+      "title": "Crypto Mix: Hacks, Miner Steadiness, Exchange Surge and Cross‑Chain Alert"
+    }
+  ]
 }
