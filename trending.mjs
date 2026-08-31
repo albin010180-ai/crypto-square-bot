@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, appendPublished, saveRunLog, canPublishToday } from "./src/store.mjs";
+import { ensureDirs, appendPublished, saveRunLog, canPublishToday, markBinanceBlocked } from "./src/store.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
 import { uploadImageAsset } from "./src/video-publish.mjs";
@@ -255,6 +255,11 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
             appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name, at: new Date().toISOString() }]);
           }
         } catch (err) {
+          if (/220009|Daily post limit/i.test(err.message)) {
+            console.error(`  Binance gunluk post limiti asildi. Trending durduruldu.`);
+            markBinanceBlocked();
+            return false;
+          }
           console.error(`  HATA (en): ${err.message}`);
         }
       }

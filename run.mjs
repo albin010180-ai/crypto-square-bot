@@ -1,5 +1,5 @@
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest, canPublishToday } from "./src/store.mjs";
+import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest, canPublishToday, markBinanceBlocked } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles, generateInfoArticles } from "./src/write.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
@@ -242,6 +242,11 @@ async function main() {
         console.log(`  OK: ${okResult.url ?? okResult.note ?? "(id alinamadi)"}`);
         break;
       } catch (err) {
+        if (/220009|Daily post limit/i.test(err.message)) {
+          console.error(`  Binance gunluk post limiti asildi. Tur atlandi.`);
+          markBinanceBlocked();
+          process.exit(0);
+        }
         if (/20030|punctuation/i.test(err.message) && attempt <= 3) {
           const before = art.title;
           art.title = attempt === 1 ? stripRiskyPunct(before) : attempt === 2 ? aggressiveStrip(before) : hardTitle(art.title);

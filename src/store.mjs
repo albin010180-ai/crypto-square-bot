@@ -7,6 +7,7 @@ const LOGS_DIR = path.join(ROOT, "logs");
 const HISTORY_FILE = path.join(DATA_DIR, "history.json");
 const PUBLISHED_FILE = path.join(DATA_DIR, "published.json");
 const LATEST_FILE = path.join(DATA_DIR, "latest.json");
+const BINANCE_BLOCKED_FILE = path.join(DATA_DIR, "binance-blocked.json");
 
 export function ensureDirs() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -67,7 +68,23 @@ export function canPublishToday(maxPosts = 80) {
     console.warn(`[STORE] Gunluk post limiti: ${count}/${maxPosts}`);
     return false;
   }
+  // Binance 220009 flag kontrolu
+  try {
+    const data = JSON.parse(fs.readFileSync(BINANCE_BLOCKED_FILE, "utf8"));
+    if (data.blockedUntil && Date.now() < data.blockedUntil) {
+      const waitH = Math.round((data.blockedUntil - Date.now()) / 3600000);
+      console.warn(`[STORE] Binance post engeli: ${waitH} saat kalan`);
+      return false;
+    }
+  } catch {}
   return true;
+}
+
+export function markBinanceBlocked() {
+  const data = { blockedUntil: Date.now() + 12 * 3600000, at: new Date().toISOString() };
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(BINANCE_BLOCKED_FILE, JSON.stringify(data, null, 2));
+  console.warn(`[STORE] Binance 220009: 12 saat post engellendi`);
 }
 
 export function saveRunLog(record) {

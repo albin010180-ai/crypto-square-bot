@@ -4,7 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { getRemainingQuota } from "./src/llm.mjs";
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo, canPublishToday } from "./src/store.mjs";
+import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo, canPublishToday, markBinanceBlocked } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateVideoScript, generateInfoVideoScript } from "./src/video-script.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
@@ -317,6 +317,11 @@ async function main() {
 
       record.videos.push({ lang, ...res, title: part.title });
     } catch (err) {
+      if (/220009|Daily post limit/i.test(err.message)) {
+        console.error(`  Binance gunluk post limiti asildi. Video atlandi.`);
+        markBinanceBlocked();
+        process.exit(0);
+      }
       console.error(`  HATA (${lang}): ${err.message}`);
       record.videos.push({ lang, error: err.message });
     }
