@@ -17,8 +17,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
 const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
 const CHECK_INTERVAL_MS = 15 * 60 * 1000; // 15 dakika
-const MAX_TOPICS_PER_DAY = 6; // Gunluk max 6 konu (trending icin daha yuksek limit)
-const LLM_CALLS_PER_RUN = 2; // Her run'da max 2 LLM cagrisi (1 makale = 2 dil)
+const MAX_TOPICS_PER_DAY = 10; // Trending icin yuksek limit
+const LLM_CALLS_PER_RUN = 3; // Her run'da max 3 LLM cagrisi
 
 function loadSeen() {
   try { return JSON.parse(fs.readFileSync(SEEN_FILE, "utf8")); } catch { return { topics: [], lastCheck: null }; }
@@ -252,7 +252,7 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
           }
 
           if (okResult) {
-            appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name }]);
+            appendPublished([{ lang, ...okResult, title: art.title, topic: topic.name, at: new Date().toISOString() }]);
           }
         } catch (err) {
           console.error(`  HATA (en): ${err.message}`);
@@ -303,7 +303,7 @@ async function checkAndPublish(cfg, dryRun) {
 
   // Her yeni konu icin makale uret ve yayinla
   const remaining = MAX_TOPICS_PER_DAY - todayCount;
-  for (const topic of newTopics.slice(0, Math.min(2, remaining))) {
+  for (const topic of newTopics.slice(0, Math.min(3, remaining))) {
     const success = await generateAndPublishTopic(topic, cfg, dryRun);
     if (success) {
       seen.topics.push(topic.name);
