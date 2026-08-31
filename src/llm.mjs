@@ -3,23 +3,24 @@ import fs from "node:fs";
 import path from "node:path";
 
 const QUOTA_FILE = path.join(process.cwd(), "data", "llm-quota.json");
-const DAILY_LIMIT = 45;
+const DAILY_LIMIT = 25; // OpenRouter free tier: 50/gun, guvenli pay
 
 export const FALLBACK_MODELS = [
   "openrouter/free",
   "z-ai/glm-5.2:free",
 ];
 
+// ── Quota ──
 function loadQuota() {
   try {
     const data = JSON.parse(fs.readFileSync(QUOTA_FILE, "utf8"));
     const today = new Date().toISOString().split("T")[0];
     if (data.date !== today) {
-      return { date: today, calls: 0 };
+      return { date: today, calls: 0, cooldownUntil: 0 };
     }
     return data;
   } catch {
-    return { date: new Date().toISOString().split("T")[0], calls: 0 };
+    return { date: new Date().toISOString().split("T")[0], calls: 0, cooldownUntil: 0 };
   }
 }
 
@@ -39,17 +40,34 @@ export function getRemainingQuota() {
 export function trackCall() {
   const q = loadQuota();
   q.calls++;
+  q.cooldownUntil = 0;
   saveQuota(q);
   return DAILY_LIMIT - q.calls;
 }
 
 export function hasQuota() {
-  const remaining = getRemainingQuota();
-  if (remaining <= 0) {
-    console.warn(`[LLM] Quota bitti (${DAILY_LIMIT}/${DAILY_LIMIT}).`);
+  const q = loadQuota();
+
+  // Cooldown kontrolu — 429 sonrasi bekleme
+  if (q.cooldownUntil && Date.now() < q.cooldownUntil) {
+    const waitMin = Math.round((q.cooldownUntil - Date.now()) / 60000);
+    console.warn(`[LLM] Cooldown aktif, ${waitMin} dk bekleniyor.`);
+    return false;
+  }
+
+  if (q.calls >= DAILY_LIMIT) {
+    console.warn(`[LLM] Quota bitti (${q.calls}/${DAILY_LIMIT}).`);
     return false;
   }
   return true;
+}
+
+// 429 durumunda cooldown baslat (30 dk)
+export function triggerCooldown() {
+  const q = loadQuota();
+  q.cooldownUntil = Date.now() + 30 * 60 * 1000;
+  saveQuota(q);
+  console.warn(`[LLM] Cooldown baslatildi: 30 dk`);
 }
 
 export async function callModel(model, apiKey, prompt, systemPrompt) {
@@ -83,8 +101,8 @@ export async function callModel(model, apiKey, prompt, systemPrompt) {
     });
     const raw = await res.text();
 
-    // Rate limit — throw with retryable flag
     if (res.status === 429) {
+      triggerCooldown();
       const err = new Error(`OpenRouter HTTP 429: ${raw.slice(0, 200)}`);
       err.retryable = true;
       throw err;
@@ -131,7 +149,7 @@ export async function generateWithRetry({
 
   const models = [...new Set([model, ...FALLBACK_MODELS])];
   const errors = [];
-  const MAX_ATTEMPTS = 3;
+  const MAX_ATTEMPTS = 2;
 
   for (const m of models) {
     if (!hasQuota()) break;
@@ -145,13 +163,13 @@ export async function generateWithRetry({
         console.warn(`  basarisiz: ${err.message.slice(0, 150)}`);
         if (err.message.includes("quota bitti")) break;
 
-        // Exponential backoff for rate limits
         if (err.retryable || err.message.includes("429")) {
-          const backoff = Math.min(5000 * Math.pow(2, attempt - 1), 60000);
+          // 429: diger modeli denemeden once bekle
+          const backoff = Math.min(10000 * Math.pow(2, attempt - 1), 60000);
           console.log(`  rate limit, ${backoff / 1000}s bekleniyor...`);
           await sleep(backoff);
         } else {
-          await sleep(attempt === 1 ? 10000 : 20000);
+          await sleep(5000);
         }
       }
     }
