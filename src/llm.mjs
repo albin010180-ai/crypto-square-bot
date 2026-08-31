@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const QUOTA_FILE = path.join(process.cwd(), "data", "llm-quota.json");
-const DAILY_LIMIT = 45; // 50 limit'ten 5 guvenlik payi
+const DAILY_LIMIT = 45;
 
 export const FALLBACK_MODELS = [
   "openrouter/free",
@@ -46,7 +46,7 @@ export function trackCall() {
 export function hasQuota() {
   const remaining = getRemainingQuota();
   if (remaining <= 0) {
-    console.warn(`[LLM] Gunluk quota bitti (${DAILY_LIMIT}/${DAILY_LIMIT}). Iptal ediliyor.`);
+    console.warn(`[LLM] Quota bitti (${DAILY_LIMIT}/${DAILY_LIMIT}).`);
     return false;
   }
   return true;
@@ -82,7 +82,16 @@ export async function callModel(model, apiKey, prompt, systemPrompt) {
       }),
     });
     const raw = await res.text();
+
+    // Rate limit — throw with retryable flag
+    if (res.status === 429) {
+      const err = new Error(`OpenRouter HTTP 429: ${raw.slice(0, 200)}`);
+      err.retryable = true;
+      throw err;
+    }
+
     if (!res.ok) throw new Error(`OpenRouter HTTP ${res.status}: ${raw.slice(0, 300)}`);
+
     const json = JSON.parse(raw);
     const content = json.choices?.[0]?.message?.content;
     if (!content) throw new Error("OpenRouter bos yanit dondu");
@@ -122,19 +131,28 @@ export async function generateWithRetry({
 
   const models = [...new Set([model, ...FALLBACK_MODELS])];
   const errors = [];
+  const MAX_ATTEMPTS = 3;
 
   for (const m of models) {
     if (!hasQuota()) break;
-    for (let attempt = 1; attempt <= 1; attempt++) {
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
       try {
-        console.log(`${label} uretiliyor (model: ${m}, deneme ${attempt}/1)...`);
+        console.log(`${label} uretiliyor (model: ${m}, deneme ${attempt}/${MAX_ATTEMPTS})...`);
         const content = await callModel(m, apiKey, prompt, systemPrompt);
         return validate(extractJson(content));
       } catch (err) {
-        errors.push(`[${m} #${attempt}] ${err.message}`);
-        console.warn(`  basarisiz: ${err.message}`);
+        errors.push(`[${m} #${attempt}] ${err.message.slice(0, 150)}`);
+        console.warn(`  basarisiz: ${err.message.slice(0, 150)}`);
         if (err.message.includes("quota bitti")) break;
-        await sleep(attempt === 1 ? 15000 : 30000);
+
+        // Exponential backoff for rate limits
+        if (err.retryable || err.message.includes("429")) {
+          const backoff = Math.min(5000 * Math.pow(2, attempt - 1), 60000);
+          console.log(`  rate limit, ${backoff / 1000}s bekleniyor...`);
+          await sleep(backoff);
+        } else {
+          await sleep(attempt === 1 ? 10000 : 20000);
+        }
       }
     }
   }

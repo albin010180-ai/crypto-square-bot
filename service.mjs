@@ -1,76 +1,122 @@
 import { loadEnv } from "./src/env.mjs";
 import { ensureDirs } from "./src/store.mjs";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+import http from "node:http";
 
-// Load env first
+const execFileAsync = promisify(execFile);
+const ROOT = new URL(".", import.meta.url).pathname;
+
+// ── Env ──
 loadEnv();
 ensureDirs();
 
+// ── Config ──
 const INTERVALS = {
-  trending: 5 * 60 * 1000,   // 5 dakika
-  publish: 4 * 60 * 60 * 1000, // 4 saat
-  video: 4 * 60 * 60 * 1000,   // 4 saat
-};
-
-const STAGGER = {
-  publish: 0,
-  video: 30 * 60 * 1000, // 30 dk once video
+  trending: 5 * 60 * 1000,
+  publish: 4 * 60 * 60 * 1000,
+  video: 4 * 60 * 60 * 1000,
 };
 
 function log(msg) {
   console.log(`[${new Date().toISOString()}] ${msg}`);
 }
 
-async function runScript(name, scriptPath, args = []) {
-  const { execFile } = await import("node:child_process");
-  const { promisify } = await import("node:util");
-  const execFileAsync = promisify(execFile);
+// ── Git Sync ──
+async function gitPull() {
   try {
-    log(`Starting ${name}...`);
+    await execFileAsync("git", ["pull", "--rebase"], { cwd: ROOT, timeout: 30000 });
+    log("Git pull OK");
+  } catch (e) {
+    log("Git pull skip: " + e.message.slice(0, 100));
+  }
+}
+
+async function gitCommitPush(msg) {
+  try {
+    await execFileAsync("git", ["add", "data/"], { cwd: ROOT, timeout: 10000 });
+    const { stdout } = await execFileAsync("git", ["diff", "--cached", "--quiet"], { cwd: ROOT }).catch(() => ({ stdout: "dirty" }));
+    if (stdout === "") {
+      log("No data changes to commit");
+      return;
+    }
+    await execFileAsync("git", ["commit", "-m", msg], { cwd: ROOT, timeout: 10000 });
+    await execFileAsync("git", ["push"], { cwd: ROOT, timeout: 30000 });
+    log("Git push OK: " + msg);
+  } catch (e) {
+    log("Git push skip: " + e.message.slice(0, 100));
+  }
+}
+
+// ── Script Runner ──
+async function runScript(name, scriptPath, args = []) {
+  await gitPull();
+  log(`Starting ${name}...`);
+  try {
     const { stdout, stderr } = await execFileAsync("node", [scriptPath, ...args], {
-      timeout: 10 * 60 * 1000, // 10 dk max
-      cwd: new URL(".", import.meta.url).pathname,
+      timeout: 10 * 60 * 1000,
+      cwd: ROOT,
       env: process.env,
     });
-    if (stdout) log(`[${name}] ${stdout.slice(-500)}`);
-    if (stderr) log(`[${name}] stderr: ${stderr.slice(-300)}`);
+    if (stdout) {
+      const lines = stdout.split("\n").filter(Boolean);
+      log(`[${name}] ${lines.slice(-8).join(" | ")}`);
+    }
+    if (stderr && !stderr.includes("Warning")) {
+      log(`[${name}] stderr: ${stderr.slice(-200)}`);
+    }
     log(`${name} completed`);
   } catch (err) {
-    log(`${name} FAILED: ${err.message}`);
+    log(`${name} FAILED: ${err.message.slice(0, 200)}`);
   }
+  await gitCommitPush(`bot: ${name} state [skip ci]`);
 }
 
-function scheduleNext(name, scriptPath, intervalMs, args = [], offsetMs = 0) {
-  const run = () => {
-    runScript(name, scriptPath, args);
-    scheduleNext(name, scriptPath, intervalMs, args, 0);
-  };
+// ── Scheduler ──
+const running = new Map();
 
-  if (offsetMs > 0) {
-    const delay = Math.max(0, offsetMs - Date.now() % intervalMs);
-    log(`Next ${name} in ${Math.round(delay / 1000)}s`);
-    setTimeout(run, delay);
-  } else {
-    log(`Next ${name} in ${Math.round(intervalMs / 1000)}s`);
+function schedulePeriodic(name, scriptPath, intervalMs, args = []) {
+  const run = async () => {
+    if (running.get(name)) {
+      log(`${name} still running, skipping`);
+      return;
+    }
+    running.set(name, true);
+    try {
+      await runScript(name, scriptPath, args);
+    } finally {
+      running.set(name, false);
+    }
     setTimeout(run, intervalMs);
-  }
+  };
+  // First run after small delay
+  setTimeout(run, 5000);
 }
 
-// ── Main ──
+// ── Health Check Server ──
+const PORT = process.env.PORT || 3000;
+const server = http.createServer((req, res) => {
+  if (req.url === "/health") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({
+      status: "ok",
+      uptime: Math.round(process.uptime()),
+      memory: Math.round(process.memoryUsage().rss / 1024 / 1024),
+      timestamp: new Date().toISOString(),
+    }));
+  } else {
+    res.writeHead(404);
+    res.end("Not found");
+  }
+});
+server.listen(PORT, () => log(`Health check: http://localhost:${PORT}/health`));
+
+// ── Start ──
 log("=== Crypto Square Bot Service ===");
-log("Trending: every 5min | Publish: every 4h | Video: every 4h+30min");
+log(`Trending: ${INTERVALS.trending / 1000}s | Publish: ${INTERVALS.publish / 3600000}h | Video: ${INTERVALS.video / 3600000}h`);
 
-// Trending — her 5 dakika
-scheduleNext("trending", "trending.mjs", INTERVALS.trending, ["--once"]);
+schedulePeriodic("trending", "trending.mjs", INTERVALS.trending, ["--once"]);
+schedulePeriodic("publish", "run.mjs", INTERVALS.publish);
+schedulePeriodic("video", "video.mjs", INTERVALS.video);
 
-// Publish — her 4 saat
-scheduleNext("publish", "run.mjs", INTERVALS.publish, [], STAGGER.publish);
-
-// Video — her 4 saat (publish'den 30 dk once)
-scheduleNext("video", "video.mjs", INTERVALS.video, [], STAGGER.video);
-
-// Health check — her 10 dk
-setInterval(() => {
-  log(`Health: uptime=${Math.round(process.uptime())}s mem=${Math.round(process.memoryUsage().rss / 1024 / 1024)}MB`);
-}, 10 * 60 * 1000);
-
-log("Service started. Waiting for first run...");
+log("Service started.");

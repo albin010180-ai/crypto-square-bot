@@ -1,7 +1,14 @@
 {
+  "name": "crypto-square-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node service.mjs",
+    "trending": "node trending.mjs --once",
+    "publish": "node run.mjs",
+    "video": "node video.mjs"
+  },
   "dependencies": {
-    "playwright": "^1.62.1",
-    "playwright-extra": "^4.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "playwright": "^1.62.1"
   }
 }

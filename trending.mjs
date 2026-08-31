@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SEEN_FILE = path.join(__dirname, "data", "trending-seen.json");
 const PUBLISHED_FILE = path.join(__dirname, "data", "published.json");
-const CHECK_INTERVAL_MS = 15 * 60 * 1000; // 15 dakika
+const CHECK_INTERVAL_MS = 5 * 60 * 1000; // 5 dakika
 const MAX_TOPICS_PER_DAY = 10; // Trending icin yuksek limit
 const LLM_CALLS_PER_RUN = 3; // Her run'da max 3 LLM cagrisi
 
@@ -303,11 +303,14 @@ async function checkAndPublish(cfg, dryRun) {
 
   // Her yeni konu icin makale uret ve yayinla
   const remaining = MAX_TOPICS_PER_DAY - todayCount;
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   for (const topic of newTopics.slice(0, Math.min(3, remaining))) {
     const success = await generateAndPublishTopic(topic, cfg, dryRun);
     if (success) {
       seen.topics.push(topic.name);
     }
+    // Rate limit icin bekle
+    await sleep(3000);
   }
 
   seen.lastCheck = new Date().toISOString();
