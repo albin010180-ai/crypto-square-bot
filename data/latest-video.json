@@ -1,41 +1,41 @@
 {
-  "startedAt": "2026-08-30T21:39:13.978Z",
-  "finishedAt": "2026-08-30T21:40:11.390Z",
+  "startedAt": "2026-08-31T01:39:09.331Z",
+  "finishedAt": "2026-08-31T01:39:53.624Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
   "story": {
     "type": "news",
-    "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
-    "source": "Decrypt",
-    "link": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
-    "usedLink": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
-    "usedTitleNorm": "bitcoin etfs snap nine day inflow streak as ethereum funds extend their run"
+    "title": "Bitcoin (BTC), XRP, Ethereum and Shiba Inu (SHIB) Price Analysis for August 31: Is It Bulls' Last Chance?",
+    "source": "U.Today",
+    "link": "https://u.today/price-analysis/xrp-ethereum-eth-bitcoin-btc-and-shiba-inu-shib-price-analysis-for-august-31-is-it-bulls-last",
+    "usedLink": "https://u.today/price-analysis/xrp-ethereum-eth-bitcoin-btc-and-shiba-inu-shib-price-analysis-for-august-31-is-it-bulls-last",
+    "usedTitleNorm": "bitcoin btc xrp ethereum and shiba inu shib price analysis for august 31 is it bulls last chance"
   },
   "script": {
     "en": {
-      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+      "title": "Bitcoin, XRP, Ethereum and Shiba Inu Price Analysis for August 31",
       "slides": [
-        "Bitcoin ETFs just ended their longest inflow streak of the year.",
-        "Spot Bitcoin funds shed 201.9 million dollars on August 28th alone.",
-        "Meanwhile Ethereum ETFs quietly extended their own streak to ten days.",
-        "The divergence suggests institutional appetite is shifting between crypto assets."
+        "Crypto markets feel stronger than any point in 2026 so far.",
+        "Bitcoin, Ethereum, XRP and Shiba Inu are all trading with renewed momentum.",
+        "Analysts say the broader trend remains unclear despite recent gains.",
+        "Traders are watching key levels closely for direction clues."
       ],
-      "caption": "Bitcoin ETF inflows snapped a nine-day streak while Ethereum funds hit a ten-day run. Spot Bitcoin funds saw outflows of $201.9M on August 28th. Institutional capital is showing distinct preferences between Bitcoin and Ethereum.\n\n$BTC $ETH #BitcoinETF #EthereumETF #CryptoMarkets\n\nSources: Decrypt\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
+      "caption": "Markets show strength not seen since earlier this year across major assets. Analysts caution that a clear trend has yet to emerge. $BTC $ETH $XRP #CryptoNews #PriceAnalysis #BinanceSquare\nSources: U.Today\nThis video was produced with AI assistance; it is not financial advice. Always do your own research (DYOR)."
     }
   },
   "videos": [
     {
       "lang": "en",
-      "id": 361409783532586,
-      "url": "https://www.binance.com/square/post/361409783532586",
+      "id": 361468693009667,
+      "url": "https://www.binance.com/square/post/361468693009667",
       "note": null,
       "shortPost": {
-        "id": 361409785624410,
-        "url": "https://www.binance.com/square/post/361409785624410"
+        "id": 361468694929317,
+        "url": "https://www.binance.com/square/post/361468694929317"
       },
-      "xUrl": "https://x.com/i/web/status/2094178391960199676",
-      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run"
+      "xUrl": "https://x.com/i/web/status/2094238715392504133",
+      "title": "Bitcoin, XRP, Ethereum and Shiba Inu Price Analysis for August 31"
     }
   ]
 }
