@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-31T00:13:15.265Z",
-  "finishedAt": "2026-08-31T00:13:47.811Z",
+  "startedAt": "2026-08-31T04:12:36.464Z",
+  "finishedAt": "2026-08-31T04:12:56.769Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,44 +8,32 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws"
-    },
-    {
-      "title": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
+      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-    },
-    {
-      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading"
+      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     }
   ],
   "selected": [
-    "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
-    "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest",
-    "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading"
+    "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
   ],
   "articles": {
     "en": {
-      "title": "Polygon Patches Quiet Fork Flaws, Bitcoin Eyes Quantum Era, Insider Trading Fine",
-      "body": "Polygon deployed two hard forks this week to fix security flaws that were never publicly disclosed beforehand, raising fresh questions about transparency in protocol maintenance.\n\nThe Austin and Kyoto upgrades, rolled out on the Bor and Heimdall clients, addressed denial-of-service and consensus-hardening vulnerabilities. Polygon stated the issues were patched before any public disclosure and were never exploited, though the quiet nature of the fixes has drawn scrutiny from developers who argue that coordinated disclosure is standard practice for ecosystem safety.\n\nBitcoin moved closer to a post-quantum future this week, with developers refining signature schemes designed to withstand potential quantum computing threats. At the same time, Bernstein reaffirmed its bullish long-term outlook for the asset, projecting a cycle peak of $500,000, a forecast that has circulated widely among analysts despite ongoing volatility.\n\nIn a separate development, Solana validators agreed to cancel roughly 18.9 million SOL in staking rewards, a move aimed at curbing inflationary pressure on the network. The decision reflects growing governance attention to token economics as ecosystems balance growth incentives against supply discipline.\n\nOn the regulatory front, a former White House teleprompter operator was fined by the CFTC for insider trading tied to prediction markets. Gabriel Perez reportedly used advance access to speeches to bet on presidential mention contracts, profiting more than $107,500 before being caught. The case underscores expanding enforcement around market manipulation as crypto-linked derivatives attract closer oversight.\n\nMarket participants are weighing these developments against a backdrop of mixed price action. $BTC has traded in a relatively tight range, holding above key support near $80,000 while facing resistance around $85,000. $ETH remains pressured below $3,000, and $SOL has dipped following the reward cancellation announcement, though on-chain activity suggests long-term holder conviction remains intact. Trading volumes across major venues have stabilized compared with earlier in the week.\n\n#Crypto #Regulation #Binance\n\nSources: Decrypt, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Polygon quietly patched fork flaws, Bitcoin eyes quantum defenses, insider trading fine handed down $BTC #Crypto #Regulation #Binance"
+      "title": "Cronos Network Halts Operations After $75M Tectonic DeFi Exploit",
+      "body": "The Cronos network announced a temporary suspension of operations on August 31 following a security breach targeting the Tectonic protocol, with estimated losses approaching $75 million. The exploit, confirmed by sources familiar with the incident, prompted an immediate network halt to prevent further unauthorized transactions and allow for forensic investigation.\n\nCrypto.com CEO Kris Marszalek clarified that the company's mobile application and exchange platform remained unaffected by the Tectonic incident. Trading and withdrawal functions continued without interruption, indicating the breach was contained within the Cronos ecosystem rather than spreading to broader infrastructure.\n\nThe Tectonic exploit represents one of the most significant DeFi security incidents in recent months, highlighting ongoing vulnerabilities in cross-chain liquidity protocols. Network validators have confirmed they are working on a comprehensive security audit and plan to provide an updated timeline for network restoration once the investigation concludes.\n\nMarket reaction to the news was swift, with $CRONOS token experiencing downward pressure in early Asian trading. Meanwhile, $BTC and $ETH showed minimal volatility, suggesting investor focus remains on macro-level risk factors rather than single-protocol incidents. Trading volumes across major derivatives exchanges increased by approximately 15 percent as traders reassessed risk exposure in DeFi-related assets.\n\nThe incident underscores the persistent security challenges facing blockchain ecosystems. While the immediate impact appears limited to the Cronos network, the broader DeFi sector may face increased regulatory scrutiny and heightened due diligence requirements from institutional participants.\n\n#Binance #DeFiHack #CryptoSecurity\nSources: Cointelegraph\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Cronos network halts after $75M Tectonic exploit; Crypto.com confirms its platforms unaffected. #DeFiHack #CryptoSecurity #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361447534624330,
-      "url": "https://www.binance.com/square/post/361447534624330",
-      "xUrl": "https://x.com/i/web/status/2094217046867222635",
+      "id": 361506307926314,
+      "url": "https://www.binance.com/square/post/361506307926314",
+      "xUrl": "https://x.com/i/web/status/2094277230629134421",
       "shortPost": {
-        "id": 361447537418208,
-        "url": "https://www.binance.com/square/post/361447537418208"
+        "id": 361506310805061,
+        "url": "https://www.binance.com/square/post/361506310805061"
       },
-      "title": "Polygon Patches Quiet Fork Flaws, Bitcoin Eyes Quantum Era, Insider Trading Fine"
+      "title": "Cronos Network Halts Operations After $75M Tectonic DeFi Exploit"
     }
   ]
 }
