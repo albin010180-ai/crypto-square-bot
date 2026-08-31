@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-31T04:12:36.464Z",
-  "finishedAt": "2026-08-31T04:12:56.769Z",
+  "startedAt": "2026-08-31T08:12:53.864Z",
+  "finishedAt": "2026-08-31T08:14:52.497Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,32 +8,56 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
-      "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "XRP’s next rally could put this 115 million-token short under pressure",
+      "source": "CryptoSlate",
+      "link": "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/"
+    },
+    {
+      "title": "Ripple Continues Massive RLUSD Minting Spree on XRPL",
+      "source": "U.Today",
+      "link": "https://u.today/ripple-continues-massive-rlusd-minting-spree-on-xrpl"
+    },
+    {
+      "title": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining’s future",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future"
+    },
+    {
+      "title": "Cronos halts blockchain after $75 million lending exploit hits lending app Tectonic",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic"
+    },
+    {
+      "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
+      "source": "CoinDesk",
+      "link": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90"
     }
   ],
   "selected": [
-    "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/",
+    "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic",
+    "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
+    "https://u.today/ripple-continues-massive-rlusd-minting-spree-on-xrpl",
+    "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future"
   ],
   "articles": {
     "en": {
-      "title": "Cronos Network Halts Operations After $75M Tectonic DeFi Exploit",
-      "body": "The Cronos network announced a temporary suspension of operations on August 31 following a security breach targeting the Tectonic protocol, with estimated losses approaching $75 million. The exploit, confirmed by sources familiar with the incident, prompted an immediate network halt to prevent further unauthorized transactions and allow for forensic investigation.\n\nCrypto.com CEO Kris Marszalek clarified that the company's mobile application and exchange platform remained unaffected by the Tectonic incident. Trading and withdrawal functions continued without interruption, indicating the breach was contained within the Cronos ecosystem rather than spreading to broader infrastructure.\n\nThe Tectonic exploit represents one of the most significant DeFi security incidents in recent months, highlighting ongoing vulnerabilities in cross-chain liquidity protocols. Network validators have confirmed they are working on a comprehensive security audit and plan to provide an updated timeline for network restoration once the investigation concludes.\n\nMarket reaction to the news was swift, with $CRONOS token experiencing downward pressure in early Asian trading. Meanwhile, $BTC and $ETH showed minimal volatility, suggesting investor focus remains on macro-level risk factors rather than single-protocol incidents. Trading volumes across major derivatives exchanges increased by approximately 15 percent as traders reassessed risk exposure in DeFi-related assets.\n\nThe incident underscores the persistent security challenges facing blockchain ecosystems. While the immediate impact appears limited to the Cronos network, the broader DeFi sector may face increased regulatory scrutiny and heightened due diligence requirements from institutional participants.\n\n#Binance #DeFiHack #CryptoSecurity\nSources: Cointelegraph\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Cronos network halts after $75M Tectonic exploit; Crypto.com confirms its platforms unaffected. #DeFiHack #CryptoSecurity #Binance"
+      "title": "Cronos Halted, XRP Shorts Pile Up, Fed Hike Odds Cut: A Pivotal Crypto Morning",
+      "body": "Crypto markets woke up to a turbulent mix of security incidents, derivatives positioning and shifting macro signals. The largest shock came from Cronos, where validators paused the blockchain after a roughly $75 million lending exploit struck decentralized lending app Tectonic. According to CoinDesk, an attacker allegedly inflated the thinly traded TONIC token by 100-fold, used it as inflated collateral to borrow real assets, and left most funds stranded once the network froze. The incident highlights how low-liquidity collateral markets remain a structural weak point across DeFi protocols, and traders are watching for an official post-mortem from Cronos and Tectonic teams in the coming days.\n\nOn a brighter note, Ripple continues aggressive stablecoin expansion. U.Today reports that Ripple has minted millions of additional RLUSD tokens across the XRP Ledger and Ethereum over the past several days, pushing the dollar-pegged asset's total supply above $2 billion. The minting spree signals sustained institutional demand for a regulated, on-chain dollar and reinforces the broader push by payment-focused networks to capture stablecoin market share.\n\nMeanwhile, XRP derivatives positioning is drawing fresh attention. CryptoSlate points to a CFTC snapshot from August 25 showing approximately 115.7 million XRP-equivalent net short positions sitting against rising dealer and asset-manager net longs. Such a lopsided setup means a sharp upward move could force short liquidations, amplifying any breakout. On-chain volume on XRP pairs has ticked higher this week, and traders are monitoring the $0.65 resistance zone as a potential trigger.\n\nIn the Bitcoin ecosystem, CoinDesk reports that developer Luke Dashjr has departed mining pool Ocean following a mutual split over the future direction of Bitcoin mining and protocol development. The departure, while philosophical rather than technical, removes one of the more vocal contributors from a pool that has positioned itself around filterable block templates and ordinals-friendly policies.\n\nFinally, macro sentiment got a softer read. CoinDesk notes that the implied probability of a September Fed rate hike now sits around 58 percent, well below the 90 percent figure circulating earlier in the week after Kevin Warsh's hawkish remarks. $ETH futures open interest rose modestly as traders pared back tightening bets, while $BTC continues to consolidate near recent highs with the 200-day moving average acting as support.\n\n#Cronos #XRP #Binance\n\nSources: CoinDesk, CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Cronos blockchain paused after a reported $75M exploit on lending app Tectonic, while XRP shorts near 115M tokens pile up. #DeFi #XRP #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361506307926314,
-      "url": "https://www.binance.com/square/post/361506307926314",
-      "xUrl": "https://x.com/i/web/status/2094277230629134421",
+      "id": 361565764891431,
+      "url": "https://www.binance.com/square/post/361565764891431",
+      "xUrl": "https://x.com/i/web/status/2094338114391248953",
       "shortPost": {
-        "id": 361506310805061,
-        "url": "https://www.binance.com/square/post/361506310805061"
+        "id": 361565767309530,
+        "url": "https://www.binance.com/square/post/361565767309530"
       },
-      "title": "Cronos Network Halts Operations After $75M Tectonic DeFi Exploit"
+      "title": "Cronos Halted, XRP Shorts Pile Up, Fed Hike Odds Cut: A Pivotal Crypto Morning"
     }
   ]
 }
