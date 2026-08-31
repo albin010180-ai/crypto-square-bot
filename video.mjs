@@ -4,7 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { getRemainingQuota } from "./src/llm.mjs";
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo } from "./src/store.mjs";
+import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatestVideo, canPublishToday } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateVideoScript, generateInfoVideoScript } from "./src/video-script.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
@@ -165,8 +165,13 @@ async function main() {
     return;
   }
 
+  if (!dryRun && !canPublishToday(80)) {
+    console.log("Binance Square gunluk 80 post limitine ulasti. Video atlandi.");
+    return;
+  }
+
   const quota = getRemainingQuota();
-  console.log(`OpenRouter quota: ${quota}/45 kalan`);
+  console.log(`OpenRouter quota: ${quota}/25 kalan`);
   if (quota < 10) {
     console.log(`Quota cok dusuk (${quota}). Video atlandi.`);
     return;

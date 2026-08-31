@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, appendPublished, saveRunLog } from "./src/store.mjs";
+import { ensureDirs, appendPublished, saveRunLog, canPublishToday } from "./src/store.mjs";
 import { generateArticles } from "./src/write.mjs";
 import { publishArticle, publishShortPostSafe } from "./src/publish.mjs";
 import { uploadImageAsset } from "./src/video-publish.mjs";
@@ -270,10 +270,15 @@ async function generateAndPublishTopic(topic, cfg, dryRun) {
 async function checkAndPublish(cfg, dryRun) {
   const quota = getRemainingQuota();
   console.log(`\n[${new Date().toISOString()}] Trending konular kontrol ediliyor...`);
-  console.log(`  OpenRouter quota: ${quota}/45 kalan`);
+  console.log(`  OpenRouter quota: ${quota}/25 kalan`);
   
   if (quota < 5) {
     console.log(`  Quota cok dusuk (${quota}). Trending atlandi.`);
+    return;
+  }
+
+  if (!dryRun && !canPublishToday(80)) {
+    console.log(`  Binance gunluk 80 post limitine ulasti. Trending atlandi.`);
     return;
   }
 

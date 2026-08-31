@@ -1,5 +1,5 @@
 import { loadEnv } from "./src/env.mjs";
-import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest } from "./src/store.mjs";
+import { ensureDirs, loadHistory, saveHistory, appendPublished, saveRunLog, saveLatest, canPublishToday } from "./src/store.mjs";
 import { collectNews, normalizeTitle } from "./src/news.mjs";
 import { generateArticles, generateInfoArticles } from "./src/write.mjs";
 import { pickInfoTopic } from "./src/info-topics.mjs";
@@ -138,8 +138,13 @@ async function main() {
     return;
   }
 
+  if (!dryRun && !canPublishToday(80)) {
+    console.log("Binance Square gunluk 80 post limitine ulasti. Bu tur atlandi.");
+    return;
+  }
+
   const quota = getRemainingQuota();
-  console.log(`OpenRouter quota: ${quota}/45 kalan`);
+  console.log(`OpenRouter quota: ${quota}/25 kalan`);
   if (quota < 10) {
     console.log(`Quota cok dusuk (${quota}). Publish atlandi.`);
     return;

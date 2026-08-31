@@ -52,6 +52,24 @@ export function saveLatestVideo(record) {
   fs.writeFileSync(LATEST_VIDEO_FILE, JSON.stringify(record, null, 2), "utf8");
 }
 
+export function getTodayPostCount() {
+  const entries = readJson(PUBLISHED_FILE, []);
+  const today = new Date().toISOString().split("T")[0];
+  return entries.filter((e) => {
+    const at = e.at || e.publishedAt || "";
+    return at.startsWith(today);
+  }).length;
+}
+
+export function canPublishToday(maxPosts = 80) {
+  const count = getTodayPostCount();
+  if (count >= maxPosts) {
+    console.warn(`[STORE] Gunluk post limiti: ${count}/${maxPosts}`);
+    return false;
+  }
+  return true;
+}
+
 export function saveRunLog(record) {
   fs.mkdirSync(LOGS_DIR, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
