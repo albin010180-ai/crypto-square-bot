@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-31T08:12:53.864Z",
-  "finishedAt": "2026-08-31T08:14:52.497Z",
+  "startedAt": "2026-08-31T12:12:47.821Z",
+  "finishedAt": "2026-08-31T12:13:56.177Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,56 +8,71 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "XRP’s next rally could put this 115 million-token short under pressure",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/"
-    },
-    {
-      "title": "Ripple Continues Massive RLUSD Minting Spree on XRPL",
+      "title": "Ripple CTO Emeritus Slams Bitcoin's BIP-110 Legacy Chain Fix: 'Listen to Yourself'",
       "source": "U.Today",
-      "link": "https://u.today/ripple-continues-massive-rlusd-minting-spree-on-xrpl"
+      "link": "https://u.today/ripple-cto-emeritus-slams-bitcoins-bip-110-legacy-chain-fix-listen-to-yourself"
     },
     {
-      "title": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining’s future",
+      "title": "Robinhood Chain beats Ethereum in daily revenue as memecoin trading takes over",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future"
+      "link": "https://www.coindesk.com/markets/2026/08/31/robinhood-chain-beats-ethereum-in-daily-revenue-as-memecoin-trading-takes-over"
     },
     {
-      "title": "Cronos halts blockchain after $75 million lending exploit hits lending app Tectonic",
+      "title": "Sberbank plans to add ether and USDT as collateral for crypto-backed loans: Report",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic"
+      "link": "https://www.coindesk.com/business/2026/08/31/sberbank-plans-to-add-ether-and-usdt-as-collateral-for-crypto-backed-loans"
     },
     {
-      "title": "September Fed rate hike fears look overblown as the probability stands at just 58%, not 90%",
+      "title": "Crypto.com's Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376913/crypto-coms-cronos-halts-entire-blockchain-after-75m-tectonic-exploit"
+    },
+    {
+      "title": "Third Point’s Core Scientific Stake Puts Bitcoin Miner-To-AI Trade In Focus",
+      "source": "NewsBTC",
+      "link": "https://www.newsbtc.com/news/third-point-core-scientific-bitcoin-miner-ai-trade/"
+    },
+    {
+      "title": "Hyperliquid, Pump.fun account for nearly 90% of record $638M crypto buybacks: FT",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/news/hyperliquid-pumpfun-90-record-638m-crypto-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Markets pivot to September Fed rate hike: Five things to know in Bitcoin this week",
+      "source": "Cointelegraph",
+      "link": "https://cointelegraph.com/markets/markets-pivot-to-september-fed-rate-hike-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "title": "Strategy returns to bitcoin buys, adding $370 million worth last week",
       "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90"
+      "link": "https://www.coindesk.com/markets/2026/08/31/strategy-returns-to-bitcoin-buys-adding-usd370-million-worth-last-week"
     }
   ],
   "selected": [
-    "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/",
-    "https://www.coindesk.com/tech/2026/08/31/cronos-halts-blockchain-after-usd75-million-lending-exploit-hits-lending-app-tectonic",
-    "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90",
-    "https://u.today/ripple-continues-massive-rlusd-minting-spree-on-xrpl",
-    "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future"
+    "https://decrypt.co/376913/crypto-coms-cronos-halts-entire-blockchain-after-75m-tectonic-exploit",
+    "https://www.coindesk.com/business/2026/08/31/sberbank-plans-to-add-ether-and-usdt-as-collateral-for-crypto-backed-loans",
+    "https://www.coindesk.com/markets/2026/08/31/strategy-returns-to-bitcoin-buys-adding-usd370-million-worth-last-week",
+    "https://cointelegraph.com/news/hyperliquid-pumpfun-90-record-638m-crypto-buybacks",
+    "https://cointelegraph.com/markets/markets-pivot-to-september-fed-rate-hike-five-things-to-know-in-bitcoin-this-week"
   ],
   "articles": {
     "en": {
-      "title": "Cronos Halted, XRP Shorts Pile Up, Fed Hike Odds Cut: A Pivotal Crypto Morning",
-      "body": "Crypto markets woke up to a turbulent mix of security incidents, derivatives positioning and shifting macro signals. The largest shock came from Cronos, where validators paused the blockchain after a roughly $75 million lending exploit struck decentralized lending app Tectonic. According to CoinDesk, an attacker allegedly inflated the thinly traded TONIC token by 100-fold, used it as inflated collateral to borrow real assets, and left most funds stranded once the network froze. The incident highlights how low-liquidity collateral markets remain a structural weak point across DeFi protocols, and traders are watching for an official post-mortem from Cronos and Tectonic teams in the coming days.\n\nOn a brighter note, Ripple continues aggressive stablecoin expansion. U.Today reports that Ripple has minted millions of additional RLUSD tokens across the XRP Ledger and Ethereum over the past several days, pushing the dollar-pegged asset's total supply above $2 billion. The minting spree signals sustained institutional demand for a regulated, on-chain dollar and reinforces the broader push by payment-focused networks to capture stablecoin market share.\n\nMeanwhile, XRP derivatives positioning is drawing fresh attention. CryptoSlate points to a CFTC snapshot from August 25 showing approximately 115.7 million XRP-equivalent net short positions sitting against rising dealer and asset-manager net longs. Such a lopsided setup means a sharp upward move could force short liquidations, amplifying any breakout. On-chain volume on XRP pairs has ticked higher this week, and traders are monitoring the $0.65 resistance zone as a potential trigger.\n\nIn the Bitcoin ecosystem, CoinDesk reports that developer Luke Dashjr has departed mining pool Ocean following a mutual split over the future direction of Bitcoin mining and protocol development. The departure, while philosophical rather than technical, removes one of the more vocal contributors from a pool that has positioned itself around filterable block templates and ordinals-friendly policies.\n\nFinally, macro sentiment got a softer read. CoinDesk notes that the implied probability of a September Fed rate hike now sits around 58 percent, well below the 90 percent figure circulating earlier in the week after Kevin Warsh's hawkish remarks. $ETH futures open interest rose modestly as traders pared back tightening bets, while $BTC continues to consolidate near recent highs with the 200-day moving average acting as support.\n\n#Cronos #XRP #Binance\n\nSources: CoinDesk, CryptoSlate, U.Today\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Cronos blockchain paused after a reported $75M exploit on lending app Tectonic, while XRP shorts near 115M tokens pile up. #DeFi #XRP #Binance"
+      "title": "Cronos Halted After $75M Exploit; Sberbank Backs Crypto Loans",
+      "body": "A $75 million exploit forced Crypto.com's Cronos blockchain to halt entirely on August 31, while institutional momentum continued with Sberbank accepting Ethereum and Tether as loan collateral and Strategy resuming Bitcoin purchases after a two-month pause.\n\nThe Tectonic exploit on Cronos blockchain represents one of the larger DeFi attacks this year. Hackers managed to move approximately $6 million to Ethereum before validators froze the chain, leaving remaining funds stranded on a network that stopped producing blocks. The incident underscores persistent smart contract vulnerabilities even on established Layer-1 networks and raises questions about response protocols for major exchange-operated chains.\n\nIn Russia, Sberbank announced plans to accept ETH and USDT as collateral for crypto-backed loans. The Bank of Russia recently included both assets in a draft list of cryptocurrencies approved for trading on Russian exchanges, signaling potential normalization of digital asset use in traditional banking products. The development comes as multiple Russian financial institutions explore crypto integration despite ongoing regulatory complexities.\n\nStrategy, the Michael Saylor-led Bitcoin treasury company, returned to acquisition markets after roughly two months without purchases. The firm added $370 million worth of Bitcoin during the week ending August 31, its first weekly buy in approximately eight weeks. The resumption of buying activity coincides with Bitcoin approaching its August monthly close below key resistance levels, with markets now pricing increased probability of a Federal Reserve interest-rate hike in September.\n\nOn the protocol level, Hyperliquid and Pump.fun together accounted for nearly 90 percent of a record $638 million in token buybacks across the crypto market in 2026. The concentration suggests a few high-volume platforms are increasingly returning revenue directly to token holders, a trend that could pressure competing protocols to adopt similar shareholder-friendly mechanisms.\n\nBitcoin faced headwinds as the monthly close approached, with price action staying below significant technical resistance. Traders cited the Fed rate-hike pivot as a factor pressuring risk assets broadly. The combination of institutional accumulation, persistent security concerns, and shifting monetary policy expectations paints a complex near-term outlook for digital asset markets.\n\n#Bitcoin #ETF #Markets\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Bitcoin whale Strategy resumes $370M buys after 2-month pause as crypto markets eye September Fed decision #Bitcoin #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361565764891431,
-      "url": "https://www.binance.com/square/post/361565764891431",
-      "xUrl": "https://x.com/i/web/status/2094338114391248953",
+      "id": 361624515967580,
+      "url": "https://www.binance.com/square/post/361624515967580",
+      "xUrl": "https://x.com/i/web/status/2094398275528913207",
       "shortPost": {
-        "id": 361565767309530,
-        "url": "https://www.binance.com/square/post/361565767309530"
+        "id": 361624518899958,
+        "url": "https://www.binance.com/square/post/361624518899958"
       },
-      "title": "Cronos Halted, XRP Shorts Pile Up, Fed Hike Odds Cut: A Pivotal Crypto Morning"
+      "title": "Cronos Halted After $75M Exploit; Sberbank Backs Crypto Loans"
     }
   ]
 }
