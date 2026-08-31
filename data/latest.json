@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-30T20:12:44.509Z",
-  "finishedAt": "2026-08-30T20:13:44.853Z",
+  "startedAt": "2026-08-31T00:13:15.265Z",
+  "finishedAt": "2026-08-31T00:13:47.811Z",
   "dryRun": false,
   "model": "google/gemma-4-31b-it:free",
   "contentType": "news",
@@ -8,86 +8,44 @@
   "sourceErrors": [],
   "candidates": [
     {
-      "title": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
       "source": "Decrypt",
-      "link": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy"
+      "link": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws"
     },
     {
-      "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
-      "source": "Decrypt",
-      "link": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses"
-    },
-    {
-      "title": "Russia’s Sber eyes USDT loans, questions digital ruble demand",
+      "title": "Bitcoin’s new quantum defenses, 18.9M SOL cancelled: Hodler’s Digest",
       "source": "Cointelegraph",
-      "link": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "link": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
     },
     {
-      "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
-    },
-    {
-      "title": "105% Imbalance: Higher XRP Prices Push AI Wallets Deeper Into RLUSD",
-      "source": "U.Today",
-      "link": "https://u.today/105-imbalance-higher-xrp-prices-push-ai-wallets-deeper-into-rlusd"
-    },
-    {
-      "title": "Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/bitgos-nydig-deal-sets-up-bitcoin-infrastructures-next-margin-test/"
-    },
-    {
-      "title": "XRP Tests 3.2 Billion Support After 71% Surge: 3 Scenarios to Watch",
-      "source": "U.Today",
-      "link": "https://u.today/xrp-tests-32-billion-support-after-71-surge-3-scenarios-to-watch"
-    },
-    {
-      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-      "source": "CoinDesk",
-      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction"
-    },
-    {
-      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
-      "source": "CryptoSlate",
-      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/"
-    },
-    {
-      "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
-      "source": "The Block",
-      "link": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
-    },
-    {
-      "title": "Author of Legendary XRP Prediction Spots 'Cleanest Chart in Crypto Right Now'",
-      "source": "U.Today",
-      "link": "https://u.today/author-of-legendary-xrp-prediction-spots-cleanest-chart-in-crypto-right-now"
+      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
+      "source": "Decrypt",
+      "link": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading"
     }
   ],
   "selected": [
-    "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
-    "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069",
-    "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
-    "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
+    "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
+    "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest",
+    "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading"
   ],
   "articles": {
     "en": {
-      "title": "Bitcoin Gains, Regulation Moves, and DeFi Shake Crypto Markets",
-      "body": "On August 30, 2026, Bitcoin’s renewed strength set the tone for a day of contrasting developments across the crypto ecosystem. The cryptocurrency’s climb back above $80,000 lifted the holdings of Strategy, whose 840,447 BTC are now roughly $2.8 billion above cost basis, according to Decrypt. CEO Michael Saylor’s “We’re Back” post sparked speculation that the firm may resume buying, underscoring how price appreciation directly impacts corporate balance sheets.\n\nThis bullish backdrop also benefited market makers. CoinDesk reported that sophisticated trading firms are collecting yield on Bitcoin’s rally without taking directional bets, as spot trading volume rose alongside the price move. The increased activity shows how institutional participants are adapting to a market where returns come from fees and funding rather than pure speculation.\n\nRegulatory news emerged from Russia, where Cointelegraph noted that Sber, the nation’s largest bank, plans to accept USDT, Ether, and Bitcoin as loan collateral under a new law that introduces regulated crypto trading. The move signals a cautious embrace of digital assets by traditional finance, even as authorities debate the future of a central bank digital ruble.\n\nSecurity concerns surfaced on the Cronos network. The Block detailed a $75 million exploit targeting Tectonic, in which an attacker manipulated the price of the illiquid TONIC token before borrowing against inflated collateral, reminiscent of the Mango Markets incident. The halt underscores the ongoing risks in DeFi protocols that rely on thinly traded assets for lending.\n\nLegal challenges added another layer of complexity. The Block also covered a lawsuit filed by Chainalysis accusing ICE of unfairly steering a $95 million blockchain contract to TRM Labs, requesting a court block on the award and a demand for a full, open competition. The case highlights growing scrutiny over how public sector contracts are awarded in the fast‑moving blockchain services sector.\n\nTogether, these stories illustrate a market where Bitcoin’s price strength fuels profit and yield, regulators test frameworks for crypto‑backed lending, DeFi platforms grapple with vulnerabilities, and legal disputes shape the contours of institutional adoption. The interplay of these forces will likely define the next phase of crypto’s evolution.\n\n#Bitcoin #ETF #Markets\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
-      "tweet": "Cronos network halts after $75M Tectonic exploit raises DeFi security concerns $CRO #DeFi #Security #Binance"
+      "title": "Polygon Patches Quiet Fork Flaws, Bitcoin Eyes Quantum Era, Insider Trading Fine",
+      "body": "Polygon deployed two hard forks this week to fix security flaws that were never publicly disclosed beforehand, raising fresh questions about transparency in protocol maintenance.\n\nThe Austin and Kyoto upgrades, rolled out on the Bor and Heimdall clients, addressed denial-of-service and consensus-hardening vulnerabilities. Polygon stated the issues were patched before any public disclosure and were never exploited, though the quiet nature of the fixes has drawn scrutiny from developers who argue that coordinated disclosure is standard practice for ecosystem safety.\n\nBitcoin moved closer to a post-quantum future this week, with developers refining signature schemes designed to withstand potential quantum computing threats. At the same time, Bernstein reaffirmed its bullish long-term outlook for the asset, projecting a cycle peak of $500,000, a forecast that has circulated widely among analysts despite ongoing volatility.\n\nIn a separate development, Solana validators agreed to cancel roughly 18.9 million SOL in staking rewards, a move aimed at curbing inflationary pressure on the network. The decision reflects growing governance attention to token economics as ecosystems balance growth incentives against supply discipline.\n\nOn the regulatory front, a former White House teleprompter operator was fined by the CFTC for insider trading tied to prediction markets. Gabriel Perez reportedly used advance access to speeches to bet on presidential mention contracts, profiting more than $107,500 before being caught. The case underscores expanding enforcement around market manipulation as crypto-linked derivatives attract closer oversight.\n\nMarket participants are weighing these developments against a backdrop of mixed price action. $BTC has traded in a relatively tight range, holding above key support near $80,000 while facing resistance around $85,000. $ETH remains pressured below $3,000, and $SOL has dipped following the reward cancellation announcement, though on-chain activity suggests long-term holder conviction remains intact. Trading volumes across major venues have stabilized compared with earlier in the week.\n\n#Crypto #Regulation #Binance\n\nSources: Decrypt, Cointelegraph\n\nThis news digest was compiled with AI assistance; it is not financial advice. Always do your own research (DYOR).",
+      "tweet": "Polygon quietly patched fork flaws, Bitcoin eyes quantum defenses, insider trading fine handed down $BTC #Crypto #Regulation #Binance"
     }
   },
   "published": [
     {
       "lang": "en",
-      "id": 361388540398648,
-      "url": "https://www.binance.com/square/post/361388540398648",
-      "xUrl": "https://x.com/i/web/status/2094156636508102662",
+      "id": 361447534624330,
+      "url": "https://www.binance.com/square/post/361447534624330",
+      "xUrl": "https://x.com/i/web/status/2094217046867222635",
       "shortPost": {
-        "id": 361388542925415,
-        "url": "https://www.binance.com/square/post/361388542925415"
+        "id": 361447537418208,
+        "url": "https://www.binance.com/square/post/361447537418208"
       },
-      "title": "Bitcoin Gains, Regulation Moves, and DeFi Shake Crypto Markets"
+      "title": "Polygon Patches Quiet Fork Flaws, Bitcoin Eyes Quantum Era, Insider Trading Fine"
     }
   ]
 }
