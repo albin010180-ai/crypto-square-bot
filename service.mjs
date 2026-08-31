@@ -22,35 +22,8 @@ function log(msg) {
   console.log(`[${new Date().toISOString()}] ${msg}`);
 }
 
-// ── Git Sync ──
-async function gitPull() {
-  try {
-    await execFileAsync("git", ["pull", "--rebase"], { cwd: ROOT, timeout: 30000 });
-    log("Git pull OK");
-  } catch (e) {
-    log("Git pull skip: " + e.message.slice(0, 100));
-  }
-}
-
-async function gitCommitPush(msg) {
-  try {
-    await execFileAsync("git", ["add", "data/"], { cwd: ROOT, timeout: 10000 });
-    const { stdout } = await execFileAsync("git", ["diff", "--cached", "--quiet"], { cwd: ROOT }).catch(() => ({ stdout: "dirty" }));
-    if (stdout === "") {
-      log("No data changes to commit");
-      return;
-    }
-    await execFileAsync("git", ["commit", "-m", msg], { cwd: ROOT, timeout: 10000 });
-    await execFileAsync("git", ["push"], { cwd: ROOT, timeout: 30000 });
-    log("Git push OK: " + msg);
-  } catch (e) {
-    log("Git push skip: " + e.message.slice(0, 100));
-  }
-}
-
 // ── Script Runner ──
 async function runScript(name, scriptPath, args = []) {
-  await gitPull();
   log(`Starting ${name}...`);
   try {
     const { stdout, stderr } = await execFileAsync("node", [scriptPath, ...args], {
@@ -69,7 +42,6 @@ async function runScript(name, scriptPath, args = []) {
   } catch (err) {
     log(`${name} FAILED: ${err.message.slice(0, 200)}`);
   }
-  await gitCommitPush(`bot: ${name} state [skip ci]`);
 }
 
 // ── Scheduler ──
